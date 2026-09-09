@@ -475,8 +475,10 @@ window.__wbBoot = function(fromCache){
     const list = (curCat==='all') ? C.slice() : C.filter(c=>c.cat===curCat);
     list.sort((a,b)=>{
       const da=a.updatedDate||'', db=b.updatedDate||'';
-      if(da!==db) return db.localeCompare(da); // 最新更新时间优先
-      return b.volumeIndex-a.volumeIndex;      // 同日按声量指数
+      if(da!==db) return db.localeCompare(da);              // 最新更新日期优先
+      const ta=a.updatedAt||'', tb=b.updatedAt||'';
+      if(ta!==tb) return tb.localeCompare(ta);              // 同日内按精确时间排（早 8:00 vs 晚 17:00 抓的亦可区分）
+      return b.volumeIndex-a.volumeIndex;                   // 仍同日同时，按声量指数
     });
     document.getElementById('campSub').textContent = `进行中 ${list.length} 个动作 · 声量指数 / 转化效果 / 用户反馈最大声量 · 整列表滚动查看`;
     const el = document.getElementById('campaigns');
@@ -484,14 +486,15 @@ window.__wbBoot = function(fromCache){
     const itemHtml = c=>{
       const b = BRAND[c.brand] || {name:'IP行业'}, cat = CAT[c.cat];
       const sCls = c.sentiment.indexOf('负面')>=0 ? 'neg' : (c.sentiment.indexOf('争议')>=0 ? 'mid' : 'pos');
-      return `<div class="camp">
+      return `<div class="camp${c.status==='已结束'?' camp-ended':''}">
         <div class="camp-h">
           <span class="b" style="background:${cat.color}" data-brand="${c.brand}">${b.name}</span>
           <span class="t">${c.name}</span>
           <span class="sent ${sCls}">${c.sentiment}</span>
+          ${c.status?`<span style="font-size:10.5px;padding:1px 6px;border-radius:4px;font-weight:700;${c.status==='已结束'?'background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb':'background:#dcfce7;color:#15803d;border:1px solid #bbf7d0'}">${c.status}</span>`:''}
         </div>
         <div class="row"><span class="k">动作</span><span>${c.action}</span></div>
-        <div class="row"><span class="k">周期</span><span>${c.window}　·　${c.type}</span><span style="margin-left:auto;flex-shrink:0;color:var(--faint);font-size:11px">${c.updatedDate?'更新 '+c.updatedDate:''}</span></div>
+        <div class="row"><span class="k">周期</span><span>${c.window}　·　${c.type}</span><span style="margin-left:auto;flex-shrink:0;color:var(--faint);font-size:11px">${c.updatedDate?'更新 '+c.updatedDate+(c.updatedAt?' '+c.updatedAt.slice(11,16):''):''}</span></div>
         <div class="row"><span class="k">声量</span><span class="vol">
           <span class="bar"><i style="width:${c.volumeIndex}%;background:${cat.color}"></i></span>
           <b>${c.volumeIndex}</b></span></div>
@@ -520,8 +523,9 @@ window.__wbBoot = function(fromCache){
       {key:'douyin', name:'抖音热点', emoji:'🎵', color:'#111827'},
       {key:'xiaohongshu', name:'小红书热点', emoji:'📕', color:'#e11d48'}
     ];
-    const xhsActs = H.xhsActivities||[];
-    const xhsTrend = H.xhsTrending||[];
+    const xhsActs = (H.xiaohongshuMain?.length||H.xhsActivities?.length ? (H.xhsActivities||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')) : []);
+    const xhsTrend = (H.xhsTrending||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    const xhsMain  = (H.xiaohongshu||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')); // 小红书主列表：按抓取日期降序，最新置顶
     const xhsExtra = `
       ${xhsActs.length?`<div style="font-size:12px;font-weight:700;margin:10px 0 2px;color:#be123c">📣 小红书官方最新活动</div>
       ${xhsActs.map(a=>`<div class="hot-row">
@@ -544,7 +548,9 @@ window.__wbBoot = function(fromCache){
     document.getElementById('hotlists').innerHTML = `
       <div class="hot-grid">
         ${defs.map(d=>{
-          const items = H[d.key]||[];
+          const items = (d.key==='xiaohongshu' ? xhsMain : (H[d.key]||[])).slice();
+          // 微博 / 抖音 / 文娱 / 种草 若有 date 字段同样按日期降序，无 date 保持原 rank 顺序
+          items.sort((a,b)=>{ const da=a.date||'', db=b.date||''; if(!da||!db) return (a.rank||0)-(b.rank||0); return db.localeCompare(da); });
           const extra = (d.key==='xiaohongshu') ? xhsExtra : '';
           return `<div class="hot-col">
             <h3>${d.emoji} ${d.name} <span class="sub" style="margin-left:auto">Top ${items.length}</span></h3>
@@ -587,17 +593,25 @@ window.__wbBoot = function(fromCache){
     }
     let list = (W.items||[]).slice();
     if(curWx!=='all') list = list.filter(n=>n.accountId===curWx);
-    list.sort((a,b)=> b.date.localeCompare(a.date));
+    list.sort((a,b)=>{
+      const da=a.date||'', db=b.date||'';
+      if(da!==db) return db.localeCompare(da);                 // 不同日：按发布日期降序
+      const ta=a.publishedAt||'', tb=b.publishedAt||'';
+      if(ta!==tb) return tb.localeCompare(ta);                 // 同日：按精确时间戳降序
+      const pa=a.pinnedWeekly===true?-1:0, pb=b.pinnedWeekly===true?-1:0;
+      return pa-pb;                                            // 同日同时：📌 用户指定必收录置顶
+    });
     const el = document.getElementById('wxList');
     if(!list.length){ el.innerHTML='<div class="feed-empty">该公众号近期暂无可展示的资讯</div>'; return; }
     const itemHtml = n=>{
       const a = accMap[n.accountId] || {name:n.accountName};
       const title = n.url ? `<a href="${n.url}" target="_blank">${n.title} ↗</a>` : n.title;
-      return `<div class="wx-card">
+      const pinned = n.pinnedWeekly===true ? '<span style="display:inline-block;background:#fef3c7;color:#92400e;border:1px solid #fde68a;font-size:10px;font-weight:700;padding:1px 6px;border-radius:4px;margin-right:6px;vertical-align:middle">📌 用户指定必收录</span>' : '';
+      return `<div class="wx-card${n.pinnedWeekly===true?' wx-pinned':''}" style="${n.pinnedWeekly===true?'box-shadow:0 0 0 2px #fde68a;':''}">
         <div class="wx-ac"><span class="wx-avatar">${(a.name||'').slice(0,2)}</span>
           <span class="wx-acname">${a.name||n.accountName}</span>
-          <span class="wx-date">${n.date}</span></div>
-        <div class="wx-title">${title}</div>
+          <span class="wx-date">${n.date}${n.publishedAt?`　·　${n.publishedAt.slice(11,16)}`:''}</span></div>
+        <div class="wx-title">${pinned}${title}</div>
         <div class="wx-sum">${n.summary}</div>
         <div class="wx-meta">
           ${(n.tags||[]).map(t=>`<span class="wx-tag">${t}</span>`).join('')}
