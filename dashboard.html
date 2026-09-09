@@ -246,6 +246,42 @@
   .note{margin-top:20px;background:#fff;border:1px dashed var(--border);border-radius:12px;padding:14px 18px;font-size:12px;color:var(--muted)}
   .note b{color:var(--text)}
   .note ul{margin:6px 0 0 18px}
+
+  /* ---------- 营销万年历 ---------- */
+  .cal-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+  .cal-title{font-size:20px;font-weight:800;letter-spacing:.5px}
+  .cal-title .yr{color:var(--accent)}
+  .cal-nav{display:flex;gap:6px;align-items:center}
+  .cal-nav button{width:30px;height:30px;border:1px solid var(--border);background:#fff;border-radius:8px;cursor:pointer;font-size:15px;line-height:1;color:var(--muted)}
+  .cal-nav button:hover{background:#f3f4f6;color:var(--text)}
+  .cal-today{background:#2563eb;color:#fff;border:none;border-radius:9px;padding:7px 16px;font-size:12.5px;font-weight:600;cursor:pointer}
+  .cal-today:hover{background:#1d4ed8}
+  .cal-legend{margin-left:auto;display:flex;gap:12px;flex-wrap:wrap;font-size:11.5px;color:var(--muted);align-items:center}
+  .cal-legend .lg{display:inline-flex;align-items:center;gap:5px}
+  .lg i{width:12px;height:12px;border-radius:3px;display:inline-block}
+  .lg i.b{background:#2563eb}.lg i.k{background:#111}.lg i.g{background:#16a34a}.lg i.w{background:#fff;border:1px solid var(--border)}
+  .cal-week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-bottom:6px}
+  .cal-week span{text-align:center;font-size:11.5px;color:var(--muted);padding:4px 0}
+  .cal-week span.wk-end{color:#be123c}
+  .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+  .cal-cell{min-height:78px;border:1px solid var(--border);border-radius:10px;padding:5px 6px;background:#fff;display:flex;flex-direction:column;overflow:hidden;position:relative}
+  .cal-cell.dim{opacity:.38;background:#fafafa}
+  .cal-cell.today{background:#2563eb;border-color:#2563eb}
+  .cal-cell.today .cal-sun,.cal-cell.today .cal-lun{color:#fff}
+  .cal-cell.today .cal-lun{opacity:.9}
+  .cal-cell.forbid{background:#111;border-color:#111}
+  .cal-cell.forbid .cal-sun,.cal-cell.forbid .cal-lun{color:#fff}
+  .cal-cell.forbid .cal-fb{position:absolute;top:4px;right:5px;font-size:9.5px;font-weight:700;color:#fecaca;letter-spacing:1px}
+  .cal-cell.holiday{background:#f0fdf4;border-color:#bbf7d0}
+  .cal-sun{font-size:15.5px;font-weight:700;line-height:1.25}
+  .cal-lun{font-size:10.5px;color:var(--muted);line-height:1.3;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cal-lun.term{color:#16a34a;font-weight:600}
+  .cal-lun.fest{color:#16a34a;font-weight:700}
+  .cal-ev{font-size:9.5px;color:var(--faint);line-height:1.25;margin-top:auto;padding-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cal-cell.forbid .cal-ev{color:#d1d5db}
+  .cal-cell.today .cal-ev{color:#e0e7ff}
+  .cal-empty{color:var(--faint);text-align:center;padding:24px 0;font-size:12.5px}
+  @media(max-width:760px){.cal-grid{grid-template-columns:repeat(7,minmax(0,1fr))}.cal-cell{min-height:64px}.cal-sun{font-size:14px}.cal-lun{font-size:9.5px}}
 </style>
 </head>
 <body>
@@ -262,6 +298,11 @@
   <div id="hero"></div>
 
   <div class="tabs" id="tabs"></div>
+
+  <div class="panel" style="margin-bottom:14px">
+    <h2>📅 营销万年历 <span class="sub">阳历/农历/星期/节气/节日实时对应 · 可切换月份 · 黑色=禁娱日 · 蓝色=今天（节点取自《2026-2027全年营销时间节点与可营销名录》）</span></h2>
+    <div id="calendar"></div>
+  </div>
 
   <div class="panel" style="margin-bottom:14px">
     <h2>🔥 平台每日热榜 <span class="sub" id="hotSub">微博 / 抖音 / 小红书（每日更新，点击品牌名可联动筛选）</span></h2>
@@ -362,6 +403,44 @@ __wb.showLoading();
 __wb.load();
 </script>
 <script>
+/* ============ 营销万年历引擎（1900-2100 农历 / 节气 / 节日，自包含） ============ */
+var __CAL = {};
+__CAL.state = null;                          // {y,m} 当前展示年月
+__CAL.SOLAR_TERMS = ['小寒','大寒','立春','雨水','惊蛰','春分','清明','谷雨','立夏','小满','芒种','夏至','小暑','大暑','立秋','处暑','白露','秋分','寒露','霜降','立冬','小雪','大雪','冬至'];
+__CAL.ANIMALS = ['鼠','牛','虎','兔','龙','蛇','马','羊','猴','鸡','狗','猪'];
+__CAL.LUNAR_MONTH = ['正','二','三','四','五','六','七','八','九','十','冬','腊'];
+__CAL.LUNAR_DAY = ['初一','初二','初三','初四','初五','初六','初七','初八','初九','初十','十一','十二','十三','十四','十五','十六','十七','十八','十九','二十','廿一','廿二','廿三','廿四','廿五','廿六','廿七','廿八','廿九','三十'];
+__CAL.LUNAR_FEST = {'1-1':'春节','1-15':'元宵节','2-2':'龙抬头','5-5':'端午节','7-7':'七夕节','7-15':'中元节','8-15':'中秋节','9-9':'重阳节','12-8':'腊八节','12-23':'小年·北','12-24':'小年·南'};
+__CAL.LUNAR_INFO = [0x04bd8,0x04ae0,0x0a570,0x054d5,0x0d260,0x0d950,0x16554,0x056a0,0x09ad0,0x055d2,0x04ae0,0x0a5b6,0x0a4d0,0x0d250,0x1d255,0x0b540,0x0d6a0,0x0ada2,0x095b0,0x14977,0x04970,0x0a4b0,0x0b4b5,0x06a50,0x06d40,0x1ab54,0x02b60,0x09570,0x052f2,0x04970,0x06566,0x0d4a0,0x0ea50,0x06e95,0x05ad0,0x02b60,0x186e3,0x092e0,0x1c8d7,0x0c950,0x0d4a0,0x1d8a6,0x0b550,0x056a0,0x1a5b4,0x025d0,0x092d0,0x0d2b2,0x0a950,0x0b557,0x06ca0,0x0b550,0x15355,0x04da0,0x0a5d0,0x14573,0x052d0,0x0a9a8,0x0e950,0x06aa0,0x0aea6,0x0ab50,0x04b60,0x0aae4,0x0a570,0x05260,0x0f263,0x0d950,0x05b57,0x056a0,0x096d0,0x04dd5,0x04ad0,0x0a4d0,0x0d4d4,0x0d250,0x0d558,0x0b540,0x0b5a0,0x195a6,0x095b0,0x049b0,0x0a974,0x0a4b0,0x0b27a,0x06a50,0x06d40,0x0af46,0x0ab60,0x09570,0x04af5,0x04970,0x064b0,0x074a3,0x0ea50,0x06b58,0x05ac0,0x0ab60,0x096d5,0x092e0,0x0c960,0x0d954,0x0d4a0,0x0da50,0x07552,0x056a0,0x0abb7,0x025d0,0x092d0,0x0cab5,0x0a950,0x0b4a0,0x0baa4,0x0ad50,0x055d9,0x04ba0,0x0a5b0,0x15176,0x052b0,0x0a930,0x07954,0x06aa0,0x0ad50,0x05b52,0x04b60,0x0a6e6,0x0a4e0,0x0d260,0x0ea65,0x0d530,0x05aa0,0x076a3,0x096d0,0x04afb,0x04ad0,0x0a4d0,0x1d0b6,0x0d250,0x0d520,0x0dd45,0x0b5a0,0x056d0,0x055b2,0x049b0,0x0a577,0x0a4b0,0x0aa50,0x1b255,0x06d20,0x0ada0,0x14b63,0x09370,0x049f8,0x04970,0x064b0,0x168a6,0x0ea50,0x06b20,0x1a6c4,0x0aae0,0x0a2e0,0x0d2e3,0x0c960,0x0d557,0x0d4a0,0x0da50,0x05d55,0x056a0,0x0a6d0,0x055d4,0x052d0,0x0a9b8,0x0a950,0x0b4a0,0x0b6a6,0x0ad50,0x055a0,0x0aba4,0x0a5b0,0x052b0,0x0b273,0x06930,0x07337,0x06aa0,0x0ad50,0x14b55,0x04b60,0x0a570,0x054e4,0x0d160,0x0e968,0x0d520,0x0daa0,0x16aa6,0x056d0,0x04ae0,0x0a9d4,0x0a2d0,0x0d150,0x0f252,0x0d520];
+__CAL.leapMonth = function(y){ return __CAL.LUNAR_INFO[y-1900] & 0xf; };
+__CAL.leapDays = function(y){ if(__CAL.leapMonth(y)) return (__CAL.LUNAR_INFO[y-1900] & 0x10000) ? 30 : 29; return 0; };
+__CAL.monthDays = function(y,m){ return (__CAL.LUNAR_INFO[y-1900] & (0x10000>>m)) ? 30 : 29; };
+__CAL.lYearDays = function(y){ var s=348; for(var i=0x8000;i>0x8;i>>=1) s += (__CAL.LUNAR_INFO[y-1900]&i)?1:0; return s + __CAL.leapDays(y); };
+__CAL.lunar = function(y,m,d){
+  var offset=(Date.UTC(y,m-1,d)-Date.UTC(1900,0,31))/86400000, i, temp=0;
+  for(i=1900;i<2101 && offset>0;i++){ temp=__CAL.lYearDays(i); offset-=temp; }
+  if(offset<0){ offset+=temp; i--; }
+  var year=i, leap=__CAL.leapMonth(year), isLeap=false;
+  for(i=1;i<13 && offset>0;i++){
+    if(leap>0 && i===(leap+1) && !isLeap){ --i; isLeap=true; temp=__CAL.leapDays(year); }
+    else{ temp=__CAL.monthDays(year,i); }
+    if(isLeap && i===(leap+1)) isLeap=false;
+    offset-=temp;
+  }
+  if(offset===0 && leap>0 && i===leap+1){ if(isLeap){ isLeap=false; } else { isLeap=true; --i; } }
+  if(offset<0){ offset+=temp; --i; }
+  var month=i, day=offset+1;
+  return {lYear:year, lMonth:month, lDay:day, isLeap:isLeap,
+    monthCn:(isLeap?'闰':'')+__CAL.LUNAR_MONTH[month-1]+'月',
+    dayCn:__CAL.LUNAR_DAY[day-1], animal:__CAL.ANIMALS[(year-4)%12]};
+};
+__CAL.termDay = function(y,n){
+  var info=[0,21208,42467,63836,85337,107014,128867,150921,173149,195551,218072,240693,263343,285989,308563,331033,353350,375494,397447,419210,440795,462224,483532,504758];
+  var off=new Date((31556925974.7*(y-1900)+info[n]*60000)+Date.UTC(1900,0,6,2,5));
+  return off.getUTCDate();
+};
+__CAL.term = function(y,m){ var idx=(m-1)*2; return [{day:__CAL.termDay(y,idx),name:__CAL.SOLAR_TERMS[idx],t:true},{day:__CAL.termDay(y,idx+1),name:__CAL.SOLAR_TERMS[idx+1],t:true}]; };
+
 window.__wbBoot = function(fromCache){
   try{
   const D = DASH_DATA;
@@ -703,6 +782,67 @@ window.__wbBoot = function(fromCache){
       <li><b>更新机制</b>：每日 08:00 与 17:00 自动搜索更新（data.js）并同步线上链接；手动刷新页面即可看到最新数据。资讯流与公众号资讯均按最新发布时间排序。</li>
       <li><b>追加品牌</b>：在对话中直接告诉助手品牌名与所属类目即可，无需修改代码。</li>
     </ul>`;
+
+  // 每个版块独立渲染，单点故障不拖垮整页（更稳定）
+  function renderCalendar(){
+    var el = document.getElementById('calendar'); if(!el) return;
+    var MC = D.marketingCalendar || {solarEvents:{}, forbidden:[], forbiddenNote:'禁娱日'};
+    var forb = {};
+    (MC.forbidden||[]).forEach(k=>forb[k]=true);
+    var sol = MC.solarEvents || {};
+    var t = new Date(), nowY=t.getFullYear(), nowM=t.getMonth()+1, nowD=t.getDate();
+    if(!__CAL.state) __CAL.state = {y:nowY, m:nowM};
+    var y = __CAL.state.y, m = __CAL.state.m;
+    var first = new Date(y, m-1, 1);
+    var dow = (first.getDay()+6)%7;             // 一(0)..日(6)
+    var days = new Date(y, m, 0).getDate();
+    var prevDays = new Date(y, m-1, 0).getDate();
+    var WEEK = ['一','二','三','四','五','六','日'];
+    var MONTH_TERMS = __CAL.term(y,m);
+    var cells = [];
+    for(var i=0;i<42;i++){
+      var dayNum, inMonth, yy=y, mm=m;
+      if(i < dow){ dayNum = prevDays - dow + 1 + i; inMonth=false; mm=m-1; if(mm<1){mm=12;yy=y-1;} }
+      else if(i < dow+days){ dayNum = i-dow+1; inMonth=true; }
+      else { dayNum = i-dow-days+1; inMonth=false; mm=m+1; if(mm>12){mm=1;yy=y+1;} }
+      var mmStr = (mm<10?'0'+mm:mm), ddStr = (dayNum<10?'0'+dayNum:dayNum);
+      var key = mmStr+'-'+ddStr;
+      var lun = __CAL.lunar(yy,mm,dayNum);
+      var fest = __CAL.LUNAR_FEST[(lun.isLeap?'L':'')+lun.lMonth+'-'+lun.lDay] || __CAL.LUNAR_FEST[lun.lMonth+'-'+lun.lDay];
+      var term=null;
+      if(inMonth){ MONTH_TERMS.forEach(x=>{ if(x.day===dayNum) term=x.name; }); }
+      var evs = sol[key] || [];
+      var isToday = inMonth && yy===nowY && mm===nowM && dayNum===nowD;
+      var isForbid = inMonth && forb[key];
+      var lunText;
+      if(term) lunText = term;
+      else if(fest) lunText = fest;
+      else if(lun.lDay===1) lunText = lun.monthCn+'月';
+      else lunText = lun.dayCn;
+      var cls = 'cal-cell' + (inMonth?'':' dim') + (isForbid?' forbid':'') + (isToday?' today':'') + ((!isForbid&&!isToday&&(term||fest))?' holiday':'');
+      var evHtml = evs.length ? '<div class="cal-ev">'+evs.slice(0,3).join(' / ')+'</div>' : '';
+      var fbHtml = isForbid ? '<span class="cal-fb">禁娱</span>' : '';
+      cells.push('<div class="'+cls+'" data-y="'+yy+'" data-m="'+mm+'" data-d="'+dayNum+'">'+fbHtml+
+        '<div class="cal-sun">'+(inMonth?dayNum:'')+'</div>'+
+        '<div class="cal-lun'+(term?' term':(fest?' fest':''))+'">'+lunText+'</div>'+evHtml+'</div>');
+    }
+    el.innerHTML = '<div class="cal-head">'+
+      '<button class="cal-nav" onclick="calNav(-1)">‹</button>'+
+      '<div class="cal-title"><span class="yr">'+y+'</span>年'+m+'月</div>'+
+      '<button class="cal-nav" onclick="calNav(1)">›</button>'+
+      '<button class="cal-today" onclick="calToday()">回到今天</button>'+
+      '<div class="cal-legend">'+
+      '<span class="lg"><i class="b"></i>今天</span>'+
+      '<span class="lg"><i class="k"></i>禁娱日</span>'+
+      '<span class="lg"><i class="g"></i>节气/农历节日</span>'+
+      '<span class="lg"><i class="w"></i>普通日</span>'+
+      '</div></div>'+
+      '<div class="cal-week">'+WEEK.map(function(w,i){return '<span class="'+(i>=5?'wk-end':'')+'">'+w+'</span>';}).join('')+'</div>'+
+      '<div class="cal-grid">'+cells.join('')+'</div>';
+  }
+  window.calNav = function(d){ var s=__CAL.state; var nm=s.m+d, ny=s.y; if(nm<1){nm=12;ny--;} if(nm>12){nm=1;ny++;} __CAL.state={y:ny,m:nm}; renderCalendar(); };
+  window.calToday = function(){ var t=new Date(); __CAL.state={y:t.getFullYear(),m:t.getMonth()+1}; renderCalendar(); };
+  renderCalendar();
 
   // 每个版块独立渲染，单点故障不拖垮整页（更稳定）
   const __safeRender = [];
