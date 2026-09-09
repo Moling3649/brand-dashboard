@@ -1,0 +1,7 @@
+# 部署只跟踪 index.html + data.js，其余均为本地工作文件
+*.backup-*.js
+data.backup-*.js
+.tmp_dump/
+.workbuddy/
+八爪鱼配置操作指南.html
+update_data.js
