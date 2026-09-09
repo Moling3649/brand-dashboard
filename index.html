@@ -264,7 +264,9 @@
   .cal-week span{text-align:center;font-size:11.5px;color:var(--muted);padding:4px 0}
   .cal-week span.wk-end{color:#be123c}
   .cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
-  .cal-cell{min-height:78px;border:1px solid var(--border);border-radius:10px;padding:5px 6px;background:#fff;display:flex;flex-direction:column;overflow:hidden;position:relative}
+  .cal-cell{min-height:78px;border:1px solid var(--border);border-radius:10px;padding:5px 6px;background:#fff;display:flex;flex-direction:column;overflow:hidden;position:relative;cursor:pointer;transition:box-shadow .12s,border-color .12s}
+  .cal-cell:hover{border-color:#93c5fd}
+  .cal-cell.sel{border-color:#16a34a;box-shadow:0 0 0 2px #16a34a}
   .cal-cell.dim{opacity:.38;background:#fafafa}
   .cal-cell.today{background:#2563eb;border-color:#2563eb}
   .cal-cell.today .cal-sun,.cal-cell.today .cal-lun{color:#fff}
@@ -277,11 +279,11 @@
   .cal-lun{font-size:10.5px;color:var(--muted);line-height:1.3;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .cal-lun.term{color:#16a34a;font-weight:600}
   .cal-lun.fest{color:#16a34a;font-weight:700}
-  .cal-ev{font-size:9.5px;color:var(--faint);line-height:1.25;margin-top:auto;padding-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cal-ev{font-size:10.5px;color:var(--faint);line-height:1.3;margin-top:auto;padding-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .cal-cell.forbid .cal-ev{color:#d1d5db}
   .cal-cell.today .cal-ev{color:#e0e7ff}
   .cal-empty{color:var(--faint);text-align:center;padding:24px 0;font-size:12.5px}
-  @media(max-width:760px){.cal-grid{grid-template-columns:repeat(7,minmax(0,1fr))}.cal-cell{min-height:64px}.cal-sun{font-size:14px}.cal-lun{font-size:9.5px}}
+  @media(max-width:760px){.cal-grid{grid-template-columns:repeat(7,minmax(0,1fr))}.cal-cell{min-height:64px}.cal-sun{font-size:14px}.cal-lun{font-size:9.5px}.cal-ev{font-size:9.5px}}
 </style>
 </head>
 <body>
@@ -300,7 +302,7 @@
   <div class="tabs" id="tabs"></div>
 
   <div class="panel" style="margin-bottom:14px">
-    <h2>📅 营销万年历 <span class="sub">阳历/农历/星期/节气/节日实时对应 · 可切换月份 · 黑色=禁娱日 · 蓝色=今天（节点取自《2026-2027全年营销时间节点与可营销名录》）</span></h2>
+    <h2>📅 营销万年历 <span class="sub">阳历/农历/星期/节气/节日实时对应 · 可切换月份 · 点击任意日期可框选 · 黑色=禁娱日 · 蓝色=今天（节点取自《2026-2027全年营销时间节点与可营销名录》）</span></h2>
     <div id="calendar"></div>
   </div>
 
@@ -817,8 +819,7 @@ window.__wbBoot = function(fromCache){
       var lunText;
       if(term) lunText = term;
       else if(fest) lunText = fest;
-      else if(lun.lDay===1) lunText = lun.monthCn+'月';
-      else lunText = lun.dayCn;
+      else lunText = lun.monthCn + lun.dayCn;
       var cls = 'cal-cell' + (inMonth?'':' dim') + (isForbid?' forbid':'') + (isToday?' today':'') + ((!isForbid&&!isToday&&(term||fest))?' holiday':'');
       var evHtml = evs.length ? '<div class="cal-ev">'+evs.slice(0,3).join(' / ')+'</div>' : '';
       var fbHtml = isForbid ? '<span class="cal-fb">禁娱</span>' : '';
@@ -839,6 +840,11 @@ window.__wbBoot = function(fromCache){
       '</div></div>'+
       '<div class="cal-week">'+WEEK.map(function(w,i){return '<span class="'+(i>=5?'wk-end':'')+'">'+w+'</span>';}).join('')+'</div>'+
       '<div class="cal-grid">'+cells.join('')+'</div>';
+    // 点击任意日期可在普通万年历中「框选」该日（仅切换选中框样式，不跳转）
+    var cellEls = el.querySelectorAll('.cal-cell');
+    for(var ci=0; ci<cellEls.length; ci++){
+      (function(c){ c.onclick = function(){ c.classList.toggle('sel'); }; })(cellEls[ci]);
+    }
   }
   window.calNav = function(d){ var s=__CAL.state; var nm=s.m+d, ny=s.y; if(nm<1){nm=12;ny--;} if(nm>12){nm=1;ny++;} __CAL.state={y:ny,m:nm}; renderCalendar(); };
   window.calToday = function(){ var t=new Date(); __CAL.state={y:t.getFullYear(),m:t.getMonth()+1}; renderCalendar(); };
