@@ -7,10 +7,10 @@
 //   热度指数 = 0.5*soc + 0.3*sales + 0.2*news（由页面自动计算）
 //   trend 近7日热度（09-04之前为估算基线，之后逐日累积真实数据）
 
-const DASH_DATA = {
+var DASH_DATA = {
  "version": 2,
  "date": "2026-09-09",
- "updatedAt": "2026-09-09 12:38",
+ "updatedAt": "2026-09-09 13:40",
  "trendDates": [
   "09-02",
   "09-03",
@@ -2788,210 +2788,270 @@ const DASH_DATA = {
     "topic": "早春晴朗大结局",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23早春晴朗大结局%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 2,
     "topic": "西电学生回应数学开学考",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23西电学生回应数学开学考%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 3,
     "topic": "服贸会今日开幕",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23服贸会今日开幕%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 4,
     "topic": "女孩去邻居家吃饭惨遭夫妻分尸",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23女孩去邻居家吃饭惨遭夫妻分尸%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 5,
     "topic": "复方甘草片 低钾血",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23复方甘草片 低钾血%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 6,
     "topic": "一只羊脱衣全过程",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23一只羊脱衣全过程%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 7,
     "topic": "硬座出差 软裁员",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23硬座出差 软裁员%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 8,
     "topic": "这段话杀死了内耗型人格",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23这段话杀死了内耗型人格%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 9,
     "topic": "梅姨被抓捕完整经过",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23梅姨被抓捕完整经过%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 10,
     "topic": "栾念尚之桃结局",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23栾念尚之桃结局%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 11,
     "topic": "被台湾省人点赞10万的简中文豪",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23被台湾省人点赞10万的简中文豪%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 12,
     "topic": "刘雯全球收入第三的超模",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23刘雯全球收入第三的超模%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 13,
     "topic": "栾念求婚成功",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23栾念求婚成功%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 14,
     "topic": "荣耀Magic9系列定档9月28日",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23荣耀Magic9系列定档9月28日%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 15,
     "topic": "美网仅剩郑钦文与前五种子",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23美网仅剩郑钦文与前五种子%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 16,
     "topic": "女子向大雁塔景区雨水井塞不明物",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23女子向大雁塔景区雨水井塞不明物%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 17,
     "topic": "美伊以冲突",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23美伊以冲突%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 18,
     "topic": "用8000元赚到130万后负债千万",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23用8000元赚到130万后负债千万%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 19,
     "topic": "猥亵女生教官所在公司不具备军训资质",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23猥亵女生教官所在公司不具备军训资质%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 20,
     "topic": "别让教师节的心意变成家长的焦虑",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23别让教师节的心意变成家长的焦虑%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 21,
     "topic": "伊朗革命卫队打击约旦美军基地",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23伊朗革命卫队打击约旦美军基地%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 22,
     "topic": "高一女生被教官猥亵老师说没多大事",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23高一女生被教官猥亵老师说没多大事%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 23,
     "topic": "井柏然 倪妮",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23井柏然 倪妮%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 24,
     "topic": "刘浩存后援会暂停工作",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23刘浩存后援会暂停工作%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 25,
     "topic": "A股散户吐槽美股科技股",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23A股散户吐槽美股科技股%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 26,
     "topic": "王晓慧 吸粉类长相",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23王晓慧 吸粉类长相%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 27,
     "topic": "电影活色生香定档",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23电影活色生香定档%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 28,
     "topic": "小学生梦游从7楼坠下砸烂宝马车",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23小学生梦游从7楼坠下砸烂宝马车%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 29,
     "topic": "郭富城握手礼仪被研究透了",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23郭富城握手礼仪被研究透了%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 30,
     "topic": "给阿嬷的情书从潮汕走到威尼斯",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23给阿嬷的情书从潮汕走到威尼斯%23",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    }
   ],
   "douyin": [
@@ -3000,210 +3060,270 @@ const DASH_DATA = {
     "topic": "皇马2:1击败国米",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E7%9A%87%E9%A9%AC2%3A1%E5%87%BB%E8%B4%A5%E5%9B%BD%E7%B1%B3",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 2,
     "topic": "写给老师的教师节贺卡",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%86%99%E7%BB%99%E8%80%81%E5%B8%88%E7%9A%84%E6%95%99%E5%B8%88%E8%8A%82%E8%B4%BA%E5%8D%A1",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 3,
     "topic": "青春华章",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%9D%92%E6%98%A5%E5%8D%8E%E7%AB%A0",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 4,
     "topic": "小米回应澎程试驾事故",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%B0%8F%E7%B1%B3%E5%9B%9E%E5%BA%94%E6%BE%8E%E7%A8%8B%E8%AF%95%E9%A9%BE%E4%BA%8B%E6%95%85",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 5,
     "topic": "龙版传媒停牌核查",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%BE%99%E7%89%88%E4%BC%A0%E5%AA%92%E5%81%9C%E7%89%8C%E6%A0%B8%E6%9F%A5",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 6,
     "topic": "国足公布新一期集训名单",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%9B%BD%E8%B6%B3%E5%85%AC%E5%B8%83%E6%96%B0%E4%B8%80%E6%9C%9F%E9%9B%86%E8%AE%AD%E5%90%8D%E5%8D%95",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 7,
     "topic": "IG 3:0战胜LGD",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/IG%203%3A0%E6%88%98%E8%83%9CLGD",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 8,
     "topic": "毛泽东逝世50周年",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%9D%E4%B8%9650%E5%91%A8%E5%B9%B4",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 9,
     "topic": "觉醒吧我的厨艺天赋",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E8%A7%89%E9%86%92%E5%90%A7%E6%88%91%E7%9A%84%E5%8E%A8%E8%89%BA%E5%A4%A9%E8%B5%8B",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 10,
     "topic": "华屋村的十七棵松与长征精神",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%8D%8E%E5%B1%8B%E6%9D%91%E7%9A%84%E5%8D%81%E4%B8%83%E6%A3%B5%E6%9D%BE%E4%B8%8E%E9%95%BF%E5%BE%81%E7%B2%BE%E7%A5%9E",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 11,
     "topic": "香港首任特首董建华逝世",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%A6%99%E6%B8%AF%E9%A6%96%E4%BB%BB%E7%89%B9%E9%A6%96%E8%91%A3%E5%BB%BA%E5%8D%8E%E9%80%9D%E4%B8%96",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 12,
     "topic": "郑钦文今晚对阵莱巴金娜",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E4%BB%8A%E6%99%9A%E5%AF%B9%E9%98%B5%E8%8E%B1%E5%B7%B4%E9%87%91%E5%A8%9C",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 13,
     "topic": "我的世界出现一位姑娘",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E5%87%BA%E7%8E%B0%E4%B8%80%E4%BD%8D%E5%A7%91%E5%A8%98",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 14,
     "topic": "人类对运动的开发不足百分之一",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%BA%BA%E7%B1%BB%E5%AF%B9%E8%BF%90%E5%8A%A8%E7%9A%84%E5%BC%80%E5%8F%91%E4%B8%8D%E8%B6%B3%E7%99%BE%E5%88%86%E4%B9%8B%E4%B8%80",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 15,
     "topic": "兰香如故所有人都在尽全力活着",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%B0%BD%E5%85%A8%E5%8A%9B%E6%B4%BB%E7%9D%80",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 16,
     "topic": "国庆出游日常不费力穿搭",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%9B%BD%E5%BA%86%E5%87%BA%E6%B8%B8%E6%97%A5%E5%B8%B8%E4%B8%8D%E8%B4%B9%E5%8A%9B%E7%A9%BF%E6%90%AD",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 17,
     "topic": "鼎叔魔性化妆模仿挑战",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%BC%8E%E5%8F%94%E9%AD%94%E6%80%A7%E5%8C%96%E5%A6%86%E6%A8%A1%E4%BB%BF%E6%8C%91%E6%88%98",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 18,
     "topic": "我和毛孩天下第一好",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E6%88%91%E5%92%8C%E6%AF%9B%E5%AD%A9%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E5%A5%BD",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 19,
     "topic": "伊朗罕见用韩语警告韩国",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%BC%8A%E6%9C%97%E7%BD%95%E8%A7%81%E7%94%A8%E9%9F%A9%E8%AF%AD%E8%AD%A6%E5%91%8A%E9%9F%A9%E5%9B%BD",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 20,
     "topic": "陈赫澄清腰伤不影响工作",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%99%88%E8%B5%AB%E6%BE%84%E6%B8%85%E8%85%B0%E4%BC%A4%E4%B8%8D%E5%BD%B1%E5%93%8D%E5%B7%A5%E4%BD%9C",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 21,
     "topic": "人类幼崽版格格有多可爱",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%BA%BA%E7%B1%BB%E5%B9%BC%E5%B4%BD%E7%89%88%E6%A0%BC%E6%A0%BC%E6%9C%89%E5%A4%9A%E5%8F%AF%E7%88%B1",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 22,
     "topic": "白鹿穿燕麦系小跳一下",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E7%99%BD%E9%B9%BF%E7%A9%BF%E7%87%95%E9%BA%A6%E7%B3%BB%E5%B0%8F%E8%B7%B3%E4%B8%80%E4%B8%8B",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 23,
     "topic": "交锋女大学生掉入间谍骗局",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%BA%A4%E9%94%8B%E5%A5%B3%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%8E%89%E5%85%A5%E9%97%B4%E8%B0%8D%E9%AA%97%E5%B1%80",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 24,
     "topic": "周冬雨马思纯花少再合体",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%91%A8%E5%86%AC%E9%9B%A8%E9%A9%AC%E6%80%9D%E7%BA%AF%E8%8A%B1%E5%B0%91%E5%86%8D%E5%90%88%E4%BD%93",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 25,
     "topic": "就这个睡帽熊宝萌",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%B0%B1%E8%BF%99%E4%B8%AA%E7%9D%A1%E5%B8%BD%E7%86%8A%E5%AE%9D%E8%90%8C",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 26,
     "topic": "专家解读韬定律逻辑折叠芯片",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%B8%93%E5%AE%B6%E8%A7%A3%E8%AF%BB%E9%9F%AC%E5%AE%9A%E5%BE%8B%E9%80%BB%E8%BE%91%E6%8A%98%E5%8F%A0%E8%8A%AF%E7%89%87",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 27,
     "topic": "梅尼耶泪洒婚礼现场",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E6%A2%85%E5%B0%BC%E8%80%B6%E6%B3%AA%E6%B4%92%E5%A9%9A%E7%A4%BC%E7%8E%B0%E5%9C%BA",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 28,
     "topic": "金铲铲自然之力版本攻略",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%87%91%E9%93%B2%E9%93%B2%E8%87%AA%E7%84%B6%E4%B9%8B%E5%8A%9B%E7%89%88%E6%9C%AC%E6%94%BB%E7%95%A5",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 29,
     "topic": "徐明浩打碟中国人能飞",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%BE%90%E6%98%8E%E6%B5%A9%E6%89%93%E7%A2%9F%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 30,
     "topic": "王者和万象棋都没有放过梦泪",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E5%92%8C%E4%B8%87%E8%B1%A1%E6%A3%8B%E9%83%BD%E6%B2%A1%E6%9C%89%E6%94%BE%E8%BF%87%E6%A2%A6%E6%B3%AA",
-    "date": "09-09"
+    "date": "09-09",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    }
   ],
   "xiaohongshu": [
@@ -3634,177 +3754,93 @@ const DASH_DATA = {
    },
    {
     "rank": 6,
-    "topic": "高一女生被教官猥亵老师说没多大事",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23高一女生被教官猥亵老师说没多大事%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 7,
     "topic": "刘浩存后援会暂停工作",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23刘浩存后援会暂停工作%23",
     "date": "09-09"
    },
    {
-    "rank": 8,
+    "rank": 7,
     "topic": "王晓慧 吸粉类长相",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23王晓慧 吸粉类长相%23",
     "date": "09-09"
    },
    {
-    "rank": 9,
+    "rank": 8,
     "topic": "电影活色生香定档",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23电影活色生香定档%23",
     "date": "09-09"
    },
    {
-    "rank": 10,
+    "rank": 9,
     "topic": "郭富城握手礼仪被研究透了",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23郭富城握手礼仪被研究透了%23",
     "date": "09-09"
    },
    {
-    "rank": 11,
+    "rank": 10,
     "topic": "给阿嬷的情书从潮汕走到威尼斯",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23给阿嬷的情书从潮汕走到威尼斯%23",
     "date": "09-09"
    },
    {
-    "rank": 12,
+    "rank": 11,
     "topic": "王晓慧C位",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23王晓慧C位%23",
     "date": "09-09"
    },
    {
-    "rank": 13,
+    "rank": 12,
     "topic": "曝泽尻英龙华桥本良亮恋情",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23曝泽尻英龙华桥本良亮恋情%23",
     "date": "09-09"
    },
    {
-    "rank": 14,
-    "topic": "高考数学132分 开学考只考了12分",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23高考数学132分 开学考只考了12分%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 15,
+    "rank": 13,
     "topic": "AI演员方桃子登时尚杂志",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23AI演员方桃子登时尚杂志%23",
     "date": "09-09"
    },
    {
-    "rank": 16,
-    "topic": "毛泽东逝世50周年",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23毛泽东逝世50周年%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 17,
+    "rank": 14,
     "topic": "王艺迪1比3梅谢芙",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23王艺迪1比3梅谢芙%23",
     "date": "09-09"
    },
    {
-    "rank": 18,
+    "rank": 15,
     "topic": "早春晴朗he",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23早春晴朗he%23",
     "date": "09-09"
    },
    {
-    "rank": 19,
-    "topic": "西电学生回应数学开学考",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23西电学生回应数学开学考%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 20,
-    "topic": "服贸会今日开幕",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23服贸会今日开幕%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 21,
-    "topic": "女孩去邻居家吃饭惨遭夫妻分尸",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23女孩去邻居家吃饭惨遭夫妻分尸%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 22,
-    "topic": "复方甘草片 低钾血",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23复方甘草片 低钾血%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 23,
+    "rank": 16,
     "topic": "一只羊脱衣全过程",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23一只羊脱衣全过程%23",
     "date": "09-09"
    },
    {
-    "rank": 24,
-    "topic": "硬座出差 软裁员",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23硬座出差 软裁员%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 25,
+    "rank": 17,
     "topic": "这段话杀死了内耗型人格",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23这段话杀死了内耗型人格%23",
     "date": "09-09"
    },
    {
-    "rank": 26,
-    "topic": "梅姨被抓捕完整经过",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23梅姨被抓捕完整经过%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 27,
-    "topic": "被台湾省人点赞10万的简中文豪",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23被台湾省人点赞10万的简中文豪%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 28,
+    "rank": 18,
     "topic": "美网仅剩郑钦文与前五种子",
     "source": "微博·话题页",
     "url": "https://s.weibo.com/weibo?q=%23美网仅剩郑钦文与前五种子%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 29,
-    "topic": "女子向大雁塔景区雨水井塞不明物",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23女子向大雁塔景区雨水井塞不明物%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 30,
-    "topic": "美伊以冲突",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23美伊以冲突%23",
     "date": "09-09"
    }
   ],
@@ -3853,167 +3889,111 @@ const DASH_DATA = {
    },
    {
     "rank": 7,
-    "topic": "小米回应澎程试驾事故",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%B0%8F%E7%B1%B3%E5%9B%9E%E5%BA%94%E6%BE%8E%E7%A8%8B%E8%AF%95%E9%A9%BE%E4%BA%8B%E6%95%85",
-    "date": "09-09"
-   },
-   {
-    "rank": 8,
-    "topic": "龙版传媒停牌核查",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%BE%99%E7%89%88%E4%BC%A0%E5%AA%92%E5%81%9C%E7%89%8C%E6%A0%B8%E6%9F%A5",
-    "date": "09-09"
-   },
-   {
-    "rank": 9,
     "topic": "国足公布新一期集训名单",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%9B%BD%E8%B6%B3%E5%85%AC%E5%B8%83%E6%96%B0%E4%B8%80%E6%9C%9F%E9%9B%86%E8%AE%AD%E5%90%8D%E5%8D%95",
     "date": "09-09"
    },
    {
-    "rank": 10,
+    "rank": 8,
     "topic": "IG 3:0战胜LGD",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/IG%203%3A0%E6%88%98%E8%83%9CLGD",
     "date": "09-09"
    },
    {
-    "rank": 11,
-    "topic": "毛泽东逝世50周年",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%AF%9B%E6%B3%BD%E4%B8%9C%E9%80%9D%E4%B8%9650%E5%91%A8%E5%B9%B4",
-    "date": "09-09"
-   },
-   {
-    "rank": 12,
+    "rank": 9,
     "topic": "觉醒吧我的厨艺天赋",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E8%A7%89%E9%86%92%E5%90%A7%E6%88%91%E7%9A%84%E5%8E%A8%E8%89%BA%E5%A4%A9%E8%B5%8B",
     "date": "09-09"
    },
    {
-    "rank": 13,
-    "topic": "华屋村的十七棵松与长征精神",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%8D%8E%E5%B1%8B%E6%9D%91%E7%9A%84%E5%8D%81%E4%B8%83%E6%A3%B5%E6%9D%BE%E4%B8%8E%E9%95%BF%E5%BE%81%E7%B2%BE%E7%A5%9E",
-    "date": "09-09"
-   },
-   {
-    "rank": 14,
-    "topic": "香港首任特首董建华逝世",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%A6%99%E6%B8%AF%E9%A6%96%E4%BB%BB%E7%89%B9%E9%A6%96%E8%91%A3%E5%BB%BA%E5%8D%8E%E9%80%9D%E4%B8%96",
-    "date": "09-09"
-   },
-   {
-    "rank": 15,
+    "rank": 10,
     "topic": "郑钦文今晚对阵莱巴金娜",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E4%BB%8A%E6%99%9A%E5%AF%B9%E9%98%B5%E8%8E%B1%E5%B7%B4%E9%87%91%E5%A8%9C",
     "date": "09-09"
    },
    {
-    "rank": 16,
+    "rank": 11,
     "topic": "我的世界出现一位姑娘",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E5%87%BA%E7%8E%B0%E4%B8%80%E4%BD%8D%E5%A7%91%E5%A8%98",
     "date": "09-09"
    },
    {
-    "rank": 17,
+    "rank": 12,
     "topic": "人类对运动的开发不足百分之一",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%BA%BA%E7%B1%BB%E5%AF%B9%E8%BF%90%E5%8A%A8%E7%9A%84%E5%BC%80%E5%8F%91%E4%B8%8D%E8%B6%B3%E7%99%BE%E5%88%86%E4%B9%8B%E4%B8%80",
     "date": "09-09"
    },
    {
-    "rank": 18,
+    "rank": 13,
     "topic": "兰香如故所有人都在尽全力活着",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%85%B0%E9%A6%99%E5%A6%82%E6%95%85%E6%89%80%E6%9C%89%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%B0%BD%E5%85%A8%E5%8A%9B%E6%B4%BB%E7%9D%80",
     "date": "09-09"
    },
    {
-    "rank": 19,
+    "rank": 14,
     "topic": "鼎叔魔性化妆模仿挑战",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%BC%8E%E5%8F%94%E9%AD%94%E6%80%A7%E5%8C%96%E5%A6%86%E6%A8%A1%E4%BB%BF%E6%8C%91%E6%88%98",
     "date": "09-09"
    },
    {
-    "rank": 20,
+    "rank": 15,
     "topic": "我和毛孩天下第一好",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E6%88%91%E5%92%8C%E6%AF%9B%E5%AD%A9%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E5%A5%BD",
     "date": "09-09"
    },
    {
-    "rank": 21,
-    "topic": "伊朗罕见用韩语警告韩国",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BC%8A%E6%9C%97%E7%BD%95%E8%A7%81%E7%94%A8%E9%9F%A9%E8%AF%AD%E8%AD%A6%E5%91%8A%E9%9F%A9%E5%9B%BD",
-    "date": "09-09"
-   },
-   {
-    "rank": 22,
+    "rank": 16,
     "topic": "陈赫澄清腰伤不影响工作",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%99%88%E8%B5%AB%E6%BE%84%E6%B8%85%E8%85%B0%E4%BC%A4%E4%B8%8D%E5%BD%B1%E5%93%8D%E5%B7%A5%E4%BD%9C",
     "date": "09-09"
    },
    {
-    "rank": 23,
+    "rank": 17,
     "topic": "人类幼崽版格格有多可爱",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%BA%BA%E7%B1%BB%E5%B9%BC%E5%B4%BD%E7%89%88%E6%A0%BC%E6%A0%BC%E6%9C%89%E5%A4%9A%E5%8F%AF%E7%88%B1",
     "date": "09-09"
    },
    {
-    "rank": 24,
+    "rank": 18,
     "topic": "白鹿穿燕麦系小跳一下",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E7%99%BD%E9%B9%BF%E7%A9%BF%E7%87%95%E9%BA%A6%E7%B3%BB%E5%B0%8F%E8%B7%B3%E4%B8%80%E4%B8%8B",
     "date": "09-09"
    },
    {
-    "rank": 25,
-    "topic": "交锋女大学生掉入间谍骗局",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BA%A4%E9%94%8B%E5%A5%B3%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%8E%89%E5%85%A5%E9%97%B4%E8%B0%8D%E9%AA%97%E5%B1%80",
-    "date": "09-09"
-   },
-   {
-    "rank": 26,
+    "rank": 19,
     "topic": "就这个睡帽熊宝萌",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%B0%B1%E8%BF%99%E4%B8%AA%E7%9D%A1%E5%B8%BD%E7%86%8A%E5%AE%9D%E8%90%8C",
     "date": "09-09"
    },
    {
-    "rank": 27,
-    "topic": "专家解读韬定律逻辑折叠芯片",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%B8%93%E5%AE%B6%E8%A7%A3%E8%AF%BB%E9%9F%AC%E5%AE%9A%E5%BE%8B%E9%80%BB%E8%BE%91%E6%8A%98%E5%8F%A0%E8%8A%AF%E7%89%87",
-    "date": "09-09"
-   },
-   {
-    "rank": 28,
+    "rank": 20,
     "topic": "金铲铲自然之力版本攻略",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%87%91%E9%93%B2%E9%93%B2%E8%87%AA%E7%84%B6%E4%B9%8B%E5%8A%9B%E7%89%88%E6%9C%AC%E6%94%BB%E7%95%A5",
     "date": "09-09"
    },
    {
-    "rank": 29,
+    "rank": 21,
     "topic": "徐明浩打碟中国人能飞",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%BE%90%E6%98%8E%E6%B5%A9%E6%89%93%E7%A2%9F%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E",
     "date": "09-09"
    },
    {
-    "rank": 30,
+    "rank": 22,
     "topic": "王者和万象棋都没有放过梦泪",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E5%92%8C%E4%B8%87%E8%B1%A1%E6%A3%8B%E9%83%BD%E6%B2%A1%E6%9C%89%E6%94%BE%E8%BF%87%E6%A2%A6%E6%B3%AA",
