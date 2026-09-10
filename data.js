@@ -9,10 +9,9 @@
 
 var DASH_DATA = {
  "version": 2,
- "date": "09-09",
- "updatedAt": "2026-09-09 18:45",
+ "date": "09-10",
+ "updatedAt": "2026-09-10 08:07",
  "trendDates": [
-  "09-02",
   "09-03",
   "09-04",
   "09-05",
@@ -20,12 +19,7 @@ var DASH_DATA = {
   "09-07",
   "09-08",
   "09-09",
-  {
-   "date": "09-09",
-   "slots": [
-    "17:00"
-   ]
-  }
+  "09-10"
  ],
  "dataNote": "声量/转化指数基于公开财报、行业榜单与媒体报道估算，非平台官方实时数据；历史趋势为估算基线，自上线日起逐日累积。",
  "categories": [
@@ -63,18 +57,19 @@ var DASH_DATA = {
    "cat": "apparel",
    "soc": 90,
    "sales": 90,
-   "news": 87,
-   "delta": 0,
+   "news": 88,
+   "delta": 0.6,
    "trend": [
-    85,
     86,
     87,
     88,
     89,
     89,
     89,
-    89
-   ]
+    89,
+    89.6
+   ],
+   "heat": 89.6
   },
   {
    "id": "lululemon",
@@ -83,55 +78,56 @@ var DASH_DATA = {
    "soc": 86,
    "sales": 68,
    "news": 92,
-   "delta": 0,
+   "delta": -0.2,
    "trend": [
-    84,
     85,
     82,
     82,
     83,
     82,
-    82
+    82,
+    81.8
    ],
-   "heat": 1
+   "heat": 81.8
   },
   {
    "id": "lining",
    "name": "李宁",
    "cat": "apparel",
-   "soc": 82,
+   "soc": 83,
    "sales": 82,
    "news": 82,
-   "delta": 1,
+   "delta": -2.5,
    "trend": [
-    80,
     79,
     79,
     81,
     81,
     81,
     82,
-    85
-   ]
+    85,
+    82.5
+   ],
+   "heat": 82.5
   },
   {
    "id": "nike",
    "name": "耐克",
    "cat": "apparel",
-   "soc": 79,
+   "soc": 80,
    "sales": 72,
    "news": 86,
-   "delta": 0,
+   "delta": 0.8,
    "trend": [
-    76,
     77,
     76,
     76,
     77,
     78,
-    78
+    78,
+    78.8
    ],
-   "heat": 2
+   "heat": 78.8
   },
   {
    "id": "fila",
@@ -140,16 +136,17 @@ var DASH_DATA = {
    "soc": 73,
    "sales": 76,
    "news": 68,
-   "delta": 0,
+   "delta": -0.1,
    "trend": [
-    70,
     71,
     71,
     73,
     73,
     73,
-    73
-   ]
+    73,
+    72.9
+   ],
+   "heat": 72.9
   },
   {
    "id": "adidas",
@@ -158,16 +155,17 @@ var DASH_DATA = {
    "soc": 72,
    "sales": 74,
    "news": 70,
-   "delta": 0,
+   "delta": 0.2,
    "trend": [
     69,
     69,
-    69,
     72,
     72,
     72,
-    72
-   ]
+    72,
+    72.2
+   ],
+   "heat": 72.2
   },
   {
    "id": "nb",
@@ -176,16 +174,17 @@ var DASH_DATA = {
    "soc": 66,
    "sales": 68,
    "news": 56,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
     64,
     64,
-    64,
     65,
     65,
     65,
-    65
-   ]
+    65,
+    64.6
+   ],
+   "heat": 64.6
   },
   {
    "id": "361",
@@ -194,16 +193,17 @@ var DASH_DATA = {
    "soc": 62,
    "sales": 68,
    "news": 66,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
     64,
-    64,
     65,
     65,
     65,
     65,
-    65
-   ]
+    65,
+    64.6
+   ],
+   "heat": 64.6
   },
   {
    "id": "xtep",
@@ -212,7 +212,7 @@ var DASH_DATA = {
    "soc": 60,
    "sales": 65,
    "news": 64,
-   "delta": 0,
+   "delta": 0.3,
    "trend": [
     62,
     62,
@@ -220,8 +220,9 @@ var DASH_DATA = {
     62,
     62,
     62,
-    62
-   ]
+    62.3
+   ],
+   "heat": 62.3
   },
   {
    "id": "warrior",
@@ -230,16 +231,17 @@ var DASH_DATA = {
    "soc": 55,
    "sales": 58,
    "news": 45,
-   "delta": 0,
+   "delta": -0.1,
    "trend": [
-    54,
     53,
     53,
     54,
     54,
     54,
-    54
-   ]
+    54,
+    53.9
+   ],
+   "heat": 53.9
   },
   {
    "id": "wanke",
@@ -250,33 +252,34 @@ var DASH_DATA = {
    "news": 44,
    "delta": 0,
    "trend": [
-    56,
     57,
     57,
     58,
     58,
+    57,
     57,
     57
-   ]
+   ],
+   "heat": 57
   },
   {
    "id": "ripstar",
    "name": "RIPSTAR 爆炸星",
    "cat": "apparel",
-   "soc": 61,
+   "soc": 63,
    "sales": 56,
    "news": 54,
-   "delta": 0,
+   "delta": 1.1,
    "trend": [
-    56,
     57,
     57,
     58,
     59,
     58,
-    58
+    58,
+    59.1
    ],
-   "heat": 1
+   "heat": 59.1
   },
   {
    "id": "hbd",
@@ -285,16 +288,17 @@ var DASH_DATA = {
    "soc": 56,
    "sales": 54,
    "news": 50,
-   "delta": 0,
+   "delta": 0.2,
    "trend": [
-    52,
     53,
     54,
     55,
     56,
     54,
-    54
-   ]
+    54,
+    54.2
+   ],
+   "heat": 54.2
   },
   {
    "id": "kaalixto",
@@ -303,16 +307,17 @@ var DASH_DATA = {
    "soc": 48,
    "sales": 46,
    "news": 42,
-   "delta": 0,
+   "delta": 0.2,
    "trend": [
-    46,
     47,
     47,
     47,
     48,
     46,
-    46
-   ]
+    46,
+    46.2
+   ],
+   "heat": 46.2
   },
   {
    "id": "weflower",
@@ -321,16 +326,17 @@ var DASH_DATA = {
    "soc": 46,
    "sales": 44,
    "news": 42,
-   "delta": -1,
+   "delta": -0.4,
    "trend": [
     45,
+    46,
+    46,
+    46,
+    46,
     45,
-    46,
-    46,
-    46,
-    46,
-    45
-   ]
+    44.6
+   ],
+   "heat": 44.6
   },
   {
    "id": "matnut",
@@ -339,16 +345,17 @@ var DASH_DATA = {
    "soc": 44,
    "sales": 42,
    "news": 44,
-   "delta": -1,
+   "delta": 0.4,
    "trend": [
     43,
+    44,
+    44,
+    44,
+    44,
     43,
-    44,
-    44,
-    44,
-    44,
-    43
-   ]
+    43.4
+   ],
+   "heat": 43.4
   },
   {
    "id": "wanderaround",
@@ -357,16 +364,17 @@ var DASH_DATA = {
    "soc": 42,
    "sales": 40,
    "news": 38,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
     41,
     41,
-    41,
     42,
     42,
     41,
-    41
-   ]
+    41,
+    40.6
+   ],
+   "heat": 40.6
   },
   {
    "id": "smilerepublic",
@@ -375,16 +383,17 @@ var DASH_DATA = {
    "soc": 51,
    "sales": 48,
    "news": 46,
-   "delta": 0,
+   "delta": 0.1,
    "trend": [
-    48,
     48,
     49,
     49,
     50,
     49,
-    49
-   ]
+    49,
+    49.1
+   ],
+   "heat": 49.1
   },
   {
    "id": "mixue",
@@ -393,17 +402,18 @@ var DASH_DATA = {
    "soc": 94,
    "sales": 91,
    "news": 87,
-   "delta": 0,
+   "delta": -2.3,
    "trend": [
-    91,
     92,
     92,
     92,
     92,
     92,
     92,
-    94
-   ]
+    94,
+    91.7
+   ],
+   "heat": 91.7
   },
   {
    "id": "luckin",
@@ -411,36 +421,38 @@ var DASH_DATA = {
    "cat": "food",
    "soc": 92,
    "sales": 89,
-   "news": 92,
-   "delta": 0,
+   "news": 93,
+   "delta": -2.7,
    "trend": [
-    86,
     88,
     88,
     89,
     89,
     91,
     91,
-    94
-   ]
+    94,
+    91.3
+   ],
+   "heat": 91.3
   },
   {
    "id": "bawang",
    "name": "霸王茶姬",
    "cat": "food",
-   "soc": 86,
+   "soc": 87,
    "sales": 75,
    "news": 84,
-   "delta": 0,
+   "delta": 0.8,
    "trend": [
-    80,
     81,
     81,
     82,
     82,
     82,
-    82
-   ]
+    82,
+    82.8
+   ],
+   "heat": 82.8
   },
   {
    "id": "starbucks",
@@ -449,17 +461,18 @@ var DASH_DATA = {
    "soc": 78,
    "sales": 74,
    "news": 78,
-   "delta": 0,
+   "delta": -3.2,
    "trend": [
-    76,
     77,
     77,
     77,
     77,
     77,
     77,
-    80
-   ]
+    80,
+    76.8
+   ],
+   "heat": 76.8
   },
   {
    "id": "heytea",
@@ -468,16 +481,17 @@ var DASH_DATA = {
    "soc": 76,
    "sales": 70,
    "news": 71,
-   "delta": 0,
+   "delta": 0.2,
    "trend": [
-    72,
     73,
     73,
     73,
     73,
     73,
-    73
-   ]
+    73,
+    73.2
+   ],
+   "heat": 73.2
   },
   {
    "id": "guming",
@@ -486,17 +500,18 @@ var DASH_DATA = {
    "soc": 71,
    "sales": 78,
    "news": 74,
-   "delta": 1,
+   "delta": -4.3,
    "trend": [
-    72,
     72,
     73,
     73,
     73,
     73,
     74,
-    78
-   ]
+    78,
+    73.7
+   ],
+   "heat": 73.7
   },
   {
    "id": "songsu",
@@ -505,7 +520,7 @@ var DASH_DATA = {
    "soc": 71,
    "sales": 70,
    "news": 77,
-   "delta": 0,
+   "delta": -0.1,
    "trend": [
     72,
     72,
@@ -513,8 +528,9 @@ var DASH_DATA = {
     72,
     72,
     72,
-    72
-   ]
+    71.9
+   ],
+   "heat": 71.9
   },
   {
    "id": "nayuki",
@@ -523,7 +539,7 @@ var DASH_DATA = {
    "soc": 68,
    "sales": 60,
    "news": 72,
-   "delta": 0,
+   "delta": 0.4,
    "trend": [
     66,
     66,
@@ -531,8 +547,9 @@ var DASH_DATA = {
     66,
     66,
     66,
-    66
-   ]
+    66.4
+   ],
+   "heat": 66.4
   },
   {
    "id": "liangpin",
@@ -541,16 +558,17 @@ var DASH_DATA = {
    "soc": 64,
    "sales": 62,
    "news": 66,
-   "delta": 0,
+   "delta": -0.2,
    "trend": [
     65,
     65,
-    65,
     64,
     64,
     64,
-    64
-   ]
+    64,
+    63.8
+   ],
+   "heat": 63.8
   },
   {
    "id": "luxihe",
@@ -559,7 +577,7 @@ var DASH_DATA = {
    "soc": 62,
    "sales": 62,
    "news": 64,
-   "delta": 0,
+   "delta": 0.4,
    "trend": [
     62,
     62,
@@ -567,8 +585,9 @@ var DASH_DATA = {
     62,
     62,
     62,
-    62
-   ]
+    62.4
+   ],
+   "heat": 62.4
   },
   {
    "id": "baoshifu",
@@ -577,16 +596,17 @@ var DASH_DATA = {
    "soc": 58,
    "sales": 60,
    "news": 58,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
     58,
     58,
-    58,
     59,
     59,
     59,
-    59
-   ]
+    59,
+    58.6
+   ],
+   "heat": 58.6
   },
   {
    "id": "cuishengsheng",
@@ -595,16 +615,17 @@ var DASH_DATA = {
    "soc": 70,
    "sales": 68,
    "news": 74,
-   "delta": 0,
+   "delta": 0.2,
    "trend": [
-    60,
     64,
     66,
     69,
     71,
     70,
-    70
-   ]
+    70,
+    70.2
+   ],
+   "heat": 70.2
   },
   {
    "id": "popmart",
@@ -613,17 +634,18 @@ var DASH_DATA = {
    "soc": 97,
    "sales": 94,
    "news": 97,
-   "delta": 0,
+   "delta": -2.9,
    "trend": [
-    94,
     95,
     97,
     97,
     97,
     96,
     96,
-    99
-   ]
+    99,
+    96.1
+   ],
+   "heat": 96.1
   },
   {
    "id": "blokees",
@@ -632,17 +654,17 @@ var DASH_DATA = {
    "soc": 79,
    "sales": 74,
    "news": 78,
-   "delta": 1,
+   "delta": 0.3,
    "trend": [
-    77,
     78,
     77,
     77,
     77,
     76,
-    77
+    77,
+    77.3
    ],
-   "heat": 1
+   "heat": 77.3
   },
   {
    "id": "toptoy",
@@ -651,16 +673,17 @@ var DASH_DATA = {
    "soc": 75,
    "sales": 72,
    "news": 76,
-   "delta": 0,
+   "delta": 0.3,
    "trend": [
-    71,
     71,
     72,
     74,
     74,
     74,
-    74
-   ]
+    74,
+    74.3
+   ],
+   "heat": 74.3
   },
   {
    "id": "kayou",
@@ -668,35 +691,37 @@ var DASH_DATA = {
    "cat": "ip",
    "soc": 72,
    "sales": 70,
-   "news": 74,
-   "delta": 0,
+   "news": 73,
+   "delta": -0.4,
    "trend": [
-    70,
     71,
     71,
     71,
     71,
     72,
-    72
-   ]
+    72,
+    71.6
+   ],
+   "heat": 71.6
   },
   {
    "id": "disney",
    "name": "迪士尼(中国)",
    "cat": "ip",
-   "soc": 70,
+   "soc": 71,
    "sales": 68,
-   "news": 50,
-   "delta": 0,
+   "news": 51,
+   "delta": 1.1,
    "trend": [
     64,
     64,
-    64,
     65,
     65,
     65,
-    65
-   ]
+    65,
+    66.1
+   ],
+   "heat": 66.1
   },
   {
    "id": "jellycat",
@@ -705,16 +730,17 @@ var DASH_DATA = {
    "soc": 66,
    "sales": 60,
    "news": 48,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
-    59,
     59,
     59,
     60,
     61,
     61,
-    61
-   ]
+    61,
+    60.6
+   ],
+   "heat": 60.6
   },
   {
    "id": "sanrio",
@@ -723,16 +749,17 @@ var DASH_DATA = {
    "soc": 62,
    "sales": 58,
    "news": 46,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
     57,
     57,
-    57,
     58,
     58,
     58,
-    58
-   ]
+    58,
+    57.6
+   ],
+   "heat": 57.6
   },
   {
    "id": "gugong",
@@ -741,16 +768,17 @@ var DASH_DATA = {
    "soc": 60,
    "sales": 56,
    "news": 44,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
     55,
     55,
-    55,
     56,
     56,
     56,
-    56
-   ]
+    56,
+    55.6
+   ],
+   "heat": 55.6
   },
   {
    "id": "52toys",
@@ -759,16 +787,17 @@ var DASH_DATA = {
    "soc": 55,
    "sales": 52,
    "news": 52,
-   "delta": 0,
+   "delta": -0.5,
    "trend": [
     53,
     53,
     53,
     53,
-    53,
     54,
-    54
-   ]
+    54,
+    53.5
+   ],
+   "heat": 53.5
   },
   {
    "id": "chenguang",
@@ -777,7 +806,7 @@ var DASH_DATA = {
    "soc": 50,
    "sales": 60,
    "news": 42,
-   "delta": 0,
+   "delta": 0.4,
    "trend": [
     51,
     51,
@@ -785,8 +814,9 @@ var DASH_DATA = {
     51,
     51,
     51,
-    51
-   ]
+    51.4
+   ],
+   "heat": 51.4
   },
   {
    "id": "miniso",
@@ -795,17 +825,17 @@ var DASH_DATA = {
    "soc": 93,
    "sales": 88,
    "news": 91,
-   "delta": 1,
+   "delta": 0.1,
    "trend": [
-    88,
     89,
     90,
     91,
     90,
     90,
-    91
+    91,
+    91.1
    ],
-   "heat": 1
+   "heat": 91.1
   },
   {
    "id": "purcotton",
@@ -814,16 +844,17 @@ var DASH_DATA = {
    "soc": 66,
    "sales": 68,
    "news": 62,
-   "delta": 0,
+   "delta": -0.2,
    "trend": [
     65,
-    65,
     66,
     66,
     66,
     66,
-    66
-   ]
+    66,
+    65.8
+   ],
+   "heat": 65.8
   },
   {
    "id": "bluemoon",
@@ -832,16 +863,17 @@ var DASH_DATA = {
    "soc": 62,
    "sales": 72,
    "news": 58,
-   "delta": 0,
+   "delta": 0.2,
    "trend": [
     62,
     62,
-    62,
     64,
     64,
     64,
-    64
-   ]
+    64,
+    64.2
+   ],
+   "heat": 64.2
   },
   {
    "id": "liby",
@@ -850,16 +882,17 @@ var DASH_DATA = {
    "soc": 60,
    "sales": 71,
    "news": 58,
-   "delta": 2,
+   "delta": -0.1,
    "trend": [
     60,
     60,
-    60,
     61,
     61,
     61,
-    63
-   ]
+    63,
+    62.9
+   ],
+   "heat": 62.9
   },
   {
    "id": "muji",
@@ -868,16 +901,17 @@ var DASH_DATA = {
    "soc": 65,
    "sales": 62,
    "news": 58,
-   "delta": 0,
+   "delta": -0.3,
    "trend": [
     59,
     59,
-    59,
     63,
     63,
     63,
-    63
-   ]
+    63,
+    62.7
+   ],
+   "heat": 62.7
   },
   {
    "id": "banain",
@@ -886,16 +920,17 @@ var DASH_DATA = {
    "soc": 58,
    "sales": 60,
    "news": 44,
-   "delta": 0,
+   "delta": -0.2,
    "trend": [
     55,
     55,
-    55,
     56,
     56,
     56,
-    56
-   ]
+    56,
+    55.8
+   ],
+   "heat": 55.8
   },
   {
    "id": "vinda",
@@ -904,7 +939,7 @@ var DASH_DATA = {
    "soc": 48,
    "sales": 60,
    "news": 42,
-   "delta": 0,
+   "delta": 0.4,
    "trend": [
     50,
     50,
@@ -912,8 +947,9 @@ var DASH_DATA = {
     50,
     50,
     50,
-    50
-   ]
+    50.4
+   ],
+   "heat": 50.4
   },
   {
    "id": "mindup",
@@ -922,7 +958,7 @@ var DASH_DATA = {
    "soc": 46,
    "sales": 58,
    "news": 40,
-   "delta": 0,
+   "delta": 0.4,
    "trend": [
     48,
     48,
@@ -930,8 +966,9 @@ var DASH_DATA = {
     48,
     48,
     48,
-    48
-   ]
+    48.4
+   ],
+   "heat": 48.4
   },
   {
    "id": "safeguard",
@@ -940,16 +977,17 @@ var DASH_DATA = {
    "soc": 52,
    "sales": 62,
    "news": 40,
-   "delta": 0,
+   "delta": -0.4,
    "trend": [
     51,
     51,
-    51,
     53,
     53,
     53,
-    53
-   ]
+    53,
+    52.6
+   ],
+   "heat": 52.6
   },
   {
    "id": "chaoneng",
@@ -958,16 +996,17 @@ var DASH_DATA = {
    "soc": 45,
    "sales": 58,
    "news": 40,
-   "delta": 0,
+   "delta": -0.1,
    "trend": [
     47,
     47,
-    47,
     48,
     48,
     48,
-    48
-   ]
+    48,
+    47.9
+   ],
+   "heat": 47.9
   },
   {
    "id": "skii",
@@ -976,16 +1015,17 @@ var DASH_DATA = {
    "soc": 70,
    "sales": 60,
    "news": 82,
-   "delta": 2,
+   "delta": 0.4,
    "trend": [
-    65,
     66,
     67,
     68,
     69,
     70,
-    69
-   ]
+    69,
+    69.4
+   ],
+   "heat": 69.4
   },
   {
    "id": "proya",
@@ -993,18 +1033,19 @@ var DASH_DATA = {
    "cat": "beauty",
    "soc": 78,
    "sales": 76,
-   "news": 80,
-   "delta": 3,
+   "news": 81,
+   "delta": -1,
    "trend": [
-    72,
     73,
     74,
     75,
     76,
     77,
     79,
-    79
-   ]
+    79,
+    78
+   ],
+   "heat": 78
   },
   {
    "id": "florasis",
@@ -1013,16 +1054,17 @@ var DASH_DATA = {
    "soc": 74,
    "sales": 66,
    "news": 76,
-   "delta": 2,
+   "delta": -3,
    "trend": [
-    68,
     69,
     70,
     71,
     72,
     73,
-    75
-   ]
+    75,
+    72
+   ],
+   "heat": 72
   },
   {
    "id": "mgp",
@@ -1031,16 +1073,17 @@ var DASH_DATA = {
    "soc": 66,
    "sales": 64,
    "news": 70,
-   "delta": 1,
+   "delta": -0.8,
    "trend": [
-    62,
     63,
     64,
     65,
     66,
     66,
-    67
-   ]
+    67,
+    66.2
+   ],
+   "heat": 66.2
   },
   {
    "id": "estee",
@@ -1049,16 +1092,17 @@ var DASH_DATA = {
    "soc": 72,
    "sales": 70,
    "news": 78,
-   "delta": 1,
+   "delta": -0.4,
    "trend": [
-    69,
     70,
     71,
     71,
     72,
     72,
-    73
-   ]
+    73,
+    72.6
+   ],
+   "heat": 72.6
   },
   {
    "id": "chanel",
@@ -1067,16 +1111,17 @@ var DASH_DATA = {
    "soc": 74,
    "sales": 66,
    "news": 74,
-   "delta": 2,
+   "delta": -2.4,
    "trend": [
-    67,
     68,
     69,
     70,
     71,
     72,
-    74
-   ]
+    74,
+    71.6
+   ],
+   "heat": 71.6
   },
   {
    "id": "ysl",
@@ -1085,17 +1130,17 @@ var DASH_DATA = {
    "soc": 66,
    "sales": 58,
    "news": 64,
-   "delta": 0,
+   "delta": -0.8,
    "trend": [
-    62,
     62,
     63,
     63,
     63,
     64,
-    64
+    64,
+    63.2
    ],
-   "heat": 2
+   "heat": 63.2
   },
   {
    "id": "judydoll",
@@ -1104,16 +1149,17 @@ var DASH_DATA = {
    "soc": 70,
    "sales": 64,
    "news": 72,
-   "delta": 2,
+   "delta": -2.4,
    "trend": [
-    64,
     65,
     66,
     67,
     68,
     69,
-    71
-   ]
+    71,
+    68.6
+   ],
+   "heat": 68.6
   },
   {
    "id": "loreal",
@@ -1122,17 +1168,18 @@ var DASH_DATA = {
    "soc": 72,
    "sales": 74,
    "news": 70,
-   "delta": 0,
+   "delta": -0.8,
    "trend": [
     70,
-    70,
     71,
     71,
     72,
     72,
     72,
-    73
-   ]
+    73,
+    72.2
+   ],
+   "heat": 72.2
   },
   {
    "id": "shiseido",
@@ -1141,34 +1188,36 @@ var DASH_DATA = {
    "soc": 68,
    "sales": 66,
    "news": 66,
-   "delta": 0,
+   "delta": -1,
    "trend": [
-    65,
     66,
     66,
     67,
     67,
     68,
-    68
-   ]
+    68,
+    67
+   ],
+   "heat": 67
   },
   {
    "id": "kans",
    "name": "韩束",
    "cat": "beauty",
    "soc": 68,
-   "sales": 66,
+   "sales": 67,
    "news": 66,
-   "delta": 1,
+   "delta": -0.7,
    "trend": [
-    63,
     64,
     65,
     66,
     66,
     67,
-    68
-   ]
+    68,
+    67.3
+   ],
+   "heat": 67.3
   },
   {
    "id": "winona",
@@ -1177,35 +1226,221 @@ var DASH_DATA = {
    "soc": 66,
    "sales": 62,
    "news": 64,
-   "delta": 1,
+   "delta": -0.6,
    "trend": [
-    60,
     61,
     62,
     63,
     63,
     64,
-    65
-   ]
+    65,
+    64.4
+   ],
+   "heat": 64.4
   }
  ],
  "news": [
   {
-   "brand": "fila",
+   "brand": "nike",
+   "cat": "apparel",
+   "heat": 88,
+   "date": "09-10",
+   "source": "微博·话题页",
+   "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E7%BE%8E%E7%BD%91%E6%AD%A2%E6%AD%A5%E5%85%AB%E5%BC%BA%23",
+   "title": "郑钦文美网止步八强：1-2惜败莱巴金娜 无缘四强",
+   "summary": "郑钦文在美网1/4决赛1-2不敌莱巴金娜，止步八强；赛后回应\"这个美网我拼尽了全力\"，相关话题霸榜微博热搜前10，其代言的耐克品牌曝光随赛事热度冲高后回落",
+   "tags": [
+    "郑钦文",
+    "耐克",
+    "美网",
+    "体育营销"
+   ],
+   "id": "n001"
+  },
+  {
+   "brand": "luckin",
+   "cat": "food",
+   "heat": 85,
+   "date": "09-10",
+   "source": "什么值得买",
+   "url": "https://post.m.smzdm.com/p/a03qr980",
+   "title": "瑞幸×YOYO冰箱贴\"6:32售罄\"：二手整套捆出60元",
+   "summary": "联名物料9/8晚全面卖空：多地门店开门半小时即罄、二手\"冰箱贴+徽章+纸袋+杯套\"整套60元、预售券9/11到期；\"晒单党\"与\"求补货党\"两极刷屏，徽章成隐藏主角",
+   "tags": [
+    "瑞幸",
+    "YOYO",
+    "联名周边",
+    "二手市场"
+   ],
+   "id": "n002"
+  },
+  {
+   "brand": "popmart",
+   "cat": "ip",
+   "heat": 82,
+   "date": "09-10",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/a7683060628008796698",
+   "title": "泡泡玛特主动给LABUBU降温，凭什么把热度变长期资产？",
+   "summary": "深度复盘泡泡玛特LABUBU运营路径：主动控速+线下沉浸体验（城市乐园/东方明珠巡展）+海外门店体系化建设；上半年美洲营收下滑16.5%背景下转向\"降速建体系\"",
+   "tags": [
+    "泡泡玛特",
+    "LABUBU",
+    "IP运营",
+    "海外战略"
+   ],
+   "id": "n003"
+  },
+  {
+   "brand": "bawang",
+   "cat": "food",
+   "heat": 80,
+   "date": "09-10",
+   "source": "36氪",
+   "url": "https://www.36kr.com/p/3974026996101640",
+   "title": "5元1颗\"茶姬蛋\"，霸王茶姬在布什么局？",
+   "summary": "36氪复盘霸王茶姬品类扩张：Geelato茶拉朵已进190+家门店、柠檬奶新客获取率+45%、玫珑乌龙首周单店日均110杯；\"茶姬蛋\"5元定价为引流试验，2026被定义为\"调整与企稳之年\"",
+   "tags": [
+    "霸王茶姬",
+    "品类扩张",
+    "茶饮"
+   ],
+   "id": "n004"
+  },
+  {
+   "brand": "anta",
    "cat": "apparel",
    "heat": 78,
-   "date": "09-09",
-   "source": "新浪娱乐",
-   "url": "https://ent.sina.cn/2026-09-09/detail-inirfivw8623398.d.html",
-   "title": "FILA官宣王安宇为品牌代言人 携手演绎意式高端运动时尚",
-   "summary": "时尚圈\"官宣战\"持续升级，FILA宣布王安宇成为品牌代言人，携手演绎意式高端运动时尚的当代面貌；同日Champion官宣丁禹兮\"冠军来真的\"主张升级。",
+   "date": "09-10",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20260909A0ARPK00",
+   "title": "野村把安踏列为中国运动鞋服首选：瑜伽裤降温、户外崛起",
+   "summary": "野村报告解析运动消费新变化：lululemon紧身裤销售降约20%、市占率降至43.9%；安踏上半年营收435.1亿增12.9%，迪桑特/可隆所在的\"其他品牌\"增44.2%成利润稳定器",
    "tags": [
-    "明星",
-    "代言人",
-    "FILA",
-    "王安宇"
+    "安踏",
+    "野村",
+    "lululemon",
+    "运动鞋服"
    ],
-   "id": "n108"
+   "id": "n005"
+  },
+  {
+   "brand": "disney",
+   "cat": "ip",
+   "heat": 72,
+   "date": "09-10",
+   "source": "微博·品牌日报",
+   "url": "https://weibo.com/1851599157/5341164305122583",
+   "title": "迪士尼中国×久事动娱三年战略合作：米奇打进网球大师赛",
+   "summary": "迪士尼中国与久事动娱启动三年战略合作，首个项目落地2026上海劳力士大师赛（10月5-18日）：米奇网球主题形象+联名产品+快闪空间+\"大师赛+迪士尼乐园\"联票",
+   "tags": [
+    "迪士尼",
+    "米奇",
+    "上海大师赛",
+    "IP联名"
+   ],
+   "id": "n006"
+  },
+  {
+   "brand": "mixue",
+   "cat": "food",
+   "heat": 72,
+   "date": "09-10",
+   "source": "深圳新闻网",
+   "url": "https://www.sznews.com/news/content/2026-09/09/content_32167653.htm",
+   "title": "蜜雪开始讲品质、霸王茶姬开始拼SKU：新茶饮品牌\"互换剧本\"",
+   "summary": "消费观察：蜜雪围绕\"真鲜纯\"升级（现磨咖啡机覆盖约6000家店、冷链果汁），霸王茶姬上半年新品29款超去年全年；头部品牌互相补短板，行业进入存量提质阶段",
+   "tags": [
+    "蜜雪冰城",
+    "霸王茶姬",
+    "新茶饮",
+    "品质升级"
+   ],
+   "id": "n007"
+  },
+  {
+   "brand": "kayou",
+   "cat": "ip",
+   "heat": 70,
+   "date": "09-10",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20260908A0D3NB00",
+   "title": "过了聆讯却上不了市，卡游卡在了哪里？",
+   "summary": "卡游2025年6月通过港交所聆讯后迟迟未挂牌：市场情绪回落+Suplay/Hitcard等对手递表+盲盒\"类博彩\"监管收紧（中消协重申8岁以下禁售）三重压力叠加",
+   "tags": [
+    "卡游",
+    "IPO",
+    "卡牌",
+    "盲盒监管"
+   ],
+   "id": "n008"
+  },
+  {
+   "brand": "kans",
+   "cat": "beauty",
+   "heat": 68,
+   "date": "09-10",
+   "source": "网易",
+   "url": "https://www.163.com/money/article/L69V2VAG00259I71.html",
+   "title": "韩束洗护8月登顶抖音洗发护发类目榜首",
+   "summary": "青眼情报数据：韩束8月登顶抖音洗护类目，为TOP20中唯一GMV破亿品牌；从1月第19名到8月第一，防脱固发/控油蓬松洗发水均居细分爆款榜TOP1，300人研发团队+近200项专利支撑",
+   "tags": [
+    "韩束",
+    "洗护",
+    "抖音",
+    "大单品"
+   ],
+   "id": "n009"
+  },
+  {
+   "brand": "proya",
+   "cat": "beauty",
+   "heat": 66,
+   "date": "09-10",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/article/7683198667259527726/",
+   "title": "国货美妆十强洗牌：珀莱雅守擂、毛戈平研发费用率垫底",
+   "summary": "2026上半年国货美妆十强座次微调：珀莱雅多品牌矩阵显效（OR增70.8%、原色波塔增222%）；毛戈平营收超32亿但研发费用率仅0.56%排名垫底；韩束主品牌收入降20%但一页增59.9%",
+   "tags": [
+    "珀莱雅",
+    "毛戈平",
+    "韩束",
+    "国货美妆"
+   ],
+   "id": "n010"
+  },
+  {
+   "brand": "ripstar",
+   "cat": "apparel",
+   "heat": 65,
+   "date": "09-10",
+   "source": "微博·话题页",
+   "url": "https://weibo.com/7697459086/5340854517500011",
+   "title": "秦岚上脚RIPSTAR爆炸星「鹅卵石」配色复古慢跑鞋",
+   "summary": "秦岚封面大片花絮中上脚RIPSTAR Slow Runner鹅卵石配色千禧风复古慢跑鞋，\"优雅与松弛\"的穿搭笔记在小红书/微博鞋圈传播，明星同款带动新配色关注",
+   "tags": [
+    "RIPSTAR",
+    "明星同款",
+    "国潮鞋履"
+   ],
+   "id": "n011"
+  },
+  {
+   "brand": "ip-industry",
+   "cat": "ip",
+   "heat": 50,
+   "date": "09-10",
+   "source": "36氪",
+   "url": "https://36kr.com/p/3974499133141509",
+   "title": "老凤祥、潮宏基谈IP联名：黄金品牌比2年前更懂年轻人了吗",
+   "summary": "剁椒Spicy调研（36氪授权发布）：周大福×故宫联名7个月零售值达40亿港元为拉新最佳IP；黄金品牌从\"找IP贴形象\"粗放阶段进化到组建专业评估创意小组、\"懂粉丝再设计\"的精细化运营",
+   "tags": [
+    "谷子经济",
+    "IP授权",
+    "黄金珠宝",
+    "IP联名"
+   ],
+   "id": "n012"
   },
   {
    "brand": "nike",
@@ -1222,7 +1457,39 @@ var DASH_DATA = {
     "标普",
     "退出"
    ],
-   "id": "n107"
+   "id": "n013"
+  },
+  {
+   "brand": "nike",
+   "cat": "apparel",
+   "heat": 90,
+   "date": "09-09",
+   "source": "腾讯体育",
+   "url": "https://new.qq.com/rain/a/20260909A0320I00",
+   "title": "郑钦文今晚23:30冲击美网四强 连续两轮0-5惊天逆转",
+   "summary": "中国金花郑钦文连续两轮在绝境中(0-5)逆转取胜后，将于北京时间9月9日23:30在美网1/4决赛迎战2号种子莱巴金娜，冲击个人首个美网四强；即时排名已从第121位飙升至第52位。",
+   "tags": [
+    "体育",
+    "代言人",
+    "耐克"
+   ],
+   "id": "n014"
+  },
+  {
+   "brand": "lining",
+   "cat": "apparel",
+   "heat": 88,
+   "date": "09-09",
+   "source": "新浪体育",
+   "url": "https://sports.sina.com.cn/basketball/nba/2026-08-28/doc-inipvvzx5676239.shtml",
+   "title": "库里中国行今日启程！李宁官宣9月9日-14日北京/东莞/深圳/香港四城",
+   "summary": "NBA球星库里作为Curry Brand代言人在李宁时代首次中国行，9月9日启程，行程六天四城，韦德之道12、巴特勒4代「Curry Moments」限定配色将于9月10日10点正式发售。",
+   "tags": [
+    "品牌动态",
+    "代言人",
+    "李宁"
+   ],
+   "id": "n015"
   },
   {
    "brand": "anta",
@@ -1239,39 +1506,7 @@ var DASH_DATA = {
     "安踏",
     "田径"
    ],
-   "id": "n106"
-  },
-  {
-   "brand": "nike",
-   "cat": "apparel",
-   "heat": 90,
-   "date": "09-09",
-   "source": "腾讯体育",
-   "url": "https://new.qq.com/rain/a/20260909A0320I00",
-   "title": "郑钦文今晚23:30冲击美网四强 连续两轮0-5惊天逆转",
-   "summary": "中国金花郑钦文连续两轮在绝境中(0-5)逆转取胜后，将于北京时间9月9日23:30在美网1/4决赛迎战2号种子莱巴金娜，冲击个人首个美网四强；即时排名已从第121位飙升至第52位。",
-   "tags": [
-    "体育",
-    "代言人",
-    "耐克"
-   ],
-   "id": "n001"
-  },
-  {
-   "brand": "lining",
-   "cat": "apparel",
-   "heat": 88,
-   "date": "09-09",
-   "source": "新浪体育",
-   "url": "https://sports.sina.com.cn/basketball/nba/2026-08-28/doc-inipvvzx5676239.shtml",
-   "title": "库里中国行今日启程！李宁官宣9月9日-14日北京/东莞/深圳/香港四城",
-   "summary": "NBA球星库里作为Curry Brand代言人在李宁时代首次中国行，9月9日启程，行程六天四城，韦德之道12、巴特勒4代「Curry Moments」限定配色将于9月10日10点正式发售。",
-   "tags": [
-    "品牌动态",
-    "代言人",
-    "李宁"
-   ],
-   "id": "n002"
+   "id": "n016"
   },
   {
    "brand": "guming",
@@ -1286,7 +1521,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n003"
+   "id": "n017"
   },
   {
    "brand": "popmart",
@@ -1301,7 +1536,7 @@ var DASH_DATA = {
     "产品上新",
     "展会"
    ],
-   "id": "n004"
+   "id": "n018"
   },
   {
    "brand": "ysl",
@@ -1317,7 +1552,7 @@ var DASH_DATA = {
     "彩妆护肤",
     "YSL"
    ],
-   "id": "n005"
+   "id": "n019"
   },
   {
    "brand": "maogeping",
@@ -1333,7 +1568,7 @@ var DASH_DATA = {
     "财报",
     "营销"
    ],
-   "id": "n006"
+   "id": "n020"
   },
   {
    "brand": "luckin",
@@ -1348,7 +1583,24 @@ var DASH_DATA = {
     "联名",
     "IP"
    ],
-   "id": "n007"
+   "id": "n021"
+  },
+  {
+   "brand": "fila",
+   "cat": "apparel",
+   "heat": 78,
+   "date": "09-09",
+   "source": "新浪娱乐",
+   "url": "https://ent.sina.cn/2026-09-09/detail-inirfivw8623398.d.html",
+   "title": "FILA官宣王安宇为品牌代言人 携手演绎意式高端运动时尚",
+   "summary": "时尚圈\"官宣战\"持续升级，FILA宣布王安宇成为品牌代言人，携手演绎意式高端运动时尚的当代面貌；同日Champion官宣丁禹兮\"冠军来真的\"主张升级。",
+   "tags": [
+    "明星",
+    "代言人",
+    "FILA",
+    "王安宇"
+   ],
+   "id": "n022"
   },
   {
    "brand": "mixue",
@@ -1363,7 +1615,7 @@ var DASH_DATA = {
     "业绩",
     "财报"
    ],
-   "id": "n008"
+   "id": "n023"
   },
   {
    "brand": "chabaidao",
@@ -1379,7 +1631,7 @@ var DASH_DATA = {
     "新品",
     "霸王茶姬"
    ],
-   "id": "n009"
+   "id": "n024"
   },
   {
    "brand": "starbucks",
@@ -1394,7 +1646,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n010"
+   "id": "n025"
   },
   {
    "brand": "chabaidao",
@@ -1409,7 +1661,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n011"
+   "id": "n026"
   },
   {
    "brand": "anta",
@@ -1424,7 +1676,7 @@ var DASH_DATA = {
     "资本市场",
     "股价"
    ],
-   "id": "n012"
+   "id": "n027"
   },
   {
    "brand": "lululemon",
@@ -1439,7 +1691,7 @@ var DASH_DATA = {
     "品牌动态",
     "高管变动"
    ],
-   "id": "n013"
+   "id": "n028"
   },
   {
    "brand": "loreal",
@@ -1454,7 +1706,7 @@ var DASH_DATA = {
     "品牌动态",
     "营销"
    ],
-   "id": "n014"
+   "id": "n029"
   },
   {
    "brand": "proya",
@@ -1469,7 +1721,7 @@ var DASH_DATA = {
     "资本市场",
     "公司治理"
    ],
-   "id": "n015"
+   "id": "n030"
   },
   {
    "brand": "miniso",
@@ -1485,10 +1737,10 @@ var DASH_DATA = {
     "竞争",
     "大店战略"
    ],
-   "id": "n016"
+   "id": "n031"
   },
   {
-   "id": "n017",
+   "id": "n032",
    "brand": "luckin",
    "cat": "food",
    "heat": 90,
@@ -1518,7 +1770,7 @@ var DASH_DATA = {
     "业绩危机",
     "换帅"
    ],
-   "id": "n018"
+   "id": "n033"
   },
   {
    "brand": "popmart",
@@ -1534,10 +1786,10 @@ var DASH_DATA = {
     "LABUBU",
     "资本市场"
    ],
-   "id": "n019"
+   "id": "n034"
   },
   {
-   "id": "n020",
+   "id": "n035",
    "brand": "bawang",
    "cat": "food",
    "heat": 88,
@@ -1554,7 +1806,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n021",
+   "id": "n036",
    "brand": "popmart",
    "cat": "ip",
    "heat": 86,
@@ -1571,7 +1823,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n022",
+   "id": "n037",
    "brand": "huawei",
    "cat": "daily",
    "heat": 85,
@@ -1601,10 +1853,10 @@ var DASH_DATA = {
     "量贩零食",
     "行业变局"
    ],
-   "id": "n023"
+   "id": "n038"
   },
   {
-   "id": "n024",
+   "id": "n039",
    "brand": "anta",
    "cat": "apparel",
    "heat": 82,
@@ -1634,7 +1886,7 @@ var DASH_DATA = {
     "DTC",
     "竞争格局"
    ],
-   "id": "n025"
+   "id": "n040"
   },
   {
    "brand": "guming",
@@ -1650,10 +1902,10 @@ var DASH_DATA = {
     "啤酒",
     "存量竞争"
    ],
-   "id": "n026"
+   "id": "n041"
   },
   {
-   "id": "n027",
+   "id": "n042",
    "brand": "estee",
    "cat": "beauty",
    "heat": 72,
@@ -1669,7 +1921,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n028",
+   "id": "n043",
    "brand": "luckin",
    "cat": "food",
    "heat": 88,
@@ -1696,7 +1948,7 @@ var DASH_DATA = {
     "体育营销",
     "社媒热议"
    ],
-   "id": "n029"
+   "id": "n044"
   },
   {
    "brand": "mixue",
@@ -1712,7 +1964,7 @@ var DASH_DATA = {
     "规模失灵",
     "海外收缩"
    ],
-   "id": "n030"
+   "id": "n045"
   },
   {
    "brand": "popmart",
@@ -1728,7 +1980,7 @@ var DASH_DATA = {
     "潮玩",
     "布鲁可"
    ],
-   "id": "n031"
+   "id": "n046"
   },
   {
    "brand": "liby",
@@ -1744,7 +1996,7 @@ var DASH_DATA = {
     "代言",
     "超品日"
    ],
-   "id": "n032"
+   "id": "n047"
   },
   {
    "brand": "ip-industry",
@@ -1760,7 +2012,7 @@ var DASH_DATA = {
     "国谷反超",
     "产业数据"
    ],
-   "id": "n033"
+   "id": "n048"
   },
   {
    "brand": "miniso",
@@ -1775,10 +2027,10 @@ var DASH_DATA = {
     "财报",
     "资本动态"
    ],
-   "id": "n034"
+   "id": "n049"
   },
   {
-   "id": "n035",
+   "id": "n050",
    "brand": "mixue",
    "cat": "food",
    "heat": 76,
@@ -1805,7 +2057,7 @@ var DASH_DATA = {
     "回购",
     "资本市场"
    ],
-   "id": "n036"
+   "id": "n051"
   },
   {
    "brand": "anta",
@@ -1820,7 +2072,7 @@ var DASH_DATA = {
     "高管发声",
     "全球化"
    ],
-   "id": "n037"
+   "id": "n052"
   },
   {
    "brand": "popmart",
@@ -1835,7 +2087,7 @@ var DASH_DATA = {
     "线下活动",
     "非遗联名"
    ],
-   "id": "n038"
+   "id": "n053"
   },
   {
    "brand": "toptoy",
@@ -1850,7 +2102,7 @@ var DASH_DATA = {
     "财报",
     "券商观点"
    ],
-   "id": "n039"
+   "id": "n054"
   },
   {
    "brand": "anta",
@@ -1865,7 +2117,7 @@ var DASH_DATA = {
     "资本市场",
     "行业趋势"
    ],
-   "id": "n040"
+   "id": "n055"
   },
   {
    "brand": "heytea",
@@ -1880,7 +2132,7 @@ var DASH_DATA = {
     "社媒热议",
     "品牌观察"
    ],
-   "id": "n041"
+   "id": "n056"
   },
   {
    "brand": "52toys",
@@ -1895,10 +2147,10 @@ var DASH_DATA = {
     "线下活动",
     "新品发售"
    ],
-   "id": "n042"
+   "id": "n057"
   },
   {
-   "id": "n043",
+   "id": "n058",
    "brand": "nike",
    "cat": "apparel",
    "heat": 90,
@@ -1926,7 +2178,7 @@ var DASH_DATA = {
     "田径",
     "亚运备战"
    ],
-   "id": "n044"
+   "id": "n059"
   },
   {
    "brand": "lining",
@@ -1942,10 +2194,10 @@ var DASH_DATA = {
     "NBA",
     "国际化"
    ],
-   "id": "n045"
+   "id": "n060"
   },
   {
-   "id": "n046",
+   "id": "n061",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 82,
@@ -1973,10 +2225,10 @@ var DASH_DATA = {
     "变形金刚",
     "出海"
    ],
-   "id": "n047"
+   "id": "n062"
   },
   {
-   "id": "n048",
+   "id": "n063",
    "brand": "proya",
    "cat": "beauty",
    "heat": 74,
@@ -1992,7 +2244,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n049",
+   "id": "n064",
    "brand": "lining",
    "cat": "apparel",
    "heat": 73,
@@ -2007,7 +2259,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n050",
+   "id": "n065",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 70,
@@ -2022,7 +2274,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n051",
+   "id": "n066",
    "brand": "mixue",
    "cat": "food",
    "heat": 68,
@@ -2037,7 +2289,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n052",
+   "id": "n067",
    "brand": "popmart",
    "cat": "ip",
    "heat": 92,
@@ -2052,7 +2304,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n053",
+   "id": "n068",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 88,
@@ -2067,7 +2319,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n054",
+   "id": "n069",
    "brand": "popmart",
    "cat": "ip",
    "heat": 86,
@@ -2082,7 +2334,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n055",
+   "id": "n070",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 84,
@@ -2097,7 +2349,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n056",
+   "id": "n071",
    "brand": "mixue",
    "cat": "food",
    "heat": 82,
@@ -2112,7 +2364,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n057",
+   "id": "n072",
    "brand": "miniso",
    "cat": "daily",
    "heat": 78,
@@ -2127,7 +2379,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n058",
+   "id": "n073",
    "brand": "anta",
    "cat": "apparel",
    "heat": 74,
@@ -2142,7 +2394,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n059",
+   "id": "n074",
    "brand": "adidas",
    "cat": "apparel",
    "heat": 72,
@@ -2157,7 +2409,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n060",
+   "id": "n075",
    "brand": "florasis",
    "cat": "beauty",
    "heat": 70,
@@ -2173,7 +2425,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n061",
+   "id": "n076",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 66,
@@ -2188,7 +2440,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n062",
+   "id": "n077",
    "brand": "bluemoon",
    "cat": "daily",
    "heat": 58,
@@ -2203,7 +2455,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n063",
+   "id": "n078",
    "brand": "ripstar",
    "cat": "apparel",
    "heat": 52,
@@ -2218,7 +2470,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n064",
+   "id": "n079",
    "brand": "popmart",
    "cat": "ip",
    "heat": 92,
@@ -2233,7 +2485,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n065",
+   "id": "n080",
    "brand": "popmart",
    "cat": "ip",
    "heat": 90,
@@ -2248,7 +2500,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n066",
+   "id": "n081",
    "brand": "miniso",
    "cat": "daily",
    "heat": 88,
@@ -2263,7 +2515,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n067",
+   "id": "n082",
    "brand": "popmart",
    "cat": "ip",
    "heat": 84,
@@ -2278,7 +2530,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n068",
+   "id": "n083",
    "brand": "luckin",
    "cat": "food",
    "heat": 84,
@@ -2293,7 +2545,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n069",
+   "id": "n084",
    "brand": "starbucks",
    "cat": "food",
    "heat": 80,
@@ -2308,7 +2560,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n070",
+   "id": "n085",
    "brand": "skii",
    "cat": "beauty",
    "heat": 80,
@@ -2324,7 +2576,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n071",
+   "id": "n086",
    "brand": "bawang",
    "cat": "food",
    "heat": 78,
@@ -2339,7 +2591,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n072",
+   "id": "n087",
    "brand": "bawang",
    "cat": "food",
    "heat": 76,
@@ -2354,7 +2606,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n073",
+   "id": "n088",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 76,
@@ -2369,7 +2621,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n074",
+   "id": "n089",
    "brand": "mixue",
    "cat": "food",
    "heat": 75,
@@ -2383,7 +2635,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n075",
+   "id": "n090",
    "brand": "bawang",
    "cat": "food",
    "heat": 74,
@@ -2398,7 +2650,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n076",
+   "id": "n091",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 74,
@@ -2413,7 +2665,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n077",
+   "id": "n092",
    "brand": "bawang",
    "cat": "food",
    "heat": 72,
@@ -2428,7 +2680,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n078",
+   "id": "n093",
    "brand": "fila",
    "cat": "apparel",
    "heat": 70,
@@ -2442,7 +2694,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n079",
+   "id": "n094",
    "brand": "toptoy",
    "cat": "ip",
    "heat": 70,
@@ -2457,7 +2709,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n080",
+   "id": "n095",
    "brand": "chanel",
    "cat": "beauty",
    "heat": 70,
@@ -2473,7 +2725,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n081",
+   "id": "n096",
    "brand": "anta",
    "cat": "apparel",
    "heat": 68,
@@ -2487,7 +2739,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n082",
+   "id": "n097",
    "brand": "toptoy",
    "cat": "ip",
    "heat": 68,
@@ -2502,7 +2754,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n083",
+   "id": "n098",
    "brand": "lining",
    "cat": "apparel",
    "heat": 66,
@@ -2516,7 +2768,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n084",
+   "id": "n099",
    "brand": "shiseido",
    "cat": "beauty",
    "heat": 64,
@@ -2532,7 +2784,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n085",
+   "id": "n100",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 60,
@@ -2547,7 +2799,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n086",
+   "id": "n101",
    "brand": "muji",
    "cat": "daily",
    "heat": 58,
@@ -2562,7 +2814,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n087",
+   "id": "n102",
    "brand": "anta",
    "cat": "apparel",
    "heat": 82,
@@ -2576,7 +2828,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n088",
+   "id": "n103",
    "brand": "songsu",
    "cat": "food",
    "heat": 76,
@@ -2591,7 +2843,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n089",
+   "id": "n104",
    "brand": "guming",
    "cat": "food",
    "heat": 74,
@@ -2605,7 +2857,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n090",
+   "id": "n105",
    "brand": "lining",
    "cat": "apparel",
    "heat": 74,
@@ -2619,7 +2871,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n091",
+   "id": "n106",
    "brand": "361",
    "cat": "apparel",
    "heat": 70,
@@ -2633,7 +2885,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n092",
+   "id": "n107",
    "brand": "blokees",
    "cat": "ip",
    "heat": 70,
@@ -2648,7 +2900,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n093",
+   "id": "n108",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 68,
@@ -2663,7 +2915,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n094",
+   "id": "n109",
    "brand": "miniso",
    "cat": "daily",
    "heat": 66,
@@ -2677,7 +2929,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n095",
+   "id": "n110",
    "brand": "mgp",
    "cat": "beauty",
    "heat": 66,
@@ -2693,7 +2945,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n096",
+   "id": "n111",
    "brand": "xtep",
    "cat": "apparel",
    "heat": 62,
@@ -2705,136 +2957,6 @@ var DASH_DATA = {
    "tags": [
     "财报"
    ]
-  },
-  {
-   "id": "n097",
-   "brand": "popmart",
-   "cat": "ip",
-   "heat": 85,
-   "date": "09-02",
-   "source": "虎嗅",
-   "url": "https://www.huxiu.com/article/4888435.html",
-   "title": "泡泡玛特半年报：6个IP收入超10亿，“星星人”暴涨580%成新顶流",
-   "summary": "2026上半年6个IP收入过10亿、11个IP过亿；THE MONSTERS（LABUBU）收入下滑7.5%，星星人收入26.5亿元、同比增长580.6%，接棒成为最新顶流；毛绒品类收入98.2亿元增60%、占比57.2%；LABUBU亮相世界杯开幕式，成首个受邀的中国原创IP。",
-   "tags": [
-    "财报"
-   ]
-  },
-  {
-   "id": "n098",
-   "brand": "mixue",
-   "cat": "food",
-   "heat": 85,
-   "date": "09-02",
-   "source": "南方+",
-   "url": "https://www.toutiao.com/article/7680614675658080822/",
-   "title": "蜜雪冰城半年报：营收152.2亿居首，利润上市后首次负增长",
-   "summary": "上半年营收152.16亿元同比仅增2.3%，净利润23.19亿元下滑14.7%，为上市以来首次半年度利润负增长；全球门店突破6.4万家；CEO张渊称2025年外卖大战把店均营业额推至“史无前例的高位”，当前为高基数下的增长换挡。",
-   "tags": [
-    "财报"
-   ]
-  },
-  {
-   "id": "n099",
-   "brand": "cuishengsheng",
-   "cat": "food",
-   "heat": 82,
-   "date": "09-02",
-   "source": "新浪新闻",
-   "url": "https://www.sina.cn/news/detail/5338753931149654.html",
-   "title": "脆升升代言人官宣战报：24小时销售额2167万+，登顶天猫零食总榜TOP1",
-   "summary": "9月1日11:12官宣云旗、郝熠然为青春代言人并同步发售「星笺专递」限定礼盒；品牌战报显示官宣1小时全平台销售额1777万+、24小时（剔除退货）2167万+，限定礼盒售出9.1万+套，直播间峰值在线2.2万+，全域曝光5500万+；「零食克价与礼盒溢价」拆账讨论同步发酵。",
-   "tags": [
-    "代言人官宣",
-    "社媒热议"
-   ]
-  },
-  {
-   "id": "n100",
-   "brand": "kayou",
-   "cat": "ip",
-   "heat": 78,
-   "date": "09-02",
-   "source": "钛媒体·创业最前线",
-   "url": "https://www.tmtpost.com/8059603.html",
-   "title": "年卖近50亿包卡牌、毛利率超泡泡玛特，卡游为何闯不过IPO这关？",
-   "summary": "2025年6月过港交所聆讯后招股书失效、上市停滞；对赌协议逼近最后期限，未能如期上市需以发行价+年化8%利息回购约13.5亿元优先股（红杉中国、腾讯为投资方）；2024年营收100.57亿元、经调整净利44.66亿元、毛利率67.3%（卡牌业务约70%、高于泡泡玛特）；正联手帕尼尼推2026世界杯收藏卡、签周笔畅推文具，从“小学生卡牌之王”拓成年人市场。",
-   "tags": [
-    "资本动态",
-    "监管"
-   ]
-  },
-  {
-   "id": "n101",
-   "brand": "luckin",
-   "cat": "food",
-   "heat": 70,
-   "date": "09-02",
-   "source": "腾讯新闻",
-   "url": "https://news.qq.com/rain/a/20260902A05H8U00",
-   "title": "瑞幸扩大回购计划：授权规模由3亿美元增至5亿美元",
-   "summary": "9月1日董事会批准回购计划扩大2亿美元；截至8月31日已回购7160万股A类普通股、耗资2.872亿美元；叠加与名创优品YOYO的联名，资本运作与IP营销双线并进。",
-   "tags": [
-    "资本动态"
-   ]
-  },
-  {
-   "id": "n102",
-   "brand": "nayuki",
-   "cat": "food",
-   "heat": 68,
-   "date": "09-02",
-   "source": "新浪新闻",
-   "url": "https://k.sina.com.cn/article_1406911561_53dbc44902001b2se.html",
-   "title": "奈雪秋季“漂亮水”卖爆：霸气小红杏酸奶冰上市首日登顶门店销量TOP1",
-   "summary": "集结新疆吊干杏与云南人参果两大地域鲜果，搭配含B420菌株的9种益生菌酸奶，切中入秋润燥解腻、轻负担需求；被消费者自发称为“漂亮水”，上市首日即登顶门店销量第一；与“小玉yuy秋日松弛公式”联名形成秋季双热点。",
-   "tags": [
-    "新品",
-    "社媒热议"
-   ]
-  },
-  {
-   "id": "n103",
-   "brand": "nayuki",
-   "cat": "food",
-   "heat": 68,
-   "date": "09-02",
-   "source": "时代财经",
-   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3856a9a870092752",
-   "title": "奈雪的茶半年报：唯一亏损的头部茶饮，直营店日均销售降至7000元",
-   "summary": "上半年营收18.92亿元同比下滑13.1%，净亏损0.97亿元但亏损收窄18%；董事长称“大店模式是成本黑洞”，推进门店大改小，轻食门店独立业态；9月1日业绩会披露正进一步加码咖啡与海外市场。",
-   "tags": [
-    "财报"
-   ]
-  },
-  {
-   "id": "n104",
-   "brand": "liangpin",
-   "cat": "food",
-   "heat": 66,
-   "date": "09-02",
-   "source": "环球网",
-   "url": "https://3w.huanqiu.com/a/c36dc8/4T3e7huz8IF?agt=23",
-   "title": "良品铺子半年报扭亏：营收31.45亿增11.18%，团购成增长引擎",
-   "summary": "归母净利1619万元实现扭亏，电商业务占比升至48.15%；武汉首推“鲜生活”社区超市，近半区域留给生鲜，门店两年净减少超1100家后转向精益运营。",
-   "tags": [
-    "财报"
-   ]
-  },
-  {
-   "id": "n105",
-   "brand": "hbd",
-   "cat": "apparel",
-   "heat": 50,
-   "date": "09-02",
-   "source": "微博 @HAPPYBIRDSDAY品牌",
-   "url": "https://weibo.com/u/4042735006?refer_flag=1005050010_",
-   "title": "happybirdsday官宣云旗为全球品牌代言人，得物全网同步发售新品",
-   "summary": "8月25日官宣后，品牌持续释出代言人限定壁纸、表情包与片场花絮维持热度；得物同步发售德训鞋、勃肯鞋、轻赤鞋全系列，推出「快乐旗遇」「一旗心动」礼盒，晒单可抽代言人亲签。",
-   "tags": [
-    "代言人官宣",
-    "社媒热议"
-   ]
   }
  ],
  "hotlists": {
@@ -2842,271 +2964,274 @@ var DASH_DATA = {
   "weibo": [
    {
     "rank": 1,
-    "topic": "梅姨在广州摆摊卖切块芒果",
+    "topic": "iPhone18Pro价格",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23梅姨在广州摆摊卖切块芒果%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23iPhone18Pro价格%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 2,
-    "topic": "栾念尚之桃穿得太少了",
+    "topic": "iPhoneDuo过渡动画 完美",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23栾念尚之桃穿得太少了%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo过渡动画 完美%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 3,
-    "topic": "服贸会今日开幕",
+    "topic": "一图速览2026年服贸会",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23服贸会今日开幕%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23一图速览2026年服贸会%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 4,
-    "topic": "自费买可乐的外卖骑手被奖励一年骑手餐",
+    "topic": "教师节",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23自费买可乐的外卖骑手被奖励一年骑手餐%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23教师节%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 5,
-    "topic": "duo是什么意思",
+    "topic": "郑钦文美网止步八强",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23duo是什么意思%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23郑钦文美网止步八强%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
+    "reportUrl": "https://uapis.cn/hotboard/weibo",
+    "brand": "nike"
    },
    {
     "rank": 6,
-    "topic": "宁德时代宜宾基地回应",
+    "topic": "郑钦文美网1比2莱巴金娜",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23宁德时代宜宾基地回应%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23郑钦文美网1比2莱巴金娜%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
+    "reportUrl": "https://uapis.cn/hotboard/weibo",
+    "brand": "nike"
    },
    {
     "rank": 7,
-    "topic": "美网男单18年无人能卫冕",
+    "topic": "iPhoneDuo 屏下摄像头",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23美网男单18年无人能卫冕%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo 屏下摄像头%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 8,
-    "topic": "早春晴朗大结局",
+    "topic": "郑钦文回应无缘美网四强",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23早春晴朗大结局%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23郑钦文回应无缘美网四强%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
+    "reportUrl": "https://uapis.cn/hotboard/weibo",
+    "brand": "nike"
    },
    {
     "rank": 9,
-    "topic": "女孩去邻居家吃饭惨遭夫妻分尸",
+    "topic": "刘恋想问早春晴朗作者自己是不是原型",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23女孩去邻居家吃饭惨遭夫妻分尸%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23刘恋想问早春晴朗作者自己是不是原型%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 10,
-    "topic": "女孩狂喝椰子水汇报工作时突然晕厥",
+    "topic": "心动的信号",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23女孩狂喝椰子水汇报工作时突然晕厥%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23心动的信号%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 11,
-    "topic": "鲜花饼 吐痰",
+    "topic": "抖音礼物 擦边",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23鲜花饼 吐痰%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23抖音礼物 擦边%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 12,
-    "topic": "尼古拉斯凯奇房塌了",
+    "topic": "被取消资助女生愿换掉苹果手机",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23尼古拉斯凯奇房塌了%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23被取消资助女生愿换掉苹果手机%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 13,
-    "topic": "赖冠霖 转行",
+    "topic": "苹果发布会",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23赖冠霖 转行%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23苹果发布会%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 14,
-    "topic": "付磊婚姻不对等",
+    "topic": "越南女星回应合照被刘亦菲裁掉了",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23付磊婚姻不对等%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23越南女星回应合照被刘亦菲裁掉了%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 15,
-    "topic": "陈伟霆何穗一家三口同框",
+    "topic": "iPhone18Pro颜色",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23陈伟霆何穗一家三口同框%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23iPhone18Pro颜色%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 16,
-    "topic": "张杰巨幕全景呈现裸眼3D画面",
+    "topic": "AirPods5 便宜",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23张杰巨幕全景呈现裸眼3D画面%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23AirPods5 便宜%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 17,
-    "topic": "曝DeepSeek聘中信证券筹备IPO",
+    "topic": "苹果 iPhoneDuo",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23曝DeepSeek聘中信证券筹备IPO%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23苹果 iPhoneDuo%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 18,
-    "topic": "赖冠霖疑似结婚了",
+    "topic": "井柏然孙千被早春晴朗最大尺度吓到",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23赖冠霖疑似结婚了%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23井柏然孙千被早春晴朗最大尺度吓到%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 19,
-    "topic": "王自如 守住 Fold 命名",
+    "topic": "宁德时代市值蒸发超5200亿",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23王自如 守住 Fold 命名%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23宁德时代市值蒸发超5200亿%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 20,
-    "topic": "女子隧道内爬出副驾从车顶跳下",
+    "topic": "Series12 Ultra4",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23女子隧道内爬出副驾从车顶跳下%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23Series12 Ultra4%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 21,
-    "topic": "iPhone Duo",
+    "topic": "苹果回应iPhoneDuo是否有折痕",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23iPhone Duo%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23苹果回应iPhoneDuo是否有折痕%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 22,
-    "topic": "Duo 手机iPad二合一",
+    "topic": "无折痕",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23Duo 手机iPad二合一%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23无折痕%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 23,
-    "topic": "上海偶遇IU逛街",
+    "topic": "抖音擦边礼物被下架",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23上海偶遇IU逛街%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23抖音擦边礼物被下架%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 24,
-    "topic": "姜乘澜回应欠款千万被限高",
+    "topic": "iPhoneDuo价格",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23姜乘澜回应欠款千万被限高%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo价格%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 25,
-    "topic": "Karsa曝Ming聊天记录",
+    "topic": "阿信总结苹果发布会",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23Karsa曝Ming聊天记录%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23阿信总结苹果发布会%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 26,
-    "topic": "小S看到女儿晒辣照的反应",
+    "topic": "肖战在台下憋哭",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23小S看到女儿晒辣照的反应%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23肖战在台下憋哭%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 27,
-    "topic": "人民日报锐评一边高消费一边领低保",
+    "topic": "美财政部周四回购至多60亿美元国债",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23人民日报锐评一边高消费一边领低保%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23美财政部周四回购至多60亿美元国债%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 28,
-    "topic": "三十而已被裁掉合照的顾佳",
+    "topic": "早春晴朗",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23三十而已被裁掉合照的顾佳%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23早春晴朗%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 29,
-    "topic": "湖南黄金涨停",
+    "topic": "爱情公寓超长iPhone18",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23湖南黄金涨停%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23爱情公寓超长iPhone18%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 30,
-    "topic": "刘亦菲删除照片",
+    "topic": "在野外看到马刀树尽快远离",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23刘亦菲删除照片%23",
-    "date": "09-09",
+    "url": "https://s.weibo.com/weibo?q=%23在野外看到马刀树尽快远离%23",
+    "date": "09-10",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    }
@@ -3114,253 +3239,254 @@ var DASH_DATA = {
   "douyin": [
    {
     "rank": 1,
-    "topic": "苹果折叠屏叫iPhone Duo",
+    "topic": "苹果发布折叠手机iPhone Duo",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%8B%B9%E6%9E%9C%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%ABiPhone%20Duo",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E6%8A%98%E5%8F%A0%E6%89%8B%E6%9C%BAiPhone%20Duo",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 2,
-    "topic": "2026苹果秋季新品发布会",
+    "topic": "iPhone18 Pro系列发布",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/2026%E8%8B%B9%E6%9E%9C%E7%A7%8B%E5%AD%A3%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/iPhone18%20Pro%E7%B3%BB%E5%88%97%E5%8F%91%E5%B8%83",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 3,
-    "topic": "青春华章",
+    "topic": "2026年中国国际服务贸易交易会开幕",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%9D%92%E6%98%A5%E5%8D%8E%E7%AB%A0",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/2026%E5%B9%B4%E4%B8%AD%E5%9B%BD%E5%9B%BD%E9%99%85%E6%9C%8D%E5%8A%A1%E8%B4%B8%E6%98%93%E4%BA%A4%E6%98%93%E4%BC%9A%E5%BC%80%E5%B9%95",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 4,
-    "topic": "燕麦系秋天的神",
+    "topic": "郑钦文止步美网八强",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%87%95%E9%BA%A6%E7%B3%BB%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%A5%9E",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E6%AD%A2%E6%AD%A5%E7%BE%8E%E7%BD%91%E5%85%AB%E5%BC%BA",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
+    "reportUrl": "https://uapis.cn/hotboard/douyin",
+    "brand": "nike"
    },
    {
     "rank": 5,
-    "topic": "写给老师的教师节贺卡",
+    "topic": "燕麦系秋天的神",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%86%99%E7%BB%99%E8%80%81%E5%B8%88%E7%9A%84%E6%95%99%E5%B8%88%E8%8A%82%E8%B4%BA%E5%8D%A1",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E7%87%95%E9%BA%A6%E7%B3%BB%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%A5%9E",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 6,
-    "topic": "小米回应澎程试驾事故",
+    "topic": "教师节创意贺卡",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%B0%8F%E7%B1%B3%E5%9B%9E%E5%BA%94%E6%BE%8E%E7%A8%8B%E8%AF%95%E9%A9%BE%E4%BA%8B%E6%95%85",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E6%95%99%E5%B8%88%E8%8A%82%E5%88%9B%E6%84%8F%E8%B4%BA%E5%8D%A1",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 7,
-    "topic": "这群十号线搞科创的年轻人太飒了",
+    "topic": "健身人的训练成绩单",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%BF%99%E7%BE%A4%E5%8D%81%E5%8F%B7%E7%BA%BF%E6%90%9E%E7%A7%91%E5%88%9B%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A4%AA%E9%A3%92%E4%BA%86",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E5%81%A5%E8%BA%AB%E4%BA%BA%E7%9A%84%E8%AE%AD%E7%BB%83%E6%88%90%E7%BB%A9%E5%8D%95",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 8,
-    "topic": "伊朗打击美军基地和战舰",
+    "topic": "中国女篮挺进世界杯八强",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BC%8A%E6%9C%97%E6%89%93%E5%87%BB%E7%BE%8E%E5%86%9B%E5%9F%BA%E5%9C%B0%E5%92%8C%E6%88%98%E8%88%B0",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E6%8C%BA%E8%BF%9B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%85%AB%E5%BC%BA",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 9,
-    "topic": "郑钦文今晚对阵莱巴金娜",
+    "topic": "iPhone折叠屏真机上手",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E4%BB%8A%E6%99%9A%E5%AF%B9%E9%98%B5%E8%8E%B1%E5%B7%B4%E9%87%91%E5%A8%9C",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/iPhone%E6%8A%98%E5%8F%A0%E5%B1%8F%E7%9C%9F%E6%9C%BA%E4%B8%8A%E6%89%8B",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 10,
-    "topic": "觉醒吧我的厨艺天赋",
+    "topic": "属于教师节的仪式感",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%A7%89%E9%86%92%E5%90%A7%E6%88%91%E7%9A%84%E5%8E%A8%E8%89%BA%E5%A4%A9%E8%B5%8B",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E5%B1%9E%E4%BA%8E%E6%95%99%E5%B8%88%E8%8A%82%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 11,
-    "topic": "龙版传媒停牌核查",
+    "topic": "人在异乡胃在故乡",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%BE%99%E7%89%88%E4%BC%A0%E5%AA%92%E5%81%9C%E7%89%8C%E6%A0%B8%E6%9F%A5",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E4%BA%BA%E5%9C%A8%E5%BC%82%E4%B9%A1%E8%83%83%E5%9C%A8%E6%95%85%E4%B9%A1",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 12,
-    "topic": "香港首任特首董建华逝世",
+    "topic": "警惕开学季常见骗术",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%A6%99%E6%B8%AF%E9%A6%96%E4%BB%BB%E7%89%B9%E9%A6%96%E8%91%A3%E5%BB%BA%E5%8D%8E%E9%80%9D%E4%B8%96",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E8%AD%A6%E6%83%95%E5%BC%80%E5%AD%A6%E5%AD%A3%E5%B8%B8%E8%A7%81%E9%AA%97%E6%9C%AF",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 13,
-    "topic": "杜兰特在抖音潜水被发现了",
+    "topic": "今日人设是可可美人",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%9D%9C%E5%85%B0%E7%89%B9%E5%9C%A8%E6%8A%96%E9%9F%B3%E6%BD%9C%E6%B0%B4%E8%A2%AB%E5%8F%91%E7%8E%B0%E4%BA%86",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E4%BA%BA%E8%AE%BE%E6%98%AF%E5%8F%AF%E5%8F%AF%E7%BE%8E%E4%BA%BA",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 14,
-    "topic": "女高音歌唱家龚爽告别仪式举行",
+    "topic": "iPhone18 Pro系列价格公布",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%A5%B3%E9%AB%98%E9%9F%B3%E6%AD%8C%E5%94%B1%E5%AE%B6%E9%BE%9A%E7%88%BD%E5%91%8A%E5%88%AB%E4%BB%AA%E5%BC%8F%E4%B8%BE%E8%A1%8C",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/iPhone18%20Pro%E7%B3%BB%E5%88%97%E4%BB%B7%E6%A0%BC%E5%85%AC%E5%B8%83",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 15,
-    "topic": "今日人设是可可美人",
+    "topic": "岸边客翻唱",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E4%BA%BA%E8%AE%BE%E6%98%AF%E5%8F%AF%E5%8F%AF%E7%BE%8E%E4%BA%BA",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E5%B2%B8%E8%BE%B9%E5%AE%A2%E7%BF%BB%E5%94%B1",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 16,
-    "topic": "妙鼻生花好浪漫",
+    "topic": "杜兰特在抖音潜水被发现了",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%A6%99%E9%BC%BB%E7%94%9F%E8%8A%B1%E5%A5%BD%E6%B5%AA%E6%BC%AB",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E6%9D%9C%E5%85%B0%E7%89%B9%E5%9C%A8%E6%8A%96%E9%9F%B3%E6%BD%9C%E6%B0%B4%E8%A2%AB%E5%8F%91%E7%8E%B0%E4%BA%86",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 17,
-    "topic": "今年苹果发布会有何看点",
+    "topic": "AI已经摸不透曹骏了",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BB%8A%E5%B9%B4%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%E6%9C%89%E4%BD%95%E7%9C%8B%E7%82%B9",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/AI%E5%B7%B2%E7%BB%8F%E6%91%B8%E4%B8%8D%E9%80%8F%E6%9B%B9%E9%AA%8F%E4%BA%86",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 18,
-    "topic": "解析苹果华为小米折叠屏三国杀",
+    "topic": "在太空拧湿毛巾有多神奇",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%A7%A3%E6%9E%90%E8%8B%B9%E6%9E%9C%E5%8D%8E%E4%B8%BA%E5%B0%8F%E7%B1%B3%E6%8A%98%E5%8F%A0%E5%B1%8F%E4%B8%89%E5%9B%BD%E6%9D%80",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E5%9C%A8%E5%A4%AA%E7%A9%BA%E6%8B%A7%E6%B9%BF%E6%AF%9B%E5%B7%BE%E6%9C%89%E5%A4%9A%E7%A5%9E%E5%A5%87",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 19,
-    "topic": "我和毛孩天下第一好",
+    "topic": "抖音达人直击苹果发布会现场",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%88%91%E5%92%8C%E6%AF%9B%E5%AD%A9%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E5%A5%BD",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E8%BE%BE%E4%BA%BA%E7%9B%B4%E5%87%BB%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%E7%8E%B0%E5%9C%BA",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 20,
-    "topic": "被自己的戏曲扮相惊艳到了",
+    "topic": "解析苹果华为小米折叠屏三国杀",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%A2%AB%E8%87%AA%E5%B7%B1%E7%9A%84%E6%88%8F%E6%9B%B2%E6%89%AE%E7%9B%B8%E6%83%8A%E8%89%B3%E5%88%B0%E4%BA%86",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E8%A7%A3%E6%9E%90%E8%8B%B9%E6%9E%9C%E5%8D%8E%E4%B8%BA%E5%B0%8F%E7%B1%B3%E6%8A%98%E5%8F%A0%E5%B1%8F%E4%B8%89%E5%9B%BD%E6%9D%80",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 21,
-    "topic": "我的世界出现一位姑娘",
+    "topic": "伊朗打击美军基地和战舰",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E5%87%BA%E7%8E%B0%E4%B8%80%E4%BD%8D%E5%A7%91%E5%A8%98",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E4%BC%8A%E6%9C%97%E6%89%93%E5%87%BB%E7%BE%8E%E5%86%9B%E5%9F%BA%E5%9C%B0%E5%92%8C%E6%88%98%E8%88%B0",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 22,
-    "topic": "周冬雨马思纯花少再合体",
+    "topic": "刘德华演唱会香港站官宣",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%91%A8%E5%86%AC%E9%9B%A8%E9%A9%AC%E6%80%9D%E7%BA%AF%E8%8A%B1%E5%B0%91%E5%86%8D%E5%90%88%E4%BD%93",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E5%88%98%E5%BE%B7%E5%8D%8E%E6%BC%94%E5%94%B1%E4%BC%9A%E9%A6%99%E6%B8%AF%E7%AB%99%E5%AE%98%E5%AE%A3",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 23,
-    "topic": "谭松韵刘学义极限拉扯",
+    "topic": "2026苹果秋季新品发布会",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%88%98%E5%AD%A6%E4%B9%89%E6%9E%81%E9%99%90%E6%8B%89%E6%89%AF",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/2026%E8%8B%B9%E6%9E%9C%E7%A7%8B%E5%AD%A3%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 24,
-    "topic": "鼎叔魔性化妆模仿挑战",
+    "topic": "被自己的戏曲扮相惊艳到了",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%BC%8E%E5%8F%94%E9%AD%94%E6%80%A7%E5%8C%96%E5%A6%86%E6%A8%A1%E4%BB%BF%E6%8C%91%E6%88%98",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E8%A2%AB%E8%87%AA%E5%B7%B1%E7%9A%84%E6%88%8F%E6%9B%B2%E6%89%AE%E7%9B%B8%E6%83%8A%E8%89%B3%E5%88%B0%E4%BA%86",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 25,
-    "topic": "白鹿穿燕麦系小跳一下",
+    "topic": "认不出来只怪我不吃香菜",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%99%BD%E9%B9%BF%E7%A9%BF%E7%87%95%E9%BA%A6%E7%B3%BB%E5%B0%8F%E8%B7%B3%E4%B8%80%E4%B8%8B",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E8%AE%A4%E4%B8%8D%E5%87%BA%E6%9D%A5%E5%8F%AA%E6%80%AA%E6%88%91%E4%B8%8D%E5%90%83%E9%A6%99%E8%8F%9C",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 26,
-    "topic": "华屋村的十七棵松与长征精神",
+    "topic": "张国伟来时装周走秀了",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%8D%8E%E5%B1%8B%E6%9D%91%E7%9A%84%E5%8D%81%E4%B8%83%E6%A3%B5%E6%9D%BE%E4%B8%8E%E9%95%BF%E5%BE%81%E7%B2%BE%E7%A5%9E",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E5%BC%A0%E5%9B%BD%E4%BC%9F%E6%9D%A5%E6%97%B6%E8%A3%85%E5%91%A8%E8%B5%B0%E7%A7%80%E4%BA%86",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 27,
-    "topic": "张国伟来时装周走秀了",
+    "topic": "一晃又是一个秋",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%BC%A0%E5%9B%BD%E4%BC%9F%E6%9D%A5%E6%97%B6%E8%A3%85%E5%91%A8%E8%B5%B0%E7%A7%80%E4%BA%86",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E4%B8%80%E6%99%83%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E7%A7%8B",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 28,
-    "topic": "小猫你抢我镜头了",
+    "topic": "苹果发布会后股价微跌",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%B0%8F%E7%8C%AB%E4%BD%A0%E6%8A%A2%E6%88%91%E9%95%9C%E5%A4%B4%E4%BA%86",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%E5%90%8E%E8%82%A1%E4%BB%B7%E5%BE%AE%E8%B7%8C",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
@@ -3369,16 +3495,16 @@ var DASH_DATA = {
     "topic": "张元富获食神百厨大战总冠军",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%BC%A0%E5%85%83%E5%AF%8C%E8%8E%B7%E9%A3%9F%E7%A5%9E%E7%99%BE%E5%8E%A8%E5%A4%A7%E6%88%98%E6%80%BB%E5%86%A0%E5%86%9B",
-    "date": "09-09",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 30,
-    "topic": "官俊臣重庆大学开学报到",
+    "topic": "小猫你抢我镜头了",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%AE%98%E4%BF%8A%E8%87%A3%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E6%8A%A5%E5%88%B0",
-    "date": "09-09",
+    "url": "https://www.douyin.com/search/%E5%B0%8F%E7%8C%AB%E4%BD%A0%E6%8A%A2%E6%88%91%E9%95%9C%E5%A4%B4%E4%BA%86",
+    "date": "09-10",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    }
@@ -3386,120 +3512,120 @@ var DASH_DATA = {
   "xiaohongshu": [
    {
     "rank": 1,
-    "topic": "瑞幸×名创优品YOYO联名晒单攻略",
-    "note": "联名9月7日-13日全国上线：小奶酪拿铁/抹茶奶酪拿铁+瑰夏白冷萃；4款主题杯、纸袋杯套随机发放，贴纸/吧唧/转转徽章/冰箱贴靠套餐解锁，“奶酪自由”抽奖与晒单攻略笔记持续刷屏",
+    "topic": "瑞幸×YOYO冰箱贴多地\"6:32售罄\"",
+    "note": "联名物料9/8晚全面卖空：门店开门半小时即罄、二手\"冰箱贴+徽章+纸袋+杯套\"整套捆出60元、预售券9/11到期，晒单与求补货笔记两极刷屏",
     "brand": "luckin",
+    "date": "09-10",
     "source": "小红书·话题搜索",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E7%91%9E%E5%B9%B8%20YOYO",
-    "reportSource": "腾讯新闻·广告头条（营销人的灵感库）",
-    "reportUrl": "https://news.qq.com/rain/a/20260905A098Y100",
-    "date": "09-09"
+    "reportSource": "什么值得买",
+    "reportUrl": "https://post.m.smzdm.com/p/a03qr980"
    },
    {
     "rank": 2,
-    "topic": "郑钦文2:0战胜斯瓦泰克",
-    "note": "硬地对斯瓦泰克此前6战全负、唯一胜利来自巴黎奥运，本场2:0完胜晋级成为全网第一热点；“0-5逆转”后再添名局，复盘与心态二创笔记井喷（耐克赞助运动员）",
-    "brand": "nike",
+    "topic": "霸王茶姬×小王子鲜作抹茶系列今日港澳上线",
+    "note": "9.10起港澳门店上线：抹茶拿铁/茉见青/星尘绿意三款+皇冠发带/星尘手提包/绿色奇迹保温杯3款限定周边，首三日\"寻找隐藏CHAGEE杯\"打卡",
+    "brand": "bawang",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%83%91%E9%92%A6%E6%96%87",
-    "reportSource": "新浪体育",
-    "reportUrl": "https://sports.sina.cn/2026-09-07/detail-iniqyriw9635877.d.html",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%20%E5%B0%8F%E7%8E%8B%E5%AD%90",
+    "reportSource": "36氪",
+    "reportUrl": "https://www.36kr.com/p/3974026996101640"
    },
    {
     "rank": 3,
-    "topic": "LABUBU城市乐园嘉年华上海站（持续至11.1）",
-    "note": "东方明珠塔城市广场巡展开幕：巨型冒险船+ZIMOMO船长雕塑、9款互动游乐项目；POP BAKERY“复古理发店”裱花发型蛋糕与下午茶套餐登陆陆家嘴，集章攻略与限定周边笔记持续产出",
-    "brand": "popmart",
+    "topic": "Champion×丁禹兮「海棠禹你」周年礼盒",
+    "note": "全国10家店、单店50套，礼盒含鞋+周边需拼盒，\"拼盒攻略\"笔记与转让帖高频出现，丁禹兮痛楼空降成都武侯大悦城",
+    "brand": "",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=LABUBU%20%E5%9F%8E%E5%B8%82%E4%B9%90%E5%9B%AD",
-    "reportSource": "上海证券报·中国证券网",
-    "reportUrl": "https://www.cnstock.com/commonDetail/786341",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%B8%81%E7%A6%B9%E5%85%AE%20Champion",
+    "reportSource": "什么值得买",
+    "reportUrl": "https://post.smzdm.com/p/a950ldr7"
    },
    {
     "rank": 4,
-    "topic": "鹿晗×拓路者同款冲锋衣",
-    "note": "官宣次日同款“朱雀2.0”“灵鹿”冲锋衣多色断码，晒单与山系穿搭笔记集中爆发；“国货户外品牌23年首位全球代言人”讨论度延续",
-    "brand": "",
+    "topic": "郑钦文美网止步八强",
+    "note": "1-2惜败莱巴金娜，赛后\"拼尽全力\"回应冲上热搜，同款战靴与网球穿搭笔记热度延续",
+    "brand": "nike",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%B9%BF%E6%99%97%20%E6%8B%93%E8%B7%AF%E8%80%85",
-    "reportSource": "微博官宣博文",
-    "reportUrl": "https://weibo.com/6897606002/5340505682215940",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%83%91%E9%92%A6%E6%96%87",
+    "reportSource": "微博·话题页",
+    "reportUrl": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E7%BE%8E%E7%BD%91%E6%AD%A2%E6%AD%A5%E5%85%AB%E5%BC%BA%23"
    },
    {
     "rank": 5,
-    "topic": "霸王茶姬×小王子港澳联名（9月10日上线）",
-    "note": "明日上线：三款抹茶新品+限定周边，B-612星球主题体验店将亮相澳门威尼斯人与香港MOKO，倒计时攻略与代购提问帖增多",
-    "brand": "bawang",
+    "topic": "思加图「外」刊：走着读的杂志×杨幂",
+    "note": "思加图2026冬季新品上线，全球品牌代言人杨幂代言大片投放成都/上海/深圳商圈大屏，成都特刊快闪可抽杨幂亲签",
+    "brand": "",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%9C%B8%E7%8E%8B%E8%8C%B6%E5%A7%AC%20%E5%B0%8F%E7%8E%8B%E5%AD%90",
-    "reportSource": "澳门莲花卫视",
-    "reportUrl": "https://news.macaulotustv.com/home/index/detail/id/8251.html",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E6%80%9D%E5%8A%A0%E5%9B%BE%20%E5%A4%96%E5%88%8A",
+    "reportSource": "SocialBeta",
+    "reportUrl": "https://socialbeta.com/campaign/28454"
    },
    {
     "rank": 6,
-    "topic": "lululemon新CEO今日正式履新",
-    "note": "前耐克高管Heidi O’Neill于9月8日正式出任CEO并加入董事会；Q2营收指引下调后股价跌18%创八年新低、leggings品类销量下滑约20%，“新帅能否救lululemon”讨论热度达到峰值",
-    "brand": "lululemon",
+    "topic": "LABUBU城市乐园嘉年华上海站",
+    "note": "东方明珠巡展持续至11.1：勇士峡湾复刻场景+9款互动游乐+POP BAKERY快闪，国庆前打卡笔记热度回升",
+    "brand": "popmart",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=lululemon%20%E6%96%B0CEO",
-    "reportSource": "南方+（新帅遇业绩危机）",
-    "reportUrl": "https://www.nfnews.com/content/1y0lYNAnyB.html",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=LABUBU%20%E5%9F%8E%E5%B8%82%E4%B9%90%E5%9B%AD",
+    "reportSource": "上海证券报·中国证券网",
+    "reportUrl": "https://finance.sina.com.cn/roll/2026-09-08/doc-inirceww9458824.shtml"
    },
    {
     "rank": 7,
-    "topic": "安踏严子怡夺冠同款标枪战靴",
-    "note": "18岁严子怡布鲁塞尔钻石联赛总决赛68.42米夺冠并破赛会纪录、实现五连冠，赛前安踏官宣其为品牌代言人；定制标枪战靴新配色上脚图与“安踏押注田径新生代”讨论走高",
-    "brand": "anta",
+    "topic": "肯德基×《重返未来：1999》9.11空降",
+    "note": "买套餐送游戏内联动皮肤CDK，全国9家主题店+广州上海coser特别任务，官宣帖小红书1万+赞，\"维我50\"玩法预热中",
+    "brand": "",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%B8%A5%E5%AD%90%E6%80%A1%20%E5%AE%89%E8%B8%8F",
-    "reportSource": "北晚在线（网易号）",
-    "reportUrl": "https://www.163.com/dy/article/L65P4ADC0514TTKN.html",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E8%82%AF%E5%BE%B7%E5%9F%BA%20%E9%87%8D%E8%BF%94%E6%9C%AA%E6%9D%A51999",
+    "reportSource": "什么值得买",
+    "reportUrl": "https://post.m.smzdm.com/p/az86pkdp/"
    },
    {
     "rank": 8,
-    "topic": "古茗奶茶店开卖啤酒",
-    "note": "全国首家：杭州湖滨店9月5日上线“经典生啤”（15元）与“三重柚拉格”（18元）两款500ml现打啤酒，“奶茶店真的啥都卖”引围观，尝鲜测评与争议讨论同步发酵",
-    "brand": "guming",
+    "topic": "lululemon天猫超级品牌日沈阳动态剧场今日落地",
+    "note": "《Wunder Puff的冬天，不止一个调》创意短片+陶身体剧场合作收官场9.10落地沈阳，新CEO奥尼尔履新后首个大促节点",
+    "brand": "lululemon",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%8F%A4%E8%8C%97%20%E5%95%A4%E9%85%92",
-    "reportSource": "中国蓝新闻（微博）",
-    "reportUrl": "https://weibo.com/2286092114/Rh17M3QA7",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=lululemon%20wunder%20puff",
+    "reportSource": "中国新闻周刊",
+    "reportUrl": "https://news.inewsweek.cn/observe/2026-09-08/31971.shtml"
    },
    {
     "rank": 9,
-    "topic": "茶百道×天官赐福联名（9.12上线）",
-    "note": "官宣即引爆IP粉：花城/谢怜主题饮品、夜光银蝶双杯纸袋、取景相框杯套等周边剧透；9月2日起门店小票每日印制不同天官赐福元素预热，“红线牵思，茶香寄意”预约攻略帖井喷",
-    "brand": "",
+    "topic": "库里中国行进行中（9.9-9.14四城）",
+    "note": "韦德之道12、巴特勒4代「Curry Moments」限定配色9月10日10点发售，北京站人流与晒鞋笔记刷屏",
+    "brand": "lining",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E8%8C%B6%E7%99%BE%E9%81%93%20%E5%A4%A9%E5%AE%98%E8%B5%90%E7%A6%8F",
-    "reportSource": "4A广告网",
-    "reportUrl": "https://www.4anet.com/p/01m1n7mf3d4x8sdxgvsbf5fva0",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%BA%93%E9%87%8C%E4%B8%AD%E5%9B%BD%E8%A1%8C",
+    "reportSource": "李宁官方微博",
+    "reportUrl": "https://weibo.com/u/3264992083"
    },
    {
     "rank": 10,
-    "topic": "千瓜「农场热」：当农民笔记+148%",
-    "note": "千瓜数据：近90天“农场/种地”相关笔记同比增长148%+；#胡闹厨房笔记数+347%、#farmgirlstyle上线30天热度超千万；“工位水培豆芽”“共享菜园”成品牌种草新场景",
+    "topic": "千瓜#遥远的相似性：通感种草新玩法",
+    "note": "近90天话题笔记互动总量增长596%+，星巴克/雀巢/淘宝闪购等品牌借\"视觉同构\"做通感种草，万赞爆文频出",
     "brand": "",
+    "date": "09-10",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%86%9C%E5%9C%BA%E7%83%AD",
-    "reportSource": "千瓜数据·重生之我在小红书当农民",
-    "reportUrl": "https://www.qian-gua.com/information/detail/3364",
-    "date": "09-09"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%81%A5%E8%BF%9C%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%80%A7",
+    "reportSource": "千瓜数据·感官种草（微博文章）",
+    "reportUrl": "https://weibo.com/ttarticle/p/show?id=2309405341268523220998"
    }
   ],
   "xhsActivities": [
    {
     "name": "NBA与小红书版权纠纷和解",
     "note": "NBA官方与小红书就版权纠纷达成和解，赛事内容合作回归正轨，双方共同推进体育内容生态建设",
-    "date": "09-09",
+    "date": "09-10",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=NBA%E5%B0%8F%E7%BA%A2%E4%B9%A6%E7%89%88%E6%9D%83%E5%92%8C%E8%A7%A3",
     "source": "小红书·话题搜索",
     "reportSource": "新闻报道聚合·百度新闻",
@@ -3508,7 +3634,7 @@ var DASH_DATA = {
    {
     "name": "第三届小红书「身边写作大赛」",
     "note": "9月1日开启，非虚构+“生活观察计划”双单元；全球45城设110个线下观察点与征稿入口（11个国家），全民写作从线上走到线下；两届大赛已有50多位参赛者出版成书",
-    "date": "09-09",
+    "date": "09-10",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E8%BA%AB%E8%BE%B9%E5%86%99%E4%BD%9C%E5%A4%A7%E8%B5%9B",
     "source": "小红书·话题搜索",
     "reportSource": "新浪新闻（微博转载）",
@@ -3517,7 +3643,7 @@ var DASH_DATA = {
    {
     "name": "「小红村丰收节」金秋助农行动",
     "note": "9月4日起随2026金秋消费季（上海国际会议中心）启动：线下“小红村丰收市集”展售云南/四川/新疆百余款助农好物与乡村工匠手工艺品，线上话题征集提供千万级流量扶持，活动持续至11月",
-    "date": "09-09",
+    "date": "09-10",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%B0%8F%E7%BA%A2%E6%9D%91%E4%B8%B0%E6%94%B6%E8%8A%82",
     "source": "小红书·话题搜索",
     "reportSource": "网经社",
@@ -3526,7 +3652,7 @@ var DASH_DATA = {
    {
     "name": "天目里×小红书「上什么班」2.0（杭州）",
     "note": "职场情绪生活节回归：把“班味”议题做成市集、演出与互动展，品牌借“职场人设”场景种草",
-    "date": "09-09",
+    "date": "09-10",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%B8%8A%E4%BB%80%E4%B9%88%E7%8F%AD%20%E5%A4%A9%E7%9B%AE%E9%87%8C",
     "source": "小红书·话题搜索",
     "reportSource": "SocialBeta",
@@ -3535,7 +3661,7 @@ var DASH_DATA = {
    {
     "name": "小红书押注AI小游戏",
     "note": "平台加码互动娱乐：AI小游戏被写入商业化重点，流量入口向中小开发者开放",
-    "date": "09-09",
+    "date": "09-10",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%B0%8F%E7%BA%A2%E4%B9%A6%20AI%E5%B0%8F%E6%B8%B8%E6%88%8F",
     "source": "小红书·话题搜索",
     "reportSource": "腾讯新闻·竞核",
@@ -3544,7 +3670,7 @@ var DASH_DATA = {
    {
     "name": "2026小红书商业合作伙伴大会（景德镇）",
     "note": "官宣落地景德镇：围绕“种草生意”发布年度商业化产品与行业解决方案",
-    "date": "09-09",
+    "date": "09-10",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%B0%8F%E7%BA%A2%E4%B9%A6%20%E5%90%88%E4%BD%9C%E4%BC%99%E4%BC%B4%E5%A4%A7%E4%BC%9A",
     "source": "小红书·话题搜索",
     "reportSource": "新浪看点",
@@ -3561,7 +3687,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%80%82%E6%88%91%E7%9A%84%E5%AE%B6%E5%B1%85%E4%BD%8F%E6%8F%90%E6%A1%88",
     "reportSource": "千瓜数据·2026「种草关键词」适我主义报告",
     "reportUrl": "https://wap.qian-gua.com/information/detail/3360",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 2,
@@ -3572,7 +3699,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%B8%8D%E4%B8%BA%E6%89%93%E5%8D%A1%E7%9A%84%E6%97%85%E8%A1%8C",
     "reportSource": "千瓜数据·2026「种草关键词」适我主义报告",
     "reportUrl": "https://wap.qian-gua.com/information/detail/3360",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 3,
@@ -3583,7 +3711,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E7%88%B1%E4%BD%A0%E8%80%81%E5%B7%B1",
     "reportSource": "千瓜数据·2026「十大热词」洞察数据报告",
     "reportUrl": "https://www.qian-gua.com/information/detail/3318",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 4,
@@ -3594,7 +3723,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6",
     "reportSource": "千瓜数据·小红书热点内容解读（2026年第2季度）",
     "reportUrl": "https://www.qian-gua.com/information/detail/3348",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 5,
@@ -3605,7 +3735,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%B8%96%E7%95%8C%E6%9D%AF",
     "reportSource": "千瓜数据·「世界杯」全场景种草解码",
     "reportUrl": "https://www.qian-gua.com/information/detail/3344",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 6,
@@ -3616,7 +3747,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%86%9C%E5%9C%BA%E7%83%AD",
     "reportSource": "千瓜数据·重生之我在小红书当农民",
     "reportUrl": "https://www.qian-gua.com/information/detail/3364",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 7,
@@ -3627,7 +3759,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%80%82%E6%88%91%E5%8C%96%E8%AE%BE%E8%AE%A1",
     "reportSource": "千瓜数据·2026「种草关键词」适我主义报告",
     "reportUrl": "https://wap.qian-gua.com/information/detail/3360",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 8,
@@ -3638,7 +3771,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%BD%8F%E8%BF%9B%E4%B8%80%E7%A7%8D%E5%BE%88%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB",
     "reportSource": "千瓜数据·2026「种草关键词」适我主义报告",
     "reportUrl": "https://wap.qian-gua.com/information/detail/3360",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 9,
@@ -3649,7 +3783,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%B8%BB%E4%BD%93%E6%80%A7",
     "reportSource": "千瓜数据·2026女性种草关键词「少女野心」报告",
     "reportUrl": "https://www.qian-gua.com/information/detail/3338",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 10,
@@ -3660,7 +3795,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E6%9C%AC%E5%91%BD%E7%A9%BF%E6%90%AD",
     "reportSource": "千瓜数据·2026「种草关键词」适我主义报告",
     "reportUrl": "https://wap.qian-gua.com/information/detail/3360",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 11,
@@ -3671,7 +3807,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%AB%98%E9%9B%85%E4%BA%BA%E5%A3%AB%20%E4%BC%81%E9%B9%85%E8%88%9E",
     "reportSource": "千瓜数据·2026「十大热词」洞察数据报告",
     "reportUrl": "https://www.qian-gua.com/information/detail/3318",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 12,
@@ -3682,7 +3819,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E8%B4%9F%E9%BC%A0",
     "reportSource": "千瓜数据·“负鼠”爆火，新世代用户「精神状态」解读",
     "reportUrl": "https://www.qian-gua.com/information/detail/3352",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 13,
@@ -3693,7 +3831,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E4%B8%8D%E5%90%83%E5%8E%8B%E5%8A%9B",
     "reportSource": "千瓜数据·情绪种草新风｜不吃压力",
     "reportUrl": "https://www.qian-gua.com/information/detail/3354",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 14,
@@ -3704,7 +3843,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E7%BB%B4%E7%BA%B3%E6%96%AF%E5%B8%A6",
     "reportSource": "千瓜数据·2026上半年热门行业数据洞察",
     "reportUrl": "https://wap.qian-gua.com/information/detail/3350",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 15,
@@ -3715,7 +3855,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=farmgirlstyle",
     "reportSource": "千瓜数据·重生之我在小红书当农民",
     "reportUrl": "https://www.qian-gua.com/information/detail/3364",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 16,
@@ -3726,7 +3867,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%80%82%E6%88%91%E6%B6%88%E8%B4%B9",
     "reportSource": "千瓜数据·2026「种草关键词」适我主义报告",
     "reportUrl": "https://wap.qian-gua.com/information/detail/3360",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 17,
@@ -3737,7 +3879,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E8%8D%89%E5%8F%B0%E7%8F%AD%E5%AD%90",
     "reportSource": "千瓜数据·2026「十大热词」洞察数据报告",
     "reportUrl": "https://www.qian-gua.com/information/detail/3318",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 18,
@@ -3748,7 +3891,8 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%89%8D%E9%A2%9D%E5%8F%B6",
     "reportSource": "千瓜数据·2026「十大热词」洞察数据报告",
     "reportUrl": "https://www.qian-gua.com/information/detail/3318",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 19,
@@ -3759,418 +3903,463 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E6%9C%80%E5%BA%9F%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B",
     "reportSource": "千瓜数据·“小赛”掀“大浪”，小红书种草野生玩法",
     "reportUrl": "https://www.qian-gua.com/information/detail/3334",
-    "dateType": "trend"
+    "dateType": "trend",
+    "date": "09-10"
    },
    {
     "rank": 20,
-    "topic": "#胡闹厨房",
-    "heat": "笔记数+347%",
-    "note": "真人版“胡闹厨房”风靡：头顶母鸡拍照、大铁锅炒菜，田园野趣体验式种草",
+    "topic": "#遥远的相似性",
+    "heat": "互动量+596%（近90天）",
+    "note": "通感种草/视觉同构玩法：两个相似画面并置制造\"居然这么像\"惊叹，星巴克蛋糕×山丘笔记获赞2.6万+，覆盖摄影/美食/服饰/美护多赛道",
     "source": "千瓜数据·话题分析",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E8%83%A1%E9%97%B9%E5%8E%A8%E6%88%BF",
-    "reportSource": "千瓜数据·重生之我在小红书当农民",
-    "reportUrl": "https://www.qian-gua.com/information/detail/3364",
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%81%A5%E8%BF%9C%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%80%A7",
+    "reportSource": "千瓜数据·感官种草：从\"说卖点\"到\"造感觉\"",
+    "reportUrl": "https://weibo.com/ttarticle/p/show?id=2309405341268523220998",
+    "date": "09-10",
     "dateType": "trend"
    }
   ],
   "wbEntertainment": [
    {
     "rank": 1,
-    "topic": "栾念尚之桃穿得太少了",
+    "topic": "郑钦文美网止步八强",
+    "note": "郑钦文1-2不敌莱巴金娜，连续两轮逆转后止步美网八强，耐克代言人赛事热度冲高",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23栾念尚之桃穿得太少了%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23郑钦文美网止步八强%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo",
+    "brand": "nike"
    },
    {
     "rank": 2,
-    "topic": "自费买可乐的外卖骑手被奖励一年骑手餐",
+    "topic": "郑钦文美网1比2莱巴金娜",
+    "note": "决胜盘惜败，赛后「这个美网我拼尽了全力」回应冲上热搜",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23自费买可乐的外卖骑手被奖励一年骑手餐%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23郑钦文美网1比2莱巴金娜%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo",
+    "brand": "nike"
    },
    {
     "rank": 3,
-    "topic": "duo是什么意思",
+    "topic": "郑钦文回应无缘美网四强",
+    "note": "郑钦文赛后复盘：肯定拼尽全力，展望后续赛季",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23duo是什么意思%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23郑钦文回应无缘美网四强%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo",
+    "brand": "nike"
    },
    {
     "rank": 4,
-    "topic": "美网男单18年无人能卫冕",
+    "topic": "刘恋想问早春晴朗作者自己是不是原型",
+    "note": "《早春晴朗》原著话题随剧集热播持续发酵",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23美网男单18年无人能卫冕%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23刘恋想问早春晴朗作者自己是不是原型%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 5,
-    "topic": "早春晴朗大结局",
+    "topic": "心动的信号",
+    "note": "恋综《心动的信号》新一季热播，嘉宾话题霸榜",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23早春晴朗大结局%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23心动的信号%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 6,
-    "topic": "女孩狂喝椰子水汇报工作时突然晕厥",
+    "topic": "越南女星回应合照被刘亦菲裁掉了",
+    "note": "刘亦菲米兰时装周合照裁图事件持续发酵",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23女孩狂喝椰子水汇报工作时突然晕厥%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23越南女星回应合照被刘亦菲裁掉了%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 7,
-    "topic": "鲜花饼 吐痰",
+    "topic": "井柏然孙千被早春晴朗最大尺度吓到",
+    "note": "《早春晴朗》剧情尺度成社交讨论焦点",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23鲜花饼 吐痰%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23井柏然孙千被早春晴朗最大尺度吓到%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 8,
-    "topic": "尼古拉斯凯奇房塌了",
+    "topic": "阿信总结苹果发布会",
+    "note": "五月天阿信以音乐人视角玩梗总结苹果秋季发布会",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23尼古拉斯凯奇房塌了%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23阿信总结苹果发布会%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 9,
-    "topic": "赖冠霖 转行",
+    "topic": "肖战在台下憋哭",
+    "note": "肖战中网现场观赛被镜头捕捉，相关话题登上热搜",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23赖冠霖 转行%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23肖战在台下憋哭%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 10,
-    "topic": "付磊婚姻不对等",
+    "topic": "早春晴朗",
+    "note": "井柏然、孙千主演都市剧《早春晴朗》持续霸榜",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23付磊婚姻不对等%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23早春晴朗%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 11,
-    "topic": "陈伟霆何穗一家三口同框",
+    "topic": "爱情公寓超长iPhone18",
+    "note": "网友用《爱情公寓》梗图玩转iPhone Duo 超长机身",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23陈伟霆何穗一家三口同框%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23爱情公寓超长iPhone18%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 12,
-    "topic": "张杰巨幕全景呈现裸眼3D画面",
+    "topic": "中国女篮 有惊无险进八强",
+    "note": "女篮世界杯淘汰赛席位锁定，体育话题热度高企",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23张杰巨幕全景呈现裸眼3D画面%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23中国女篮 有惊无险进八强%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 13,
-    "topic": "曝DeepSeek聘中信证券筹备IPO",
+    "topic": "郑钦文复盘惜败莱巴金娜",
+    "note": "技术复盘内容在球迷圈层广泛传播",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23曝DeepSeek聘中信证券筹备IPO%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23郑钦文复盘惜败莱巴金娜%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo",
+    "brand": "nike"
    },
    {
     "rank": 14,
-    "topic": "赖冠霖疑似结婚了",
+    "topic": "痞幼说以结婚为目的恋爱是不负责任",
+    "note": "网红痞幼访谈观点引发两性话题讨论",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23赖冠霖疑似结婚了%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23痞幼说以结婚为目的恋爱是不负责任%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 15,
-    "topic": "王自如 守住 Fold 命名",
+    "topic": "冰川蓝好好看",
+    "note": "iPhone 18 Pro 新配色「冰川蓝」成穿搭审美讨论素材",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23王自如 守住 Fold 命名%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23冰川蓝好好看%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 16,
-    "topic": "女子隧道内爬出副驾从车顶跳下",
+    "topic": "安德列娃无缘美网四强",
+    "note": "美网女单半决赛席位全部产生",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23女子隧道内爬出副驾从车顶跳下%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23安德列娃无缘美网四强%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 17,
-    "topic": "iPhone Duo",
+    "topic": "杨洋绞尽脑汁的高情商回复",
+    "note": "杨洋综艺花絮高情商应答出圈",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23iPhone Duo%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23杨洋绞尽脑汁的高情商回复%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 18,
-    "topic": "Duo 手机iPad二合一",
+    "topic": "井柏然孙千沙发吻花絮",
+    "note": "《早春晴朗》番外花絮释出再掀讨论",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23Duo 手机iPad二合一%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23井柏然孙千沙发吻花絮%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 19,
-    "topic": "上海偶遇IU逛街",
+    "topic": "早春晴朗好大方的花絮",
+    "note": "剧组物料投放节奏拉满",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23上海偶遇IU逛街%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23早春晴朗好大方的花絮%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 20,
-    "topic": "姜乘澜回应欠款千万被限高",
+    "topic": "栾念让卢克跟尚之桃走的原因",
+    "note": "《早春晴朗》关键剧情解析上热搜",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23姜乘澜回应欠款千万被限高%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23栾念让卢克跟尚之桃走的原因%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 21,
-    "topic": "Karsa曝Ming聊天记录",
+    "topic": "黑色iPhone 白月光回归",
+    "note": "黑色iPhone配色怀旧情绪+审美种草双重发酵",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23Karsa曝Ming聊天记录%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 22,
-    "topic": "小S看到女儿晒辣照的反应",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23小S看到女儿晒辣照的反应%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 23,
-    "topic": "人民日报锐评一边高消费一边领低保",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23人民日报锐评一边高消费一边领低保%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 24,
-    "topic": "三十而已被裁掉合照的顾佳",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23三十而已被裁掉合照的顾佳%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 25,
-    "topic": "湖南黄金涨停",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23湖南黄金涨停%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 26,
-    "topic": "刘亦菲删除照片",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23刘亦菲删除照片%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 27,
-    "topic": "邓帅举行婚礼",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23邓帅举行婚礼%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 28,
-    "topic": "小米澎程攻防需求误发",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23小米澎程攻防需求误发%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 29,
-    "topic": "杨幂黑色抹胸辣妹",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23杨幂黑色抹胸辣妹%23",
-    "date": "09-09"
-   },
-   {
-    "rank": 30,
-    "topic": "栾念尚之桃女儿没有上线",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23栾念尚之桃女儿没有上线%23",
-    "date": "09-09"
+    "url": "https://s.weibo.com/weibo?q=%23黑色iPhone 白月光回归%23",
+    "date": "09-10",
+    "reportSource": "uapis·微博热搜榜",
+    "reportUrl": "https://uapis.cn/hotboard/weibo"
    }
   ],
   "dySeeding": [
    {
     "rank": 1,
-    "topic": "苹果折叠屏叫iPhone Duo",
+    "topic": "郑钦文止步美网八强",
+    "note": "体育热点带动网球穿搭/装备种草笔记",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%8B%B9%E6%9E%9C%E6%8A%98%E5%8F%A0%E5%B1%8F%E5%8F%ABiPhone%20Duo",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E6%AD%A2%E6%AD%A5%E7%BE%8E%E7%BD%91%E5%85%AB%E5%BC%BA",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin",
+    "brand": "nike"
    },
    {
     "rank": 2,
-    "topic": "2026苹果秋季新品发布会",
+    "topic": "燕麦系秋天的神",
+    "note": "秋季燕麦色系穿搭教程刷屏，通勤风穿搭种草主场",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/2026%E8%8B%B9%E6%9E%9C%E7%A7%8B%E5%AD%A3%E6%96%B0%E5%93%81%E5%8F%91%E5%B8%83%E4%BC%9A",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E7%87%95%E9%BA%A6%E7%B3%BB%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%A5%9E",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 3,
-    "topic": "青春华章",
+    "topic": "教师节创意贺卡",
+    "note": "手工DIY贺卡教程热度高，创意手作内容集中爆发",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%9D%92%E6%98%A5%E5%8D%8E%E7%AB%A0",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E6%95%99%E5%B8%88%E8%8A%82%E5%88%9B%E6%84%8F%E8%B4%BA%E5%8D%A1",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 4,
-    "topic": "燕麦系秋天的神",
+    "topic": "健身人的训练成绩单",
+    "note": "健身打卡+成果展示类内容持续走热",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%87%95%E9%BA%A6%E7%B3%BB%E7%A7%8B%E5%A4%A9%E7%9A%84%E7%A5%9E",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E5%81%A5%E8%BA%AB%E4%BA%BA%E7%9A%84%E8%AE%AD%E7%BB%83%E6%88%90%E7%BB%A9%E5%8D%95",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 5,
-    "topic": "这群十号线搞科创的年轻人太飒了",
+    "topic": "中国女篮挺进世界杯八强",
+    "note": "女篮赛事热度带动运动好物种草",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%BF%99%E7%BE%A4%E5%8D%81%E5%8F%B7%E7%BA%BF%E6%90%9E%E7%A7%91%E5%88%9B%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%A4%AA%E9%A3%92%E4%BA%86",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E6%8C%BA%E8%BF%9B%E4%B8%96%E7%95%8C%E6%9D%AF%E5%85%AB%E5%BC%BA",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 6,
-    "topic": "郑钦文今晚对阵莱巴金娜",
+    "topic": "属于教师节的仪式感",
+    "note": "花束/礼盒/手作礼物清单类笔记热度攀升",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E4%BB%8A%E6%99%9A%E5%AF%B9%E9%98%B5%E8%8E%B1%E5%B7%B4%E9%87%91%E5%A8%9C",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E5%B1%9E%E4%BA%8E%E6%95%99%E5%B8%88%E8%8A%82%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 7,
-    "topic": "觉醒吧我的厨艺天赋",
+    "topic": "人在异乡胃在故乡",
+    "note": "家乡美食复刻教程成秋季情绪种草载体",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%A7%89%E9%86%92%E5%90%A7%E6%88%91%E7%9A%84%E5%8E%A8%E8%89%BA%E5%A4%A9%E8%B5%8B",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E4%BA%BA%E5%9C%A8%E5%BC%82%E4%B9%A1%E8%83%83%E5%9C%A8%E6%95%85%E4%B9%A1",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 8,
-    "topic": "龙版传媒停牌核查",
+    "topic": "今日人设是可可美人",
+    "note": "「可可美人」妆容教程与氛围感穿搭玩法走红",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%BE%99%E7%89%88%E4%BC%A0%E5%AA%92%E5%81%9C%E7%89%8C%E6%A0%B8%E6%9F%A5",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E4%BA%BA%E8%AE%BE%E6%98%AF%E5%8F%AF%E5%8F%AF%E7%BE%8E%E4%BA%BA",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 9,
-    "topic": "杜兰特在抖音潜水被发现了",
+    "topic": "岸边客翻唱",
+    "note": "音乐翻唱类内容热度回升，BGM带动生活方式内容",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%9D%9C%E5%85%B0%E7%89%B9%E5%9C%A8%E6%8A%96%E9%9F%B3%E6%BD%9C%E6%B0%B4%E8%A2%AB%E5%8F%91%E7%8E%B0%E4%BA%86",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E5%B2%B8%E8%BE%B9%E5%AE%A2%E7%BF%BB%E5%94%B1",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 10,
-    "topic": "女高音歌唱家龚爽告别仪式举行",
+    "topic": "杜兰特在抖音潜水被发现了",
+    "note": "NBA球星社媒互动带动篮球内容二次传播",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%A5%B3%E9%AB%98%E9%9F%B3%E6%AD%8C%E5%94%B1%E5%AE%B6%E9%BE%9A%E7%88%BD%E5%91%8A%E5%88%AB%E4%BB%AA%E5%BC%8F%E4%B8%BE%E8%A1%8C",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E6%9D%9C%E5%85%B0%E7%89%B9%E5%9C%A8%E6%8A%96%E9%9F%B3%E6%BD%9C%E6%B0%B4%E8%A2%AB%E5%8F%91%E7%8E%B0%E4%BA%86",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 11,
-    "topic": "今日人设是可可美人",
+    "topic": "AI已经摸不透曹骏了",
+    "note": "演员曹骏AI相关梗内容娱乐化传播",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E4%BA%BA%E8%AE%BE%E6%98%AF%E5%8F%AF%E5%8F%AF%E7%BE%8E%E4%BA%BA",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/AI%E5%B7%B2%E7%BB%8F%E6%91%B8%E4%B8%8D%E9%80%8F%E6%9B%B9%E9%AA%8F%E4%BA%86",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 12,
-    "topic": "妙鼻生花好浪漫",
+    "topic": "刘德华演唱会香港站官宣",
+    "note": "演唱会官宣带动出行/穿搭攻略类种草",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%A6%99%E9%BC%BB%E7%94%9F%E8%8A%B1%E5%A5%BD%E6%B5%AA%E6%BC%AB",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E5%88%98%E5%BE%B7%E5%8D%8E%E6%BC%94%E5%94%B1%E4%BC%9A%E9%A6%99%E6%B8%AF%E7%AB%99%E5%AE%98%E5%AE%A3",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 13,
-    "topic": "今年苹果发布会有何看点",
+    "topic": "被自己的戏曲扮相惊艳到了",
+    "note": "国风戏曲扮相内容审美种草出圈",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BB%8A%E5%B9%B4%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%E6%9C%89%E4%BD%95%E7%9C%8B%E7%82%B9",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E8%A2%AB%E8%87%AA%E5%B7%B1%E7%9A%84%E6%88%8F%E6%9B%B2%E6%89%AE%E7%9B%B8%E6%83%8A%E8%89%B3%E5%88%B0%E4%BA%86",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 14,
-    "topic": "解析苹果华为小米折叠屏三国杀",
+    "topic": "认不出来只怪我不吃香菜",
+    "note": "美食避雷/偏好类趣味内容高互动",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%A7%A3%E6%9E%90%E8%8B%B9%E6%9E%9C%E5%8D%8E%E4%B8%BA%E5%B0%8F%E7%B1%B3%E6%8A%98%E5%8F%A0%E5%B1%8F%E4%B8%89%E5%9B%BD%E6%9D%80",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E8%AE%A4%E4%B8%8D%E5%87%BA%E6%9D%A5%E5%8F%AA%E6%80%AA%E6%88%91%E4%B8%8D%E5%90%83%E9%A6%99%E8%8F%9C",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 15,
-    "topic": "我和毛孩天下第一好",
+    "topic": "张国伟来时装周走秀了",
+    "note": "运动员×时装周跨界话题带动秀场穿搭讨论",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%88%91%E5%92%8C%E6%AF%9B%E5%AD%A9%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E5%A5%BD",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E5%BC%A0%E5%9B%BD%E4%BC%9F%E6%9D%A5%E6%97%B6%E8%A3%85%E5%91%A8%E8%B5%B0%E7%A7%80%E4%BA%86",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 16,
-    "topic": "被自己的戏曲扮相惊艳到了",
+    "topic": "一晃又是一个秋",
+    "note": "秋季情绪类vlog与生活方式内容集中上新",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%A2%AB%E8%87%AA%E5%B7%B1%E7%9A%84%E6%88%8F%E6%9B%B2%E6%89%AE%E7%9B%B8%E6%83%8A%E8%89%B3%E5%88%B0%E4%BA%86",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E4%B8%80%E6%99%83%E5%8F%88%E6%98%AF%E4%B8%80%E4%B8%AA%E7%A7%8B",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 17,
-    "topic": "我的世界出现一位姑娘",
+    "topic": "张元富获食神百厨大战总冠军",
+    "note": "美食竞技综艺收官，菜品复刻种草热度高",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E5%87%BA%E7%8E%B0%E4%B8%80%E4%BD%8D%E5%A7%91%E5%A8%98",
-    "date": "09-09"
+    "url": "https://www.douyin.com/search/%E5%BC%A0%E5%85%83%E5%AF%8C%E8%8E%B7%E9%A3%9F%E7%A5%9E%E7%99%BE%E5%8E%A8%E5%A4%A7%E6%88%98%E6%80%BB%E5%86%A0%E5%86%9B",
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 18,
-    "topic": "周冬雨马思纯花少再合体",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%91%A8%E5%86%AC%E9%9B%A8%E9%A9%AC%E6%80%9D%E7%BA%AF%E8%8A%B1%E5%B0%91%E5%86%8D%E5%90%88%E4%BD%93",
-    "date": "09-09"
-   },
-   {
-    "rank": 19,
-    "topic": "谭松韵刘学义极限拉扯",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%88%98%E5%AD%A6%E4%B9%89%E6%9E%81%E9%99%90%E6%8B%89%E6%89%AF",
-    "date": "09-09"
-   },
-   {
-    "rank": 20,
-    "topic": "鼎叔魔性化妆模仿挑战",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E9%BC%8E%E5%8F%94%E9%AD%94%E6%80%A7%E5%8C%96%E5%A6%86%E6%A8%A1%E4%BB%BF%E6%8C%91%E6%88%98",
-    "date": "09-09"
-   },
-   {
-    "rank": 21,
-    "topic": "白鹿穿燕麦系小跳一下",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%99%BD%E9%B9%BF%E7%A9%BF%E7%87%95%E9%BA%A6%E7%B3%BB%E5%B0%8F%E8%B7%B3%E4%B8%80%E4%B8%8B",
-    "date": "09-09"
-   },
-   {
-    "rank": 22,
-    "topic": "华屋村的十七棵松与长征精神",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%8D%8E%E5%B1%8B%E6%9D%91%E7%9A%84%E5%8D%81%E4%B8%83%E6%A3%B5%E6%9D%BE%E4%B8%8E%E9%95%BF%E5%BE%81%E7%B2%BE%E7%A5%9E",
-    "date": "09-09"
-   },
-   {
-    "rank": 23,
-    "topic": "张国伟来时装周走秀了",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%BC%A0%E5%9B%BD%E4%BC%9F%E6%9D%A5%E6%97%B6%E8%A3%85%E5%91%A8%E8%B5%B0%E7%A7%80%E4%BA%86",
-    "date": "09-09"
-   },
-   {
-    "rank": 24,
     "topic": "小猫你抢我镜头了",
+    "note": "萌宠出镜类内容互动居高不下",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%B0%8F%E7%8C%AB%E4%BD%A0%E6%8A%A2%E6%88%91%E9%95%9C%E5%A4%B4%E4%BA%86",
-    "date": "09-09"
-   },
-   {
-    "rank": 25,
-    "topic": "张元富获食神百厨大战总冠军",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%BC%A0%E5%85%83%E5%AF%8C%E8%8E%B7%E9%A3%9F%E7%A5%9E%E7%99%BE%E5%8E%A8%E5%A4%A7%E6%88%98%E6%80%BB%E5%86%A0%E5%86%9B",
-    "date": "09-09"
-   },
-   {
-    "rank": 26,
-    "topic": "官俊臣重庆大学开学报到",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%AE%98%E4%BF%8A%E8%87%A3%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%BC%80%E5%AD%A6%E6%8A%A5%E5%88%B0",
-    "date": "09-09"
+    "date": "09-10",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
    }
   ]
  },
  "campaigns": [
+  {
+   "brand": "ripstar",
+   "cat": "apparel",
+   "name": "RIPSTAR Slow Runner「鹅卵石」配色 × 秦岚上脚",
+   "window": "2026 秋季（发售中）",
+   "type": "明星同款/新品",
+   "action": "秦岚「风起自如」封面大片花絮中上脚RIPSTAR爆炸星Slow Runner鹅卵石配色千禧风复古慢跑鞋，波浪长发+白裙+鹅卵石慢跑鞋的\"优雅与松弛\"造型在鞋圈传播",
+   "volume": "明星同款带动新配色讨论",
+   "volumeIndex": 72,
+   "sale": "秋季新配色发售中",
+   "topVoice": "\"优雅与松弛在秦岚身上从不冲突\"——时尚博主穿搭解析",
+   "sentiment": "正面",
+   "source": "微博·话题页",
+   "url": "https://weibo.com/7697459086/5340854517500011",
+   "topVoiceSource": "微博·时尚博主",
+   "topVoiceUrl": "https://weibo.com/7697459086/5340854517500011",
+   "status": "进行中",
+   "updatedDate": "09-10",
+   "updatedAt": "2026-09-10T08:07:00+08:00"
+  },
+  {
+   "brand": "disney",
+   "cat": "ip",
+   "name": "迪士尼中国×久事动娱三年战略合作（米奇×上海劳力士大师赛）",
+   "window": "2026-10-05 至 2026-10-18（大师赛期，合作期3年）",
+   "type": "IP×体育跨界",
+   "action": "迪士尼中国与久事动娱启动三年战略合作，首个项目落地2026上海劳力士大师赛：米奇网球主题形象亮相，联名产品、快闪空间和\"大师赛+迪士尼乐园\"联票同步上线",
+   "volume": "IP联名从娱乐场走进体育场",
+   "volumeIndex": 75,
+   "sale": "联票+联名产品10月开售",
+   "topVoice": "\"IP联名从娱乐场，走进体育场\"——品牌日报观察",
+   "sentiment": "正面",
+   "source": "微博·品牌日报",
+   "url": "https://weibo.com/1851599157/5341164305122583",
+   "topVoiceSource": "微博·品牌日报",
+   "topVoiceUrl": "https://weibo.com/1851599157/5341164305122583",
+   "status": "即将开始",
+   "updatedDate": "09-10",
+   "updatedAt": "2026-09-10T08:07:00+08:00"
+  },
   {
    "brand": "popmart",
    "cat": "ip",
@@ -4207,8 +4396,8 @@ var DASH_DATA = {
    "url": "https://socialbeta.com/campaign/28462",
    "topVoiceSource": "SocialBeta",
    "topVoiceUrl": "https://socialbeta.com/campaign/28462",
-   "updatedAt": "2026-09-09T12:35:00+08:00",
-   "updatedDate": "09-09",
+   "updatedAt": "2026-09-10T08:07:00+08:00",
+   "updatedDate": "09-10",
    "status": "进行中"
   },
   {
@@ -4247,9 +4436,9 @@ var DASH_DATA = {
    "url": "https://www.sina.cn/news/detail/5339501639505320.html",
    "topVoiceSource": "新浪",
    "topVoiceUrl": "https://www.sina.cn/news/detail/5339501639505320.html",
-   "updatedAt": "2026-09-09T12:35:00+08:00",
-   "updatedDate": "09-09",
-   "status": "进行中"
+   "updatedAt": "2026-09-10T08:07:00+08:00",
+   "updatedDate": "09-10",
+   "status": "已结束"
   },
   {
    "brand": "lining",
@@ -4258,7 +4447,7 @@ var DASH_DATA = {
    "window": "2026-09-09 至 2026-09-14",
    "type": "代言活动",
    "action": "NBA球星库里Curry Brand首次中国行，9.9北京启程、9.14香港收官，覆盖球迷见面会、篮球互动、产品发布；韦德之道12与巴特勒4代「Curry Moments」限定配色9月10日10点发售",
-   "volume": "四城六天",
+   "volume": "北京站人流火爆，韦德之道12/巴特勒4代「Curry Moments」限定配色9月10日10点发售",
    "volumeIndex": 96,
    "sale": "限定配色计划9月10日10点正式发售",
    "topVoice": "\"这一程，让可能万向皆开\"——李宁官方",
@@ -4267,8 +4456,8 @@ var DASH_DATA = {
    "url": "https://sports.sina.com.cn/basketball/nba/2026-08-28/doc-inipvvzx5676239.shtml",
    "topVoiceSource": "李宁官方微博",
    "topVoiceUrl": "https://weibo.com/u/3264992083",
-   "updatedAt": "2026-09-09T12:07:00+08:00",
-   "updatedDate": "09-09",
+   "updatedAt": "2026-09-10T08:07:00+08:00",
+   "updatedDate": "09-10",
    "status": "进行中"
   },
   {
@@ -4295,20 +4484,20 @@ var DASH_DATA = {
    "brand": "luckin",
    "cat": "food",
    "name": "瑞幸×名创优品YOYO联名",
-   "window": "2026-09-07 至 2026-10-07",
+   "window": "2026-09-07 至 2026-09-13",
    "type": "IP联名",
    "action": "9月7日上线两款联名咖啡+全套杯具周边；主打YOYO\"长公主\"IP形象",
-   "volume": "瑞幸3万+门店",
+   "volume": "联名物料9/8晚全国售罄，抖音热点#2后持续霸榜",
    "volumeIndex": 92,
    "sale": "联名首日订单冲高，含酒精特调铺向3万+门店",
-   "topVoice": "\"半年狂卖5亿的'长公主'，成了瑞幸的流量新宠\"——品牌日报观察",
+   "topVoice": "\"6点开门6点32售罄、二手整套捆出60元、预售券9/11到期\"——多地门店开门即空，晒单与求补货两极刷屏，徽章成隐藏主角",
    "sentiment": "正面",
    "source": "新浪微博品牌日报",
    "url": "https://weibo.com/1851599157/5341164305122583",
-   "topVoiceSource": "新浪微博品牌日报",
-   "topVoiceUrl": "https://weibo.com/1851599157/5341164305122583",
-   "updatedAt": "2026-09-09T12:07:00+08:00",
-   "updatedDate": "09-09",
+   "topVoiceSource": "什么值得买",
+   "topVoiceUrl": "https://post.m.smzdm.com/p/a03qr980",
+   "updatedAt": "2026-09-10T08:07:00+08:00",
+   "updatedDate": "09-10",
    "status": "进行中"
   },
   {
@@ -4388,26 +4577,6 @@ var DASH_DATA = {
    "url": "https://finance.china.com/xiaofei/13004691/20260904/49719302.html",
    "topVoiceSource": "经济观察报（网易）",
    "topVoiceUrl": "https://www.163.com/dy/article/L62BQUNL05199DKK.html",
-   "status": "进行中",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
-   "brand": "luckin",
-   "cat": "food",
-   "name": "瑞幸 × 名创优品 YOYO 联名（今日上线）",
-   "window": "9月7日-9月13日全国门店",
-   "updatedDate": "09-08",
-   "type": "IP联名+周边套餐",
-   "action": "9月7日正式上线：小奶酪拿铁、抹茶奶酪拿铁（新西兰进口奶酪）+瑰夏白冷萃；4款主题杯（含2款PP材质超大杯）、联名纸袋/杯套随机发放；单杯套餐得软发泡贴纸、双杯套餐得砰砰鱼眼吧唧/举杯转转徽章/瑞的都对冰箱贴（后两款随机二选一）；公众号“奶酪自由”1万张0元饮品券抽奖（9.7-9.8）。",
-   "volume": "上线首日全网晒单刷屏，YOYO元素杯具/周边成社媒硬通货；剁椒Spicy IP联名周讯将本联名收录为本期主打事件之一；周边攻略、隐藏款开箱笔记持续霸榜种草页。",
-   "volumeIndex": 90,
-   "sale": "上线首日周边随套餐赠送、不单独售卖；背景为咖啡液累计销量120天内从4亿杯增至10亿杯（王一博代言+全场景共创驱动）、Q2总净收入158.86亿元增28.5%。",
-   "topVoice": "“软萌YOYO把咖啡店氛围感直接换新”为最大声量；争议点集中在“联名杯款式随机、外卖默认无杯套，想集齐需到店多单”，海南/吉林部分门店无PP超大杯引发补货吐槽。",
-   "sentiment": "正面（上线首日）",
-   "source": "微博@瑞幸咖啡",
-   "url": "https://weibo.com/7588142961/5339117560529303",
-   "topVoiceSource": "微博@瑞幸咖啡",
-   "topVoiceUrl": "https://weibo.com/7588142961/5339117560529303",
    "status": "进行中",
    "updatedAt": "2026-09-09T11:30:00+08:00"
   },
@@ -4615,8 +4784,8 @@ var DASH_DATA = {
    "brand": "lululemon",
    "cat": "apparel",
    "name": "2026天猫超级品牌日 × 陶身体剧场《wunder puff 的冬天》",
-   "window": "09-01 ~ 09-10（9月10日沈阳动态剧场落地）",
-   "updatedDate": "09-08",
+   "window": "2026-09-01 至 2026-09-10（沈阳动态剧场收官场今日落地）",
+   "updatedDate": "09-10",
    "type": "平台超品日/艺术营销",
    "action": "连续第八年开启天猫超级品牌日，与中国现代舞团陶身体剧场联合创作主题短片《wunder puff 的冬天，不止一个调》，讲述音乐变幻中的音调、身体律动中的步调与个性表达的腔调；9月10日将在沈阳举行wunder puff动态剧场线下活动，邀请社区伙伴走进沉浸式体验。",
    "volume": "超品日大片在社交平台传播，与Q2业绩爆雷、股价大跌17.38%形成强烈话题反差，“业绩失速时更要做品牌”的讨论升温；9月8日新CEO上任在即，“新帅能不能救lululemon”成全网最大声量议题。；野村9月7日报告指lululemon中国业务转弱并下调全年指引，新CEO Heidi O’Neill 9月8日（明日）正式履新。",
@@ -4628,28 +4797,8 @@ var DASH_DATA = {
    "url": "https://news.qq.com/rain/a/20260905A098Y100",
    "topVoiceSource": "中国新闻网（中新经纬）",
    "topVoiceUrl": "https://m.chinanews.com/wap/detail/cht/zw/jw686284.shtml",
-   "status": "即将开始",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
-   "brand": "starbucks",
-   "cat": "food",
-   "name": "“咖啡体验创新季”秋季新品",
-   "window": "09-01 ~ 09-15",
-   "updatedDate": "09-08",
-   "type": "产品创新/视觉营销",
-   "action": "熔岩维也纳咖啡（摩卡酱挂壁动态熔岩纹理）9月1日上新，金渐层美式（注汽工艺）9月15日登场，同步推出法式香草、百香果“真味无糖”风味。",
-   "volume": "新品视觉（熔岩纹理、金色瀑布渐层）为社交平台主要传播素材。",
-   "volumeIndex": 72,
-   "sale": "未披露新品转化；Q3中国合资公司单季贡献净收入6870万美元，在华份额已从2017年42%峰值跌至14%。",
-   "topVoice": "“每一杯都是一幅流动的抽象画”——视觉呈现与口感层次是测评笔记的最大声量点；其次为“咖啡体验的边界不止于好喝”的讨论。",
-   "sentiment": "正面",
-   "source": "搜狐/小食代",
-   "url": "https://www.sohu.com/a/1070359879_120327735",
-   "topVoiceSource": "搜狐/小食代",
-   "topVoiceUrl": "https://www.sohu.com/a/1070359879_120327735",
    "status": "进行中",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
+   "updatedAt": "2026-09-10T08:07:00+08:00"
   },
   {
    "brand": "nayuki",
@@ -4715,21 +4864,21 @@ var DASH_DATA = {
    "brand": "bawang",
    "cat": "food",
    "name": "×《小王子》文学IP联名（港澳）",
-   "window": "9月10日港澳上线（明日）",
-   "updatedDate": "09-08",
+   "window": "2026-09-10 至 2026-09-30（港澳首发；打卡活动 9.10-9.12）",
+   "updatedDate": "09-10",
    "type": "文学IP联名/出海营销",
-   "action": "明日上线：三款抹茶新品+限定周边，B-612星球主题体验店将亮相澳门威尼斯人与香港MOKO；内地社媒攻略与“港澳代购”提问帖升温。",
-   "volume": "以“纯粹”为联名核心的官宣通稿在港澳与内地营销圈传播；为霸王茶姬首次在港澳与经典文学IP联名，出海叙事与Q2海外GMV同比增114.3%、连续四季度环比提升的数据形成呼应。",
+   "action": "霸王茶姬×《小王子》「Pure At Heart」鲜作抹茶系列今日港澳上线：抹茶拿铁/茉见青/星尘绿意三款饮品+皇冠发带/星尘手提包/绿色奇迹保温杯3款限定周边，首三日\"寻找隐藏CHAGEE杯\"打卡送抹茶拿铁Free券",
+   "volume": "上线首日港澳门店话题热度攀升",
    "volumeIndex": 66,
    "sale": "未开售；港澳门店总数399家（同比+191家），海外市场为其当前最确定增量。",
-   "topVoice": "“《小王子》和茶有一个相似的地方——越简单、越纯粹的东西，反而越能陪伴人很久”（港澳子公司总经理陈沛东）——联名预告以“纯粹”叙事引发文艺向讨论，等待9月10日开售验证。",
+   "topVoice": "\"皇冠发带+星尘手提包+保温杯3款限定周边，双杯得发带、单杯加价换购\"——IP联动情报站攻略传播",
    "sentiment": "正面（预热期）",
    "source": "美通社/经济通",
    "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?category=prnewswire&newsid=5040910_XG40910_2&section=index",
-   "topVoiceSource": "美通社/经济通",
-   "topVoiceUrl": "https://www.etnet.com.hk/www/tc/news/news-article.php?category=prnewswire&newsid=5040910_XG40910_2&section=index",
-   "status": "即将开始",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
+   "topVoiceSource": "什么值得买社区",
+   "topVoiceUrl": "https://post.m.smzdm.com/",
+   "status": "进行中",
+   "updatedAt": "2026-09-10T08:07:00+08:00"
   },
   {
    "brand": "songsu",
@@ -4992,26 +5141,6 @@ var DASH_DATA = {
    "updatedAt": "2026-09-09T11:30:00+08:00"
   },
   {
-   "brand": "florasis",
-   "cat": "beauty",
-   "name": "七夕「不送礼物送信物」×AI漫剧《花朝录》",
-   "window": "七夕起（8/29前后）·漫剧持续",
-   "type": "节日营销+AI内容",
-   "action": "以宋代并蒂莲为核推限定信物系列（玉雕×纳米光刻、同心环结构、防晒粉饼PDRN修护光损伤）；全民信物故事征集投至10城公共大屏；定制AI漫剧《花朝录》七夕上线播放破1000万，现代博主穿越「东方妆衣」逆袭。",
-   "volume": "AI漫剧《花朝录》播放破1000万；10城大屏信物故事征集数千份投稿。",
-   "volumeIndex": 72,
-   "sale": "限定防晒粉饼、信物系列礼盒随七夕节点销售。",
-   "topVoice": "「不送礼物送信物」——把东方定情叙事从产品升维到公共叙事。",
-   "sentiment": "正面",
-   "source": "网易订阅",
-   "url": "https://dy.163.com/article/L618S4LG0547NJA7.html",
-   "topVoiceSource": "网易订阅",
-   "topVoiceUrl": "https://dy.163.com/article/L618S4LG0547NJA7.html",
-   "updatedDate": "09-05",
-   "status": "已结束",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
    "brand": "skii",
    "cat": "beauty",
    "name": "全新神仙锁精华发布×张子枫/林允/文佳煐代言矩阵",
@@ -5069,26 +5198,6 @@ var DASH_DATA = {
    "topVoiceUrl": "https://www.toutiao.com/article/7681223638263022120",
    "updatedDate": "09-03",
    "status": "进行中",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
-   "brand": "judydoll",
-   "cat": "beauty",
-   "name": "×Angelababy全球代言+秋冬四新品",
-   "window": "9/2官宣起",
-   "type": "代言官宣+新品",
-   "action": "9/2官宣杨颖Angelababy为全球代言人，演绎秋冬四新品：缎光唇粉霜（80%养肤精华、12h持色、4款秋冬特调色）、水缎光腮红、好皮霜、好气色面综盘；缎光可可礼盒限量1180份+亲选星品套组预约爆满。",
-   "volume": "官宣话题#橘朵Angelababy全球代言人#传播；缎光唇粉霜4款特调色成彩妆区讨论热点。",
-   "volumeIndex": 68,
-   "sale": "缎光可可礼盒限量1180份+亲选星品套组上线即预约爆满。",
-   "topVoice": "「秋冬氛围感妆容」——从产品热度向氛围感妆容扩散。",
-   "sentiment": "正面",
-   "source": "亿邦动力",
-   "url": "https://www.ebrun.com/20260902/704157.shtml",
-   "topVoiceSource": "亿邦动力",
-   "topVoiceUrl": "https://www.ebrun.com/20260902/704157.shtml",
-   "updatedDate": "09-02",
-   "status": "已结束",
    "updatedAt": "2026-09-09T11:30:00+08:00"
   }
  ],
@@ -5163,6 +5272,70 @@ var DASH_DATA = {
    {
     "accountId": "kr36",
     "accountName": "36氪",
+    "title": "5元1颗\"茶姬蛋\"，霸王茶姬在布什么局？",
+    "summary": "36氪拆解霸王茶姬品类扩张账本：Geelato进入190+家门店、试点门店GMV平均提升超20%；柠檬奶新客获取率+45%；\"茶姬蛋\"5元定价为引流试验；CEO张俊杰定调2026为\"调整与企稳之年\"",
+    "date": "09-09",
+    "publishedAt": "2026-09-09T14:00:00+08:00",
+    "url": "https://www.36kr.com/p/3974026996101640",
+    "source": "36氪公众号",
+    "tags": [
+     "茶饮",
+     "品类扩张",
+     "财报解读"
+    ],
+    "id": "w001"
+   },
+   {
+    "accountId": "kr36",
+    "accountName": "36氪",
+    "title": "与老凤祥、潮宏基谈IP联名：黄金品牌比2年前更懂年轻人了吗？",
+    "summary": "剁椒Spicy调研（36氪授权发布）：周大福×故宫联名7个月零售值约40亿港元为拉新最佳IP；潮宏基推\"一城一非遗\"、老凤祥启动\"凤鸣计划\"；黄金品牌从贴形象进化到\"懂粉丝再设计\"的精细运营",
+    "date": "09-09",
+    "publishedAt": "2026-09-09T11:00:00+08:00",
+    "url": "https://36kr.com/p/3974499133141509",
+    "source": "36氪公众号（剁椒Spicy授权）",
+    "tags": [
+     "IP联名",
+     "黄金珠宝",
+     "年轻化"
+    ],
+    "id": "w002"
+   },
+   {
+    "accountId": "digitaling",
+    "accountName": "数英DIGITALING",
+    "title": "5个好创意，给生活松绑",
+    "summary": "数英项目库两周精选：美团买药×万爱皆可七夕片\"别成为无聊的大人\"、抖音AI短片《反正也没时间活》把\"时间贫困\"变成可感知的数字、南食召\"躲夏\"家常路线等五个\"不给答案\"的创意案例",
+    "date": "09-09",
+    "publishedAt": "2026-09-09T10:30:00+08:00",
+    "url": "https://www.digitaling.com/articles/1578170.html",
+    "source": "数英DIGITALING公众号",
+    "tags": [
+     "广告创意",
+     "案例盘点",
+     "AI营销"
+    ],
+    "id": "w003"
+   },
+   {
+    "accountId": "socialbeta",
+    "accountName": "SocialBeta",
+    "title": "思加图发布了一本走着读的杂志「外」刊",
+    "summary": "思加图2026冬季新品上线：全球品牌代言人杨幂拍摄代言大片并投放成都/上海/深圳商圈大屏，9月6日成都特刊快闪首日请来民间大师献长嘴壶功夫茶，可抽杨幂亲签；品牌延续\"把鞋履做成城市事件\"的地广打法",
+    "date": "09-09",
+    "publishedAt": "2026-09-09T10:00:00+08:00",
+    "url": "https://socialbeta.com/campaign/28454",
+    "source": "SocialBeta公众号",
+    "tags": [
+     "广告创意",
+     "线下快闪",
+     "杨幂"
+    ],
+    "id": "w004"
+   },
+   {
+    "accountId": "kr36",
+    "accountName": "36氪",
     "title": "渠道为王还是品牌至上？新茶饮走向两种命运",
     "summary": "36氪：蜜雪冰城的困境与古茗的增长说明「渠道为王」各有利弊，而奈雪的茶与霸王茶姬验证了「品牌至上」的喜与忧；2026上半年6份新茶饮财报显示行业没有放之四海皆准的成功公式。",
     "date": "09-09",
@@ -5174,7 +5347,23 @@ var DASH_DATA = {
      "财报"
     ],
     "publishedAt": "2026-09-09T09:10:00+08:00",
-    "id": "w001"
+    "id": "w005"
+   },
+   {
+    "accountId": "socialbeta",
+    "accountName": "SocialBeta",
+    "title": "护舒宝发布《Like A Girl》2.0：自信由我",
+    "summary": "开学季护舒宝发布全新品牌短片《自信由我》，延续2014年《Like A Girl》的社会实验视角，邀请不同年龄女性分享身份看法；国内自2015年起落地\"我就是女生\"长期主题：校园青春第一课、卫生巾捐赠与校厕改造",
+    "date": "09-09",
+    "publishedAt": "2026-09-09T09:00:00+08:00",
+    "url": "https://socialbeta.com/campaign/28438",
+    "source": "SocialBeta公众号",
+    "tags": [
+     "品牌片",
+     "女性营销",
+     "社会议题"
+    ],
+    "id": "w006"
    },
    {
     "accountId": "digitaling",
@@ -5190,7 +5379,7 @@ var DASH_DATA = {
      "AI营销"
     ],
     "publishedAt": "2026-09-09T08:35:00+08:00",
-    "id": "w002"
+    "id": "w007"
    },
    {
     "accountId": "meihua",
@@ -5204,7 +5393,7 @@ var DASH_DATA = {
      "一周热门",
      "案例"
     ],
-    "id": "w003",
+    "id": "w008",
     "publishedAt": "2026-09-08T08:30:00+08:00"
    },
    {
@@ -5219,7 +5408,7 @@ var DASH_DATA = {
      "案例",
      "广告创意"
     ],
-    "id": "w004",
+    "id": "w009",
     "publishedAt": "2026-09-08T08:30:00+08:00"
    },
    {
@@ -5234,7 +5423,7 @@ var DASH_DATA = {
      "代理商",
      "行业动态"
     ],
-    "id": "w005",
+    "id": "w010",
     "publishedAt": "2026-09-08T08:30:00+08:00"
    },
    {
@@ -5249,7 +5438,7 @@ var DASH_DATA = {
      "组织调整",
      "美妆"
     ],
-    "id": "w006",
+    "id": "w011",
     "publishedAt": "2026-09-08T08:30:00+08:00"
    },
    {
@@ -5264,11 +5453,11 @@ var DASH_DATA = {
      "财报",
      "美妆"
     ],
-    "id": "w007",
+    "id": "w012",
     "publishedAt": "2026-09-08T08:30:00+08:00"
    },
    {
-    "id": "w008",
+    "id": "w013",
     "accountId": "spicy",
     "accountName": "剁椒Spicy",
     "title": "瑞幸×名创优品YOYO；F426×YUY小玉；LAVAZZA拉瓦萨×Red Velvet｜一周IP联名大事件",
@@ -5296,7 +5485,7 @@ var DASH_DATA = {
      "消费趋势",
      "情绪经济"
     ],
-    "id": "w009",
+    "id": "w014",
     "publishedAt": "2026-09-07T08:30:00+08:00"
    },
    {
@@ -5311,11 +5500,11 @@ var DASH_DATA = {
      "广告创意",
      "案例"
     ],
-    "id": "w010",
+    "id": "w015",
     "publishedAt": "2026-09-07T08:30:00+08:00"
    },
    {
-    "id": "w011",
+    "id": "w016",
     "accountId": "socialbeta",
     "accountName": "SocialBeta",
     "title": "肯德基联名奥利奥：你俩胆子可真是“肥嘟嘟”",
@@ -5330,7 +5519,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-06T08:30:00+08:00"
    },
    {
-    "id": "w012",
+    "id": "w017",
     "accountId": "duojiao",
     "accountName": "剁椒Spicy",
     "title": "云旗&郝熠然脆升升官宣24H销售额2167万+;王俊凯蜂花官宣全渠道销售额1800万+;王一博代言云南白药|一周代言人盘点",
@@ -5346,7 +5535,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-06T08:30:00+08:00"
    },
    {
-    "id": "w013",
+    "id": "w018",
     "accountId": "digitaling",
     "accountName": "数英DIGITALING",
     "title": "汉堡王“火焰让一切史诗般壮丽”、小米汽车门店爆改巨型手办盒",
@@ -5361,7 +5550,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-06T08:30:00+08:00"
    },
    {
-    "id": "w014",
+    "id": "w019",
     "accountId": "topys",
     "accountName": "顶尖文案TOPYS",
     "title": "Fotografiska即将亮相深圳湾：首展《TOILETPAPER》与摄影师Ferrari对谈",
@@ -5387,11 +5576,11 @@ var DASH_DATA = {
      "征集",
      "包装创意"
     ],
-    "id": "w015",
+    "id": "w020",
     "publishedAt": "2026-09-05T08:30:00+08:00"
    },
    {
-    "id": "w016",
+    "id": "w021",
     "accountId": "socialbeta",
     "accountName": "SocialBeta",
     "title": "案例一周 Vol.413：若来×赛百味“开”出自己的小店",
@@ -5405,7 +5594,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-05T08:30:00+08:00"
    },
    {
-    "id": "w017",
+    "id": "w022",
     "accountId": "kr36",
     "accountName": "36氪",
     "title": "之禾、PANE们突围，离“中国奢侈品”又近一步",
@@ -5419,7 +5608,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-05T08:30:00+08:00"
    },
    {
-    "id": "w018",
+    "id": "w023",
     "accountId": "adheadline",
     "accountName": "广告头条",
     "title": "营销人的灵感库247期：麦当劳新包装“撞脸”LV，瑞幸×YOYO联名预热",
@@ -5433,7 +5622,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-05T08:30:00+08:00"
    },
    {
-    "id": "w019",
+    "id": "w024",
     "accountId": "socialbeta",
     "accountName": "SocialBeta",
     "title": "最火「素人」小玉yuy，成为今年 IP 联名王？",
@@ -5448,7 +5637,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-04T08:30:00+08:00"
    },
    {
-    "id": "w020",
+    "id": "w025",
     "accountId": "kr36",
     "accountName": "36氪",
     "title": "瑜伽服江湖变局：Alo入华、MAIA ACTIVE突围与lululemon的守成之战",
@@ -5462,7 +5651,7 @@ var DASH_DATA = {
     "publishedAt": "2026-09-04T08:30:00+08:00"
    },
    {
-    "id": "w021",
+    "id": "w026",
     "accountId": "duojiao",
     "accountName": "剁椒Spicy",
     "title": "比音勒芬电商收入翻倍：关闭小红书，重做抖音+得物",
@@ -5477,34 +5666,6 @@ var DASH_DATA = {
     "publishedAt": "2026-09-04T08:30:00+08:00"
    },
    {
-    "id": "w022",
-    "accountId": "socialbeta",
-    "accountName": "SocialBeta",
-    "title": "天目里「上什么班」2.0 回归：联合小红书把职场情绪做成生活节",
-    "summary": "9 月 3 日至 6 日杭州天目里联合小红书「笑薯」推出 2.0 版本，设拯救班味市集、最废技能大赛、下班派对等板块，把打工情绪转为可参与的活动 IP。",
-    "date": "09-03",
-    "url": "https://socialbeta.com/campaign/28424",
-    "source": "SocialBeta",
-    "tags": [
-     "线下活动"
-    ],
-    "publishedAt": "2026-09-03T08:30:00+08:00"
-   },
-   {
-    "id": "w023",
-    "accountId": "kr36",
-    "accountName": "36氪",
-    "title": "5年后再看美妆「小样经济」，这门生意变了",
-    "summary": "小样从赠品走向独立经营：李佳琦直播间连办“小样节”，天猫U先618入仓派样超2300万份；线上总盘约20亿却同比下滑，分化为获客、引流、测试、应急、日常消费等多角色。",
-    "date": "09-03",
-    "url": "https://www.36kr.com/p/3967016145328006",
-    "source": "36氪",
-    "tags": [
-     "消费趋势"
-    ],
-    "publishedAt": "2026-09-03T08:30:00+08:00"
-   },
-   {
     "accountId": "ebrun",
     "accountName": "亿邦动力",
     "title": "Lazada印尼高端品牌销售额同比增长3倍 护肤引领美妆增长",
@@ -5516,87 +5677,71 @@ var DASH_DATA = {
      "跨境电商",
      "美妆"
     ],
-    "id": "w024",
-    "publishedAt": "2026-09-03T08:30:00+08:00"
-   },
-   {
-    "id": "w025",
-    "accountId": "kr36",
-    "accountName": "36氪",
-    "title": "出一款爆一款，范冰冰如何把个人品牌卖到18亿？",
-    "summary": "拆解Fan Beauty Diary样本：从美容仪转向面膜降低决策门槛、2021年收回经营权自建团队、连续7年稳定增长——明星做品牌的选品、经营权与长期主义三重参照。",
-    "date": "09-02",
-    "url": "https://www.36kr.com/p/3967414291814020",
-    "source": "36氪",
-    "tags": [
-     "品牌"
-    ],
-    "publishedAt": "2026-09-02T08:30:00+08:00"
-   },
-   {
-    "id": "w026",
-    "accountId": "adheadline",
-    "accountName": "广告头条",
-    "title": "苏泊尔纯钛炒锅「6C 爆品涌现」实战：从 AI 隐形到品类第一的 GEO 营销",
-    "summary": "以「线下造问题、线上接答案」双闭环打法，1 万元 GEO 内容+一场快闪将品牌首推率从不足 30% 推至 80%，斩获 Future Marketing 未来营销大奖。",
-    "date": "09-02",
-    "url": "https://www.toutiao.com/article/7680846497696645682/",
-    "source": "广告头条 / 美通社",
-    "tags": [
-     "GEO营销"
-    ],
-    "publishedAt": "2026-09-02T08:30:00+08:00"
-   },
-   {
-    "accountId": "ebrun",
-    "accountName": "亿邦动力",
-    "title": "橘朵官宣杨颖Angelababy担任品牌全球代言人",
-    "summary": "9/2官宣，Angelababy演绎秋冬四新品缎光唇粉霜/水缎光腮红/好皮霜/好气色面综盘；缎光可可礼盒限量1180份+亲选星品套组预约爆满。",
-    "date": "09-02",
-    "url": "https://www.ebrun.com/20260902/704157.shtml",
-    "source": "亿邦动力",
-    "tags": [
-     "代言",
-     "美妆"
-    ],
     "id": "w027",
-    "publishedAt": "2026-09-02T08:30:00+08:00"
-   },
-   {
-    "id": "w028",
-    "accountId": "topys",
-    "accountName": "顶尖文案TOPYS",
-    "title": "营销人的灵感库246期：名创首富妈妈出圈、美团袋鼠玩梗、肯德基奥利奥味汉堡",
-    "summary": "本期创意案例速览：名创优品携手邵艺辉延展社会情绪议题；美团袋鼠热梗引发品牌集体玩梗；肯德基恶搞出“奥利奥味”汉堡；优酸乳×潮汕如姨《嘿凤梨》洗脑神曲；kate spade 把纽约变巨型捉迷藏；NIKE×《海贼王》联名9月25日发售。",
-    "date": "08-29",
-    "url": "https://new.qq.com/rain/a/20260829A05LGH00",
-    "source": "顶尖文案TOPYS / 腾讯新闻·营销人的灵感库",
-    "tags": [
-     "广告创意",
-     "案例"
-    ],
-    "publishedAt": "2026-08-29T08:30:00+08:00"
-   },
-   {
-    "id": "w029",
-    "accountId": "socialbeta",
-    "accountName": "SocialBeta",
-    "title": "kate spade 2026秋季广告大片：把纽约变成大型捉迷藏现场",
-    "summary": "由格莱美得主Tyla出镜演绎，纽约街头巷尾藏着Duo Mini单肩包线索，十位文化创作者加入捉迷藏；以甜菜红、月桂叶绿等秋季新配色与环境融为一体，传递“快乐藏在日常里”。",
-    "date": "08-29",
-    "url": "https://socialbeta.com/campaign/28294",
-    "source": "SocialBeta",
-    "tags": [
-     "广告创意",
-     "新品营销"
-    ],
-    "publishedAt": "2026-08-29T08:30:00+08:00"
+    "publishedAt": "2026-09-03T08:30:00+08:00"
    }
   ]
  },
  "celebrityEndorsements": [
   {
-   "id": "e001",
+   "brand": "STUART WEITZMAN 思加图同门奢华鞋履",
+   "celeb": "杨幂",
+   "region": "内地",
+   "title": "全球代言人回归（开启品牌40周年新篇章）",
+   "date": "09-09",
+   "action": "时隔7年再续前缘，杨幂以更真实自洽的状态诠释\"向心出走，张弛由我\"精神内核；同期思加图（ST&SAT）也以全球品牌代言人杨幂发布2026冬季新品「外」刊地广",
+   "volume": "官宣当日时尚媒体密集报道，微博话题热度领先",
+   "posVoice": "\"时隔7年，双方再续前缘\"——ELLE世界时装之苑杂志",
+   "posVoiceSource": "网易·ELLE转载",
+   "posVoiceUrl": "https://www.163.com/dy/article/L6CSQGT40552KKOK.html",
+   "negVoice": "本期未见显著负面",
+   "negVoiceSource": "",
+   "negVoiceUrl": "",
+   "source": "网易·ELLE",
+   "url": "https://www.163.com/dy/article/L6CSQGT40552KKOK.html",
+   "updatedAt": "2026-09-10T08:07:00+08:00",
+   "id": "e001"
+  },
+  {
+   "brand": "Champion 冠军",
+   "celeb": "丁禹兮",
+   "region": "内地",
+   "title": "品牌代言人（\"冠军来真的\"主张升级）",
+   "date": "09-09",
+   "action": "Champion携手丁禹兮升级品牌主张\"冠军来真的\"，发售「海棠禹你」周年限定礼盒（全国10家店、单店50套）；丁禹兮痛楼同期空降成都武侯大悦城",
+   "volume": "礼盒拼单/攻略笔记在小红书高频出现，转让帖活跃",
+   "posVoice": "\"周年礼盒含鞋+周边，拼盒攻略先算账再冲\"——什么值得买社区",
+   "posVoiceSource": "什么值得买",
+   "posVoiceUrl": "https://post.smzdm.com/p/a950ldr7",
+   "negVoice": "部分粉丝吐槽全球代言人宣发节奏不合理（知乎讨论）",
+   "negVoiceSource": "知乎",
+   "negVoiceUrl": "https://www.zhihu.com/",
+   "source": "微博·品牌日报",
+   "url": "https://weibo.com/1851599157/5341164305122583",
+   "updatedAt": "2026-09-10T08:07:00+08:00",
+   "id": "e002"
+  },
+  {
+   "brand": "玛丽黛佳",
+   "celeb": "金允植",
+   "region": "海外",
+   "title": "星品底妆代言人",
+   "date": "09-09",
+   "action": "玛丽黛佳官宣韩国演员金允植为星品底妆代言人，加入近期美妆代言官宣潮",
+   "volume": "美妆行业媒体与粉丝账号当日转发官宣物料",
+   "posVoice": "\"代言人集中官宣：品牌换代言人，先换的是叙事\"——品牌日报",
+   "posVoiceSource": "微博·品牌日报",
+   "posVoiceUrl": "https://weibo.com/1851599157/5341164305122583",
+   "negVoice": "本期未见显著负面",
+   "negVoiceSource": "",
+   "negVoiceUrl": "",
+   "source": "微博·品牌日报",
+   "url": "https://weibo.com/1851599157/5341164305122583",
+   "updatedAt": "2026-09-10T08:07:00+08:00",
+   "id": "e003"
+  },
+  {
+   "id": "e004",
    "brand": "lining",
    "celeb": "Stephen Curry",
    "region": "海外",
@@ -5631,7 +5776,7 @@ var DASH_DATA = {
    "source": "北青周刊",
    "url": "https://www.bqweekly.com/information/2340.html",
    "updatedAt": "2026-09-09T12:35:00+08:00",
-   "id": "e002"
+   "id": "e005"
   },
   {
    "brand": "COS",
@@ -5650,7 +5795,7 @@ var DASH_DATA = {
    "source": "商派ShopeX",
    "url": "https://www.shopex.cn/news/36226",
    "updatedAt": "2026-09-09T12:35:00+08:00",
-   "id": "e003"
+   "id": "e006"
   },
   {
    "brand": "Dolce&Gabbana 杜嘉班纳",
@@ -5669,7 +5814,7 @@ var DASH_DATA = {
    "source": "品牌官方微博",
    "url": "https://weibo.com/7929525005/5340890304612125",
    "updatedAt": "2026-09-09T12:35:00+08:00",
-   "id": "e004"
+   "id": "e007"
   },
   {
    "brand": "TRIP",
@@ -5688,7 +5833,7 @@ var DASH_DATA = {
    "source": "WWD",
    "url": "https://wwd.com/beauty-industry-news/wellness/trip-kendall-jenner-global-ambassador-equity-shareholder-1239198237/",
    "updatedAt": "2026-09-09T12:35:00+08:00",
-   "id": "e005"
+   "id": "e008"
   },
   {
    "brand": "蕾蒙威 Raymond Weil",
@@ -5707,10 +5852,10 @@ var DASH_DATA = {
    "source": "手表网",
    "url": "https://www.sbiao.net/a44998",
    "updatedAt": "2026-09-09T12:35:00+08:00",
-   "id": "e006"
+   "id": "e009"
   },
   {
-   "id": "e007",
+   "id": "e010",
    "brand": "立白",
    "celeb": "迪丽热巴",
    "region": "内地",
@@ -5729,7 +5874,7 @@ var DASH_DATA = {
    "updatedAt": "2026-09-09T11:30:00+08:00"
   },
   {
-   "id": "e008",
+   "id": "e011",
    "brand": "拓路者 PioneerCamp",
    "celeb": "鹿晗",
    "region": "内地",
@@ -5748,45 +5893,7 @@ var DASH_DATA = {
    "updatedAt": "2026-09-09T11:30:00+08:00"
   },
   {
-   "id": "e009",
-   "brand": "Burberry 博柏利",
-   "celeb": "全智贤 Jun Ji-hyun",
-   "region": "海外",
-   "title": "全球品牌大使（韩国首位女性大使）",
-   "date": "09-07",
-   "action": "Burberry官宣全智贤出任全球品牌大使，成为品牌历史上首位韩国女性全球大使；首波秋冬系列形象物料释出。",
-   "volume": "韩流时尚媒体与中文时尚号集中报道，“全智贤×Burberry”话题登上多平台热榜，品牌在亚太区声量显著拉升。",
-   "posVoice": "“教科书级别的英伦气质适配”是最大声量，网友称其“把Burberry穿出了自己的气场”。",
-   "posVoiceSource": "搜狐时尚（明星代言盘点）",
-   "posVoiceUrl": "https://m.sohu.com/a/1072156001_467279",
-   "negVoice": "本期未见显著负面。",
-   "negVoiceSource": "搜狐时尚评论区",
-   "negVoiceUrl": "https://m.sohu.com/a/1072156001_467279",
-   "source": "搜狐时尚",
-   "url": "https://m.sohu.com/a/1072156001_467279",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
-   "id": "e010",
-   "brand": "安踏",
-   "celeb": "严子怡",
-   "region": "内地",
-   "title": "安踏品牌代言人（赛前官宣）",
-   "date": "09-05",
-   "action": "9月5日安踏官宣18岁标枪新星严子怡为品牌代言人；当晚其即在布鲁塞尔钻石联赛总决赛以68.42米夺冠并破赛会纪录、实现五连冠，安踏为其定制的名古屋亚运标枪战靴新配色同步上脚，官宣-夺冠-破纪录三连事件链完成。",
-   "volume": "体育媒体与财经媒体集中报道，#严子怡# 相关话题走高；安踏田径新生代矩阵（陈妤颉、刘俊茜、吴洪娇等）与20支国家队“冠军龙服”叙事叠加，亚运前体育营销声量领先。",
-   "posVoice": "“18岁最年轻总决赛冠军+亚洲纪录保持者，安踏押注田径新生代的眼光真好”是最大声量；网友称“赛前官宣直接押中冠军，含金量拉满”。",
-   "posVoiceSource": "网易·安踏代言人严子怡夺冠报道",
-   "posVoiceUrl": "https://www.163.com/dy/article/L65P4ADC0514TTKN.html",
-   "negVoice": "本期未见显著负面。",
-   "negVoiceSource": "网易报道评论区",
-   "negVoiceUrl": "https://www.163.com/dy/article/L65P4ADC0514TTKN.html",
-   "source": "北晚在线（网易号）",
-   "url": "https://www.163.com/dy/article/L65P4ADC0514TTKN.html",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
-   "id": "e011",
+   "id": "e012",
    "brand": "FILA斐乐",
    "celeb": "王安宇",
    "region": "内地",
@@ -5795,25 +5902,6 @@ var DASH_DATA = {
    "action": "9月4日FILA官宣王安宇为品牌代言人，官宣主题“WAY!你好!”；首波物料覆盖社媒与线下大屏。",
    "volume": "官宣当日登上微博热搜，粉丝晒单与二创物料集中释出；FILA运动时尚线在年轻客群中的曝光获提升。",
    "posVoice": "“清爽运动感与FILA复古运动调性契合”是粉丝与时尚账号的主流评价。",
-   "posVoiceSource": "网易·营销周报（官宣信息收录）",
-   "posVoiceUrl": "https://www.163.com/dy/article/L68JIKDS05502ZGU.html",
-   "negVoice": "本期未见显著负面。",
-   "negVoiceSource": "网易·营销周报",
-   "negVoiceUrl": "https://www.163.com/dy/article/L68JIKDS05502ZGU.html",
-   "source": "网易·营销周报",
-   "url": "https://www.163.com/dy/article/L68JIKDS05502ZGU.html",
-   "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
-   "id": "e012",
-   "brand": "三生花（百雀羚旗下）",
-   "celeb": "李宇春",
-   "region": "内地",
-   "title": "品牌全球代言人（万物逢春，我自成花）",
-   "date": "09-04",
-   "action": "9月4日三生花官宣李宇春为品牌全球代言人，主题“万物逢春，我自成花”；首波TVC与平面大片同步上线。",
-   "volume": "官宣微博互动量高，#李宇春三生花全球代言人#话题阅读量快速破千万；国货美妆借顶级唱作人强化“东方草本”品牌叙事。",
-   "posVoice": "“春春的飒与三生花的花，反差又统一”是最大声量，品牌片审美获好评。",
    "posVoiceSource": "网易·营销周报（官宣信息收录）",
    "posVoiceUrl": "https://www.163.com/dy/article/L68JIKDS05502ZGU.html",
    "negVoice": "本期未见显著负面。",
@@ -5844,10 +5932,10 @@ var DASH_DATA = {
    "icon": "🔴",
    "metric": "热搜榜单 / 品牌声量",
    "status": "partial",
-   "current": "八爪鱼连接器本次会话未连接（MCP 工具不可用）",
+   "current": "八爪鱼已连接：模板523任务运行至 completed 但返回 0 行",
    "target": "在八爪鱼云账号配置微博登录后即可取真实榜",
-   "connected": false,
-   "note": "9月8日实测：本次自动化会话中八爪鱼连接器状态为未连接，无法启动模板523采集任务；已按预案改用聚合站（吾爱分享）晨间快照获取微博热搜 Top30，话题页直链 s.weibo.com 可跳转核验。待连接器恢复并配置微博登录后即可切换八爪鱼实时采集。"
+   "connected": true,
+   "note": "9月10日实测：八爪鱼模板523任务正常运行至完成但返回0行——微博账号仍未在八爪鱼云配置登录；本次微博热搜改用 toupage.com JSON-LD 实时榜单（09-10 07:58 快照，直链 s.weibo.com 话题页可核验）。"
   },
   {
    "platform": "抖音",
