@@ -1,7 +1,7 @@
 var DASH_DATA = {
  "version": 2,
  "date": "09-10",
- "updatedAt": "2026-09-10T17:08:00+08:00",
+ "updatedAt": "2026-09-10 17:28",
  "trendDates": [
   "09-03",
   "09-04",
@@ -4431,28 +4431,6 @@ var DASH_DATA = {
   "wbEntertainment": [
    {
     "rank": 1,
-    "topic": "梅姨出摊卖芒果影像",
-    "note": "梅艳芳相关影像作品引发回忆杀，娱乐圈缅怀话题",
-    "brand": "",
-    "date": "09-10",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23梅姨出摊卖芒果影像%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 2,
-    "topic": "梅姨儿子称3岁被抛弃很恼火",
-    "note": "梅艳芳家庭往事再被讨论",
-    "brand": "",
-    "date": "09-10",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23梅姨儿子称3岁被抛弃很恼火%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 3,
     "topic": "早春晴朗云合",
     "note": "剧集《早春晴朗》云合数据表现",
     "brand": "",
@@ -4463,7 +4441,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 4,
+    "rank": 2,
     "topic": "邓为都快急死了张晚意还在松弛",
     "note": "《早春晴朗》主演邓为、张晚意综艺互动",
     "brand": "",
@@ -4474,7 +4452,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 5,
+    "rank": 3,
     "topic": "阿信 来自中国",
     "note": "五月天阿信相关动态登热搜",
     "brand": "",
@@ -4485,18 +4463,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 6,
-    "topic": "梅姨首任丈夫称她生两个儿子后离开",
-    "note": "梅艳芳前夫受访引热议",
-    "brand": "",
-    "date": "09-10",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23梅姨首任丈夫称她生两个儿子后离开%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 7,
+    "rank": 4,
     "topic": "刘亦菲曾被裁掉过",
     "note": "刘亦菲早年试戏经历被翻出",
     "brand": "",
@@ -4507,7 +4474,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 8,
+    "rank": 5,
     "topic": "沈月商务",
     "note": "演员沈月商务代言动态",
     "brand": "",
@@ -4518,7 +4485,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 9,
+    "rank": 6,
     "topic": "刘恋入职奥美月薪3500",
     "note": "歌手刘恋入职奥美引发讨论",
     "brand": "",
@@ -4529,7 +4496,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 10,
+    "rank": 7,
     "topic": "甲亢哥 阿信",
     "note": "网红甲亢哥与五月天阿信联动",
     "brand": "",
@@ -4540,7 +4507,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 11,
+    "rank": 8,
     "topic": "邓为林依晨听到灌肠的反应",
     "note": "《早春晴朗》邓为、林依晨片段",
     "brand": "",
@@ -4551,7 +4518,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 12,
+    "rank": 9,
     "topic": "曝三体2蒋奇明演罗辑",
     "note": "《三体2》选角爆料，IP影视化受关注",
     "brand": "",
@@ -4562,7 +4529,7 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
-    "rank": 13,
+    "rank": 10,
     "topic": "网友收到了井柏然送的私服",
     "note": "井柏然私服赠送引发粉丝互动",
     "brand": "",
