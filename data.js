@@ -1,16 +1,7 @@
-// 品牌资讯热度看板 · 数据文件
-// 更新方式：由每日定时任务自动搜索更新；也可手动让助手更新
-// 字段说明：
-//   brands[].soc   社媒声量指数(0-100，基于公开报道/榜单估算)
-//   brands[].sales 销售转化指数(0-100，基于财报/榜单/公开数据估算)
-//   brands[].news   品牌新闻指数(0-100，基于公开报道估算)
-//   heat          品牌综合热度 = 0.5*soc + 0.3*sales + 0.2*news
-//   数据来源说明见 dataSources 字段
-
 var DASH_DATA = {
  "version": 2,
  "date": "09-10",
- "updatedAt": "2026-09-10 08:07",
+ "updatedAt": "2026-09-10 10:15",
  "trendDates": [
   "09-03",
   "09-04",
@@ -1237,6 +1228,186 @@ var DASH_DATA = {
     64.4
    ],
    "heat": 64.4
+  },
+  {
+   "id": "skechers",
+   "name": "斯凯奇 Skechers",
+   "soc": 82,
+   "sales": 84,
+   "news": 86,
+   "delta": 1.8,
+   "trend": [
+    80,
+    80.5,
+    81,
+    81.5,
+    82,
+    82.5,
+    83,
+    83.4
+   ],
+   "heat": 83.4,
+   "cat": "apparel"
+  },
+  {
+   "id": "ecco",
+   "name": "ECCO 爱步",
+   "soc": 74,
+   "sales": 78,
+   "news": 80,
+   "delta": 1.4,
+   "trend": [
+    73,
+    73.2,
+    73.6,
+    74,
+    75,
+    75.6,
+    76,
+    76.4
+   ],
+   "heat": 76.4,
+   "cat": "apparel"
+  },
+  {
+   "id": "pane",
+   "name": "PANE",
+   "soc": 76,
+   "sales": 62,
+   "news": 78,
+   "delta": 0.8,
+   "trend": [
+    71,
+    71.5,
+    71.8,
+    72,
+    72,
+    72.2,
+    72.2,
+    72.2
+   ],
+   "heat": 72.2,
+   "cat": "apparel"
+  },
+  {
+   "id": "ouder",
+   "name": "Ouder",
+   "soc": 72,
+   "sales": 66,
+   "news": 74,
+   "delta": 1.2,
+   "trend": [
+    68,
+    68.6,
+    69.2,
+    69.6,
+    70,
+    70.2,
+    70.4,
+    70.6
+   ],
+   "heat": 70.6,
+   "cat": "apparel"
+  },
+  {
+   "id": "oldorder",
+   "name": "OLD ORDER",
+   "soc": 70,
+   "sales": 64,
+   "news": 68,
+   "delta": 0.9,
+   "trend": [
+    66,
+    66.4,
+    66.8,
+    67.2,
+    67.5,
+    67.7,
+    67.8,
+    67.8
+   ],
+   "heat": 67.8,
+   "cat": "apparel"
+  },
+  {
+   "id": "teenmix",
+   "name": "天美意 Teenmix",
+   "soc": 66,
+   "sales": 68,
+   "news": 70,
+   "delta": 1,
+   "trend": [
+    64,
+    64.5,
+    65,
+    65.6,
+    66.4,
+    67,
+    67.2,
+    67.4
+   ],
+   "heat": 67.4,
+   "cat": "apparel"
+  },
+  {
+   "id": "tata",
+   "name": "他她 TATA",
+   "soc": 62,
+   "sales": 66,
+   "news": 64,
+   "delta": 0.7,
+   "trend": [
+    61,
+    61.4,
+    61.8,
+    62.2,
+    62.8,
+    63.2,
+    63.5,
+    63.6
+   ],
+   "heat": 63.6,
+   "cat": "apparel"
+  },
+  {
+   "id": "ocai",
+   "name": "Ocai",
+   "soc": 58,
+   "sales": 52,
+   "news": 56,
+   "delta": 0.5,
+   "trend": [
+    54,
+    54.5,
+    54.8,
+    55,
+    55.2,
+    55.4,
+    55.6,
+    55.8
+   ],
+   "heat": 55.8,
+   "cat": "apparel"
+  },
+  {
+   "id": "talitaqoom",
+   "name": "tq talitaqoom",
+   "soc": 52,
+   "sales": 48,
+   "news": 54,
+   "delta": 0.4,
+   "trend": [
+    50,
+    50.2,
+    50.5,
+    50.6,
+    50.8,
+    51,
+    51.1,
+    51.2
+   ],
+   "heat": 51.2,
+   "cat": "apparel"
   }
  ],
  "news": [
@@ -1325,6 +1496,38 @@ var DASH_DATA = {
    "id": "n005"
   },
   {
+   "brand": "pane",
+   "cat": "apparel",
+   "heat": 78,
+   "date": "09-10",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/wm/2026-05-21/doc-inhyrfcx8322660.shtml",
+   "title": "PANE 德训鞋成「上海土特产」：外籍顾客占比 60-80%，天猫 500 元以上德训鞋热销榜霸榜前三",
+   "summary": "上海本土品牌 PANE（2022 创立）凭复古德训+芭蕾运动鞋「微风」「轻影」系列走红，永源路旗舰店外籍顾客占比 60-80%、热门配色断码需等 2-3 周；2025 年天猫 GMV 破 1 亿、私域复购率超 40%，主打「不出海的出海」模式。",
+   "tags": [
+    "德训鞋",
+    "逆向出海",
+    "上海品牌"
+   ],
+   "id": "n006"
+  },
+  {
+   "brand": "teenmix",
+   "cat": "apparel",
+   "heat": 74,
+   "date": "09-10",
+   "source": "什么值得买",
+   "url": "https://post.m.smzdm.com/p/apq602dw/",
+   "title": "百丽、天美意、TATA 同季押注西部靴，天美意一口气推出五款西部靴矩阵",
+   "summary": "天美意 2026 早秋端出黄金V西部靴、星野靴、日落大道、大漠长歌、云褶靴五款；同集团百丽官宣章若楠代言推「漫野系列」，TATA 推出「牧野游歌」——行业头部集体宣告西部靴为 2026 早秋第一靴型。",
+   "tags": [
+    "西部靴",
+    "早秋新品",
+    "百丽系"
+   ],
+   "id": "n007"
+  },
+  {
    "brand": "disney",
    "cat": "ip",
    "heat": 72,
@@ -1339,7 +1542,7 @@ var DASH_DATA = {
     "上海大师赛",
     "IP联名"
    ],
-   "id": "n006"
+   "id": "n008"
   },
   {
    "brand": "mixue",
@@ -1356,7 +1559,23 @@ var DASH_DATA = {
     "新茶饮",
     "品质升级"
    ],
-   "id": "n007"
+   "id": "n009"
+  },
+  {
+   "brand": "ouder",
+   "cat": "apparel",
+   "heat": 72,
+   "date": "09-10",
+   "source": "搜狐",
+   "url": "https://www.sohu.com/a/1072825966_122952213",
+   "title": "Ouder「丑萌」面包鞋差异化出圈：宽鞋头+4.5cm 隐形增高，40+ 艺人自发上脚",
+   "summary": "宁波品牌 Ouder 以「甜系丑萌」定位走红：宽鞋头比标准宽约 15%、4.5cm 隐形增高、SMILE 鞋底彩蛋，迪丽热巴、白鹿、虞书欣等 40+ 组艺人自主上脚；天猫运动帆布鞋榜第 9 位，2026 丑萌风搜索量同比增长超 200%。",
+   "tags": [
+    "丑萌鞋",
+    "明星同款",
+    "差异化"
+   ],
+   "id": "n010"
   },
   {
    "brand": "kayou",
@@ -1373,7 +1592,7 @@ var DASH_DATA = {
     "卡牌",
     "盲盒监管"
    ],
-   "id": "n008"
+   "id": "n011"
   },
   {
    "brand": "kans",
@@ -1390,7 +1609,7 @@ var DASH_DATA = {
     "抖音",
     "大单品"
    ],
-   "id": "n009"
+   "id": "n012"
   },
   {
    "brand": "proya",
@@ -1407,7 +1626,7 @@ var DASH_DATA = {
     "韩束",
     "国货美妆"
    ],
-   "id": "n010"
+   "id": "n013"
   },
   {
    "brand": "ripstar",
@@ -1423,7 +1642,39 @@ var DASH_DATA = {
     "明星同款",
     "国潮鞋履"
    ],
-   "id": "n011"
+   "id": "n014"
+  },
+  {
+   "brand": "ocai",
+   "cat": "apparel",
+   "heat": 60,
+   "date": "09-10",
+   "source": "识货社区",
+   "url": "https://m.shihuo.cn/page/findCommunityDetail?id=5692993",
+   "title": "Ocai 001 面包鞋 Boneless 联名软木塞配色实测：4-5cm 增高+全真皮鞋面",
+   "summary": "Old Order 团队 2022 年推出的国潮鞋履品牌 Ocai，主打「面包鞋」超大廓形；001 面包鞋 Boneless 联名款全真皮鞋面、一体成型加厚鞋垫，4-5cm 增高，调性与设计在线的国货小众品牌。",
+   "tags": [
+    "面包鞋",
+    "联名",
+    "实测"
+   ],
+   "id": "n015"
+  },
+  {
+   "brand": "talitaqoom",
+   "cat": "apparel",
+   "heat": 58,
+   "date": "09-10",
+   "source": "时尚COSMO",
+   "url": "https://www.cosmopolitancn.com/fashion/detail/48946",
+   "title": "tq(talitaqoom) 阿那亚「海风舞会」大秀：张艺凡共创紫色缎面德训鞋，孙乐言踏浪演绎",
+   "summary": "意式休闲鞋履品牌 tq 于秦皇岛阿那亚举办「海风舞会」主题大秀，品牌代言人张艺凡共创合作款紫色缎面德训鞋亮相，焦糖/花瓣/天鹅湖三大系列登场，主打「悦己生活 自在如我」。",
+   "tags": [
+    "品牌大秀",
+    "张艺凡",
+    "德训鞋"
+   ],
+   "id": "n016"
   },
   {
    "brand": "ip-industry",
@@ -1440,7 +1691,7 @@ var DASH_DATA = {
     "黄金珠宝",
     "IP联名"
    ],
-   "id": "n012"
+   "id": "n017"
   },
   {
    "brand": "nike",
@@ -1457,7 +1708,7 @@ var DASH_DATA = {
     "标普",
     "退出"
    ],
-   "id": "n013"
+   "id": "n018"
   },
   {
    "brand": "nike",
@@ -1473,7 +1724,7 @@ var DASH_DATA = {
     "代言人",
     "耐克"
    ],
-   "id": "n014"
+   "id": "n019"
   },
   {
    "brand": "lining",
@@ -1489,7 +1740,7 @@ var DASH_DATA = {
     "代言人",
     "李宁"
    ],
-   "id": "n015"
+   "id": "n020"
   },
   {
    "brand": "anta",
@@ -1506,7 +1757,7 @@ var DASH_DATA = {
     "安踏",
     "田径"
    ],
-   "id": "n016"
+   "id": "n021"
   },
   {
    "brand": "guming",
@@ -1521,7 +1772,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n017"
+   "id": "n022"
   },
   {
    "brand": "popmart",
@@ -1536,7 +1787,7 @@ var DASH_DATA = {
     "产品上新",
     "展会"
    ],
-   "id": "n018"
+   "id": "n023"
   },
   {
    "brand": "ysl",
@@ -1552,7 +1803,7 @@ var DASH_DATA = {
     "彩妆护肤",
     "YSL"
    ],
-   "id": "n019"
+   "id": "n024"
   },
   {
    "brand": "maogeping",
@@ -1568,7 +1819,7 @@ var DASH_DATA = {
     "财报",
     "营销"
    ],
-   "id": "n020"
+   "id": "n025"
   },
   {
    "brand": "luckin",
@@ -1583,7 +1834,7 @@ var DASH_DATA = {
     "联名",
     "IP"
    ],
-   "id": "n021"
+   "id": "n026"
   },
   {
    "brand": "fila",
@@ -1600,7 +1851,7 @@ var DASH_DATA = {
     "FILA",
     "王安宇"
    ],
-   "id": "n022"
+   "id": "n027"
   },
   {
    "brand": "mixue",
@@ -1615,7 +1866,7 @@ var DASH_DATA = {
     "业绩",
     "财报"
    ],
-   "id": "n023"
+   "id": "n028"
   },
   {
    "brand": "chabaidao",
@@ -1631,7 +1882,7 @@ var DASH_DATA = {
     "新品",
     "霸王茶姬"
    ],
-   "id": "n024"
+   "id": "n029"
   },
   {
    "brand": "starbucks",
@@ -1646,7 +1897,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n025"
+   "id": "n030"
   },
   {
    "brand": "chabaidao",
@@ -1661,7 +1912,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n026"
+   "id": "n031"
   },
   {
    "brand": "anta",
@@ -1676,7 +1927,7 @@ var DASH_DATA = {
     "资本市场",
     "股价"
    ],
-   "id": "n027"
+   "id": "n032"
   },
   {
    "brand": "lululemon",
@@ -1691,7 +1942,7 @@ var DASH_DATA = {
     "品牌动态",
     "高管变动"
    ],
-   "id": "n028"
+   "id": "n033"
   },
   {
    "brand": "loreal",
@@ -1706,7 +1957,7 @@ var DASH_DATA = {
     "品牌动态",
     "营销"
    ],
-   "id": "n029"
+   "id": "n034"
   },
   {
    "brand": "proya",
@@ -1721,7 +1972,23 @@ var DASH_DATA = {
     "资本市场",
     "公司治理"
    ],
-   "id": "n030"
+   "id": "n035"
+  },
+  {
+   "brand": "oldorder",
+   "cat": "apparel",
+   "heat": 68,
+   "date": "09-09",
+   "source": "微博",
+   "url": "https://weibo.com/6493314549/NzwxyyBHy?mod=weibotime&wvr=6",
+   "title": "OLD ORDER 福建首店即将入驻厦门 SM 商业城三期，全国门店扩至第五城",
+   "summary": "国潮球鞋品牌 OLD ORDER（SKATER-001 面包滑板鞋）即将入驻厦门 SM 三期，此前已布局广州东山口、长沙、成都、重庆；曾与李宁、STA、WASSUP、迪士尼、三丽鸥等联名。",
+   "tags": [
+    "开店",
+    "渠道扩张",
+    "OLD ORDER"
+   ],
+   "id": "n036"
   },
   {
    "brand": "miniso",
@@ -1737,10 +2004,10 @@ var DASH_DATA = {
     "竞争",
     "大店战略"
    ],
-   "id": "n031"
+   "id": "n037"
   },
   {
-   "id": "n032",
+   "id": "n038",
    "brand": "luckin",
    "cat": "food",
    "heat": 90,
@@ -1770,7 +2037,7 @@ var DASH_DATA = {
     "业绩危机",
     "换帅"
    ],
-   "id": "n033"
+   "id": "n039"
   },
   {
    "brand": "popmart",
@@ -1786,10 +2053,10 @@ var DASH_DATA = {
     "LABUBU",
     "资本市场"
    ],
-   "id": "n034"
+   "id": "n040"
   },
   {
-   "id": "n035",
+   "id": "n041",
    "brand": "bawang",
    "cat": "food",
    "heat": 88,
@@ -1806,7 +2073,23 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n036",
+   "brand": "skechers",
+   "cat": "apparel",
+   "heat": 88,
+   "date": "09-08",
+   "source": "新浪上海",
+   "url": "https://sh.sina.com.cn/life/other/2026-09-08/detail-inirapyy9311632.shtml",
+   "title": "斯凯奇发布全新品牌形象「舒适奇了 Comfort For All」，2025-2028 三阶段品牌升级战略启动",
+   "summary": "斯凯奇中国重新定义运动舒适体验，构建舒适脚感/动态/掌控/贴合/体感五大维度舒适科技体系，2025-2028 年围绕「探索舒适——舒适奇了——舒适运动品牌创新」三阶段推进品牌形象升级。",
+   "tags": [
+    "品牌焕新",
+    "舒适科技",
+    "斯凯奇"
+   ],
+   "id": "n042"
+  },
+  {
+   "id": "n043",
    "brand": "popmart",
    "cat": "ip",
    "heat": 86,
@@ -1823,7 +2106,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n037",
+   "id": "n044",
    "brand": "huawei",
    "cat": "daily",
    "heat": 85,
@@ -1853,10 +2136,10 @@ var DASH_DATA = {
     "量贩零食",
     "行业变局"
    ],
-   "id": "n038"
+   "id": "n045"
   },
   {
-   "id": "n039",
+   "id": "n046",
    "brand": "anta",
    "cat": "apparel",
    "heat": 82,
@@ -1886,7 +2169,7 @@ var DASH_DATA = {
     "DTC",
     "竞争格局"
    ],
-   "id": "n040"
+   "id": "n047"
   },
   {
    "brand": "guming",
@@ -1902,10 +2185,10 @@ var DASH_DATA = {
     "啤酒",
     "存量竞争"
    ],
-   "id": "n041"
+   "id": "n048"
   },
   {
-   "id": "n042",
+   "id": "n049",
    "brand": "estee",
    "cat": "beauty",
    "heat": 72,
@@ -1921,7 +2204,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n043",
+   "id": "n050",
    "brand": "luckin",
    "cat": "food",
    "heat": 88,
@@ -1948,7 +2231,7 @@ var DASH_DATA = {
     "体育营销",
     "社媒热议"
    ],
-   "id": "n044"
+   "id": "n051"
   },
   {
    "brand": "mixue",
@@ -1964,7 +2247,7 @@ var DASH_DATA = {
     "规模失灵",
     "海外收缩"
    ],
-   "id": "n045"
+   "id": "n052"
   },
   {
    "brand": "popmart",
@@ -1980,7 +2263,23 @@ var DASH_DATA = {
     "潮玩",
     "布鲁可"
    ],
-   "id": "n046"
+   "id": "n053"
+  },
+  {
+   "brand": "ecco",
+   "cat": "apparel",
+   "heat": 82,
+   "date": "09-07",
+   "source": "人民交通网",
+   "url": "http://www.rmjtxw.com/news/shangye/254121.html",
+   "title": "ECCO「自然有动线」全新户外系列上市，首次拓展 BIOM 成衣产品线",
+   "summary": "北欧丹麦品牌 ECCO 推出 BIOM 2.2 TRL、BIOM C-TRAIL 鞋履与 BIOM 成衣系列（驭风/鱼游软壳外套等），全线代言人倪妮、黄景瑜演绎；PHOREENE 回弹中底+部分 GORE-TEX 防水，主打城野双向穿搭。",
+   "tags": [
+    "新品上市",
+    "BIOM系列",
+    "户外"
+   ],
+   "id": "n054"
   },
   {
    "brand": "liby",
@@ -1996,7 +2295,7 @@ var DASH_DATA = {
     "代言",
     "超品日"
    ],
-   "id": "n047"
+   "id": "n055"
   },
   {
    "brand": "ip-industry",
@@ -2012,7 +2311,7 @@ var DASH_DATA = {
     "国谷反超",
     "产业数据"
    ],
-   "id": "n048"
+   "id": "n056"
   },
   {
    "brand": "miniso",
@@ -2027,10 +2326,10 @@ var DASH_DATA = {
     "财报",
     "资本动态"
    ],
-   "id": "n049"
+   "id": "n057"
   },
   {
-   "id": "n050",
+   "id": "n058",
    "brand": "mixue",
    "cat": "food",
    "heat": 76,
@@ -2057,7 +2356,7 @@ var DASH_DATA = {
     "回购",
     "资本市场"
    ],
-   "id": "n051"
+   "id": "n059"
   },
   {
    "brand": "anta",
@@ -2072,7 +2371,7 @@ var DASH_DATA = {
     "高管发声",
     "全球化"
    ],
-   "id": "n052"
+   "id": "n060"
   },
   {
    "brand": "popmart",
@@ -2087,7 +2386,7 @@ var DASH_DATA = {
     "线下活动",
     "非遗联名"
    ],
-   "id": "n053"
+   "id": "n061"
   },
   {
    "brand": "toptoy",
@@ -2102,7 +2401,7 @@ var DASH_DATA = {
     "财报",
     "券商观点"
    ],
-   "id": "n054"
+   "id": "n062"
   },
   {
    "brand": "anta",
@@ -2117,7 +2416,7 @@ var DASH_DATA = {
     "资本市场",
     "行业趋势"
    ],
-   "id": "n055"
+   "id": "n063"
   },
   {
    "brand": "heytea",
@@ -2132,7 +2431,7 @@ var DASH_DATA = {
     "社媒热议",
     "品牌观察"
    ],
-   "id": "n056"
+   "id": "n064"
   },
   {
    "brand": "52toys",
@@ -2147,10 +2446,10 @@ var DASH_DATA = {
     "线下活动",
     "新品发售"
    ],
-   "id": "n057"
+   "id": "n065"
   },
   {
-   "id": "n058",
+   "id": "n066",
    "brand": "nike",
    "cat": "apparel",
    "heat": 90,
@@ -2178,7 +2477,7 @@ var DASH_DATA = {
     "田径",
     "亚运备战"
    ],
-   "id": "n059"
+   "id": "n067"
   },
   {
    "brand": "lining",
@@ -2194,10 +2493,10 @@ var DASH_DATA = {
     "NBA",
     "国际化"
    ],
-   "id": "n060"
+   "id": "n068"
   },
   {
-   "id": "n061",
+   "id": "n069",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 82,
@@ -2225,10 +2524,10 @@ var DASH_DATA = {
     "变形金刚",
     "出海"
    ],
-   "id": "n062"
+   "id": "n070"
   },
   {
-   "id": "n063",
+   "id": "n071",
    "brand": "proya",
    "cat": "beauty",
    "heat": 74,
@@ -2244,7 +2543,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n064",
+   "id": "n072",
    "brand": "lining",
    "cat": "apparel",
    "heat": 73,
@@ -2259,7 +2558,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n065",
+   "id": "n073",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 70,
@@ -2274,7 +2573,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n066",
+   "id": "n074",
    "brand": "mixue",
    "cat": "food",
    "heat": 68,
@@ -2289,7 +2588,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n067",
+   "id": "n075",
    "brand": "popmart",
    "cat": "ip",
    "heat": 92,
@@ -2304,7 +2603,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n068",
+   "id": "n076",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 88,
@@ -2319,7 +2618,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n069",
+   "id": "n077",
    "brand": "popmart",
    "cat": "ip",
    "heat": 86,
@@ -2334,7 +2633,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n070",
+   "id": "n078",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 84,
@@ -2349,7 +2648,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n071",
+   "id": "n079",
    "brand": "mixue",
    "cat": "food",
    "heat": 82,
@@ -2364,7 +2663,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n072",
+   "id": "n080",
    "brand": "miniso",
    "cat": "daily",
    "heat": 78,
@@ -2379,7 +2678,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n073",
+   "id": "n081",
    "brand": "anta",
    "cat": "apparel",
    "heat": 74,
@@ -2394,7 +2693,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n074",
+   "id": "n082",
    "brand": "adidas",
    "cat": "apparel",
    "heat": 72,
@@ -2409,7 +2708,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n075",
+   "id": "n083",
    "brand": "florasis",
    "cat": "beauty",
    "heat": 70,
@@ -2425,7 +2724,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n076",
+   "id": "n084",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 66,
@@ -2440,7 +2739,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n077",
+   "id": "n085",
    "brand": "bluemoon",
    "cat": "daily",
    "heat": 58,
@@ -2455,7 +2754,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n078",
+   "id": "n086",
    "brand": "ripstar",
    "cat": "apparel",
    "heat": 52,
@@ -2470,7 +2769,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n079",
+   "id": "n087",
    "brand": "popmart",
    "cat": "ip",
    "heat": 92,
@@ -2485,7 +2784,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n080",
+   "id": "n088",
    "brand": "popmart",
    "cat": "ip",
    "heat": 90,
@@ -2500,7 +2799,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n081",
+   "id": "n089",
    "brand": "miniso",
    "cat": "daily",
    "heat": 88,
@@ -2515,7 +2814,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n082",
+   "id": "n090",
    "brand": "popmart",
    "cat": "ip",
    "heat": 84,
@@ -2530,7 +2829,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n083",
+   "id": "n091",
    "brand": "luckin",
    "cat": "food",
    "heat": 84,
@@ -2545,7 +2844,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n084",
+   "id": "n092",
    "brand": "starbucks",
    "cat": "food",
    "heat": 80,
@@ -2560,7 +2859,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n085",
+   "id": "n093",
    "brand": "skii",
    "cat": "beauty",
    "heat": 80,
@@ -2576,7 +2875,23 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n086",
+   "brand": "skechers",
+   "cat": "apparel",
+   "heat": 80,
+   "date": "09-04",
+   "source": "ConCall",
+   "url": "https://cn.concall.com/article/detail/article_id/6006",
+   "title": "斯凯奇 D’LITES 音乐现场亮相上海西岸，熊猫鞋六代「舞台灵感系列」正式推出",
+   "summary": "9月4日-6日斯凯奇 D’LITES 音乐落地上海西岸筒仓，设 SAMPLE 采样区/MIX 混音区/LISTEN 试听区三大街区；时尚代言人宋妍霏亮相演出，熊猫鞋六代舞台灵感系列以巴恩甜酷风诠释复古基因。",
+   "tags": [
+    "线下活动",
+    "熊猫鞋六代",
+    "宋妍霏"
+   ],
+   "id": "n094"
+  },
+  {
+   "id": "n095",
    "brand": "bawang",
    "cat": "food",
    "heat": 78,
@@ -2591,7 +2906,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n087",
+   "id": "n096",
    "brand": "bawang",
    "cat": "food",
    "heat": 76,
@@ -2606,7 +2921,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n088",
+   "id": "n097",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 76,
@@ -2621,7 +2936,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n089",
+   "id": "n098",
    "brand": "mixue",
    "cat": "food",
    "heat": 75,
@@ -2635,7 +2950,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n090",
+   "id": "n099",
    "brand": "bawang",
    "cat": "food",
    "heat": 74,
@@ -2650,7 +2965,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n091",
+   "id": "n100",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 74,
@@ -2665,7 +2980,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n092",
+   "id": "n101",
    "brand": "bawang",
    "cat": "food",
    "heat": 72,
@@ -2680,7 +2995,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n093",
+   "id": "n102",
    "brand": "fila",
    "cat": "apparel",
    "heat": 70,
@@ -2694,7 +3009,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n094",
+   "id": "n103",
    "brand": "toptoy",
    "cat": "ip",
    "heat": 70,
@@ -2709,7 +3024,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n095",
+   "id": "n104",
    "brand": "chanel",
    "cat": "beauty",
    "heat": 70,
@@ -2725,7 +3040,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n096",
+   "id": "n105",
    "brand": "anta",
    "cat": "apparel",
    "heat": 68,
@@ -2739,7 +3054,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n097",
+   "id": "n106",
    "brand": "toptoy",
    "cat": "ip",
    "heat": 68,
@@ -2754,7 +3069,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n098",
+   "id": "n107",
    "brand": "lining",
    "cat": "apparel",
    "heat": 66,
@@ -2768,7 +3083,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n099",
+   "id": "n108",
    "brand": "shiseido",
    "cat": "beauty",
    "heat": 64,
@@ -2784,7 +3099,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n100",
+   "id": "n109",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 60,
@@ -2799,7 +3114,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n101",
+   "id": "n110",
    "brand": "muji",
    "cat": "daily",
    "heat": 58,
@@ -2814,7 +3129,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n102",
+   "id": "n111",
    "brand": "anta",
    "cat": "apparel",
    "heat": 82,
@@ -2828,7 +3143,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n103",
+   "id": "n112",
    "brand": "songsu",
    "cat": "food",
    "heat": 76,
@@ -2843,7 +3158,23 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n104",
+   "brand": "ecco",
+   "cat": "apparel",
+   "heat": 76,
+   "date": "09-03",
+   "source": "什么值得买",
+   "url": "https://post.smzdm.com/p/a4qdo9zx/",
+   "title": "ECCO 九月密集上新：踪迹系列 BOA 旋钮款、白山联名、Kollektive 三设计师联名落地",
+   "summary": "8月31日 ECCO.Kollektive 签下 Craig Green、Natacha Ramsay-Levi、相泽阳介三位设计师重构经典鞋型；9月3日 White Mountaineering 白山联名秋冬系列铺开宣传，品牌加速向「都市轻户外+通勤机能」转型。",
+   "tags": [
+    "联名",
+    "户外鞋",
+    "ECCO.Kollektive"
+   ],
+   "id": "n113"
+  },
+  {
+   "id": "n114",
    "brand": "guming",
    "cat": "food",
    "heat": 74,
@@ -2857,7 +3188,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n105",
+   "id": "n115",
    "brand": "lining",
    "cat": "apparel",
    "heat": 74,
@@ -2871,7 +3202,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n106",
+   "id": "n116",
    "brand": "361",
    "cat": "apparel",
    "heat": 70,
@@ -2885,7 +3216,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n107",
+   "id": "n117",
    "brand": "blokees",
    "cat": "ip",
    "heat": 70,
@@ -2900,7 +3231,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n108",
+   "id": "n118",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 68,
@@ -2915,7 +3246,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n109",
+   "id": "n119",
    "brand": "miniso",
    "cat": "daily",
    "heat": 66,
@@ -2929,7 +3260,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n110",
+   "id": "n120",
    "brand": "mgp",
    "cat": "beauty",
    "heat": 66,
@@ -2945,7 +3276,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n111",
+   "id": "n121",
    "brand": "xtep",
    "cat": "apparel",
    "heat": 62,
@@ -4321,6 +4652,66 @@ var DASH_DATA = {
  },
  "campaigns": [
   {
+   "brand": "斯凯奇 Skechers",
+   "cat": "apparel",
+   "name": "「舒适奇了 Comfort For All」全新品牌形象发布 + 熊猫鞋六代舞台灵感系列",
+   "window": "2026.09.04 - 2026.10.31",
+   "type": "品牌焕新×线下活动",
+   "action": "9月4-6日 D’LITES 音乐现场落地上海西岸筒仓（SAMPLE 采样区/MIX 混音区/LISTEN 试听区），代言人宋妍霏亮相演出；同步推出熊猫鞋六代「舞台灵感系列」与「加州风情系列」；9月8日发布全新品牌形象「舒适奇了 Comfort For All」，2025-2028 三阶段品牌升级战略启动。",
+   "volume": "品牌形象发布获新浪/腾讯等多家媒体报道；金秋「舒跑计划」9-10月覆盖武汉/济南/天津/南京/苏州/乌鲁木齐/昆明等多城奥莱",
+   "volumeIndex": 86,
+   "sale": "熊猫鞋六代舞台灵感系列发售",
+   "topVoice": "宋妍霏 D’LITES 音乐现场舞台表演与巴恩甜酷风穿搭获粉丝好评，熊猫鞋六代复古设计讨论度高",
+   "topVoiceSource": "ConCall",
+   "topVoiceUrl": "https://cn.concall.com/article/detail/article_id/6006",
+   "sentiment": "正面",
+   "source": "ConCall",
+   "url": "https://cn.concall.com/article/detail/article_id/6006",
+   "updatedDate": "09-10",
+   "updatedAt": "2026-09-10T10:10:00+08:00",
+   "status": "进行中"
+  },
+  {
+   "brand": "ECCO 爱步",
+   "cat": "apparel",
+   "name": "「自然有动线」全新户外系列（BIOM 成衣+鞋履）",
+   "window": "2026.09.07 - 2026.11.30",
+   "type": "新品系列×代言人矩阵",
+   "action": "9月7日推出 BIOM 2.2 TRL、BIOM C-TRAIL 鞋履与首次拓展的 BIOM 成衣线（驭风/鱼游软壳外套、防水羽绒服等）；全线代言人倪妮、黄景瑜演绎；9月3日官宣黄景瑜代言 GOLF BIOM C5 高尔夫系列；同步焕新 ECCO x White Mountaineering 白山联名。",
+   "volume": "BIOM 户外系列获家居/时尚媒体多点报道；ECCO.Kollektive 三设计师联名（Craig Green 等）限量发售引发潮流圈关注",
+   "volumeIndex": 80,
+   "sale": "BIOM 系列全渠道发售",
+   "topVoice": "小红书「ECCO 秋季新品」帖258赞，穿搭博主讨论「这两年 ECCO 的衣服才是真的夯」；踪迹 BOA 旋钮新款柜姐密集晒单",
+   "topVoiceSource": "什么值得买",
+   "topVoiceUrl": "https://post.smzdm.com/p/a4qdo9zx/",
+   "sentiment": "正面",
+   "source": "万叶千家",
+   "url": "https://www.homelifestyle.cn/thread-1371878-1-1.html",
+   "updatedDate": "09-10",
+   "updatedAt": "2026-09-10T10:10:00+08:00",
+   "status": "进行中"
+  },
+  {
+   "brand": "天美意 Teenmix",
+   "cat": "apparel",
+   "name": "2026 早秋西部靴矩阵（黄金V西部靴/星野靴/日落大道/大漠长歌/云褶靴）",
+   "window": "2026.08.15 - 2026.10.15",
+   "type": "新品矩阵×趋势卡位",
+   "action": "天美意一口气推出五款西部靴，与同集团百丽（章若楠代言「漫野系列」）、TATA（「牧野游歌」）同季押注西部靴赛道，行业头部集体宣告西部靴为 2026 早秋第一靴型。",
+   "volume": "西部靴话题小红书持续发酵，什么值得买等平台出现集中选购攻略与避雷帖",
+   "volumeIndex": 72,
+   "sale": "早秋西部靴系列全渠道发售",
+   "topVoice": "买家实测反馈分化：改良楦款好评为主，美楦款「压脚背、卡小腿」吐槽集中在差评区，建议宽脚选加宽楦",
+   "topVoiceSource": "什么值得买",
+   "topVoiceUrl": "https://post.m.smzdm.com/p/apq602dw/",
+   "sentiment": "中性",
+   "source": "什么值得买",
+   "url": "https://post.m.smzdm.com/p/apq602dw/",
+   "updatedDate": "09-10",
+   "updatedAt": "2026-09-10T10:10:00+08:00",
+   "status": "进行中"
+  },
+  {
    "brand": "ripstar",
    "cat": "apparel",
    "name": "RIPSTAR Slow Runner「鹅卵石」配色 × 秦岚上脚",
@@ -4361,26 +4752,6 @@ var DASH_DATA = {
    "updatedAt": "2026-09-10T08:07:00+08:00"
   },
   {
-   "brand": "popmart",
-   "cat": "ip",
-   "name": "服贸会SPACE MOLLY景泰蓝首展",
-   "window": "2026-09-09 起",
-   "type": "展会/IP联名",
-   "action": "泡泡玛特携SPACE MOLLY景泰蓝首秀国家级展会——2026中国国际服务贸易交易会(CIFTIS)，输出主题展陈与限定周边；国信证券维持「优于大市」评级",
-   "volume": "服贸会首展",
-   "volumeIndex": 93,
-   "sale": "限定周边随展会发售",
-   "topVoice": "\"SPACE MOLLY景泰蓝以非遗景泰蓝工艺跨界潮玩\"——京报网",
-   "sentiment": "正面",
-   "source": "京报网/经济日报",
-   "url": "https://www.bjd.com.cn/",
-   "topVoiceSource": "京报网",
-   "topVoiceUrl": "https://www.bjd.com.cn/",
-   "updatedAt": "2026-09-09T12:35:00+08:00",
-   "updatedDate": "09-09",
-   "status": "进行中"
-  },
-  {
    "brand": "chabaidao",
    "cat": "food",
    "name": "霸王茶姬「白雾红尘」茶叶蛋上海试点",
@@ -4398,26 +4769,6 @@ var DASH_DATA = {
    "topVoiceUrl": "https://socialbeta.com/campaign/28462",
    "updatedAt": "2026-09-10T08:07:00+08:00",
    "updatedDate": "09-10",
-   "status": "进行中"
-  },
-  {
-   "brand": "blokees",
-   "cat": "ip",
-   "name": "超越版漫威争锋·裂隙蜘蛛侠发售",
-   "window": "2026-09-08 起",
-   "type": "新品发售",
-   "action": "布鲁可发布超越版漫威争锋裂隙蜘蛛侠换色版可动人偶，9月8日正式发售，售价99元；人偶高14.7cm，附6只替换手型、蛛丝特效件，可还原角色战斗造型",
-   "volume": "14.7cm人偶 99元",
-   "volumeIndex": 78,
-   "sale": "9月8日发售 99元",
-   "topVoice": "\"裂隙蜘蛛侠换色版下周发售\"——布鲁可官方",
-   "sentiment": "正面",
-   "source": "网易",
-   "url": "https://www.163.com/dy/article/L6BF1M1J0526HOKN.html",
-   "topVoiceSource": "网易",
-   "topVoiceUrl": "https://www.163.com/dy/article/L6BF1M1J0526HOKN.html",
-   "updatedAt": "2026-09-09T12:35:00+08:00",
-   "updatedDate": "09-09",
    "status": "进行中"
   },
   {
@@ -4461,26 +4812,6 @@ var DASH_DATA = {
    "status": "进行中"
   },
   {
-   "brand": "starbucks",
-   "cat": "food",
-   "name": "秋季\"咖啡体验创新季\"",
-   "window": "2026-09-01 至 2026-10-31",
-   "type": "产品上新",
-   "action": "上线熔岩维也纳咖啡（9.1）、法式香草风味拿铁（9.1）、金渐层美式（9.15）、百香果风味系列（9.15）",
-   "volume": "中国1103个县级城市8011家门店",
-   "volumeIndex": 95,
-   "sale": "重点产品日均目标销量比基础款提升30%",
-   "topVoice": "\"摩卡酱挂壁打造动态熔岩纹理，每一杯都是流动的抽象画\"——星巴克官方",
-   "sentiment": "正面",
-   "source": "理想生活实验室/搜狐",
-   "url": "https://www.sohu.com/a/1070359879_120327735",
-   "topVoiceSource": "星巴克官方公众号",
-   "topVoiceUrl": "https://www.toutiao.com/article/7680386712472601139",
-   "updatedAt": "2026-09-09T12:07:00+08:00",
-   "updatedDate": "09-09",
-   "status": "进行中"
-  },
-  {
    "brand": "luckin",
    "cat": "food",
    "name": "瑞幸×名创优品YOYO联名",
@@ -4498,6 +4829,106 @@ var DASH_DATA = {
    "topVoiceUrl": "https://post.m.smzdm.com/p/a03qr980",
    "updatedAt": "2026-09-10T08:07:00+08:00",
    "updatedDate": "09-10",
+   "status": "进行中"
+  },
+  {
+   "brand": "lululemon",
+   "cat": "apparel",
+   "name": "2026天猫超级品牌日 × 陶身体剧场《wunder puff 的冬天》",
+   "window": "2026-09-01 至 2026-09-10（沈阳动态剧场收官场今日落地）",
+   "updatedDate": "09-10",
+   "type": "平台超品日/艺术营销",
+   "action": "连续第八年开启天猫超级品牌日，与中国现代舞团陶身体剧场联合创作主题短片《wunder puff 的冬天，不止一个调》，讲述音乐变幻中的音调、身体律动中的步调与个性表达的腔调；9月10日将在沈阳举行wunder puff动态剧场线下活动，邀请社区伙伴走进沉浸式体验。",
+   "volume": "超品日大片在社交平台传播，与Q2业绩爆雷、股价大跌17.38%形成强烈话题反差，“业绩失速时更要做品牌”的讨论升温；9月8日新CEO上任在即，“新帅能不能救lululemon”成全网最大声量议题。；野村9月7日报告指lululemon中国业务转弱并下调全年指引，新CEO Heidi O’Neill 9月8日（明日）正式履新。",
+   "volumeIndex": 72,
+   "sale": "未披露转化；背景为中国同店固定汇率-8%（入华首次负增长）、紧身裤销量降约20%、全年指引下调。",
+   "topVoice": "“股价都跌成这样了还请陶身体拍大片？”——股民吐槽与创意圈好评并存；8月运动休闲服饰市场份额同比降10个百分点至43.9%（Alo、Vuori分别增5.9/2.2个百分点）被广泛引用。",
+   "sentiment": "两极",
+   "source": "腾讯新闻（营销人的灵感库247期）",
+   "url": "https://news.qq.com/rain/a/20260905A098Y100",
+   "topVoiceSource": "中国新闻网（中新经纬）",
+   "topVoiceUrl": "https://m.chinanews.com/wap/detail/cht/zw/jw686284.shtml",
+   "status": "进行中",
+   "updatedAt": "2026-09-10T08:07:00+08:00"
+  },
+  {
+   "brand": "bawang",
+   "cat": "food",
+   "name": "×《小王子》文学IP联名（港澳）",
+   "window": "2026-09-10 至 2026-09-30（港澳首发；打卡活动 9.10-9.12）",
+   "updatedDate": "09-10",
+   "type": "文学IP联名/出海营销",
+   "action": "霸王茶姬×《小王子》「Pure At Heart」鲜作抹茶系列今日港澳上线：抹茶拿铁/茉见青/星尘绿意三款饮品+皇冠发带/星尘手提包/绿色奇迹保温杯3款限定周边，首三日\"寻找隐藏CHAGEE杯\"打卡送抹茶拿铁Free券",
+   "volume": "上线首日港澳门店话题热度攀升",
+   "volumeIndex": 66,
+   "sale": "未开售；港澳门店总数399家（同比+191家），海外市场为其当前最确定增量。",
+   "topVoice": "\"皇冠发带+星尘手提包+保温杯3款限定周边，双杯得发带、单杯加价换购\"——IP联动情报站攻略传播",
+   "sentiment": "正面（预热期）",
+   "source": "美通社/经济通",
+   "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?category=prnewswire&newsid=5040910_XG40910_2&section=index",
+   "topVoiceSource": "什么值得买社区",
+   "topVoiceUrl": "https://post.m.smzdm.com/",
+   "status": "进行中",
+   "updatedAt": "2026-09-10T08:07:00+08:00"
+  },
+  {
+   "brand": "popmart",
+   "cat": "ip",
+   "name": "服贸会SPACE MOLLY景泰蓝首展",
+   "window": "2026-09-09 起",
+   "type": "展会/IP联名",
+   "action": "泡泡玛特携SPACE MOLLY景泰蓝首秀国家级展会——2026中国国际服务贸易交易会(CIFTIS)，输出主题展陈与限定周边；国信证券维持「优于大市」评级",
+   "volume": "服贸会首展",
+   "volumeIndex": 93,
+   "sale": "限定周边随展会发售",
+   "topVoice": "\"SPACE MOLLY景泰蓝以非遗景泰蓝工艺跨界潮玩\"——京报网",
+   "sentiment": "正面",
+   "source": "京报网/经济日报",
+   "url": "https://www.bjd.com.cn/",
+   "topVoiceSource": "京报网",
+   "topVoiceUrl": "https://www.bjd.com.cn/",
+   "updatedAt": "2026-09-09T12:35:00+08:00",
+   "updatedDate": "09-09",
+   "status": "进行中"
+  },
+  {
+   "brand": "blokees",
+   "cat": "ip",
+   "name": "超越版漫威争锋·裂隙蜘蛛侠发售",
+   "window": "2026-09-08 起",
+   "type": "新品发售",
+   "action": "布鲁可发布超越版漫威争锋裂隙蜘蛛侠换色版可动人偶，9月8日正式发售，售价99元；人偶高14.7cm，附6只替换手型、蛛丝特效件，可还原角色战斗造型",
+   "volume": "14.7cm人偶 99元",
+   "volumeIndex": 78,
+   "sale": "9月8日发售 99元",
+   "topVoice": "\"裂隙蜘蛛侠换色版下周发售\"——布鲁可官方",
+   "sentiment": "正面",
+   "source": "网易",
+   "url": "https://www.163.com/dy/article/L6BF1M1J0526HOKN.html",
+   "topVoiceSource": "网易",
+   "topVoiceUrl": "https://www.163.com/dy/article/L6BF1M1J0526HOKN.html",
+   "updatedAt": "2026-09-09T12:35:00+08:00",
+   "updatedDate": "09-09",
+   "status": "进行中"
+  },
+  {
+   "brand": "starbucks",
+   "cat": "food",
+   "name": "秋季\"咖啡体验创新季\"",
+   "window": "2026-09-01 至 2026-10-31",
+   "type": "产品上新",
+   "action": "上线熔岩维也纳咖啡（9.1）、法式香草风味拿铁（9.1）、金渐层美式（9.15）、百香果风味系列（9.15）",
+   "volume": "中国1103个县级城市8011家门店",
+   "volumeIndex": 95,
+   "sale": "重点产品日均目标销量比基础款提升30%",
+   "topVoice": "\"摩卡酱挂壁打造动态熔岩纹理，每一杯都是流动的抽象画\"——星巴克官方",
+   "sentiment": "正面",
+   "source": "理想生活实验室/搜狐",
+   "url": "https://www.sohu.com/a/1070359879_120327735",
+   "topVoiceSource": "星巴克官方公众号",
+   "topVoiceUrl": "https://www.toutiao.com/article/7680386712472601139",
+   "updatedAt": "2026-09-09T12:07:00+08:00",
+   "updatedDate": "09-09",
    "status": "进行中"
   },
   {
@@ -4781,26 +5212,6 @@ var DASH_DATA = {
    "updatedAt": "2026-09-09T11:30:00+08:00"
   },
   {
-   "brand": "lululemon",
-   "cat": "apparel",
-   "name": "2026天猫超级品牌日 × 陶身体剧场《wunder puff 的冬天》",
-   "window": "2026-09-01 至 2026-09-10（沈阳动态剧场收官场今日落地）",
-   "updatedDate": "09-10",
-   "type": "平台超品日/艺术营销",
-   "action": "连续第八年开启天猫超级品牌日，与中国现代舞团陶身体剧场联合创作主题短片《wunder puff 的冬天，不止一个调》，讲述音乐变幻中的音调、身体律动中的步调与个性表达的腔调；9月10日将在沈阳举行wunder puff动态剧场线下活动，邀请社区伙伴走进沉浸式体验。",
-   "volume": "超品日大片在社交平台传播，与Q2业绩爆雷、股价大跌17.38%形成强烈话题反差，“业绩失速时更要做品牌”的讨论升温；9月8日新CEO上任在即，“新帅能不能救lululemon”成全网最大声量议题。；野村9月7日报告指lululemon中国业务转弱并下调全年指引，新CEO Heidi O’Neill 9月8日（明日）正式履新。",
-   "volumeIndex": 72,
-   "sale": "未披露转化；背景为中国同店固定汇率-8%（入华首次负增长）、紧身裤销量降约20%、全年指引下调。",
-   "topVoice": "“股价都跌成这样了还请陶身体拍大片？”——股民吐槽与创意圈好评并存；8月运动休闲服饰市场份额同比降10个百分点至43.9%（Alo、Vuori分别增5.9/2.2个百分点）被广泛引用。",
-   "sentiment": "两极",
-   "source": "腾讯新闻（营销人的灵感库247期）",
-   "url": "https://news.qq.com/rain/a/20260905A098Y100",
-   "topVoiceSource": "中国新闻网（中新经纬）",
-   "topVoiceUrl": "https://m.chinanews.com/wap/detail/cht/zw/jw686284.shtml",
-   "status": "进行中",
-   "updatedAt": "2026-09-10T08:07:00+08:00"
-  },
-  {
    "brand": "nayuki",
    "cat": "food",
    "name": "小玉yuy「入职」奈雪联名 + 秋日漂亮水双热点",
@@ -4859,26 +5270,6 @@ var DASH_DATA = {
    "topVoiceUrl": "https://www.sina.cn/news/detail/5338040450942191.html",
    "status": "进行中",
    "updatedAt": "2026-09-09T11:30:00+08:00"
-  },
-  {
-   "brand": "bawang",
-   "cat": "food",
-   "name": "×《小王子》文学IP联名（港澳）",
-   "window": "2026-09-10 至 2026-09-30（港澳首发；打卡活动 9.10-9.12）",
-   "updatedDate": "09-10",
-   "type": "文学IP联名/出海营销",
-   "action": "霸王茶姬×《小王子》「Pure At Heart」鲜作抹茶系列今日港澳上线：抹茶拿铁/茉见青/星尘绿意三款饮品+皇冠发带/星尘手提包/绿色奇迹保温杯3款限定周边，首三日\"寻找隐藏CHAGEE杯\"打卡送抹茶拿铁Free券",
-   "volume": "上线首日港澳门店话题热度攀升",
-   "volumeIndex": 66,
-   "sale": "未开售；港澳门店总数399家（同比+191家），海外市场为其当前最确定增量。",
-   "topVoice": "\"皇冠发带+星尘手提包+保温杯3款限定周边，双杯得发带、单杯加价换购\"——IP联动情报站攻略传播",
-   "sentiment": "正面（预热期）",
-   "source": "美通社/经济通",
-   "url": "https://www.etnet.com.hk/www/tc/news/news-article.php?category=prnewswire&newsid=5040910_XG40910_2&section=index",
-   "topVoiceSource": "什么值得买社区",
-   "topVoiceUrl": "https://post.m.smzdm.com/",
-   "status": "进行中",
-   "updatedAt": "2026-09-10T08:07:00+08:00"
   },
   {
    "brand": "songsu",
