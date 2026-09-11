@@ -1,7 +1,7 @@
 var DASH_DATA = {
  "version": 2,
  "date": "09-11",
- "updatedAt": "2026-09-11T10:40:00+08:00",
+ "updatedAt": "2026-09-11T11:25:00+08:00",
  "trendDates": [
   "09-04",
   "09-05",
@@ -3967,14 +3967,14 @@ var DASH_DATA = {
    },
    {
     "rank": 7,
-    "topic": "千瓜#遥远的相似性感官种草",
-    "note": "小红书#遥远的相似性近90天互动增596%+，通感种草成新玩法",
+    "topic": "高洁丝×Hello Kitty联名礼盒（小红书官方首发）",
+    "note": "高洁丝官宣牵手Hello Kitty推出联名礼盒，含随行杯/帆布包/眼罩/化妆包等周边，品牌官方小红书号首发种草",
     "brand": "",
     "date": "09-11",
     "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%81%A5%E8%BF%9C%E7%9A%84%E7%9B%B8%E4%BC%BC%E6%80%A7%20%E6%84%9F%E5%AE%98%E7%A7%8D%E8%8D%89",
-    "reportSource": "千瓜数据",
-    "reportUrl": "https://www.163.com/dy/article/L6D5AP270538PWEU.html"
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E9%AB%98%E6%B4%81%E4%B8%9D%20Hello%20Kitty",
+    "reportSource": "4A广告网",
+    "reportUrl": "https://www.4anet.com/p/01m25b5jq0qdqa90xmcszy5p5v"
    },
    {
     "rank": 8,
@@ -4039,13 +4039,13 @@ var DASH_DATA = {
     "reportUrl": "https://new.qq.com/rain/a/20260903A04ZPX00"
    },
    {
-    "name": "NBA与小红书版权纠纷和解",
-    "note": "NBA官方与小红书就版权纠纷达成和解，赛事内容合作回归正轨",
+    "name": "小红书 RED LAND 2026 × 新创华SCLA 次元构筑场",
+    "note": "10月2日-6日登陆上海复兴岛，假面骑士/奥特曼/柯南/EVA/初音未来等IP参展，BINGO连线抽奖+IP见面会+联名潮服贩售",
     "date": "09-11",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=NBA%20%E5%B0%8F%E7%BA%A2%E4%B9%A6%20%E7%89%88%E6%9D%83%E5%92%8C%E8%A7%A3",
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E5%B0%8F%E7%BA%A2%E4%B9%A6%20RED%20LAND",
     "source": "小红书·话题搜索",
-    "reportSource": "新闻报道聚合·百度新闻",
-    "reportUrl": "https://www.baidu.com/s?tn=news&wd=NBA%20小红书版权纠纷和解"
+    "reportSource": "新创华SCLA（官方微博）",
+    "reportUrl": "https://weibo.com/6176993259/5341569193870076"
    },
    {
     "name": "小红书「最废技能大赛」5000万围观",

@@ -314,7 +314,7 @@
   </div>
 
   <div class="panel" style="margin-bottom:14px">
-    <h2>🎭 平台文娱·种草垂直榜 <span class="sub">微博文娱榜（剧集/综艺/音乐/电影/明星动态）/ 抖音种草榜（穿搭/时尚/护肤/美妆/美食/好物/生活技巧）· Top30 · 每日更新</span></h2>
+    <h2>🎭 平台文娱·种草垂直榜 <span class="sub">微博文娱榜（剧集/综艺/音乐/电影/明星动态）/ 抖音种草榜（穿搭/时尚/护肤/美妆/美食/好物/生活技巧）/ 小红书热门话题榜（千瓜数据·近90日热点）· Top30 · 每日更新</span></h2>
     <div id="hotVertical"></div>
   </div>
 
@@ -607,7 +607,6 @@ window.__wbBoot = function(fromCache){
       {key:'xiaohongshu', name:'小红书热点', emoji:'📕', color:'#e11d48'}
     ];
     const xhsActs = (H.xiaohongshuMain?.length||H.xhsActivities?.length ? (H.xhsActivities||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')) : []);
-    const xhsTrend = (H.xhsTrending||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
     const xhsMain  = (H.xiaohongshu||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')); // 小红书主列表：按抓取日期降序，最新置顶
     const xhsExtra = `
       ${xhsActs.length?`<div style="font-size:12px;font-weight:700;margin:10px 0 2px;color:#be123c">📣 小红书官方最新活动</div>
@@ -618,16 +617,8 @@ window.__wbBoot = function(fromCache){
           <div class="hot-note">${a.date?('['+a.date+'] '):''}${a.note}</div>
           <div class="hot-src">来源：${a.reportUrl?`<a href="${a.reportUrl}" target="_blank">${a.reportSource||a.source} ↗</a>`:(a.url?`<a href="${a.url}" target="_blank">${a.source}</a>`:a.source)}${a.reportUrl?` · <a href="${a.url}" target="_blank">话题搜索页 ↗</a>`:''}</div>
         </div>
-      </div>`).join('')}`:''}
-      ${xhsTrend.length?`<div style="font-size:12px;font-weight:700;margin:10px 0 2px;color:#be123c">🔥 小红书热门话题榜 Top ${xhsTrend.length} <span style="font-weight:400;color:var(--faint);font-size:10.5px">（千瓜数据·近90日热点，按话题热度排序）</span></div>
-      ${xhsTrend.map(it=>`<div class="hot-row">
-        <span class="hot-no" style="background:#fb7185">${it.rank}</span>
-        <div class="hot-body">
-          <div class="hot-topic">${it.url?`<a href="${it.url}" target="_blank">${it.topic} ↗</a>`:it.topic}</div>
-          <div class="hot-note">${it.heat?('热度'+it.heat+' · '):''}${it.note||''}</div>
-          <div class="hot-src">来源：${it.reportUrl?`<a href="${it.reportUrl}" target="_blank">${it.reportSource||it.source||'千瓜数据'} ↗</a>`:(it.source||'千瓜数据')}${it.url?` · <a href="${it.url}" target="_blank">话题搜索页 ↗</a>`:''}</div>
-        </div>
       </div>`).join('')}`:''}`;
+    // 「🔥 小红书热门话题榜 Top 20」已迁至「平台文娱·种草垂直榜」版块（2026-09-11 用户要求）
     document.getElementById('hotlists').innerHTML = `
       <div class="hot-grid">
         ${defs.map(d=>{
@@ -749,6 +740,22 @@ window.__wbBoot = function(fromCache){
       {key:'wbEntertainment', name:'微博文娱榜', emoji:'🎬', color:'#db2777', desc:'剧集 / 综艺 / 音乐 / 电影 / 明星动态'},
       {key:'dySeeding', name:'抖音种草榜', emoji:'🌱', color:'#16a34a', desc:'穿搭 / 时尚 / 护肤 / 美妆 / 美食 / 好物 / 生活技巧'}
     ];
+    // 小红书热门话题榜（千瓜数据）——2026-09-11 由「平台每日热榜」迁入本版块
+    const xhsTrend = (H.xhsTrending||[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+    const trendCol = xhsTrend.length ? `<div class="hot-col">
+      <h3>🔥 小红书热门话题榜 <span class="sub" style="margin-left:auto">Top ${xhsTrend.length}</span></h3>
+      <div style="font-size:10.5px;color:var(--faint);margin:-4px 0 8px">千瓜数据 · 近90日热点话题，按热度排序</div>
+      <div class="hot-list">
+        ${xhsTrend.map(it=>`<div class="hot-row">
+          <span class="hot-no" style="background:#fb7185">${it.rank}</span>
+          <div class="hot-body">
+            <div class="hot-topic">${it.url?`<a href="${it.url}" target="_blank">${it.topic} ↗</a>`:it.topic}</div>
+            <div class="hot-note">${it.heat?('热度'+it.heat+' · '):''}${it.note||''}</div>
+            <div class="hot-src">来源：${it.reportUrl?`<a href="${it.reportUrl}" target="_blank">${it.reportSource||it.source||'千瓜数据'} ↗</a>`:(it.source||'千瓜数据')}${it.url?` · <a href="${it.url}" target="_blank">话题搜索页 ↗</a>`:''}</div>
+          </div>
+        </div>`).join('')}
+      </div>
+    </div>` : '';
     document.getElementById('hotVertical').innerHTML = `
       <div class="hot-grid">
         ${defs.map(d=>{
@@ -771,6 +778,7 @@ window.__wbBoot = function(fromCache){
             </div>
           </div>`;
         }).join('')}
+        ${trendCol}
       </div>`;
   }
 
@@ -782,6 +790,7 @@ window.__wbBoot = function(fromCache){
       <li><b>社媒声量/销售转化指数</b>：<b>八爪鱼已连接</b>。微博热搜榜模板（523）已就绪，但需在八爪鱼云账号配置微博登录后才能取真实榜（实测未登录时任务返回 0 行）；抖音/小红书需在八爪鱼客户端自建热榜模板并配置登录；当前三平台热榜仍为公开报道聚合（真实话题+可跳转来源）。天猫/淘宝销售转化无公开数据源，按要求保持<b>财报/榜单估算</b>并明确标注。</li>
       <li><b>资讯流</b>：条目来自公开新闻源，点击标题可跳转原文；无链接条目来自品牌官方渠道/社区平台汇总；另含 IP 行业动态（谷子经济、IP授权、监管等，不参与品牌排行）。</li>
       <li><b>平台热榜</b>：微博热搜/抖音热点/小红书热点每日从公开榜单报道聚合抓取，优先保留与追踪品牌相关的条目并标注品牌。</li>
+      <li><b>文娱·种草垂直榜</b>：微博文娱榜、抖音种草榜仅保留文娱/种草娱乐类话题（剔除政治性与社会性事件）；另含小红书热门话题榜 Top20（千瓜数据·近90日热点），按话题热度排序。</li>
       <li><b>行业公众号资讯</b>：聚合 SocialBeta、梅花网、36氪、剁椒Spicy、数英DIGITALING、廣告狂人、广告头条、顶尖文案TOPYS 八个公众号的每日发布内容，保留行业资讯与广告创意类内容（剔除推广/软文）；可按账号筛选，点击标题或来源均可跳转原文。剁椒Spicy、廣告狂人、顶尖文案TOPYS 为微信自媒体，其观点经可跳转的媒体摘编来源呈现。</li>
       <li><b>更新机制</b>：每日 08:00 与 17:00 自动搜索更新（data.js）并同步线上链接；手动刷新页面即可看到最新数据。资讯流与公众号资讯均按最新发布时间排序。</li>
       <li><b>追加品牌</b>：在对话中直接告诉助手品牌名与所属类目即可，无需修改代码。</li>
