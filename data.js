@@ -1,7 +1,7 @@
 var DASH_DATA = {
  "version": 2,
  "date": "09-11",
- "updatedAt": "2026-09-11T07:58:00+08:00",
+ "updatedAt": "2026-09-11T10:40:00+08:00",
  "trendDates": [
   "09-04",
   "09-05",
@@ -3357,270 +3357,270 @@ var DASH_DATA = {
   "weibo": [
    {
     "rank": 1,
-    "topic": "iPhone18Pro价格",
+    "topic": "女孩被包办婚姻逃离后父母跨省抓人",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23iPhone18Pro%E4%BB%B7%E6%A0%BC%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%A9%E8%A2%AB%E5%8C%85%E5%8A%9E%E5%A9%9A%E5%A7%BB%E9%80%83%E7%A6%BB%E5%90%8E%E7%88%B6%E6%AF%8D%E8%B7%A8%E7%9C%81%E6%8A%93%E4%BA%BA%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 2,
-    "topic": "教师节",
+    "topic": "双休购小程序因违规暂停服务",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%95%99%E5%B8%88%E8%8A%82%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E5%8F%8C%E4%BC%91%E8%B4%AD%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%9B%A0%E8%BF%9D%E8%A7%84%E6%9A%82%E5%81%9C%E6%9C%8D%E5%8A%A1%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 3,
-    "topic": "一图速览2026年服贸会",
+    "topic": "我国成功发射一箭六星",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%9B%BE%E9%80%9F%E8%A7%882026%E5%B9%B4%E6%9C%8D%E8%B4%B8%E4%BC%9A%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E6%88%90%E5%8A%9F%E5%8F%91%E5%B0%84%E4%B8%80%E7%AE%AD%E5%85%AD%E6%98%9F%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 4,
-    "topic": "iPhoneDuo过渡动画 完美",
+    "topic": "4次考公失败后花2万2旅行6国",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo%E8%BF%87%E6%B8%A1%E5%8A%A8%E7%94%BB%20%E5%AE%8C%E7%BE%8E%23",
+    "url": "https://s.weibo.com/weibo?q=%234%E6%AC%A1%E8%80%83%E5%85%AC%E5%A4%B1%E8%B4%A5%E5%90%8E%E8%8A%B12%E4%B8%872%E6%97%85%E8%A1%8C6%E5%9B%BD%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 5,
-    "topic": "AirPods5 便宜",
+    "topic": "建议大家把内裤袜子丢洗衣机洗",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23AirPods5%20%E4%BE%BF%E5%AE%9C%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E5%BB%BA%E8%AE%AE%E5%A4%A7%E5%AE%B6%E6%8A%8A%E5%86%85%E8%A3%A4%E8%A2%9C%E5%AD%90%E4%B8%A2%E6%B4%97%E8%A1%A3%E6%9C%BA%E6%B4%97%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 6,
-    "topic": "郑钦文美网止步八强",
+    "topic": "油价",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E7%BE%8E%E7%BD%91%E6%AD%A2%E6%AD%A5%E5%85%AB%E5%BC%BA%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B9%E4%BB%B7%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 7,
-    "topic": "郑钦文美网1比2莱巴金娜",
+    "topic": "景德镇学院通报宿舍调整事件",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E7%BE%8E%E7%BD%911%E6%AF%942%E8%8E%B1%E5%B7%B4%E9%87%91%E5%A8%9C%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%99%AF%E5%BE%B7%E9%95%87%E5%AD%A6%E9%99%A2%E9%80%9A%E6%8A%A5%E5%AE%BF%E8%88%8D%E8%B0%83%E6%95%B4%E4%BA%8B%E4%BB%B6%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 8,
-    "topic": "刘恋想问早春晴朗作者自己是不是原型",
+    "topic": "人为什么要读书最好的答案",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E6%81%8B%E6%83%B3%E9%97%AE%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E4%BD%9C%E8%80%85%E8%87%AA%E5%B7%B1%E6%98%AF%E4%B8%8D%E6%98%AF%E5%8E%9F%E5%9E%8B%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E4%BA%BA%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E8%AF%BB%E4%B9%A6%E6%9C%80%E5%A5%BD%E7%9A%84%E7%AD%94%E6%A1%88%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 9,
-    "topic": "心动的信号",
+    "topic": "花少8钱多不累还有手机",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%BF%83%E5%8A%A8%E7%9A%84%E4%BF%A1%E5%8F%B7%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%918%E9%92%B1%E5%A4%9A%E4%B8%8D%E7%B4%AF%E8%BF%98%E6%9C%89%E6%89%8B%E6%9C%BA%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 10,
-    "topic": "莱巴金娜vs高芙",
+    "topic": "早春晴朗短剧版",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E8%8E%B1%E5%B7%B4%E9%87%91%E5%A8%9Cvs%E9%AB%98%E8%8A%99%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E7%9F%AD%E5%89%A7%E7%89%88%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 11,
-    "topic": "越南女星回应合照被刘亦菲裁掉了",
+    "topic": "月薪1w是月薪5K的六倍",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E8%B6%8A%E5%8D%97%E5%A5%B3%E6%98%9F%E5%9B%9E%E5%BA%94%E5%90%88%E7%85%A7%E8%A2%AB%E5%88%98%E4%BA%A6%E8%8F%B2%E8%A3%81%E6%8E%89%E4%BA%86%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%9C%88%E8%96%AA1w%E6%98%AF%E6%9C%88%E8%96%AA5K%E7%9A%84%E5%85%AD%E5%80%8D%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 12,
-    "topic": "苹果下架iPhone17Pro",
+    "topic": "车间裸奔员工因离职情绪失控",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E4%B8%8B%E6%9E%B6iPhone17Pro%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%BD%A6%E9%97%B4%E8%A3%B8%E5%A5%94%E5%91%98%E5%B7%A5%E5%9B%A0%E7%A6%BB%E8%81%8C%E6%83%85%E7%BB%AA%E5%A4%B1%E6%8E%A7%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 13,
-    "topic": "无折痕",
+    "topic": "刘雯纽约时装周开场",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A0%E6%8A%98%E7%97%95%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E9%9B%AF%E7%BA%BD%E7%BA%A6%E6%97%B6%E8%A3%85%E5%91%A8%E5%BC%80%E5%9C%BA%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 14,
-    "topic": "苹果回应iPhoneDuo是否有折痕",
+    "topic": "10天不吃糖身体变化有多大",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E5%9B%9E%E5%BA%94iPhoneDuo%E6%98%AF%E5%90%A6%E6%9C%89%E6%8A%98%E7%97%95%23",
+    "url": "https://s.weibo.com/weibo?q=%2310%E5%A4%A9%E4%B8%8D%E5%90%83%E7%B3%96%E8%BA%AB%E4%BD%93%E5%8F%98%E5%8C%96%E6%9C%89%E5%A4%9A%E5%A4%A7%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 15,
-    "topic": "抖音擦边礼物被下架",
+    "topic": "舍不得十岁老狗放弃更好大学",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%8A%96%E9%9F%B3%E6%93%A6%E8%BE%B9%E7%A4%BC%E7%89%A9%E8%A2%AB%E4%B8%8B%E6%9E%B6%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%88%8D%E4%B8%8D%E5%BE%97%E5%8D%81%E5%B2%81%E8%80%81%E7%8B%97%E6%94%BE%E5%BC%83%E6%9B%B4%E5%A5%BD%E5%A4%A7%E5%AD%A6%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 16,
-    "topic": "苹果 iPhoneDuo",
+    "topic": "重庆14女生被殴打7人被拘",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%20iPhoneDuo%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%8614%E5%A5%B3%E7%94%9F%E8%A2%AB%E6%AE%B3%E6%89%937%E4%BA%BA%E8%A2%AB%E6%8B%98%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 17,
-    "topic": "郑钦文复盘惜败莱巴金娜",
+    "topic": "杭州一阿里员工被派去看苹果发布会",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E9%83%91%E9%92%A6%E6%96%87%E5%A4%8D%E7%9B%98%E6%83%9C%E8%B4%A5%E8%8E%B1%E5%B7%B4%E9%87%91%E5%A8%9C%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%9D%AD%E5%B7%9E%E4%B8%80%E9%98%BF%E9%87%8C%E5%91%98%E5%B7%A5%E8%A2%AB%E6%B4%BE%E5%8E%BB%E7%9C%8B%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 18,
-    "topic": "宁德时代已报警",
+    "topic": "甲亢哥发现自己中文比阿信英文好",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%AE%81%E5%BE%B7%E6%97%B6%E4%BB%A3%E5%B7%B2%E6%8A%A5%E8%AD%A6%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E7%94%B2%E4%BA%A2%E5%93%A5%E5%8F%91%E7%8E%B0%E8%87%AA%E5%B7%B1%E4%B8%AD%E6%96%87%E6%AF%94%E9%98%BF%E4%BF%A1%E8%8B%B1%E6%96%87%E5%A5%BD%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 19,
-    "topic": "宁德时代市值蒸发超5200亿",
+    "topic": "花少8一分钟就把选房解决了",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%AE%89%E5%BE%B7%E6%97%B6%E4%BB%A3%E5%B8%82%E5%80%BC%E8%92%B8%E5%8F%91%E8%B6%855200%E4%BA%BF%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%918%E4%B8%80%E5%88%86%E9%92%9F%E5%B0%B1%E6%8A%8A%E9%80%89%E6%88%BF%E8%A7%A3%E5%86%B3%E4%BA%86%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 20,
-    "topic": "爱情公寓超长iPhone18",
+    "topic": "AI办公第一批受害者出现了",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93%E8%B6%85%E9%95%BFiPhone18%23",
+    "url": "https://s.weibo.com/weibo?q=%23AI%E5%8A%9E%E5%85%AC%E7%AC%AC%E4%B8%80%E6%89%B9%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 21,
-    "topic": "刘恋曾是奥美创意总监",
+    "topic": "iPhone18Pro全球售价对比",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E6%81%8B%E6%9B%BE%E6%98%AF%E5%A5%A5%E7%BE%8E%E5%88%9B%E6%84%8F%E6%80%BB%E7%9B%91%23",
+    "url": "https://s.weibo.com/weibo?q=%23iPhone18Pro%E5%85%A8%E7%90%83%E5%94%AE%E4%BB%B7%E5%AF%B9%E6%AF%94%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 22,
-    "topic": "黄金白银大跌",
+    "topic": "重庆大学回应官俊臣军训遭围观拍摄",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E9%87%91%E7%99%BD%E9%93%B6%E5%A4%A7%E8%B7%8C%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%9B%9E%E5%BA%94%E5%AE%98%E4%BF%8A%E8%87%A3%E5%86%9B%E8%AE%AD%E9%81%AD%E5%9B%B4%E8%A7%82%E6%8B%8D%E6%91%84%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 23,
-    "topic": "康康爷爷睡梦中离世",
+    "topic": "范丞丞ins发抽烟照",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%BA%B7%E5%BA%B7%E7%88%B7%E7%88%B7%E7%9D%A1%E6%A2%A6%E4%B8%AD%E7%A6%BB%E4%B8%96%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%8C%83%E4%B8%9E%E4%B8%9Eins%E5%8F%91%E6%8A%BD%E7%83%9F%E7%85%A7%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 24,
-    "topic": "阿信总结苹果发布会",
+    "topic": "晚上走路45分钟",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E9%98%BF%E4%BF%A1%E6%80%BB%E7%BB%93%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%99%9A%E4%B8%8A%E8%B5%B0%E8%B7%AF45%E5%88%86%E9%92%9F%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 25,
-    "topic": "杨洋绞尽脑汁的高情商回复",
+    "topic": "美联储9月加息概率",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%B4%8B%E7%BB%9E%E5%B0%BD%E8%84%91%E6%B1%81%E7%9A%84%E9%AB%98%E6%83%85%E5%95%86%E5%9B%9E%E5%A4%8D%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E8%81%94%E5%82%A8%E6%9C%88%E5%8A%A0%E6%81%AF%E6%A6%82%E7%8E%87%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 26,
-    "topic": "iPhoneDuo 屏下摄像头",
+    "topic": "我还在用正太苹果",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23iPhoneDuo%20%E5%B1%8F%E4%B8%8B%E6%91%84%E5%83%8F%E5%A4%B4%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E8%BF%98%E5%9C%A8%E7%94%A8%E6%AD%A3%E5%A4%AA%E8%8B%B9%E6%9E%9C%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 27,
-    "topic": "井柏然孙千沙发吻花絮",
+    "topic": "萨巴伦卡 状态吓人",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E5%AD%99%E5%8D%83%E6%B2%99%E5%8F%91%E5%90%BB%E8%8A%B1%E7%B5%AE%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%90%A8%E5%B7%B4%E4%BC%A6%E5%8D%A1%20%E7%8A%B6%E6%80%81%E5%90%93%E4%BA%BA%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 28,
-    "topic": "早春晴朗",
+    "topic": "李胜利被陌生醉酒男骚扰",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E8%83%9C%E5%88%A9%E8%A2%AB%E9%99%8C%E7%94%9F%E9%86%89%E9%85%92%E7%94%B7%E9%AA%9A%E6%89%B0%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 29,
-    "topic": "在野外看到马刀树尽快远离",
+    "topic": "杨幂 花开不设限",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%9C%A8%E9%87%8E%E5%A4%96%E7%9C%8B%E5%88%B0%E9%A9%AC%E5%88%80%E6%A0%91%E5%B0%BD%E5%BF%AB%E8%BF%9C%E7%A6%BB%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%20%E8%8A%B1%E5%BC%80%E4%B8%8D%E8%AE%BE%E9%99%90%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 30,
-    "topic": "iPhone18Pro天猫首发货量足",
+    "topic": "当地回应男子杀黑狗祭新车",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23iPhone18Pro%E5%A4%A9%E7%8C%AB%E9%A6%96%E5%8F%91%E8%B4%A7%E9%87%8F%E8%B6%B3%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E5%BD%93%E5%9C%B0%E5%9B%9E%E5%BA%94%E7%94%B7%E5%AD%90%E6%9D%80%E9%BB%91%E7%8B%97%E7%A5%AD%E6%96%B0%E8%BD%A6%23",
     "date": "09-11",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
@@ -3631,7 +3631,7 @@ var DASH_DATA = {
     "rank": 1,
     "topic": "中国女篮不敌法国无缘世界杯四强",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E4%B8%8D%E6%95%8C%E6%B3%95%E5%9B%BD%E6%97%A0%E7%BC%98%E4%B8%96%E7%95%8C%E6%9D%BF%E5%9B%9B%E5%BC%BA",
+    "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E7%AF%AE%E4%B8%8D%E6%95%8A%E6%B3%95%E5%9B%BD%E6%97%A0%E7%BC%98%E4%B8%96%E7%95%8C%E6%9D%BF%E5%9B%9B%E5%BC%BA",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
@@ -3665,24 +3665,15 @@ var DASH_DATA = {
    },
    {
     "rank": 5,
-    "topic": "沙特称南部多地再遭胡塞武装袭击",
+    "topic": "911事件25周年",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%B2%99%E7%89%B9%E7%A7%B0%E5%8D%97%E9%83%A8%E5%A4%9A%E5%9C%B0%E5%86%8D%E9%81%AD%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%85%E8%A2%AD%E5%87%BB",
+    "url": "https://www.douyin.com/search/911%E4%BA%8B%E4%BB%B625%E5%91%A8%E5%B9%B4",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 6,
-    "topic": "证监会：加快建设世界一流交易所",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%AF%81%E7%9B%91%E4%BC%9A%EF%BC%9A%E5%8A%A0%E5%BF%AB%E5%BB%BA%E8%AE%BE%E4%B8%96%E7%95%8C%E4%B8%80%E6%B5%81%E4%BA%A4%E6%98%93%E6%89%80",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 7,
     "topic": "当中式审美回到下颌角时代",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%BD%93%E4%B8%AD%E5%BC%8F%E5%AE%A1%E7%BE%8E%E5%9B%9E%E5%88%B0%E4%B8%8B%E9%A2%8C%E8%A7%92%E6%97%B6%E4%BB%A3",
@@ -3691,10 +3682,19 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 8,
-    "topic": "可可系正式接管秋天",
+    "rank": 7,
+    "topic": "证监会：加快建设世界一流交易所",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%8F%AF%E5%8F%AF%E7%B3%BB%E6%AD%A3%E5%BC%8F%E6%8E%A5%E7%AE%A1%E7%A7%8B%E5%A4%A9",
+    "url": "https://www.douyin.com/search/%E8%AF%81%E7%9B%91%E4%BC%9A%EF%BC%9A%E5%8A%A0%E5%BF%AB%E5%BB%BA%E8%AE%BE%E4%B8%96%E7%95%8C%E4%B8%80%E6%B5%81%E4%BA%A4%E6%98%93%E6%89%80",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 8,
+    "topic": "可爱颂歌词太魔性啦",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E5%8F%AF%E7%88%B1%E9%A2%82%E6%AD%8C%E8%AF%8D%E5%A4%AA%E9%AD%94%E6%80%A7%E5%95%A6",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
@@ -3719,42 +3719,15 @@ var DASH_DATA = {
    },
    {
     "rank": 11,
-    "topic": "可爱颂歌词太魔性啦",
+    "topic": "从谭勉视角打开早春晴朗",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%8F%AF%E7%88%B1%E9%A2%82%E6%AD%8C%E8%AF%8D%E5%A4%AA%E9%AD%94%E6%80%A7%E5%95%A6",
+    "url": "https://www.douyin.com/search/%E4%BB%8E%E8%B0%AD%E5%B7%89%E8%A7%86%E8%A7%92%E6%89%93%E5%BC%80%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 12,
-    "topic": "冬城猎凶开播",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%86%AC%E5%9F%8E%E7%8C%8E%E5%87%B6%E5%BC%80%E6%92%AD",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 13,
-    "topic": "从谭勉视角打开早春晴朗",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%BB%8E%E8%B0%AD%E5%8B%89%E8%A7%86%E8%A7%92%E6%89%93%E5%BC%80%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 14,
-    "topic": "冰山冰美式到底怎么喝",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%86%B0%E5%B1%B1%E5%86%B0%E7%BE%8E%E5%BC%8F%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E5%96%9D",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 15,
     "topic": "NBA球队集体发文欢迎杜兰特",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/NBA%E7%90%83%E9%98%9F%E9%9B%86%E4%BD%93%E5%8F%91%E6%96%87%E6%AC%A2%E8%BF%8E%E6%9D%9C%E5%85%B0%E7%89%B9",
@@ -3763,34 +3736,16 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 16,
-    "topic": "王者万象棋正式上线",
+    "rank": 13,
+    "topic": "冰山冰美式到底怎么喝",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF",
+    "url": "https://www.douyin.com/search/%E5%86%B0%E5%B1%B1%E5%86%B0%E7%BE%8E%E5%BC%8F%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E5%96%9D",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 17,
-    "topic": "看好雨知时节聊被爱接住的瞬间",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%9C%8B%E5%A5%BD%E9%9B%A8%E7%9F%A5%E6%97%B6%E8%8A%82%E8%81%8A%E8%A2%AB%E7%88%B1%E6%8E%A5%E4%BD%8F%E7%9A%84%E7%9E%AC%E9%97%B4",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 18,
-    "topic": "李瑞100:83战胜大N",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%9D%8E%E7%91%9E100%3A83%E6%88%98%E8%83%9C%E5%A4%A7N",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 19,
+    "rank": 14,
     "topic": "食神百厨大战收官后劲太大",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E9%A3%9F%E7%A5%9E%E7%99%BE%E5%8E%A8%E5%A4%A7%E6%88%98%E6%94%B6%E5%AE%98%E5%90%8E%E5%8A%B2%E5%A4%AA%E5%A4%A7",
@@ -3799,19 +3754,64 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 20,
-    "topic": "烤十个烤鱼总是擦肩而过",
+    "rank": 15,
+    "topic": "我的同桌看起来有点尴尬",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%83%A4%E5%8D%81%E4%B8%AA%E7%83%A4%E9%B1%BC%E6%80%BB%E6%98%AF%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87",
+    "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E5%90%8C%E6%A1%8C%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9C%89%E7%82%B9%E5%B0%B4%E5%B0%AC",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 16,
+    "topic": "看好雨知时节聊被爱接住的瞬间",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E7%9C%8B%E5%A5%BD%E9%9B%A8%E7%9F%A5%E6%97%B6%E8%8A%82%E8%81%8A%E8%A2%AB%E7%88%B1%E6%8E%A5%E4%BD%8F%E7%9A%84%E7%9E%AC%E9%97%B4",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 17,
+    "topic": "李瑞100:83战胜大N",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E6%9D%8E%E7%91%9E100%3A83%E6%88%98%E8%83%9C%E5%A4%A7N",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 18,
+    "topic": "秋日穿搭从秀场找点灵感",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E7%A7%8B%E6%97%A5%E7%A9%BF%E6%90%AD%E4%BB%8E%E7%A7%80%E5%9C%BA%E6%89%BE%E7%82%B9%E7%81%B5%E6%84%9F",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 19,
+    "topic": "金铲铲S16.5恭喜发财上线",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E9%87%91%E9%93%B2%E9%93%B2S16.5%E6%81%AD%E5%96%9C%E5%8F%91%E8%B4%A2%E4%B8%8A%E7%BA%BF",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 20,
+    "topic": "薛甄珠今天到哪个国家了",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E8%96%9B%E7%94%84%E7%8F%A0%E4%BB%8A%E5%A4%A9%E5%88%B0%E5%93%AA%E4%B8%AA%E5%9B%BD%E5%AE%B6%E4%BA%86",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
     "rank": 21,
-    "topic": "我的同桌看起来有点尴尬",
+    "topic": "洛克王国S4避坑指南来了",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E5%90%8C%E6%A1%8C%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9C%89%E7%82%B9%E5%B0%B4%E5%B0%AC",
+    "url": "https://www.douyin.com/search/%E6%B4%9B%E5%85%8B%E7%8E%8B%E5%9B%BDS4%E9%81%BF%E5%9D%91%E6%8C%87%E5%8D%97%E6%9D%A5%E4%BA%86",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
@@ -3827,33 +3827,6 @@ var DASH_DATA = {
    },
    {
     "rank": 23,
-    "topic": "给说唱巅峰Rapper打call",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%BB%99%E8%AF%B4%E5%94%B1%E5%B7%85%E5%B3%B0Rapper%E6%89%93call",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 24,
-    "topic": "谁懂一抬头西安全是明星的感觉",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E8%B0%81%E6%87%82%E4%B8%80%E6%8A%AC%E5%A4%B4%E8%A5%BF%E5%AE%89%E5%85%A8%E6%98%AF%E6%98%8E%E6%98%9F%E7%9A%84%E6%84%9F%E8%A7%89",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 25,
-    "topic": "干这行的多重身份",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%B9%B2%E8%BF%99%E8%A1%8C%E7%9A%84%E5%A4%9A%E9%87%8D%E8%BA%AB%E4%BB%BD",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 26,
     "topic": "一个视频看懂苹果发布会亮点",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91%E7%9C%8B%E6%87%82%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%E4%BA%AE%E7%82%B9",
@@ -3862,25 +3835,16 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 27,
-    "topic": "秋日穿搭从秀场找点灵感",
+    "rank": 24,
+    "topic": "烤十个烤鱼总是擦肩而过",
     "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%A7%8B%E6%97%A5%E7%A9%BF%E6%90%AD%E4%BB%8E%E7%A7%80%E5%9C%BA%E6%89%BE%E7%82%B9%E7%81%B5%E6%84%9F",
+    "url": "https://www.douyin.com/search/%E7%83%A4%E5%8D%81%E4%B8%AA%E7%83%A4%E9%B1%BC%E6%80%BB%E6%98%AF%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 28,
-    "topic": "第五人格进入全员小鸡时代",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC%E8%BF%9B%E5%85%A5%E5%85%A8%E5%91%98%E5%B0%8F%E9%B8%A1%E6%97%B6%E4%BB%A3",
-    "date": "09-11",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 29,
+    "rank": 25,
     "topic": "敢于收拾自己 也是一种成长",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E6%95%A2%E4%BA%8E%E6%94%B6%E6%8B%BE%E8%87%AA%E5%B7%B1%20%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E6%88%90%E9%95%BF",
@@ -3889,10 +3853,46 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 30,
+    "rank": 26,
+    "topic": "冬城猎凶开播",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E5%86%AC%E5%9F%8E%E7%8C%8E%E5%87%B6%E5%BC%80%E6%92%AD",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 27,
     "topic": "属于教师节的仪式感",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E5%B1%9E%E4%BA%8E%E6%95%99%E5%B8%88%E8%8A%82%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 28,
+    "topic": "干这行的多重身份",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E5%B9%B2%E8%BF%99%E8%A1%8C%E7%9A%84%E5%A4%9A%E9%87%8D%E8%BA%AB%E4%BB%BD",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 29,
+    "topic": "谁懂一抬头西安全是明星的感觉",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E8%B0%81%E6%87%82%E4%B8%80%E6%8A%AC%E5%A4%B4%E8%A5%BF%E5%AE%89%E5%85%A8%E6%98%AF%E6%98%8E%E6%98%9F%E7%9A%84%E6%84%9F%E8%A7%89",
+    "date": "09-11",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 30,
+    "topic": "萨巴伦卡连续4年晋级美网决赛",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E8%90%A8%E5%B7%B4%E4%BC%A6%E5%8D%A1%E8%BF%9E%E7%BB%AD4%E5%B9%B4%E6%99%8B%E7%BA%A7%E7%BE%8E%E7%BD%91%E5%86%B3%E8%B5%9B",
     "date": "09-11",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
@@ -4302,166 +4302,78 @@ var DASH_DATA = {
   "wbEntertainment": [
    {
     "rank": 1,
-    "topic": "早春晴朗",
-    "note": "都市剧《早春晴朗》热播，井柏然/孙千CP与花絮持续出圈",
+    "topic": "早春晴朗短剧版",
+    "note": "都市剧《早春晴朗》短剧版上线，井柏然/孙千CP与花絮持续出圈",
     "brand": "",
     "date": "09-11",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E7%9F%AD%E5%89%A7%E7%89%88%23",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 2,
-    "topic": "刘恋想问早春晴朗作者自己是不是原型",
-    "note": "歌手刘恋疑为剧中原型，编剧回应引热议",
+    "topic": "杨幂 花开不设限",
+    "note": "杨幂个人企划「花开不设限」联动 STUART WEITZMAN 全球代言人",
     "brand": "",
     "date": "09-11",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E6%81%8B%E6%83%B3%E9%97%AE%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E4%BD%9C%E8%80%85%E8%87%AA%E5%B7%B1%E6%98%AF%E4%B8%8D%E6%98%AF%E5%8E%9F%E5%9E%8B%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E5%B9%82%20%E8%8A%B1%E5%BC%80%E4%B8%8D%E8%AE%BE%E9%99%90%23",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 3,
-    "topic": "心动的信号",
-    "note": "恋爱综艺新一季开播，嘉宾互动登热搜",
+    "topic": "刘雯纽约时装周开场",
+    "note": "超模刘雯亮相纽约时装周开场，时尚/高定品牌关注",
     "brand": "",
     "date": "09-11",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%BF%83%E5%8A%A8%E7%9A%84%E4%BF%A1%E5%8F%B7%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E9%9B%AF%E7%BA%BD%E7%BA%A6%E6%97%B6%E8%A3%85%E5%91%A8%E5%BC%80%E5%9C%BA%23",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 4,
-    "topic": "井柏然孙千沙发吻花絮",
-    "note": "《早春晴朗》沙发吻花絮曝光，剧粉热议",
+    "topic": "范丞丞ins发抽烟照",
+    "note": "范丞丞 ins 晒照引热议，多品牌代言在身",
     "brand": "",
     "date": "09-11",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E5%AD%99%E5%8D%83%E6%B2%99%E5%8F%91%E5%90%BB%E8%8A%B1%E7%B5%AE%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%8C%83%E4%B8%9E%E4%B8%9Eins%E5%8F%91%E6%8A%BD%E7%83%9F%E7%85%A7%23",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 5,
-    "topic": "越南女星回应合照被刘亦菲裁掉了",
-    "note": "越南演员回应合照被裁，跨国饭圈讨论",
+    "topic": "花少8钱多不累还有手机",
+    "note": "综艺《花儿与少年8》播出，嘉宾同款/旅行好物种草",
     "brand": "",
     "date": "09-11",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E8%B6%8A%E5%8D%97%E5%A5%B3%E6%98%9F%E5%9B%9E%E5%BA%94%E5%90%88%E7%85%A7%E8%A2%AB%E5%88%98%E4%BA%A6%E8%8F%B2%E8%A3%81%E6%8E%89%E4%BA%86%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%918%E9%92%B1%E5%A4%9A%E4%B8%8D%E7%B4%AF%E8%BF%98%E6%9C%89%E6%89%8B%E6%9C%BA%23",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 6,
-    "topic": "杨洋绞尽脑汁的高情商回复",
-    "note": "杨洋采访高情商名场面再出圈",
+    "topic": "花少8一分钟就把选房解决了",
+    "note": "《花少8》选房名场面出圈，综艺赞助品牌曝光",
     "brand": "",
     "date": "09-11",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%B4%8B%E7%BB%9E%E5%B0%BD%E8%84%91%E6%B1%81%E7%9A%84%E9%AB%98%E6%83%85%E5%95%86%E5%9B%9E%E5%A4%8D%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%918%E4%B8%80%E5%88%86%E9%92%9F%E5%B0%B1%E6%8A%8A%E9%80%89%E6%88%BF%E8%A7%A3%E5%86%B3%E4%BA%86%23",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    },
    {
     "rank": 7,
-    "topic": "刘恋曾是奥美创意总监",
-    "note": "刘恋入职奥美经历被翻出，多栖艺人受关注",
+    "topic": "甲亢哥发现自己中文比阿信英文好",
+    "note": "主播甲亢哥(iShowSpeed)对话五月天阿信，明星互动引热议",
     "brand": "",
     "date": "09-11",
     "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E6%81%8B%E6%9B%BE%E6%98%AF%E5%A5%A5%E7%BE%8E%E5%88%9B%E6%84%8F%E6%80%BB%E7%9B%91%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 8,
-    "topic": "阿信总结苹果发布会",
-    "note": "五月天阿信发文调侃苹果发布会，音乐人破圈",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E9%98%BF%E4%BF%A1%E6%80%BB%E7%BB%93%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 9,
-    "topic": "爱情公寓超长iPhone18",
-    "note": "《爱情公寓》植入iPhone18长梗，情怀向互动",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E7%88%B1%E6%83%85%E5%85%AC%E5%AF%93%E8%B6%85%E9%95%BFiPhone18%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 10,
-    "topic": "冬城猎凶开播",
-    "note": "悬疑剧《冬城猎凶》开播，抖音热度走高",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E5%86%AC%E5%9F%8E%E7%8C%8E%E5%87%B6%E5%BC%80%E6%92%AD%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 11,
-    "topic": "从谭勉视角打开早春晴朗",
-    "note": "二创视角解读《早春晴朗》，剧集长尾发酵",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8E%E8%B0%AD%E5%8B%89%E8%A7%86%E8%A7%92%E6%89%93%E5%BC%80%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 12,
-    "topic": "朴彩英新歌MV用iPhone18Pro拍摄",
-    "note": "BLACKPINK朴彩英新歌MV，科技×音乐联动",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B4%E5%BD%A9%E8%8B%B1%E6%96%B0%E6%AD%8CMV%E7%94%A8iPhone18Pro%E6%8B%8D%E6%91%84%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 13,
-    "topic": "井柏然孙千被早春晴朗最大尺度吓到",
-    "note": "花絮尺度引热议",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E4%BA%95%E6%9F%8F%E7%84%B6%E5%AD%99%E5%8D%83%E8%A2%AB%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E6%9C%80%E5%A4%A7%E5%B0%BA%E5%BA%A6%E5%90%93%E5%88%B0%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 14,
-    "topic": "早春晴朗好大方的花絮",
-    "note": "剧集花絮物料大方获赞",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97%E5%A5%BD%E5%A4%A7%E6%96%B9%E7%9A%84%E8%8A%B1%E7%B5%AE%23",
-    "reportSource": "uapis·微博热搜榜",
-    "reportUrl": "https://uapis.cn/hotboard/weibo"
-   },
-   {
-    "rank": 15,
-    "topic": "谁懂一抬头西安全是明星的感觉",
-    "note": "明星路演/活动引同城热议",
-    "brand": "",
-    "date": "09-11",
-    "source": "微博·话题页",
-    "url": "https://s.weibo.com/weibo?q=%23%E8%B0%81%E6%87%82%E4%B8%80%E6%8A%AC%E5%A4%B4%E8%A5%BF%E5%AE%89%E5%85%A8%E6%98%AF%E6%98%8E%E6%98%9F%E7%9A%84%E6%84%9F%E8%A7%89%23",
+    "url": "https://s.weibo.com/weibo?q=%23%E7%94%B2%E4%BA%A2%E5%93%A5%E5%8F%91%E7%8E%B0%E8%87%AA%E5%B7%B1%E4%B8%AD%E6%96%87%E6%AF%94%E9%98%BF%E4%BF%A1%E8%8B%B1%E6%96%87%E5%A5%BD%23",
     "reportSource": "uapis·微博热搜榜",
     "reportUrl": "https://uapis.cn/hotboard/weibo"
    }
@@ -4469,6 +4381,105 @@ var DASH_DATA = {
   "dySeeding": [
    {
     "rank": 1,
+    "topic": "秋日穿搭从秀场找点灵感",
+    "note": "秋日穿搭灵感，秀场同款/通勤穿搭种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E7%A7%8B%E6%97%A5%E7%A9%BF%E6%90%AD%E4%BB%8E%E7%A7%80%E5%9C%BA%E6%89%BE%E7%82%B9%E7%81%B5%E6%84%9F",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 2,
+    "topic": "当中式审美回到下颌角时代",
+    "note": "中式妆容/骨相审美种草，美妆品牌借势",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E5%BD%93%E4%B8%AD%E5%BC%8F%E5%AE%A1%E7%BE%8E%E5%9B%9E%E5%88%B0%E4%B8%8B%E9%A2%8C%E8%A7%92%E6%97%B6%E4%BB%A3",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 3,
+    "topic": "冰山冰美式到底怎么喝",
+    "note": "咖啡饮品测评种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E5%86%B0%E5%B1%B1%E5%86%B0%E7%BE%8E%E5%BC%8F%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E5%96%9D",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 4,
+    "topic": "食神百厨大战收官后劲太大",
+    "note": "美食综艺收官，餐厅/食材种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E9%A3%9F%E7%A5%9E%E7%99%BE%E5%8E%A8%E5%A4%A7%E6%88%98%E6%94%B6%E5%AE%98%E5%90%8E%E5%8A%B2%E5%A4%AA%E5%A4%A7",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 5,
+    "topic": "烤十个烤鱼总是擦肩而过",
+    "note": "烤鱼探店/美食种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E7%83%A4%E5%8D%81%E4%B8%AA%E7%83%A4%E9%B1%BC%E6%80%BB%E6%98%AF%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 6,
+    "topic": "从谭勉视角打开早春晴朗",
+    "note": "剧集《早春晴朗》追剧种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E4%BB%8E%E8%B0%AD%E5%B7%89%E8%A7%86%E8%A7%92%E6%89%93%E5%BC%80%E6%97%A9%E6%98%A5%E6%99%B4%E6%9C%97",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 7,
+    "topic": "冬城猎凶开播",
+    "note": "悬疑剧《冬城猎凶》开播，追剧种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E5%86%AC%E5%9F%8E%E7%8C%8E%E5%87%B6%E5%BC%80%E6%92%AD",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 8,
+    "topic": "敢于收拾自己 也是一种成长",
+    "note": "整理收纳/生活方式种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E6%95%A2%E4%BA%8E%E6%94%B6%E6%8B%BE%E8%87%AA%E5%B7%B1%20%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E6%88%90%E9%95%BF",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 9,
+    "topic": "我本来想给你买手机的",
+    "note": "数码好物/送礼种草",
+    "brand": "",
+    "date": "09-11",
+    "source": "抖音·话题搜索",
+    "url": "https://www.douyin.com/search/%E6%88%91%E6%9C%AC%E6%9D%A5%E6%83%B3%E7%BB%99%E4%BD%A0%E4%B9%B0%E6%89%8B%E6%9C%BA%E7%9A%84",
+    "reportSource": "uapis·抖音热点榜",
+    "reportUrl": "https://uapis.cn/hotboard/douyin"
+   },
+   {
+    "rank": 10,
     "topic": "这是我送给爱师的花花呀",
     "note": "教师节送礼种草",
     "brand": "",
@@ -4479,163 +4490,9 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 2,
-    "topic": "可可系正式接管秋天",
-    "note": "可可色系秋日穿搭",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%8F%AF%E5%8F%AF%E7%B3%BB%E6%AD%A3%E5%BC%8F%E6%8E%A5%E7%AE%A1%E7%A7%8B%E5%A4%A9",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 3,
-    "topic": "可爱颂歌词太魔性啦",
-    "note": "音乐/舞蹈种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%8F%AF%E7%88%B1%E9%A2%82%E6%AD%8C%E8%AF%8D%E5%A4%AA%E9%AD%94%E6%80%A7%E5%95%A6",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 4,
-    "topic": "我本来想给你买手机的",
-    "note": "数码好物种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%88%91%E6%9C%AC%E6%9D%A5%E6%83%B3%E7%BB%99%E4%BD%A0%E4%B9%B0%E6%89%8B%E6%9C%BA%E7%9A%84",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 5,
-    "topic": "当中式审美回到下颌角时代",
-    "note": "审美/妆容种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%BD%93%E4%B8%AD%E5%BC%8F%E5%AE%A1%E7%BE%8E%E5%9B%9E%E5%88%B0%E4%B8%8B%E9%A2%8C%E8%A7%92%E6%97%B6%E4%BB%A3",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 6,
-    "topic": "冰山冰美式到底怎么喝",
-    "note": "咖啡种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%86%B0%E5%B1%B1%E5%86%B0%E7%BE%8E%E5%BC%8F%E5%88%B0%E5%BA%95%E6%80%8E%E4%B9%88%E5%96%9D",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 7,
-    "topic": "王者万象棋正式上线",
-    "note": "王者IP棋类游戏上线",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B%E6%AD%A3%E5%BC%8F%E4%B8%8A%E7%BA%BF",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 8,
-    "topic": "我的同桌看起来有点尴尬",
-    "note": "校园生活种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E5%90%8C%E6%A1%8C%E7%9C%8B%E8%B5%B7%E6%9D%A5%E6%9C%89%E7%82%B9%E5%B0%B4%E5%B0%AC",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 9,
-    "topic": "王者万象棋新手攻略",
-    "note": "游戏攻略种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E4%B8%87%E8%B1%A1%E6%A3%8B%E6%96%B0%E6%89%8B%E6%94%BB%E7%95%A5",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 10,
-    "topic": "给说唱巅峰Rapper打call",
-    "note": "说唱音乐种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%BB%99%E8%AF%B4%E5%94%B1%E5%B7%85%E5%B3%B0Rapper%E6%89%93call",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
     "rank": 11,
-    "topic": "秋日穿搭从秀场找点灵感",
-    "note": "秀场灵感秋日穿搭",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%A7%8B%E6%97%A5%E7%A9%BF%E6%90%AD%E4%BB%8E%E7%A7%80%E5%9C%BA%E6%89%BE%E7%82%B9%E7%81%B5%E6%84%9F",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 12,
-    "topic": "敢于收拾自己 也是一种成长",
-    "note": "自我生活种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E6%95%A2%E4%BA%8E%E6%94%B6%E6%8B%BE%E8%87%AA%E5%B7%B1%20%E4%B9%9F%E6%98%AF%E4%B8%80%E7%A7%8D%E6%88%90%E9%95%BF",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 13,
-    "topic": "属于教师节的仪式感",
-    "note": "教师节好物",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%B1%9E%E4%BA%8E%E6%95%99%E5%B8%88%E8%8A%82%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 14,
-    "topic": "一个视频看懂苹果发布会亮点",
-    "note": "数码种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E4%B8%80%E4%B8%AA%E8%A7%86%E9%A2%91%E7%9C%8B%E6%87%82%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E4%BC%9A%E4%BA%AE%E7%82%B9",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 15,
-    "topic": "干这行的多重身份",
-    "note": "职业生活种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E5%B9%B2%E8%BF%99%E8%A1%8C%E7%9A%84%E5%A4%9A%E9%87%8D%E8%BA%AB%E4%BB%BD",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 16,
     "topic": "谁懂一抬头西安全是明星的感觉",
-    "note": "明星同款/路演",
+    "note": "西安文旅/明星同款打卡种草",
     "brand": "",
     "date": "09-11",
     "source": "抖音·话题搜索",
@@ -4644,35 +4501,13 @@ var DASH_DATA = {
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    },
    {
-    "rank": 17,
+    "rank": 12,
     "topic": "看好雨知时节聊被爱接住的瞬间",
-    "note": "情感/生活",
+    "note": "情感生活方式种草",
     "brand": "",
     "date": "09-11",
     "source": "抖音·话题搜索",
     "url": "https://www.douyin.com/search/%E7%9C%8B%E5%A5%BD%E9%9B%A8%E7%9F%A5%E6%97%B6%E8%8A%82%E8%81%8A%E8%A2%AB%E7%88%B1%E6%8E%A5%E4%BD%8F%E7%9A%84%E7%9E%AC%E9%97%B4",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 18,
-    "topic": "第五人格进入全员小鸡时代",
-    "note": "游戏种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%AC%AC%E4%BA%94%E4%BA%BA%E6%A0%BC%E8%BF%9B%E5%85%A5%E5%85%A8%E5%91%98%E5%B0%8F%E9%B8%A1%E6%97%B6%E4%BB%A3",
-    "reportSource": "uapis·抖音热点榜",
-    "reportUrl": "https://uapis.cn/hotboard/douyin"
-   },
-   {
-    "rank": 19,
-    "topic": "烤十个烤鱼总是擦肩而过",
-    "note": "美食种草",
-    "brand": "",
-    "date": "09-11",
-    "source": "抖音·话题搜索",
-    "url": "https://www.douyin.com/search/%E7%83%A4%E5%8D%81%E4%B8%AA%E7%83%A4%E9%B1%BC%E6%80%BB%E6%98%AF%E6%93%A6%E8%82%A9%E8%80%8C%E8%BF%87",
     "reportSource": "uapis·抖音热点榜",
     "reportUrl": "https://uapis.cn/hotboard/douyin"
    }
