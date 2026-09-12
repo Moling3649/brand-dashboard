@@ -1,7 +1,7 @@
 var DASH_DATA = {
  "version": 2,
  "date": "09-12",
- "updatedAt": "2026-09-12T07:58:00+08:00",
+ "updatedAt": "2026-09-12T08:28:00+08:00",
  "trendDates": [
   "09-05",
   "09-06",
@@ -1236,7 +1236,7 @@ var DASH_DATA = {
     83,
     80
    ],
-   "heat": 80,
+   "heat": 79,
    "cat": "apparel"
   },
   {
@@ -1474,22 +1474,6 @@ var DASH_DATA = {
    "id": "n005"
   },
   {
-   "brand": "skechers",
-   "cat": "apparel",
-   "heat": 70,
-   "date": "09-12",
-   "source": "StreetInsider",
-   "url": "https://www.streetinsider.com/Press+Releases/Skechers+Collaborates+With+tokidoki+on+Limited-Edition+Collection/20351181.html",
-   "title": "斯凯奇×tokidoki全球联名系列发售",
-   "summary": "斯凯奇与潮牌tokidoki推出全球联名时尚鞋系列，首批4款女鞋9月4日美加首发，第二轮9月跟进，标志斯凯奇持续押注潮流联名。",
-   "tags": [
-    "斯凯奇",
-    "tokidoki",
-    "联名"
-   ],
-   "id": "n006"
-  },
-  {
    "brand": "popmart",
    "cat": "ip",
    "heat": 88,
@@ -1503,7 +1487,7 @@ var DASH_DATA = {
     "服贸会"
    ],
    "date": "09-11",
-   "id": "n007"
+   "id": "n006"
   },
   {
    "brand": "proya",
@@ -1519,7 +1503,7 @@ var DASH_DATA = {
     "美妆"
    ],
    "date": "09-11",
-   "id": "n008"
+   "id": "n007"
   },
   {
    "brand": "mixue",
@@ -1535,7 +1519,7 @@ var DASH_DATA = {
     "财报",
     "利润"
    ],
-   "id": "n009"
+   "id": "n008"
   },
   {
    "brand": "lululemon",
@@ -1551,7 +1535,7 @@ var DASH_DATA = {
     "羽绒"
    ],
    "date": "09-11",
-   "id": "n010"
+   "id": "n009"
   },
   {
    "brand": "popmart",
@@ -1567,7 +1551,7 @@ var DASH_DATA = {
     "星星人"
    ],
    "date": "09-11",
-   "id": "n011"
+   "id": "n010"
   },
   {
    "brand": "ip-industry",
@@ -1583,7 +1567,7 @@ var DASH_DATA = {
     "IP"
    ],
    "date": "09-11",
-   "id": "n012"
+   "id": "n011"
   },
   {
    "brand": "miniso",
@@ -1599,7 +1583,7 @@ var DASH_DATA = {
     "YOYO",
     "IP"
    ],
-   "id": "n013"
+   "id": "n012"
   },
   {
    "brand": "bawang",
@@ -1615,7 +1599,7 @@ var DASH_DATA = {
     "评级"
    ],
    "date": "09-11",
-   "id": "n014"
+   "id": "n013"
   },
   {
    "brand": "miniso",
@@ -1631,7 +1615,7 @@ var DASH_DATA = {
     "IP联名"
    ],
    "date": "09-11",
-   "id": "n015"
+   "id": "n014"
   },
   {
    "brand": "luckin",
@@ -1647,7 +1631,7 @@ var DASH_DATA = {
     "融资",
     "中东资本"
    ],
-   "id": "n016"
+   "id": "n015"
   },
   {
    "brand": "popmart",
@@ -1663,7 +1647,7 @@ var DASH_DATA = {
     "财报",
     "谷子经济"
    ],
-   "id": "n017"
+   "id": "n016"
   },
   {
    "brand": "nike",
@@ -1680,7 +1664,7 @@ var DASH_DATA = {
     "美网",
     "体育营销"
    ],
-   "id": "n018"
+   "id": "n017"
   },
   {
    "brand": "luckin",
@@ -1697,7 +1681,7 @@ var DASH_DATA = {
     "联名周边",
     "二手市场"
    ],
-   "id": "n019"
+   "id": "n018"
   },
   {
    "brand": "bawang",
@@ -1713,7 +1697,7 @@ var DASH_DATA = {
     "迪士尼",
     "联名"
    ],
-   "id": "n020"
+   "id": "n019"
   },
   {
    "brand": "popmart",
@@ -1730,7 +1714,7 @@ var DASH_DATA = {
     "IP运营",
     "海外战略"
    ],
-   "id": "n021"
+   "id": "n020"
   },
   {
    "brand": "lululemon",
@@ -1746,7 +1730,7 @@ var DASH_DATA = {
     "财报",
     "股价"
    ],
-   "id": "n022"
+   "id": "n021"
   },
   {
    "brand": "bawang",
@@ -1762,7 +1746,7 @@ var DASH_DATA = {
     "品类扩张",
     "茶饮"
    ],
-   "id": "n023"
+   "id": "n022"
   },
   {
    "brand": "judydoll",
@@ -1778,7 +1762,7 @@ var DASH_DATA = {
     "杨颖",
     "代言"
    ],
-   "id": "n024"
+   "id": "n023"
   },
   {
    "brand": "guming",
@@ -1794,7 +1778,7 @@ var DASH_DATA = {
     "联名",
     "营销"
    ],
-   "id": "n025"
+   "id": "n024"
   },
   {
    "brand": "anta",
@@ -1811,7 +1795,7 @@ var DASH_DATA = {
     "lululemon",
     "运动鞋服"
    ],
-   "id": "n026"
+   "id": "n025"
   },
   {
    "brand": "pane",
@@ -1827,7 +1811,7 @@ var DASH_DATA = {
     "逆向出海",
     "上海品牌"
    ],
-   "id": "n027"
+   "id": "n026"
   },
   {
    "brand": "vinda",
@@ -1843,7 +1827,7 @@ var DASH_DATA = {
     "张凌赫",
     "代言"
    ],
-   "id": "n028"
+   "id": "n027"
   },
   {
    "brand": "miniso",
@@ -1859,7 +1843,7 @@ var DASH_DATA = {
     "YOYO",
     "IP"
    ],
-   "id": "n029"
+   "id": "n028"
   },
   {
    "brand": "ip-industry",
@@ -1875,7 +1859,7 @@ var DASH_DATA = {
     "IP主题餐厅",
     "二次元"
    ],
-   "id": "n030"
+   "id": "n029"
   },
   {
    "brand": "teenmix",
@@ -1891,7 +1875,7 @@ var DASH_DATA = {
     "早秋新品",
     "百丽系"
    ],
-   "id": "n031"
+   "id": "n030"
   },
   {
    "brand": "disney",
@@ -1908,7 +1892,7 @@ var DASH_DATA = {
     "上海大师赛",
     "IP联名"
    ],
-   "id": "n032"
+   "id": "n031"
   },
   {
    "brand": "mixue",
@@ -1925,7 +1909,7 @@ var DASH_DATA = {
     "新茶饮",
     "品质升级"
    ],
-   "id": "n033"
+   "id": "n032"
   },
   {
    "brand": "ouder",
@@ -1941,7 +1925,7 @@ var DASH_DATA = {
     "明星同款",
     "差异化"
    ],
-   "id": "n034"
+   "id": "n033"
   },
   {
    "brand": "kayou",
@@ -1958,7 +1942,7 @@ var DASH_DATA = {
     "卡牌",
     "盲盒监管"
    ],
-   "id": "n035"
+   "id": "n034"
   },
   {
    "brand": "ip-industry",
@@ -1974,7 +1958,7 @@ var DASH_DATA = {
     "授权",
     "财报"
    ],
-   "id": "n036"
+   "id": "n035"
   },
   {
    "brand": "kans",
@@ -1991,7 +1975,7 @@ var DASH_DATA = {
     "抖音",
     "大单品"
    ],
-   "id": "n037"
+   "id": "n036"
   },
   {
    "brand": "proya",
@@ -2008,7 +1992,7 @@ var DASH_DATA = {
     "韩束",
     "国货美妆"
    ],
-   "id": "n038"
+   "id": "n037"
   },
   {
    "brand": "wanke",
@@ -2024,7 +2008,7 @@ var DASH_DATA = {
     "滑板",
     "国潮"
    ],
-   "id": "n039"
+   "id": "n038"
   },
   {
    "brand": "ripstar",
@@ -2040,7 +2024,7 @@ var DASH_DATA = {
     "明星同款",
     "国潮鞋履"
    ],
-   "id": "n040"
+   "id": "n039"
   },
   {
    "brand": "bawang",
@@ -2055,7 +2039,7 @@ var DASH_DATA = {
     "霸王茶姬",
     "新品"
    ],
-   "id": "n041"
+   "id": "n040"
   },
   {
    "brand": "ocai",
@@ -2071,7 +2055,7 @@ var DASH_DATA = {
     "联名",
     "实测"
    ],
-   "id": "n042"
+   "id": "n041"
   },
   {
    "brand": "talitaqoom",
@@ -2087,7 +2071,7 @@ var DASH_DATA = {
     "张艺凡",
     "德训鞋"
    ],
-   "id": "n043"
+   "id": "n042"
   },
   {
    "brand": "ip-industry",
@@ -2104,7 +2088,7 @@ var DASH_DATA = {
     "黄金珠宝",
     "IP联名"
    ],
-   "id": "n044"
+   "id": "n043"
   },
   {
    "brand": "nike",
@@ -2121,7 +2105,7 @@ var DASH_DATA = {
     "标普",
     "退出"
    ],
-   "id": "n045"
+   "id": "n044"
   },
   {
    "brand": "nike",
@@ -2137,7 +2121,7 @@ var DASH_DATA = {
     "代言人",
     "耐克"
    ],
-   "id": "n046"
+   "id": "n045"
   },
   {
    "brand": "lining",
@@ -2153,7 +2137,7 @@ var DASH_DATA = {
     "代言人",
     "李宁"
    ],
-   "id": "n047"
+   "id": "n046"
   },
   {
    "brand": "anta",
@@ -2170,7 +2154,7 @@ var DASH_DATA = {
     "安踏",
     "田径"
    ],
-   "id": "n048"
+   "id": "n047"
   },
   {
    "brand": "guming",
@@ -2185,7 +2169,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n049"
+   "id": "n048"
   },
   {
    "brand": "popmart",
@@ -2200,7 +2184,7 @@ var DASH_DATA = {
     "产品上新",
     "展会"
    ],
-   "id": "n050"
+   "id": "n049"
   },
   {
    "brand": "ysl",
@@ -2216,7 +2200,7 @@ var DASH_DATA = {
     "彩妆护肤",
     "YSL"
    ],
-   "id": "n051"
+   "id": "n050"
   },
   {
    "brand": "maogeping",
@@ -2232,7 +2216,7 @@ var DASH_DATA = {
     "财报",
     "营销"
    ],
-   "id": "n052"
+   "id": "n051"
   },
   {
    "brand": "luckin",
@@ -2247,7 +2231,7 @@ var DASH_DATA = {
     "联名",
     "IP"
    ],
-   "id": "n053"
+   "id": "n052"
   },
   {
    "brand": "fila",
@@ -2264,7 +2248,7 @@ var DASH_DATA = {
     "FILA",
     "王安宇"
    ],
-   "id": "n054"
+   "id": "n053"
   },
   {
    "brand": "mixue",
@@ -2279,7 +2263,7 @@ var DASH_DATA = {
     "业绩",
     "财报"
    ],
-   "id": "n055"
+   "id": "n054"
   },
   {
    "brand": "chabaidao",
@@ -2295,7 +2279,7 @@ var DASH_DATA = {
     "新品",
     "霸王茶姬"
    ],
-   "id": "n056"
+   "id": "n055"
   },
   {
    "brand": "starbucks",
@@ -2310,7 +2294,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n057"
+   "id": "n056"
   },
   {
    "brand": "chabaidao",
@@ -2325,7 +2309,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n058"
+   "id": "n057"
   },
   {
    "brand": "anta",
@@ -2340,7 +2324,7 @@ var DASH_DATA = {
     "资本市场",
     "股价"
    ],
-   "id": "n059"
+   "id": "n058"
   },
   {
    "brand": "lululemon",
@@ -2355,7 +2339,7 @@ var DASH_DATA = {
     "品牌动态",
     "高管变动"
    ],
-   "id": "n060"
+   "id": "n059"
   },
   {
    "brand": "loreal",
@@ -2370,7 +2354,7 @@ var DASH_DATA = {
     "品牌动态",
     "营销"
    ],
-   "id": "n061"
+   "id": "n060"
   },
   {
    "brand": "proya",
@@ -2385,7 +2369,7 @@ var DASH_DATA = {
     "资本市场",
     "公司治理"
    ],
-   "id": "n062"
+   "id": "n061"
   },
   {
    "brand": "oldorder",
@@ -2401,7 +2385,7 @@ var DASH_DATA = {
     "渠道扩张",
     "OLD ORDER"
    ],
-   "id": "n063"
+   "id": "n062"
   },
   {
    "brand": "miniso",
@@ -2417,10 +2401,10 @@ var DASH_DATA = {
     "竞争",
     "大店战略"
    ],
-   "id": "n064"
+   "id": "n063"
   },
   {
-   "id": "n065",
+   "id": "n064",
    "brand": "luckin",
    "cat": "food",
    "heat": 90,
@@ -2450,7 +2434,7 @@ var DASH_DATA = {
     "业绩危机",
     "换帅"
    ],
-   "id": "n066"
+   "id": "n065"
   },
   {
    "brand": "popmart",
@@ -2466,10 +2450,10 @@ var DASH_DATA = {
     "LABUBU",
     "资本市场"
    ],
-   "id": "n067"
+   "id": "n066"
   },
   {
-   "id": "n068",
+   "id": "n067",
    "brand": "bawang",
    "cat": "food",
    "heat": 88,
@@ -2499,10 +2483,10 @@ var DASH_DATA = {
     "舒适科技",
     "斯凯奇"
    ],
-   "id": "n069"
+   "id": "n068"
   },
   {
-   "id": "n070",
+   "id": "n069",
    "brand": "popmart",
    "cat": "ip",
    "heat": 86,
@@ -2519,7 +2503,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n071",
+   "id": "n070",
    "brand": "huawei",
    "cat": "daily",
    "heat": 85,
@@ -2549,10 +2533,10 @@ var DASH_DATA = {
     "量贩零食",
     "行业变局"
    ],
-   "id": "n072"
+   "id": "n071"
   },
   {
-   "id": "n073",
+   "id": "n072",
    "brand": "anta",
    "cat": "apparel",
    "heat": 82,
@@ -2582,7 +2566,7 @@ var DASH_DATA = {
     "DTC",
     "竞争格局"
    ],
-   "id": "n074"
+   "id": "n073"
   },
   {
    "brand": "guming",
@@ -2598,10 +2582,10 @@ var DASH_DATA = {
     "啤酒",
     "存量竞争"
    ],
-   "id": "n075"
+   "id": "n074"
   },
   {
-   "id": "n076",
+   "id": "n075",
    "brand": "estee",
    "cat": "beauty",
    "heat": 72,
@@ -2617,7 +2601,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n077",
+   "id": "n076",
    "brand": "luckin",
    "cat": "food",
    "heat": 88,
@@ -2644,7 +2628,7 @@ var DASH_DATA = {
     "体育营销",
     "社媒热议"
    ],
-   "id": "n078"
+   "id": "n077"
   },
   {
    "brand": "mixue",
@@ -2660,7 +2644,7 @@ var DASH_DATA = {
     "规模失灵",
     "海外收缩"
    ],
-   "id": "n079"
+   "id": "n078"
   },
   {
    "brand": "popmart",
@@ -2676,7 +2660,7 @@ var DASH_DATA = {
     "潮玩",
     "布鲁可"
    ],
-   "id": "n080"
+   "id": "n079"
   },
   {
    "brand": "ecco",
@@ -2692,7 +2676,7 @@ var DASH_DATA = {
     "BIOM系列",
     "户外"
    ],
-   "id": "n081"
+   "id": "n080"
   },
   {
    "brand": "liby",
@@ -2708,7 +2692,7 @@ var DASH_DATA = {
     "代言",
     "超品日"
    ],
-   "id": "n082"
+   "id": "n081"
   },
   {
    "brand": "ip-industry",
@@ -2724,7 +2708,7 @@ var DASH_DATA = {
     "国谷反超",
     "产业数据"
    ],
-   "id": "n083"
+   "id": "n082"
   },
   {
    "brand": "miniso",
@@ -2739,10 +2723,10 @@ var DASH_DATA = {
     "财报",
     "资本动态"
    ],
-   "id": "n084"
+   "id": "n083"
   },
   {
-   "id": "n085",
+   "id": "n084",
    "brand": "mixue",
    "cat": "food",
    "heat": 76,
@@ -2769,7 +2753,7 @@ var DASH_DATA = {
     "回购",
     "资本市场"
    ],
-   "id": "n086"
+   "id": "n085"
   },
   {
    "brand": "anta",
@@ -2784,7 +2768,7 @@ var DASH_DATA = {
     "高管发声",
     "全球化"
    ],
-   "id": "n087"
+   "id": "n086"
   },
   {
    "brand": "popmart",
@@ -2799,7 +2783,7 @@ var DASH_DATA = {
     "线下活动",
     "非遗联名"
    ],
-   "id": "n088"
+   "id": "n087"
   },
   {
    "brand": "toptoy",
@@ -2814,7 +2798,7 @@ var DASH_DATA = {
     "财报",
     "券商观点"
    ],
-   "id": "n089"
+   "id": "n088"
   },
   {
    "brand": "anta",
@@ -2829,7 +2813,7 @@ var DASH_DATA = {
     "资本市场",
     "行业趋势"
    ],
-   "id": "n090"
+   "id": "n089"
   },
   {
    "brand": "heytea",
@@ -2844,7 +2828,7 @@ var DASH_DATA = {
     "社媒热议",
     "品牌观察"
    ],
-   "id": "n091"
+   "id": "n090"
   },
   {
    "brand": "52toys",
@@ -2859,10 +2843,10 @@ var DASH_DATA = {
     "线下活动",
     "新品发售"
    ],
-   "id": "n092"
+   "id": "n091"
   },
   {
-   "id": "n093",
+   "id": "n092",
    "brand": "nike",
    "cat": "apparel",
    "heat": 90,
@@ -2890,7 +2874,7 @@ var DASH_DATA = {
     "田径",
     "亚运备战"
    ],
-   "id": "n094"
+   "id": "n093"
   },
   {
    "brand": "lining",
@@ -2906,10 +2890,10 @@ var DASH_DATA = {
     "NBA",
     "国际化"
    ],
-   "id": "n095"
+   "id": "n094"
   },
   {
-   "id": "n096",
+   "id": "n095",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 82,
@@ -2937,10 +2921,10 @@ var DASH_DATA = {
     "变形金刚",
     "出海"
    ],
-   "id": "n097"
+   "id": "n096"
   },
   {
-   "id": "n098",
+   "id": "n097",
    "brand": "proya",
    "cat": "beauty",
    "heat": 74,
@@ -2956,7 +2940,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n099",
+   "id": "n098",
    "brand": "lining",
    "cat": "apparel",
    "heat": 73,
@@ -2971,7 +2955,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n100",
+   "id": "n099",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 70,
@@ -2986,7 +2970,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n101",
+   "id": "n100",
    "brand": "mixue",
    "cat": "food",
    "heat": 68,
@@ -3001,7 +2985,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n102",
+   "id": "n101",
    "brand": "popmart",
    "cat": "ip",
    "heat": 92,
@@ -3016,7 +3000,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n103",
+   "id": "n102",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 88,
@@ -3031,7 +3015,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n104",
+   "id": "n103",
    "brand": "popmart",
    "cat": "ip",
    "heat": 86,
@@ -3046,7 +3030,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n105",
+   "id": "n104",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 84,
@@ -3061,7 +3045,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n106",
+   "id": "n105",
    "brand": "mixue",
    "cat": "food",
    "heat": 82,
@@ -3076,7 +3060,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n107",
+   "id": "n106",
    "brand": "miniso",
    "cat": "daily",
    "heat": 78,
@@ -3091,7 +3075,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n108",
+   "id": "n107",
    "brand": "anta",
    "cat": "apparel",
    "heat": 74,
@@ -3106,7 +3090,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n109",
+   "id": "n108",
    "brand": "adidas",
    "cat": "apparel",
    "heat": 72,
@@ -3121,7 +3105,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n110",
+   "id": "n109",
    "brand": "florasis",
    "cat": "beauty",
    "heat": 70,
@@ -3137,7 +3121,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n111",
+   "id": "n110",
    "brand": "ip-industry",
    "cat": "ip",
    "heat": 66,
@@ -3152,7 +3136,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n112",
+   "id": "n111",
    "brand": "bluemoon",
    "cat": "daily",
    "heat": 58,
@@ -3167,7 +3151,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n113",
+   "id": "n112",
    "brand": "ripstar",
    "cat": "apparel",
    "heat": 52,
@@ -4060,13 +4044,13 @@ var DASH_DATA = {
     "rank": 15,
     "topic": "#斯凯奇tokidoki",
     "heat": "全球联名首发",
-    "note": "斯凯奇×tokidoki联名系列9月全球发售",
+    "note": "斯凯奇×tokidoki联名系列在小红书引发怀旧与二创讨论（该联名首发于2022年，非2026年新发售）",
     "date": "09-12",
     "dateType": "trend",
     "source": "千瓜数据·话题分析",
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E6%96%AF%E5%87%AF%E5%A5%87tokidoki",
     "reportSource": "千瓜数据·话题分析",
-    "reportUrl": "https://www.streetinsider.com/Press+Releases/Skechers+Collaborates+With+tokidoki+on+Limited-Edition+Collection/20351181.html"
+    "reportUrl": "https://www.xiaohongshu.com/search_result/?keyword=%E6%96%AF%E5%87%AF%E5%A5%87tokidoki"
    },
    {
     "rank": 16,
@@ -5564,26 +5548,6 @@ var DASH_DATA = {
    "sentiment": "正面",
    "source": "经济网",
    "url": "https://www.ceweekly.cn/company/2026/0911/500086.html"
-  },
-  {
-   "updatedDate": "09-12",
-   "updatedAt": "2026-09-12T07:58:00+08:00",
-   "status": "进行中",
-   "brand": "斯凯奇 Skechers",
-   "cat": "apparel",
-   "name": "斯凯奇×tokidoki全球联名系列",
-   "window": "2026.09.04 - 2026.10.31",
-   "type": "联名/新品",
-   "action": "斯凯奇与潮牌tokidoki推出全球联名时尚鞋，首批4款女鞋9月4日美加首发，第二轮9月跟进，标志熊猫鞋之外的潮流联名布局。",
-   "volume": "潮牌联名引潮流玩家关注",
-   "volumeIndex": 78,
-   "sale": "Skechers Uno等联名款",
-   "topVoice": "tokidoki标志性爱心十字骨logo印上Skechers Uno",
-   "topVoiceSource": "StreetInsider",
-   "topVoiceUrl": "https://www.streetinsider.com/Press+Releases/Skechers+Collaborates+With+tokidoki+on+Limited-Edition+Collection/20351181.html",
-   "sentiment": "正面",
-   "source": "StreetInsider",
-   "url": "https://www.streetinsider.com/Press+Releases/Skechers+Collaborates+With+tokidoki+on+Limited-Edition+Collection/20351181.html"
   },
   {
    "updatedDate": "09-12",
