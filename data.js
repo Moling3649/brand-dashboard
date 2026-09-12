@@ -3770,17 +3770,6 @@ var DASH_DATA = {
    },
    {
     "rank": 6,
-    "topic": "斯凯奇×tokidoki 联名系列全球发售",
-    "note": "斯凯奇与潮牌tokidoki推出全球联名时尚鞋，首批4款女鞋9.4美加首发",
-    "brand": "skechers",
-    "date": "09-12",
-    "source": "小红书·话题搜索",
-    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E6%96%AF%E5%87%AF%E5%A5%87%20tokidoki%20%E8%81%94%E5%90%8D",
-    "reportSource": "StreetInsider",
-    "reportUrl": "https://www.streetinsider.com/Press+Releases/Skechers+Collaborates+With+tokidoki+on+Limited-Edition+Collection/20351181.html"
-   },
-   {
-    "rank": 7,
     "topic": "lululemon 天猫超级品牌日 wunder puff 动态剧场",
     "note": "lululemon第八年天猫超品日沈阳wunder puff动态剧场，李宇春+陶身体剧场",
     "brand": "lululemon",
@@ -3791,7 +3780,7 @@ var DASH_DATA = {
     "reportUrl": "https://www.ceweekly.cn/company/2026/0911/500086.html"
    },
    {
-    "rank": 8,
+    "rank": 7,
     "topic": "珀莱雅 7.8亿收购花知晓 出海美国",
     "note": "珀莱雅7.8亿收购花知晓换美国400店入场券，净利+46%",
     "brand": "proya",
@@ -3802,7 +3791,7 @@ var DASH_DATA = {
     "reportUrl": "https://weibo.com/1851599157/5341893475959592"
    },
    {
-    "rank": 9,
+    "rank": 8,
     "topic": "安踏 严子怡 标枪代言",
     "note": "安踏签约标枪天才少女严子怡，体育营销再落子",
     "brand": "anta",
@@ -3813,7 +3802,7 @@ var DASH_DATA = {
     "reportUrl": "https://s.weibo.com/weibo?q=%23安踏严子怡%23"
    },
    {
-    "rank": 10,
+    "rank": 9,
     "topic": "蜜雪冰城 中期利润首降 派特别股息",
     "note": "蜜雪中期利润同比下滑14.7%上市首现负增长，首派特别股息约10亿",
     "brand": "mixue",
@@ -3822,6 +3811,17 @@ var DASH_DATA = {
     "url": "https://www.xiaohongshu.com/search_result/?keyword=%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E%20%E5%88%A9%E6%B6%A6%20%E4%B8%8B%E6%BB%91",
     "reportSource": "中国经济新闻网",
     "reportUrl": "https://www.cet.com.cn/zhpd/zscj/10538429.shtml"
+   },
+   {
+    "rank": 10,
+    "topic": "斯凯奇「舒适奇了」品牌升级",
+    "note": "斯凯奇发布全新品牌形象「舒适奇了 Comfort For All」，启动 2025-2028 三阶段升级战略，同步推出熊猫鞋六代舞台灵感系列与加州风情系列",
+    "brand": "skechers",
+    "date": "09-12",
+    "source": "小红书·话题搜索",
+    "url": "https://www.xiaohongshu.com/search_result/?keyword=%E6%96%AF%E5%87%AF%E5%A5%87%20%E8%88%92%E9%80%82%E5%A5%87%E4%BA%86",
+    "reportSource": "新浪上海",
+    "reportUrl": "https://sh.sina.com.cn/life/other/2026-09-08/detail-inirapyy9311632.shtml"
    }
   ],
   "xhsActivities": [
