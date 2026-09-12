@@ -45,25 +45,32 @@
   .btn:hover{border-color:#d1d5db;color:var(--text)}
 
   /* ---------- hero ---------- */
-  .hero{display:grid;grid-template-columns:1.25fr 1fr;gap:14px;margin-bottom:14px}
-  @media(max-width:860px){.hero{grid-template-columns:1fr}}
-  .king{background:linear-gradient(135deg,#1e1b4b,#4c1d95 60%,#7c3aed);color:#fff;border-radius:14px;padding:20px 22px;position:relative;overflow:hidden}
-  .king .crown{position:absolute;right:14px;top:10px;font-size:44px;opacity:.18}
-  .king .label{font-size:12px;opacity:.85;letter-spacing:2px;margin-bottom:6px}
-  .king .name{font-size:30px;font-weight:800;margin-bottom:4px}
-  .king .catline{font-size:12px;opacity:.85;margin-bottom:12px}
-  .king .score{font-size:40px;font-weight:800;line-height:1}
-  .king .score small{font-size:13px;font-weight:400;opacity:.8;margin-left:6px}
-  .king .delta{font-size:13px;margin-left:10px;color:#fde68a}
-  .king .news{margin-top:12px;border-top:1px solid rgba(255,255,255,.2);padding-top:10px}
-  .king .spark-row{display:flex;align-items:center;gap:12px;margin-bottom:12px}
-  .king .spark{display:block;flex:0 0 auto}
-  .king .spark-cap{font-size:11px;opacity:.72;line-height:1.3}
+  .hero{display:block;margin-bottom:14px}
+  .king-wrap{background:linear-gradient(135deg,#1e1b4b,#4c1d95 60%,#7c3aed);color:#fff;border-radius:14px;padding:16px 18px 18px;margin-bottom:12px;position:relative;overflow:hidden}
+  .king-title{font-size:12.5px;opacity:.9;letter-spacing:2px;margin-bottom:12px}
+  .king-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(226px,1fr));gap:12px}
+  .king{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:14px 15px 12px;position:relative;overflow:hidden;display:flex;flex-direction:column}
+  .king.k1{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.34);box-shadow:0 8px 22px rgba(0,0,0,.18)}
+  .king .crown{position:absolute;right:10px;top:4px;font-size:38px;opacity:.15}
+  .king .khead{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:3px}
+  .king .name{font-size:23px;font-weight:800;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .king .rk{flex:0 0 auto;font-size:11px;font-weight:700;padding:3px 8px;border-radius:999px;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.3);white-space:nowrap}
+  .king.k1 .rk{background:#fbbf24;border-color:#fcd34d;color:#3b0764}
+  .king .catline{font-size:11.5px;opacity:.82;line-height:1.5;padding-bottom:9px;border-bottom:1px solid rgba(255,255,255,.15)}
+  .king .spark-row{display:flex;align-items:center;gap:10px;margin:9px 0;padding-bottom:9px;border-bottom:1px solid rgba(255,255,255,.15)}
+  .king .spark{display:block;flex:0 0 auto;width:100%;max-width:150px;height:auto}
+  .king .spark-cap{font-size:10.5px;opacity:.72;line-height:1.35}
+  .king .score{font-size:32px;font-weight:800;line-height:1}
+  .king .score small{font-size:12px;font-weight:400;opacity:.8;margin-left:6px}
+  .king .delta{display:inline-block;font-size:12px;margin-left:8px;color:#fde68a}
   .king .delta.up{color:#a7f3d0}
-  .king .news a{display:block;color:#fff;text-decoration:none;font-size:13px;margin-bottom:6px;opacity:.95}
+  .king .news{margin-top:auto;padding-top:9px;border-top:1px solid rgba(255,255,255,.18)}
+  .king .news a{color:#fff;text-decoration:none;font-size:12.5px;line-height:1.5;opacity:.95;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
   .king .news a:hover{text-decoration:underline}
   .king .news a::before{content:"🔥 ";font-size:11px}
-  .kpis{display:grid;grid-template-rows:repeat(4,1fr);gap:10px}
+  .king .news .kd{font-size:11.5px;opacity:.62}
+  .kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+  @media(max-width:860px){.kpis{grid-template-columns:1fr}}
   .kpi{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px 16px;display:flex;align-items:center;justify-content:space-between}
   .kpi .k{color:var(--muted);font-size:12px}
   .kpi .v{font-size:20px;font-weight:700}
@@ -305,8 +312,6 @@
 
   <div id="hero"></div>
 
-  <div class="tabs" id="tabs"></div>
-
   <div class="panel" style="margin-bottom:14px">
     <h2>📅 营销万年历 <span class="sub">阳历/农历/星期/节气/节日实时对应 · 可切换月份 · 点击任意日期可框选 · 黑色=禁娱日 · 蓝色=今天（节点取自《2026-2027全年营销时间节点与可营销名录》）</span></h2>
     <div id="calendar"></div>
@@ -321,6 +326,9 @@
     <h2>🎭 平台文娱·种草垂直榜 <span class="sub">微博文娱榜（剧集/综艺/音乐/电影/明星动态）/ 抖音种草榜（穿搭/时尚/护肤/美妆/美食/好物/生活技巧）/ 小红书热门话题榜（千瓜数据·近90日热点）· Top30 · 每日更新</span></h2>
     <div id="hotVertical"></div>
   </div>
+
+  <!-- 类目筛选按钮：2026-09-12 由「营销万年历」上方迁至「营销动作监测」版块上方（筛选作用于营销动作/热度排行/资讯流） -->
+  <div class="tabs" id="tabs"></div>
 
   <div class="panel" style="margin-bottom:14px">
     <h2>🎯 营销动作监测 <span class="sub" id="campSub"></span></h2>
@@ -464,13 +472,11 @@ window.__wbBoot = function(fromCache){
   document.getElementById('mUpd').textContent = D.updatedAt;
 
   // ---------- hero ----------
-  // 「今日热度上升趋势最快品牌」：依据各品牌 trend 序列（自动化每日刷新）实时计算，取监测期内净上升幅度最大的品牌
+  // 「今日热度上升趋势最快品牌 TOP3」：依据各品牌 trend 序列（自动化每日刷新）实时计算净上升幅度，取前 3 名并排呈现
   function riseOf(b){ const t=(b.trend||[]).filter(x=>typeof x==='number'); return t.length>=2 ? t[t.length-1]-t[0] : 0; }
   const riseList = D.brands.map(b=>({b, rise:riseOf(b)})).filter(x=>x.rise>0).sort((a,b)=>b.rise-a.rise);
-  const riser = riseList.length ? riseList[0].b : (BRAND[D.topBrandId] || D.brands.slice().sort((x,y)=>y.heat-x.heat)[0]);
-  const riserRise = riseList.length ? riseList[0].rise : 0;
-  const riserDays = (riser.trend||[]).filter(x=>typeof x==='number').length;
-  const riserNews = D.news.filter(n=>n.brand===riser.id).sort((a,b)=>b.heat-a.heat).slice(0,3);
+  const risers = riseList.length ? riseList.slice(0,3)
+    : D.brands.slice().sort((x,y)=>y.heat-x.heat).slice(0,3).map(b=>({b, rise:0}));
   const avgHeat = Math.round(D.brands.reduce((s,b)=>s+b.heat,0)/D.brands.length);
   const catAvg = D.categories.map(c=>{
     const bs = D.brands.filter(b=>b.cat===c.id);
@@ -488,16 +494,27 @@ window.__wbBoot = function(fromCache){
     return `<svg class="spark" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true"><polyline points="${pts}" fill="none" stroke="#fbbf24" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="${w}" cy="${lastY}" r="2.8" fill="#fbbf24"/></svg>`;
   }
 
+  // 单张上升趋势卡（TOP1 高亮）
+  function riseCard(entry, i){
+    const b = entry.b, c = CAT[b.cat];
+    const days = (b.trend||[]).filter(x=>typeof x==='number').length;
+    const nw = D.news.filter(n=>n.brand===b.id).sort((x,y)=>y.heat-x.heat)[0];
+    const riseTxt = entry.rise>0 ? `▲ 区间上升 +${entry.rise}` : '— 区间持平';
+    return `<div class="king${i===0?' k1':''}">
+      <div class="crown">🚀</div>
+      <div class="khead"><div class="name">${b.name}</div><div class="rk">上升 TOP${i+1}</div></div>
+      <div class="catline">${c.name}｜社媒声量 ${b.soc} · 销售转化 ${b.sales} · 资讯热度 ${b.news}</div>
+      <div class="spark-row">${sparkline(b.trend)}<span class="spark-cap">热度走势<br>（近 ${days} 个监测日）</span></div>
+      <div class="score">${b.heat}<small>当前热度</small><span class="delta${entry.rise>0?' up':''}">${riseTxt}</span></div>
+      <div class="news">${nw ? `<a href="${nw.url||'javascript:void(0)'}" target="_blank">${nw.title}</a>` : `<span class="kd">暂无关联资讯 · 热度由社媒声量与销售转化驱动</span>`}</div>
+    </div>`;
+  }
+
   const hero = document.getElementById('hero');
   hero.innerHTML = `
-  <div class="king">
-    <div class="crown">🚀</div>
-    <div class="label">今日热度上升趋势最快品牌 · ${D.date}</div>
-    <div class="name">${riser.name}</div>
-    <div class="catline">${CAT[riser.cat].name}｜社媒声量 ${riser.soc} · 销售转化 ${riser.sales} · 资讯热度 ${riser.news}</div>
-    <div class="spark-row">${sparkline(riser.trend)}<span class="spark-cap">热度走势（近 ${riserDays} 个监测日）</span></div>
-    <div class="score">${riser.heat}<small>当前热度</small><span class="delta up">▲ 区间上升 +${riserRise}</span></div>
-    <div class="news">${riserNews.map(n=>`<a href="${n.url||'javascript:void(0)'}" target="_blank">${n.title}</a>`).join('')}</div>
+  <div class="king-wrap">
+    <div class="king-title">🚀 今日热度上升趋势最快品牌 · ${D.date} · TOP3</div>
+    <div class="king-row">${risers.map(riseCard).join('')}</div>
   </div>
   <div class="kpis">
     <div class="kpi"><span class="k">今日热点资讯</span><span class="v">${todayNews}<small> 条</small></span></div>
@@ -810,6 +827,8 @@ window.__wbBoot = function(fromCache){
       <li><b>平台热榜</b>：微博热搜/抖音热点/小红书热点每日从公开榜单报道聚合抓取，优先保留与追踪品牌相关的条目并标注品牌。</li>
       <li><b>文娱·种草垂直榜</b>：微博文娱榜、抖音种草榜仅保留文娱/种草娱乐类话题（剔除政治性与社会性事件）；另含小红书热门话题榜 Top20（千瓜数据·近90日热点），按话题热度排序。</li>
       <li><b>行业公众号资讯</b>：聚合 SocialBeta、梅花网、36氪、剁椒Spicy、数英DIGITALING、廣告狂人、广告头条、顶尖文案TOPYS 八个公众号的每日发布内容，保留行业资讯与广告创意类内容（剔除推广/软文）；可按账号筛选，点击标题或来源均可跳转原文。剁椒Spicy、廣告狂人、顶尖文案TOPYS 为微信自媒体，其观点经可跳转的媒体摘编来源呈现。</li>
+      <li><b>日化品牌</b>：2026-09-12 起新增 14 个日化品牌（蜂花 / 六神 / Spes / 参半 / 阿道夫 / 洁柔 / 清风 / 滴露 / 威露士 / 汰渍 / 施华蔻 / 海飞丝 / 云南白药牙膏 / 半亩花田）并入「日用」类目，初始声量 / 转化 / 资讯指数基于公开报道与行业榜单估算（如蜂花×王俊凯、云南白药牙膏×王一博、六神×肖战、半亩花田×迪丽热巴等公开代言信息），后续由每日 08:00 / 17:00 自动化持续更新。</li>
+      <li><b>上升趋势卡片</b>：展示当日热度上升趋势最快的 TOP3 品牌，按各品牌近 7 个监测日热度序列的「末值 − 初值」净上升幅度实时排序（新增品牌为估算基线，不参与卡位抢占）。</li>
       <li><b>更新机制</b>：每日 08:00 与 17:00 自动搜索更新（data.js）并同步线上链接；手动刷新页面即可看到最新数据。资讯流与公众号资讯均按最新发布时间排序。</li>
       <li><b>追加品牌</b>：在对话中直接告诉助手品牌名与所属类目即可，无需修改代码。</li>
     </ul>`;

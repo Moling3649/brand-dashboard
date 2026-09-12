@@ -1,7 +1,7 @@
 var DASH_DATA = {
  "version": 2,
  "date": "09-12",
- "updatedAt": "2026-09-12T08:28:00+08:00",
+ "updatedAt": "2026-09-12T16:20:00+08:00",
  "trendDates": [
   "09-05",
   "09-06",
@@ -12,7 +12,7 @@ var DASH_DATA = {
   "09-11",
   "09-12"
  ],
- "dataNote": "声量/转化指数基于公开财报、行业榜单与媒体报道估算，非平台官方实时数据；历史趋势为估算基线，自上线日起逐日累积。",
+ "dataNote": "声量/转化指数基于公开财报、行业榜单与媒体报道估算，非平台官方实时数据；历史趋势为估算基线，自上线日起逐日累积。2026-09-12 起新增 14 个日化品牌（蜂花/六神/Spes/参半/阿道夫/洁柔/清风/滴露/威露士/汰渍/施华蔻/海飞丝/云南白药牙膏/半亩花田），并入「日用」类目，初始指数基于公开报道与榜单估算。",
  "categories": [
   {
    "id": "apparel",
@@ -991,6 +991,272 @@ var DASH_DATA = {
     48
    ],
    "heat": 48
+  },
+  {
+   "id": "fenghua",
+   "name": "蜂花",
+   "cat": "daily",
+   "soc": 78,
+   "sales": 62,
+   "news": 80,
+   "delta": 0,
+   "trend": [
+    72,
+    72,
+    73,
+    73,
+    74,
+    74,
+    74
+   ],
+   "heat": 74
+  },
+  {
+   "id": "liushen",
+   "name": "六神",
+   "cat": "daily",
+   "soc": 84,
+   "sales": 76,
+   "news": 78,
+   "delta": 0,
+   "trend": [
+    78,
+    78,
+    79,
+    79,
+    80,
+    80,
+    80
+   ],
+   "heat": 80
+  },
+  {
+   "id": "spes",
+   "name": "Spes",
+   "cat": "daily",
+   "soc": 62,
+   "sales": 58,
+   "news": 52,
+   "delta": 0,
+   "trend": [
+    57,
+    57,
+    58,
+    58,
+    59,
+    59,
+    59
+   ],
+   "heat": 59
+  },
+  {
+   "id": "canban",
+   "name": "参半",
+   "cat": "daily",
+   "soc": 66,
+   "sales": 60,
+   "news": 58,
+   "delta": 0,
+   "trend": [
+    61,
+    61,
+    62,
+    62,
+    63,
+    63,
+    63
+   ],
+   "heat": 63
+  },
+  {
+   "id": "adolph",
+   "name": "阿道夫",
+   "cat": "daily",
+   "soc": 58,
+   "sales": 62,
+   "news": 46,
+   "delta": 0,
+   "trend": [
+    55,
+    55,
+    56,
+    56,
+    57,
+    57,
+    57
+   ],
+   "heat": 57
+  },
+  {
+   "id": "jierou",
+   "name": "洁柔",
+   "cat": "daily",
+   "soc": 52,
+   "sales": 64,
+   "news": 48,
+   "delta": 0,
+   "trend": [
+    53,
+    53,
+    54,
+    54,
+    55,
+    55,
+    55
+   ],
+   "heat": 55
+  },
+  {
+   "id": "qingfeng",
+   "name": "清风",
+   "cat": "daily",
+   "soc": 48,
+   "sales": 62,
+   "news": 44,
+   "delta": 0,
+   "trend": [
+    49,
+    49,
+    50,
+    50,
+    51,
+    51,
+    51
+   ],
+   "heat": 51
+  },
+  {
+   "id": "dettol",
+   "name": "滴露",
+   "cat": "daily",
+   "soc": 56,
+   "sales": 66,
+   "news": 50,
+   "delta": 0,
+   "trend": [
+    56,
+    56,
+    57,
+    57,
+    58,
+    58,
+    58
+   ],
+   "heat": 58
+  },
+  {
+   "id": "walch",
+   "name": "威露士",
+   "cat": "daily",
+   "soc": 54,
+   "sales": 60,
+   "news": 46,
+   "delta": 0,
+   "trend": [
+    52,
+    52,
+    53,
+    53,
+    54,
+    54,
+    54
+   ],
+   "heat": 54
+  },
+  {
+   "id": "tide",
+   "name": "汰渍",
+   "cat": "daily",
+   "soc": 60,
+   "sales": 70,
+   "news": 52,
+   "delta": 0,
+   "trend": [
+    59,
+    59,
+    60,
+    60,
+    61,
+    61,
+    61
+   ],
+   "heat": 61
+  },
+  {
+   "id": "schwarzkopf",
+   "name": "施华蔻",
+   "cat": "daily",
+   "soc": 58,
+   "sales": 62,
+   "news": 48,
+   "delta": 0,
+   "trend": [
+    55,
+    55,
+    56,
+    56,
+    57,
+    57,
+    57
+   ],
+   "heat": 57
+  },
+  {
+   "id": "haifeisi",
+   "name": "海飞丝",
+   "cat": "daily",
+   "soc": 62,
+   "sales": 68,
+   "news": 48,
+   "delta": 0,
+   "trend": [
+    59,
+    59,
+    60,
+    60,
+    61,
+    61,
+    61
+   ],
+   "heat": 61
+  },
+  {
+   "id": "yunnanbaiyao",
+   "name": "云南白药牙膏",
+   "cat": "daily",
+   "soc": 82,
+   "sales": 72,
+   "news": 86,
+   "delta": 0,
+   "trend": [
+    78,
+    78,
+    79,
+    79,
+    80,
+    80,
+    80
+   ],
+   "heat": 80
+  },
+  {
+   "id": "banmuhuatian",
+   "name": "半亩花田",
+   "cat": "daily",
+   "soc": 64,
+   "sales": 58,
+   "news": 62,
+   "delta": 0,
+   "trend": [
+    60,
+    60,
+    61,
+    61,
+    62,
+    62,
+    62
+   ],
+   "heat": 62
   },
   {
    "id": "skii",
