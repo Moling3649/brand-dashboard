@@ -7859,7 +7859,7 @@ var DASH_DATA = {
    "negVoice": "",
    "negVoiceSource": "",
    "negVoiceUrl": "09-13",
-   "date": "2026-09-13T07:58:00+08:00"
+   "date": "09-13"
   },
   {
    "id": "e002",
@@ -7875,7 +7875,7 @@ var DASH_DATA = {
    "negVoice": "",
    "negVoiceSource": "",
    "negVoiceUrl": "09-13",
-   "date": "2026-09-13T07:58:00+08:00"
+   "date": "09-13"
   },
   {
    "id": "e003",
@@ -7891,7 +7891,7 @@ var DASH_DATA = {
    "negVoice": "",
    "negVoiceSource": "",
    "negVoiceUrl": "09-12",
-   "date": "2026-09-12T10:00:00+08:00"
+   "date": "09-12"
   },
   {
    "id": "e004",
@@ -7907,7 +7907,7 @@ var DASH_DATA = {
    "negVoice": "",
    "negVoiceSource": "",
    "negVoiceUrl": "09-12",
-   "date": "2026-09-12T10:00:00+08:00"
+   "date": "09-12"
   },
   {
    "id": "e005",
@@ -7923,7 +7923,7 @@ var DASH_DATA = {
    "negVoice": "",
    "negVoiceSource": "",
    "negVoiceUrl": "09-09",
-   "date": "2026-09-09T11:00:00+08:00"
+   "date": "09-09"
   },
   {
    "brand": "科颜氏",

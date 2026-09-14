@@ -746,7 +746,9 @@ window.__wbBoot = function(fromCache){
     tabsEl.innerHTML = regions.map(t=>
       `<div class="ce-tab ${curCe===t.id?'on':''}" data-id="${t.id}">${t.name}</div>`).join('');
     tabsEl.querySelectorAll('.ce-tab').forEach(el=>el.onclick=()=>{curCe=el.dataset.id;renderCelebEndorse();});
-    let list = E.slice().sort((a,b)=>b.date.localeCompare(a.date));
+    // 归一化 date 为可比数值：兼容 "MM-DD" 与 "2026-09-13T.." 两种格式，避免字符串比较把旧日期顶到前面
+    const dayNum = s => { const m = String(s).match(/(\d{4})-(\d{2})-(\d{2})/); if(m) return (+m[1])*10000+(+m[2])*100+(+m[3]); const m2 = String(s).match(/(\d{2})-(\d{2})/); if(m2) return 2026*10000+(+m2[1])*100+(+m2[2]); return 0; };
+    let list = E.slice().sort((a,b)=> dayNum(b.date)-dayNum(a.date) || String(b.id).localeCompare(String(a.id)));
     if(curCe!=='all') list = list.filter(e=> (curCe==='cn'&&e.region==='内地')||(curCe==='ov'&&e.region==='海外'));
     document.getElementById('ceSub').textContent = `今日共收录 ${E.length} 起（内地 ${E.filter(e=>e.region==='内地').length} / 海外 ${E.filter(e=>e.region==='海外').length}）· 前 4 条直接可视，剩余滚动查看 · 点击来源可跳转原文`;
     const el = document.getElementById('ceList');
