@@ -1,7 +1,7 @@
 var DASH_DATA = {
  "version": 2,
  "date": "09-14",
- "updatedAt": "2026-09-13T23:58:00.000Z",
+ "updatedAt": "2026-09-14T03:53:40.540Z",
  "trendDates": [
   "09-07",
   "09-08",
@@ -1662,193 +1662,61 @@ var DASH_DATA = {
   {
    "brand": "popmart",
    "cat": "ip",
-   "heat": 94,
-   "source": "同花顺",
-   "url": "https://stock.10jqka.com.cn/hks/20260911/c679833534.shtml",
-   "title": "泡泡玛特王宁携LABUBU访LVMH巴黎总部",
-   "summary": "9月7日王宁飞往巴黎LVMH总部，与阿尔诺会面并赠送MEGA LABUBU十周年纪念款，双方未官宣联名/投资，但高层接触已从艺术家延伸至公司最高层，被视作出海向奢侈品取经。",
-   "tags": [
-    "出海",
-    "IP",
-    "高层会面"
-   ],
+   "heat": 90,
    "date": "09-14",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/stock/estate/integration/2026-09-14/doc-iniruhxh4737588.shtml",
+   "title": "泡泡玛特全国最大旗舰店落地杭州湖滨",
+   "summary": "9月12日，泡泡玛特全国面积最大旗舰店在杭州湖滨银泰in77开业，超千平方米共三层，以星星人为核心IP融入西湖等杭州元素，开业首日取号超700号，入选杭州消费“三新”试点。",
+   "tags": [
+    "泡泡玛特",
+    "文创",
+    "线下门店",
+    "旗舰店",
+    "杭州",
+    "新浪财经",
+    "09-14"
+   ],
    "id": "n001"
-  },
-  {
-   "brand": "luckin",
-   "cat": "food",
-   "heat": 93,
-   "source": "今日头条",
-   "url": "https://www.toutiao.com/article/7684302652305392166/",
-   "title": "瑞幸获穆巴达拉10亿美元战略投资",
-   "summary": "9月10日瑞幸宣布获阿布扎比主权基金穆巴达拉10亿美元投资，交易后穆巴达拉持股约10.9%成第二大股东，将支持其国内下沉与海外扩张。",
-   "tags": [
-    "融资",
-    "出海",
-    "咖啡"
-   ],
-   "date": "09-14",
-   "id": "n002"
   },
   {
    "brand": "popmart",
    "cat": "ip",
-   "heat": 90,
-   "source": "网易",
-   "url": "https://dy.163.com/article/L67QQ8N30556LOZL.html",
-   "title": "泡泡玛特海外营收降11%后向苹果和LV取经",
-   "summary": "上半年泡泡玛特海外收入49.72亿元同比降11.1%，王宁将2026年定义为经营调整年，相继拜访苹果与LVMH。",
-   "tags": [
-    "财报",
-    "出海",
-    "调整年"
-   ],
+   "heat": 82,
    "date": "09-14",
-   "id": "n003"
-  },
-  {
-   "brand": "bawang",
-   "cat": "food",
-   "heat": 88,
-   "source": "亿邦动力",
-   "url": "https://m.ebrun.com/706600.html",
-   "title": "霸王茶姬上海7店开售白雾红尘茶叶蛋",
-   "summary": "9月7日霸王茶姬在上海7家门店上线5元茶叶蛋，用招牌大红袍茶底慢煮，测试全时段经营，拉动上午低峰时段。",
+   "source": "中国经济网",
+   "url": "https://www.ce.cn/cysc/newmain/yc/jsxw/202609/t20260914_3211679.shtml",
+   "title": "服贸会泡泡玛特展出SPACE MOLLY景泰蓝非遗联名",
+   "summary": "2026服贸会上泡泡玛特带来MEGA系列新作“SPACE MOLLY 景泰蓝”，由非遗传承人徐嘉爽携手打造，融入天干地支与星宿文化，首次在国家级大型展会展出。",
    "tags": [
-    "新品",
-    "跨界",
-    "茶饮"
-   ],
-   "date": "09-14",
-   "id": "n004"
-  },
-  {
-   "brand": "luckin",
-   "cat": "food",
-   "heat": 86,
-   "source": "数英网",
-   "url": "https://www.digitaling.com/articles/1578667.html",
-   "title": "瑞幸×名创优品YOYO联名上线",
-   "summary": "9月7日瑞幸联合名创优品IP YOYO推出奶酪拿铁/抹茶奶酪拿铁及全套萌系周边，社媒刷屏。",
-   "tags": [
-    "联名",
+    "泡泡玛特",
+    "文创",
+    "非遗",
+    "服贸会",
     "IP",
-    "咖啡"
+    "中国经济网",
+    "09-14"
    ],
-   "date": "09-14",
-   "id": "n005"
+   "id": "n002"
   },
   {
    "brand": "mixue",
    "cat": "food",
-   "heat": 85,
-   "source": "腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20260908A0DJ5T00",
-   "title": "蜜雪冰城加速拓展美国市场",
-   "summary": "蜜雪冰城通过平价茶饮与软冰淇淋攻美，好莱坞首店后布局纽约、硅谷，招牌软冰淇淋1.19美元，价格仅为当地均价一半。",
+   "heat": 80,
+   "date": "09-14",
+   "source": "微博",
+   "url": "https://m.weibo.cn/status/5343003617003786",
+   "title": "中国品牌席卷东南亚 蜜雪冰城印尼门店超2600家",
+   "summary": "韩媒报道“C-Brand”席卷东南亚，蜜雪冰城在印尼门店已超2600家，霸王茶姬等中国茶饮登陆曼谷高端商场，中国品牌深入东南亚日常生活。",
    "tags": [
+    "蜜雪冰城",
+    "茶饮零食糕点",
     "出海",
-    "茶饮",
-    "平价"
+    "东南亚",
+    "微博",
+    "09-14"
    ],
-   "date": "09-14",
-   "id": "n006"
-  },
-  {
-   "brand": "sw",
-   "cat": "apparel",
-   "heat": 85,
-   "source": "网易",
-   "url": "https://www.163.com/dy/article/L6CSQGT40552KKOK.html",
-   "title": "杨幂回归STUART WEITZMAN全球代言人",
-   "summary": "时隔7年杨幂回归STUART WEITZMAN全球代言人，携手开启品牌40周年，诠释「向心出走，张弛由我」。",
-   "tags": [
-    "代言",
-    "时尚",
-    "回归"
-   ],
-   "date": "09-14",
-   "id": "n007"
-  },
-  {
-   "brand": "bawang",
-   "cat": "food",
-   "heat": 84,
-   "source": "华龙网",
-   "url": "https://www.cqnews.net/app/content_1546866770056568832.html?cid=501585691",
-   "title": "霸王茶姬茶叶蛋登热搜 网友求外地开售",
-   "summary": "9月8日「奶茶店开卖茶叶蛋」登上热搜，上海门店测试阶段购买者众多，外地网友求购。",
-   "tags": [
-    "热搜",
-    "跨界",
-    "茶饮"
-   ],
-   "date": "09-14",
-   "id": "n008"
-  },
-  {
-   "brand": "pioneer",
-   "cat": "apparel",
-   "heat": 83,
-   "source": "手机新浪网",
-   "url": "https://www.sina.cn/news/detail/5340567878765238.html",
-   "title": "鹿晗官宣拓路者全球代言人",
-   "summary": "9月7日鹿晗正式成为拓路者品牌史上首位全球代言人，以「先锋拓路 城野皆是主场」为主题，14城商圈巨幕点亮。",
-   "tags": [
-    "代言",
-    "户外",
-    "明星"
-   ],
-   "date": "09-14",
-   "id": "n009"
-  },
-  {
-   "brand": "miniso",
-   "cat": "apparel",
-   "heat": 82,
-   "source": "财经头条",
-   "url": "https://cj.sina.com.cn/articles/view/5993531560/1653e08a801901och0",
-   "title": "名创优品美股涨超3%",
-   "summary": "9月1日美股中国资产翻红，名创优品股价涨超3%，霸王茶姬、贝壳等跟涨。",
-   "tags": [
-    "股价",
-    "资本市场"
-   ],
-   "date": "09-14",
-   "id": "n010"
-  },
-  {
-   "brand": "alo",
-   "cat": "apparel",
-   "heat": 82,
-   "source": "网易",
-   "url": "https://www.163.com/dy/article/L6CSQGT40552KKOK.html",
-   "title": "王一博官宣ALO全球品牌大使",
-   "summary": "王一博日前官宣成为ALO全球品牌大使，参与全球品牌内容与体验项目，推广Wellness生活方式。",
-   "tags": [
-    "代言",
-    "运动",
-    "海外"
-   ],
-   "date": "09-14",
-   "id": "n011"
-  },
-  {
-   "brand": "fila",
-   "cat": "apparel",
-   "heat": 81,
-   "source": "Overseas Idol",
-   "url": "https://overseasidol.com/wang-anyu-resmi-jadi-brand-ambassador-fila",
-   "title": "FILA官宣王安宇品牌代言人",
-   "summary": "9月4日FILA正式宣布青年演员王安宇成为品牌代言人，发布「WAY! Ni Hao!」主题campaign。",
-   "tags": [
-    "代言",
-    "运动",
-    "时尚"
-   ],
-   "date": "09-14",
-   "id": "n012"
+   "id": "n003"
   },
   {
    "brand": "yunnanbaiyao",
@@ -1864,10 +1732,10 @@ var DASH_DATA = {
     "牙膏",
     "日化"
    ],
-   "id": "n013"
+   "id": "n004"
   },
   {
-   "id": "n014",
+   "id": "n005",
    "brand": "anta",
    "cat": "apparel",
    "heat": 90,
@@ -1895,10 +1763,10 @@ var DASH_DATA = {
     "洗护",
     "国货"
    ],
-   "id": "n015"
+   "id": "n006"
   },
   {
-   "id": "n016",
+   "id": "n007",
    "brand": "luckin",
    "cat": "food",
    "heat": 88,
@@ -1915,7 +1783,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n017",
+   "id": "n008",
    "brand": "chabaidao",
    "cat": "food",
    "heat": 87,
@@ -1931,7 +1799,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n018",
+   "id": "n009",
    "brand": "mixue",
    "cat": "food",
    "heat": 86,
@@ -1946,7 +1814,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n019",
+   "id": "n010",
    "brand": "bawang",
    "cat": "food",
    "heat": 85,
@@ -1974,10 +1842,10 @@ var DASH_DATA = {
     "美妆",
     "护发"
    ],
-   "id": "n020"
+   "id": "n011"
   },
   {
-   "id": "n021",
+   "id": "n012",
    "brand": "miniso",
    "cat": "apparel",
    "heat": 84,
@@ -1992,7 +1860,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n022",
+   "id": "n013",
    "brand": "adidas",
    "cat": "apparel",
    "heat": 83,
@@ -2008,7 +1876,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n023",
+   "id": "n014",
    "brand": "lululemon",
    "cat": "apparel",
    "heat": 82,
@@ -2023,7 +1891,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n024",
+   "id": "n015",
    "brand": "sw",
    "cat": "apparel",
    "heat": 81,
@@ -2039,7 +1907,7 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n025",
+   "id": "n016",
    "brand": "muji",
    "cat": "apparel",
    "heat": 80,
@@ -2067,7 +1935,7 @@ var DASH_DATA = {
     "门店开业"
    ],
    "date": "09-12",
-   "id": "n026"
+   "id": "n017"
   },
   {
    "brand": "anta",
@@ -2083,7 +1951,7 @@ var DASH_DATA = {
     "收购"
    ],
    "date": "09-12",
-   "id": "n027"
+   "id": "n018"
   },
   {
    "brand": "proya",
@@ -2099,7 +1967,7 @@ var DASH_DATA = {
     "全球化"
    ],
    "date": "09-12",
-   "id": "n028"
+   "id": "n019"
   },
   {
    "brand": "luckin",
@@ -2115,7 +1983,7 @@ var DASH_DATA = {
     "JOJO联名"
    ],
    "date": "09-12",
-   "id": "n029"
+   "id": "n020"
   },
   {
    "brand": "miniso",
@@ -2131,7 +1999,7 @@ var DASH_DATA = {
     "快闪"
    ],
    "date": "09-12",
-   "id": "n030"
+   "id": "n021"
   },
   {
    "brand": "bruke",
@@ -2147,7 +2015,7 @@ var DASH_DATA = {
     "积木"
    ],
    "date": "09-12",
-   "id": "n031"
+   "id": "n022"
   },
   {
    "brand": "lululemon",
@@ -2163,7 +2031,7 @@ var DASH_DATA = {
     "换帅"
    ],
    "date": "09-12",
-   "id": "n032"
+   "id": "n023"
   },
   {
    "brand": "popmart",
@@ -2179,7 +2047,7 @@ var DASH_DATA = {
     "Labubu",
     "股价"
    ],
-   "id": "n033"
+   "id": "n024"
   },
   {
    "brand": "lululemon",
@@ -2195,7 +2063,7 @@ var DASH_DATA = {
     "超级品牌日",
     "wunder puff"
    ],
-   "id": "n034"
+   "id": "n025"
   },
   {
    "brand": "proya",
@@ -2211,7 +2079,7 @@ var DASH_DATA = {
     "收购",
     "出海"
    ],
-   "id": "n035"
+   "id": "n026"
   },
   {
    "brand": "bawang",
@@ -2227,7 +2095,7 @@ var DASH_DATA = {
     "联名"
    ],
    "date": "09-12",
-   "id": "n036"
+   "id": "n027"
   },
   {
    "brand": "mixue",
@@ -2243,7 +2111,7 @@ var DASH_DATA = {
     "出海"
    ],
    "date": "09-12",
-   "id": "n037"
+   "id": "n028"
   },
   {
    "brand": "bawang",
@@ -2259,7 +2127,7 @@ var DASH_DATA = {
     "出海",
     "张俊杰"
    ],
-   "id": "n038"
+   "id": "n029"
   },
   {
    "brand": "ip-industry",
@@ -2275,7 +2143,7 @@ var DASH_DATA = {
     "存量博弈",
     "财报"
    ],
-   "id": "n039"
+   "id": "n030"
   },
   {
    "brand": "maogeping",
@@ -2291,7 +2159,7 @@ var DASH_DATA = {
     "财报"
    ],
    "date": "09-12",
-   "id": "n040"
+   "id": "n031"
   },
   {
    "brand": "flowerknows",
@@ -2307,7 +2175,7 @@ var DASH_DATA = {
     "公益"
    ],
    "date": "09-12",
-   "id": "n041"
+   "id": "n032"
   },
   {
    "brand": "liushen",
@@ -2323,7 +2191,7 @@ var DASH_DATA = {
     "新品"
    ],
    "date": "09-12",
-   "id": "n042"
+   "id": "n033"
   },
   {
    "brand": "ip-industry",
@@ -2339,7 +2207,7 @@ var DASH_DATA = {
     "潮玩"
    ],
    "date": "09-12",
-   "id": "n043"
+   "id": "n034"
   },
   {
    "brand": "ecco",
@@ -2355,7 +2223,39 @@ var DASH_DATA = {
     "环保"
    ],
    "date": "09-12",
-   "id": "n044"
+   "id": "n035"
+  },
+  {
+   "brand": "popmart",
+   "cat": "ip",
+   "heat": 94,
+   "source": "同花顺",
+   "url": "https://stock.10jqka.com.cn/hks/20260911/c679833534.shtml",
+   "title": "泡泡玛特王宁携LABUBU访LVMH巴黎总部",
+   "summary": "9月7日王宁飞往巴黎LVMH总部，与阿尔诺会面并赠送MEGA LABUBU十周年纪念款，双方未官宣联名/投资，但高层接触已从艺术家延伸至公司最高层，被视作出海向奢侈品取经。",
+   "tags": [
+    "出海",
+    "IP",
+    "高层会面"
+   ],
+   "date": "09-11",
+   "id": "n036"
+  },
+  {
+   "brand": "popmart",
+   "cat": "ip",
+   "heat": 90,
+   "source": "网易",
+   "url": "https://dy.163.com/article/L67QQ8N30556LOZL.html",
+   "title": "泡泡玛特海外营收降11%后向苹果和LV取经",
+   "summary": "上半年泡泡玛特海外收入49.72亿元同比降11.1%，王宁将2026年定义为经营调整年，相继拜访苹果与LVMH。",
+   "tags": [
+    "财报",
+    "出海",
+    "调整年"
+   ],
+   "date": "09-11",
+   "id": "n037"
   },
   {
    "brand": "popmart",
@@ -2371,7 +2271,23 @@ var DASH_DATA = {
     "服贸会"
    ],
    "date": "09-11",
-   "id": "n045"
+   "id": "n038"
+  },
+  {
+   "brand": "sw",
+   "cat": "apparel",
+   "heat": 85,
+   "source": "网易",
+   "url": "https://www.163.com/dy/article/L6CSQGT40552KKOK.html",
+   "title": "杨幂回归STUART WEITZMAN全球代言人",
+   "summary": "时隔7年杨幂回归STUART WEITZMAN全球代言人，携手开启品牌40周年，诠释「向心出走，张弛由我」。",
+   "tags": [
+    "代言",
+    "时尚",
+    "回归"
+   ],
+   "date": "09-11",
+   "id": "n039"
   },
   {
    "brand": "proya",
@@ -2387,7 +2303,7 @@ var DASH_DATA = {
     "美妆"
    ],
    "date": "09-11",
-   "id": "n046"
+   "id": "n040"
   },
   {
    "brand": "mixue",
@@ -2403,7 +2319,7 @@ var DASH_DATA = {
     "财报",
     "利润"
    ],
-   "id": "n047"
+   "id": "n041"
   },
   {
    "brand": "lululemon",
@@ -2419,7 +2335,7 @@ var DASH_DATA = {
     "羽绒"
    ],
    "date": "09-11",
-   "id": "n048"
+   "id": "n042"
   },
   {
    "brand": "popmart",
@@ -2435,7 +2351,7 @@ var DASH_DATA = {
     "星星人"
    ],
    "date": "09-11",
-   "id": "n049"
+   "id": "n043"
   },
   {
    "brand": "ip-industry",
@@ -2451,7 +2367,7 @@ var DASH_DATA = {
     "IP"
    ],
    "date": "09-11",
-   "id": "n050"
+   "id": "n044"
   },
   {
    "brand": "miniso",
@@ -2467,7 +2383,7 @@ var DASH_DATA = {
     "YOYO",
     "IP"
    ],
-   "id": "n051"
+   "id": "n045"
   },
   {
    "brand": "bawang",
@@ -2483,7 +2399,7 @@ var DASH_DATA = {
     "评级"
    ],
    "date": "09-11",
-   "id": "n052"
+   "id": "n046"
   },
   {
    "brand": "miniso",
@@ -2499,7 +2415,7 @@ var DASH_DATA = {
     "IP联名"
    ],
    "date": "09-11",
-   "id": "n053"
+   "id": "n047"
   },
   {
    "brand": "luckin",
@@ -2515,7 +2431,7 @@ var DASH_DATA = {
     "融资",
     "中东资本"
    ],
-   "id": "n054"
+   "id": "n048"
   },
   {
    "brand": "popmart",
@@ -2531,7 +2447,7 @@ var DASH_DATA = {
     "财报",
     "谷子经济"
    ],
-   "id": "n055"
+   "id": "n049"
   },
   {
    "brand": "nike",
@@ -2548,7 +2464,7 @@ var DASH_DATA = {
     "美网",
     "体育营销"
    ],
-   "id": "n056"
+   "id": "n050"
   },
   {
    "brand": "luckin",
@@ -2565,7 +2481,7 @@ var DASH_DATA = {
     "联名周边",
     "二手市场"
    ],
-   "id": "n057"
+   "id": "n051"
   },
   {
    "brand": "bawang",
@@ -2581,7 +2497,7 @@ var DASH_DATA = {
     "迪士尼",
     "联名"
    ],
-   "id": "n058"
+   "id": "n052"
   },
   {
    "brand": "popmart",
@@ -2598,7 +2514,7 @@ var DASH_DATA = {
     "IP运营",
     "海外战略"
    ],
-   "id": "n059"
+   "id": "n053"
   },
   {
    "brand": "lululemon",
@@ -2614,7 +2530,7 @@ var DASH_DATA = {
     "财报",
     "股价"
    ],
-   "id": "n060"
+   "id": "n054"
   },
   {
    "brand": "bawang",
@@ -2630,7 +2546,7 @@ var DASH_DATA = {
     "品类扩张",
     "茶饮"
    ],
-   "id": "n061"
+   "id": "n055"
   },
   {
    "brand": "judydoll",
@@ -2646,7 +2562,7 @@ var DASH_DATA = {
     "杨颖",
     "代言"
    ],
-   "id": "n062"
+   "id": "n056"
   },
   {
    "brand": "guming",
@@ -2662,7 +2578,7 @@ var DASH_DATA = {
     "联名",
     "营销"
    ],
-   "id": "n063"
+   "id": "n057"
   },
   {
    "brand": "anta",
@@ -2679,7 +2595,7 @@ var DASH_DATA = {
     "lululemon",
     "运动鞋服"
    ],
-   "id": "n064"
+   "id": "n058"
   },
   {
    "brand": "pane",
@@ -2695,7 +2611,7 @@ var DASH_DATA = {
     "逆向出海",
     "上海品牌"
    ],
-   "id": "n065"
+   "id": "n059"
   },
   {
    "brand": "vinda",
@@ -2711,7 +2627,7 @@ var DASH_DATA = {
     "张凌赫",
     "代言"
    ],
-   "id": "n066"
+   "id": "n060"
   },
   {
    "brand": "miniso",
@@ -2727,7 +2643,7 @@ var DASH_DATA = {
     "YOYO",
     "IP"
    ],
-   "id": "n067"
+   "id": "n061"
   },
   {
    "brand": "ip-industry",
@@ -2743,7 +2659,7 @@ var DASH_DATA = {
     "IP主题餐厅",
     "二次元"
    ],
-   "id": "n068"
+   "id": "n062"
   },
   {
    "brand": "teenmix",
@@ -2759,7 +2675,7 @@ var DASH_DATA = {
     "早秋新品",
     "百丽系"
    ],
-   "id": "n069"
+   "id": "n063"
   },
   {
    "brand": "disney",
@@ -2776,7 +2692,7 @@ var DASH_DATA = {
     "上海大师赛",
     "IP联名"
    ],
-   "id": "n070"
+   "id": "n064"
   },
   {
    "brand": "mixue",
@@ -2793,7 +2709,7 @@ var DASH_DATA = {
     "新茶饮",
     "品质升级"
    ],
-   "id": "n071"
+   "id": "n065"
   },
   {
    "brand": "ouder",
@@ -2809,7 +2725,7 @@ var DASH_DATA = {
     "明星同款",
     "差异化"
    ],
-   "id": "n072"
+   "id": "n066"
   },
   {
    "brand": "kayou",
@@ -2826,7 +2742,7 @@ var DASH_DATA = {
     "卡牌",
     "盲盒监管"
    ],
-   "id": "n073"
+   "id": "n067"
   },
   {
    "brand": "ip-industry",
@@ -2842,7 +2758,7 @@ var DASH_DATA = {
     "授权",
     "财报"
    ],
-   "id": "n074"
+   "id": "n068"
   },
   {
    "brand": "kans",
@@ -2859,7 +2775,7 @@ var DASH_DATA = {
     "抖音",
     "大单品"
    ],
-   "id": "n075"
+   "id": "n069"
   },
   {
    "brand": "proya",
@@ -2876,7 +2792,7 @@ var DASH_DATA = {
     "韩束",
     "国货美妆"
    ],
-   "id": "n076"
+   "id": "n070"
   },
   {
    "brand": "wanke",
@@ -2892,7 +2808,7 @@ var DASH_DATA = {
     "滑板",
     "国潮"
    ],
-   "id": "n077"
+   "id": "n071"
   },
   {
    "brand": "ripstar",
@@ -2908,7 +2824,7 @@ var DASH_DATA = {
     "明星同款",
     "国潮鞋履"
    ],
-   "id": "n078"
+   "id": "n072"
   },
   {
    "brand": "bawang",
@@ -2923,7 +2839,7 @@ var DASH_DATA = {
     "霸王茶姬",
     "新品"
    ],
-   "id": "n079"
+   "id": "n073"
   },
   {
    "brand": "ocai",
@@ -2939,7 +2855,7 @@ var DASH_DATA = {
     "联名",
     "实测"
    ],
-   "id": "n080"
+   "id": "n074"
   },
   {
    "brand": "talitaqoom",
@@ -2955,7 +2871,7 @@ var DASH_DATA = {
     "张艺凡",
     "德训鞋"
    ],
-   "id": "n081"
+   "id": "n075"
   },
   {
    "brand": "ip-industry",
@@ -2972,7 +2888,7 @@ var DASH_DATA = {
     "黄金珠宝",
     "IP联名"
    ],
-   "id": "n082"
+   "id": "n076"
   },
   {
    "brand": "nike",
@@ -2989,7 +2905,7 @@ var DASH_DATA = {
     "标普",
     "退出"
    ],
-   "id": "n083"
+   "id": "n077"
   },
   {
    "brand": "nike",
@@ -3005,7 +2921,7 @@ var DASH_DATA = {
     "代言人",
     "耐克"
    ],
-   "id": "n084"
+   "id": "n078"
   },
   {
    "brand": "lining",
@@ -3021,7 +2937,7 @@ var DASH_DATA = {
     "代言人",
     "李宁"
    ],
-   "id": "n085"
+   "id": "n079"
   },
   {
    "brand": "anta",
@@ -3038,7 +2954,7 @@ var DASH_DATA = {
     "安踏",
     "田径"
    ],
-   "id": "n086"
+   "id": "n080"
   },
   {
    "brand": "guming",
@@ -3053,7 +2969,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n087"
+   "id": "n081"
   },
   {
    "brand": "popmart",
@@ -3068,7 +2984,7 @@ var DASH_DATA = {
     "产品上新",
     "展会"
    ],
-   "id": "n088"
+   "id": "n082"
   },
   {
    "brand": "ysl",
@@ -3084,7 +3000,7 @@ var DASH_DATA = {
     "彩妆护肤",
     "YSL"
    ],
-   "id": "n089"
+   "id": "n083"
   },
   {
    "brand": "maogeping",
@@ -3100,7 +3016,7 @@ var DASH_DATA = {
     "财报",
     "营销"
    ],
-   "id": "n090"
+   "id": "n084"
   },
   {
    "brand": "luckin",
@@ -3115,7 +3031,7 @@ var DASH_DATA = {
     "联名",
     "IP"
    ],
-   "id": "n091"
+   "id": "n085"
   },
   {
    "brand": "fila",
@@ -3132,7 +3048,7 @@ var DASH_DATA = {
     "FILA",
     "王安宇"
    ],
-   "id": "n092"
+   "id": "n086"
   },
   {
    "brand": "mixue",
@@ -3147,7 +3063,7 @@ var DASH_DATA = {
     "业绩",
     "财报"
    ],
-   "id": "n093"
+   "id": "n087"
   },
   {
    "brand": "chabaidao",
@@ -3163,7 +3079,7 @@ var DASH_DATA = {
     "新品",
     "霸王茶姬"
    ],
-   "id": "n094"
+   "id": "n088"
   },
   {
    "brand": "starbucks",
@@ -3178,7 +3094,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n095"
+   "id": "n089"
   },
   {
    "brand": "chabaidao",
@@ -3193,7 +3109,7 @@ var DASH_DATA = {
     "产品上新",
     "营销"
    ],
-   "id": "n096"
+   "id": "n090"
   },
   {
    "brand": "anta",
@@ -3208,7 +3124,7 @@ var DASH_DATA = {
     "资本市场",
     "股价"
    ],
-   "id": "n097"
+   "id": "n091"
   },
   {
    "brand": "lululemon",
@@ -3223,7 +3139,7 @@ var DASH_DATA = {
     "品牌动态",
     "高管变动"
    ],
-   "id": "n098"
+   "id": "n092"
   },
   {
    "brand": "loreal",
@@ -3238,7 +3154,7 @@ var DASH_DATA = {
     "品牌动态",
     "营销"
    ],
-   "id": "n099"
+   "id": "n093"
   },
   {
    "brand": "proya",
@@ -3253,7 +3169,7 @@ var DASH_DATA = {
     "资本市场",
     "公司治理"
    ],
-   "id": "n100"
+   "id": "n094"
   },
   {
    "brand": "oldorder",
@@ -3269,7 +3185,7 @@ var DASH_DATA = {
     "渠道扩张",
     "OLD ORDER"
    ],
-   "id": "n101"
+   "id": "n095"
   },
   {
    "brand": "miniso",
@@ -3285,10 +3201,10 @@ var DASH_DATA = {
     "竞争",
     "大店战略"
    ],
-   "id": "n102"
+   "id": "n096"
   },
   {
-   "id": "n103",
+   "id": "n097",
    "brand": "luckin",
    "cat": "food",
    "heat": 90,
@@ -3318,7 +3234,7 @@ var DASH_DATA = {
     "业绩危机",
     "换帅"
    ],
-   "id": "n104"
+   "id": "n098"
   },
   {
    "brand": "popmart",
@@ -3334,10 +3250,10 @@ var DASH_DATA = {
     "LABUBU",
     "资本市场"
    ],
-   "id": "n105"
+   "id": "n099"
   },
   {
-   "id": "n106",
+   "id": "n100",
    "brand": "bawang",
    "cat": "food",
    "heat": 88,
@@ -3367,10 +3283,10 @@ var DASH_DATA = {
     "舒适科技",
     "斯凯奇"
    ],
-   "id": "n107"
+   "id": "n101"
   },
   {
-   "id": "n108",
+   "id": "n102",
    "brand": "popmart",
    "cat": "ip",
    "heat": 86,
@@ -3387,7 +3303,23 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n109",
+   "brand": "mixue",
+   "cat": "food",
+   "heat": 85,
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260908A0DJ5T00",
+   "title": "蜜雪冰城加速拓展美国市场",
+   "summary": "蜜雪冰城通过平价茶饮与软冰淇淋攻美，好莱坞首店后布局纽约、硅谷，招牌软冰淇淋1.19美元，价格仅为当地均价一半。",
+   "tags": [
+    "出海",
+    "茶饮",
+    "平价"
+   ],
+   "date": "09-08",
+   "id": "n103"
+  },
+  {
+   "id": "n104",
    "brand": "huawei",
    "cat": "daily",
    "heat": 85,
@@ -3404,6 +3336,54 @@ var DASH_DATA = {
    ]
   },
   {
+   "brand": "bawang",
+   "cat": "food",
+   "heat": 84,
+   "source": "华龙网",
+   "url": "https://www.cqnews.net/app/content_1546866770056568832.html?cid=501585691",
+   "title": "霸王茶姬茶叶蛋登热搜 网友求外地开售",
+   "summary": "9月8日「奶茶店开卖茶叶蛋」登上热搜，上海门店测试阶段购买者众多，外地网友求购。",
+   "tags": [
+    "热搜",
+    "跨界",
+    "茶饮"
+   ],
+   "date": "09-08",
+   "id": "n105"
+  },
+  {
+   "brand": "pioneer",
+   "cat": "apparel",
+   "heat": 83,
+   "source": "手机新浪网",
+   "url": "https://www.sina.cn/news/detail/5340567878765238.html",
+   "title": "鹿晗官宣拓路者全球代言人",
+   "summary": "9月7日鹿晗正式成为拓路者品牌史上首位全球代言人，以「先锋拓路 城野皆是主场」为主题，14城商圈巨幕点亮。",
+   "tags": [
+    "代言",
+    "户外",
+    "明星"
+   ],
+   "date": "09-08",
+   "id": "n106"
+  },
+  {
+   "brand": "alo",
+   "cat": "apparel",
+   "heat": 82,
+   "source": "新浪新闻",
+   "url": "https://www.sina.cn/news/detail/5340847743697589.html",
+   "title": "王一博官宣ALO全球品牌大使",
+   "summary": "王一博日前官宣成为ALO全球品牌大使，参与全球品牌内容与体验项目，推广Wellness生活方式。",
+   "tags": [
+    "代言",
+    "运动",
+    "海外"
+   ],
+   "date": "09-08",
+   "id": "n107"
+  },
+  {
    "brand": "songsu",
    "cat": "food",
    "heat": 82,
@@ -3417,10 +3397,10 @@ var DASH_DATA = {
     "量贩零食",
     "行业变局"
    ],
-   "id": "n110"
+   "id": "n108"
   },
   {
-   "id": "n111",
+   "id": "n109",
    "brand": "anta",
    "cat": "apparel",
    "heat": 82,
@@ -3450,7 +3430,7 @@ var DASH_DATA = {
     "DTC",
     "竞争格局"
    ],
-   "id": "n112"
+   "id": "n110"
   },
   {
    "brand": "guming",
@@ -3466,10 +3446,10 @@ var DASH_DATA = {
     "啤酒",
     "存量竞争"
    ],
-   "id": "n113"
+   "id": "n111"
   },
   {
-   "id": "n114",
+   "id": "n112",
    "brand": "estee",
    "cat": "beauty",
    "heat": 72,
@@ -3485,7 +3465,23 @@ var DASH_DATA = {
    ]
   },
   {
-   "id": "n115",
+   "brand": "bawang",
+   "cat": "food",
+   "heat": 88,
+   "source": "亿邦动力",
+   "url": "https://m.ebrun.com/706600.html",
+   "title": "霸王茶姬上海7店开售白雾红尘茶叶蛋",
+   "summary": "9月7日霸王茶姬在上海7家门店上线5元茶叶蛋，用招牌大红袍茶底慢煮，测试全时段经营，拉动上午低峰时段。",
+   "tags": [
+    "新品",
+    "跨界",
+    "茶饮"
+   ],
+   "date": "09-07",
+   "id": "n113"
+  },
+  {
+   "id": "n114",
    "brand": "luckin",
    "cat": "food",
    "heat": 88,
@@ -3498,6 +3494,22 @@ var DASH_DATA = {
     "联名",
     "社媒热议"
    ]
+  },
+  {
+   "brand": "luckin",
+   "cat": "food",
+   "heat": 86,
+   "source": "数英网",
+   "url": "https://www.digitaling.com/articles/1578667.html",
+   "title": "瑞幸×名创优品YOYO联名上线",
+   "summary": "9月7日瑞幸联合名创优品IP YOYO推出奶酪拿铁/抹茶奶酪拿铁及全套萌系周边，社媒刷屏。",
+   "tags": [
+    "联名",
+    "IP",
+    "咖啡"
+   ],
+   "date": "09-07",
+   "id": "n115"
   },
   {
    "brand": "nike",
