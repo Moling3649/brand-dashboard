@@ -407,6 +407,12 @@ __wb.load = function(){
     if(__wb.tries < __wb.MAX){
       setTimeout(__wb.load, 500 * __wb.tries);
     }else{
+      // ?fresh=1 强制模式：不兜底本地旧缓存，避免「硬刷新仍看不到更新」的误导
+      if(/[?&]fresh=1/.test(location.search)){
+        __wb.hideLoading();
+        __wb.fatal('强制刷新模式：实时数据(data.js)仍加载失败，已忽略本地缓存。多为网络/网关波动，请检查网络后点击下方按钮重试。');
+        return;
+      }
       var c = null;
       try{ c = JSON.parse(localStorage.getItem(__wb.KEY) || 'null'); }catch(e){}
       if(c && c.brands){ window.DASH_DATA = c; __wb.hideLoading(); window.__wbBoot && window.__wbBoot(true); }
