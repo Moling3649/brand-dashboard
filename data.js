@@ -1,7 +1,7 @@
 var DASH_DATA = {
  "version": 2,
  "date": "09-14",
- "updatedAt": "2026-09-14T17:05:00+08:00",
+ "updatedAt": "2026-09-14T17:57:00+08:00",
  "trendDates": [
   "09-07",
   "09-08",
@@ -8418,6 +8418,25 @@ var DASH_DATA = {
    "url": "https://overseasidol.com/wang-anyu-resmi-jadi-brand-ambassador-fila",
    "updatedAt": "2026-09-13T23:58:00.000Z",
    "id": "e031"
+  },
+  {
+   "brand": "思念",
+   "celeb": "田曦薇",
+   "region": "内地",
+   "title": "品牌代言人",
+   "date": "09-14",
+   "action": "9月14日思念食品正式官宣田曦薇成为思念水饺代言人，双方围绕新品思念冷鲜肉水饺展开合作；该系列采用0-4°C排酸冷鲜肉、24小时内入馅、53项肉质检测，馅含量达52%，主打现包级口感。",
+   "volume": "元气邻家形象契合国民水饺烟火气，#田曦薇思念水饺代言人# 话题引发广泛讨论",
+   "posVoice": "网友：包饺子翻车片段接地气、真实可爱，称其没有明星包袱",
+   "posVoiceSource": "微博",
+   "posVoiceUrl": "https://weibo.com/7031094951/5342842873971032",
+   "negVoice": "本期未见显著负面",
+   "negVoiceSource": "",
+   "negVoiceUrl": "",
+   "source": "微博",
+   "url": "https://weibo.com/7031094951/5342842873971032",
+   "updatedAt": "2026-09-14T17:57:00+08:00",
+   "id": "e032"
   }
  ],
  "__pinnedWeekly": {
