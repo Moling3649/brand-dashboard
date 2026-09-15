@@ -610,13 +610,15 @@ window.__wbBoot = function(fromCache){
     const el = document.getElementById('campaigns');
     if(!list.length){ el.innerHTML = '<div class="feed-empty">该类目今日暂无监测到营销动作</div>'; return; }
     const itemHtml = c=>{
-      const b = BRAND[c.brand] || {name:'IP行业'}, cat = CAT[c.cat];
-      const sCls = c.sentiment.indexOf('负面')>=0 ? 'neg' : (c.sentiment.indexOf('争议')>=0 ? 'mid' : 'pos');
+      // 防御性取值：任一字段缺失只影响该条展示，绝不整版块白屏（2026-09-15 修复）
+      const b = BRAND[c.brand] || {name:'IP行业'}, cat = CAT[c.cat] || {color:'#6b7280'};
+      const sTxt = c.sentiment || '中性';
+      const sCls = sTxt.indexOf('负面')>=0 ? 'neg' : (sTxt.indexOf('争议')>=0 ? 'mid' : 'pos');
       return `<div class="camp${c.status==='已结束'?' camp-ended':''}">
         <div class="camp-h">
           <span class="b" style="background:${cat.color}" data-brand="${c.brand}">${b.name}</span>
-          <span class="t">${c.name}</span>
-          <span class="sent ${sCls}">${c.sentiment}</span>
+          <span class="t">${c.name||'—'}</span>
+          <span class="sent ${sCls}">${sTxt}</span>
           ${c.status?`<span style="font-size:10.5px;padding:1px 6px;border-radius:4px;font-weight:700;${c.status==='已结束'?'background:#f3f4f6;color:#6b7280;border:1px solid #e5e7eb':'background:#dcfce7;color:#15803d;border:1px solid #bbf7d0'}">${c.status}</span>`:''}
         </div>
         <div class="row"><span class="k">动作</span><span>${c.action}</span></div>
@@ -914,9 +916,20 @@ window.__wbBoot = function(fromCache){
   renderCalendar();
 
   // 每个版块独立渲染，单点故障不拖垮整页（更稳定）
-  const __safeRender = [];
-  [renderTabs, renderRank, renderFeed, renderHotlists, renderHotVertical, renderCampaigns, renderWechatNews, renderCelebEndorse].forEach(fn=>{
-    try{ fn(); }catch(err){ console.error('[看板] 版块渲染失败：', err && err.message ? err.message : err); }
+  // 2026-09-15：渲染失败不再静默——底部弹出红色告警条，明确列出异常版块与原因
+  const __failed = [];
+  const __wbErr = (nm, msg)=>{
+    __failed.push(nm);
+    let bar = document.getElementById('__renderErr');
+    if(!bar){
+      bar = document.createElement('div'); bar.id = '__renderErr';
+      bar.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:9999;background:#fef2f2;color:#b91c1c;border:1px solid #fecaca;border-radius:10px;padding:10px 14px;font-size:12.5px;line-height:1.6;box-shadow:0 6px 20px rgba(0,0,0,.12)';
+      document.body.appendChild(bar);
+    }
+    bar.innerHTML = '⚠️ 以下版块渲染异常（其余版块正常显示）：<b>' + __failed.join('、') + '</b><br><span style="color:#7f1d1d">' + msg + '</span>';
+  };
+  [['类目筛选',renderTabs],['热度排行',renderRank],['资讯流',renderFeed],['每日热榜',renderHotlists],['文娱·种草榜',renderHotVertical],['营销动作监测',renderCampaigns],['公众号资讯',renderWechatNews],['明星代言',renderCelebEndorse]].forEach(([nm,fn])=>{
+    try{ fn(); }catch(err){ const msg = err && err.message ? err.message : String(err); console.error('[看板] 版块渲染失败：', nm, msg); __wbErr(nm, msg); }
   });
   if(fromCache && typeof __wb !== 'undefined' && __wb.cacheTip) __wb.cacheTip();
   }catch(err){

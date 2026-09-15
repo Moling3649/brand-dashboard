@@ -1,7 +1,7 @@
 var DASH_DATA ={
   "version": 2,
   "date": "09-15",
-  "updatedAt": "2026-09-15T14:30:00+08:00",
+  "updatedAt": "2026-09-15T13:36:33+08:00",
   "trendDates": [
     "09-07",
     "09-08",
@@ -6645,7 +6645,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c066"
+      "id": "c066",
+      "sentiment": "正面"
     },
     {
       "brand": "luckin",
@@ -6665,7 +6666,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c067"
+      "id": "c067",
+      "sentiment": "争议"
     },
     {
       "brand": "mixue",
@@ -6685,7 +6687,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c068"
+      "id": "c068",
+      "sentiment": "正面"
     },
     {
       "brand": "popmart",
@@ -6705,7 +6708,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c069"
+      "id": "c069",
+      "sentiment": "正面"
     },
     {
       "brand": "popmart",
@@ -6725,7 +6729,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c070"
+      "id": "c070",
+      "sentiment": "中性"
     },
     {
       "brand": "pioneer",
@@ -6745,7 +6750,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c071"
+      "id": "c071",
+      "sentiment": "正面"
     },
     {
       "brand": "sw",
@@ -6765,7 +6771,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c072"
+      "id": "c072",
+      "sentiment": "正面"
     },
     {
       "brand": "alo",
@@ -6785,7 +6792,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c073"
+      "id": "c073",
+      "sentiment": "正面"
     },
     {
       "brand": "fila",
@@ -6805,7 +6813,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c074"
+      "id": "c074",
+      "sentiment": "正面"
     },
     {
       "brand": "luckin",
@@ -6825,7 +6834,8 @@ var DASH_DATA ={
       "updatedDate": "09-14",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "status": "进行中",
-      "id": "c075"
+      "id": "c075",
+      "sentiment": "正面"
     },
     {
       "brand": "skechers",
