@@ -390,8 +390,10 @@ __wb.fatal = function(msg){
 };
 __wb.cacheTip = function(){
   var d = document.createElement('div');
-  d.style.cssText = 'position:sticky;top:0;z-index:50;background:#fef9c3;border-bottom:1px solid #fde047;color:#713f12;padding:8px 14px;font:12px/1.6 system-ui;text-align:center;';
-  d.innerHTML = '⚠️ 网络波动导致实时数据加载失败，当前展示<b>上次成功加载的本地缓存数据</b>，点击刷新即可恢复实时数据。';
+  d.style.cssText = 'position:sticky;top:0;z-index:9999;background:#fef2f2;border-bottom:2px solid #ef4444;color:#7f1d1d;padding:10px 14px;font:13px/1.6 system-ui;text-align:center;';
+  var cd = '未知日期';
+  try{ var c = JSON.parse(localStorage.getItem(__wb.KEY) || 'null'); if(c && c.date) cd = c.date; }catch(e){}
+  d.innerHTML = '⚠️ 实时数据(data.js)加载失败，当前展示的是<b>本地缓存（'+cd+'）</b>，看板未更新到最新。请刷新重试：<button onclick="location.reload()" style="background:#dc2626;color:#fff;border:0;padding:5px 16px;border-radius:8px;cursor:pointer;font-weight:600;margin-left:8px">立即刷新</button>';
   document.body.insertBefore(d, document.body.firstChild);
 };
 __wb.load = function(){
