@@ -754,7 +754,7 @@ window.__wbBoot = function(fromCache){
     const dayNum = s => { const m = String(s).match(/(\d{4})-(\d{2})-(\d{2})/); if(m) return (+m[1])*10000+(+m[2])*100+(+m[3]); const m2 = String(s).match(/(\d{2})-(\d{2})/); if(m2) return 2026*10000+(+m2[1])*100+(+m2[2]); return 0; };
     let list = E.slice().sort((a,b)=> dayNum(b.date)-dayNum(a.date) || String(b.id).localeCompare(String(a.id)));
     if(curCe!=='all') list = list.filter(e=> (curCe==='cn'&&e.region==='内地')||(curCe==='ov'&&e.region==='海外'));
-    document.getElementById('ceSub').textContent = `今日共收录 ${E.length} 起（内地 ${E.filter(e=>e.region==='内地').length} / 海外 ${E.filter(e=>e.region==='海外').length}）· 前 4 条直接可视，剩余滚动查看 · 点击来源可跳转原文`;
+    document.getElementById('ceSub').textContent = `今日共收录 ${E.length} 起（内地 ${E.filter(e=>e.region==='内地').length} / 海外 ${E.filter(e=>e.region==='海外').length}）· 全部已载入，在下方卡片区内向下滚动可查看全部 · 按官宣日期排序（新→旧），点击来源可跳转原文`;
     const el = document.getElementById('ceList');
     const itemHtml = e=>{
       const regCls = e.region==='海外'?'ov':'cn';
