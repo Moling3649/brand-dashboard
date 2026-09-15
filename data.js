@@ -1,7 +1,7 @@
 var DASH_DATA ={
   "version": 2,
   "date": "09-15",
-  "updatedAt": "2026-09-15T10:32:00+08:00",
+  "updatedAt": "2026-09-15T14:30:00+08:00",
   "trendDates": [
     "09-07",
     "09-08",
@@ -7156,6 +7156,193 @@ var DASH_DATA ={
     ],
     "items": [
       {
+        "id": "w062",
+        "accountId": "ebrun",
+        "accountName": "亿邦动力",
+        "title": "抖音电商公布2026双11活动节奏",
+        "summary": "抖音电商披露2026双11大促节奏与玩法，商家侧备战启动，内容场与货架场协同加码。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T09:00:00+08:00",
+        "url": "https://www.ebrun.com/ebrungo/zb/708183.shtml",
+        "source": "亿邦动力",
+        "tags": [
+          "抖音电商",
+          "双11",
+          "大促",
+          "电商"
+        ]
+      },
+      {
+        "id": "w061",
+        "accountId": "netease",
+        "accountName": "网易",
+        "title": "电商早报：iPhone 18 Pro首销售罄；TikTok Shop美区放开图文挂车",
+        "summary": "行业早报汇总iPhone 18 Pro首销售罄、TikTok Shop美国区开放图文挂车等电商与平台动态。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T08:55:00+08:00",
+        "url": "https://www.163.com/dy/article/L6RTB8T805118A6A.html",
+        "source": "网易",
+        "tags": [
+          "iPhone18",
+          "TikTok Shop",
+          "电商早报",
+          "平台"
+        ]
+      },
+      {
+        "id": "w060",
+        "accountId": "meihua",
+        "accountName": "梅花网",
+        "title": "一周舆情监测：宁德时代回应车间员工过激行为",
+        "summary": "梅花网舆情周报聚焦宁德时代就车间员工过激行为回应，品牌危机沟通与雇主形象受关注。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T11:09:00+08:00",
+        "url": "https://www.163.com/dy/article/L6S50BOB05524GC3.html",
+        "source": "梅花网",
+        "tags": [
+          "宁德时代",
+          "舆情",
+          "危机公关",
+          "品牌"
+        ]
+      },
+      {
+        "id": "w059",
+        "accountId": "duojiao",
+        "accountName": "剁椒Spicy",
+        "title": "千叶珠宝暴雷幕后：资金链危机与闭店风波",
+        "summary": "联商网联合剁椒Spicy深挖千叶珠宝资金链危机与闭店风波始末，加盟模式风险暴露。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T10:00:00+08:00",
+        "url": "https://www.linkshop.com/news/2026552132.shtml",
+        "source": "联商网",
+        "tags": [
+          "千叶珠宝",
+          "加盟",
+          "闭店",
+          "零售"
+        ]
+      },
+      {
+        "id": "w058",
+        "accountId": "kr36",
+        "accountName": "36氪",
+        "title": "一根葫芦藤抵过绍兴文旅千万宣传费",
+        "summary": "36氪复盘绍兴文旅借一根葫芦藤内容出圈，低预算叙事营销跑赢千万级投放。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T10:39:00+08:00",
+        "url": "https://www.36kr.com/p/3984059665792005",
+        "source": "36氪",
+        "tags": [
+          "绍兴文旅",
+          "内容营销",
+          "出圈",
+          "文旅"
+        ]
+      },
+      {
+        "id": "w057",
+        "accountId": "kr36",
+        "accountName": "36氪",
+        "title": "小团团抖音首秀涨粉破百万",
+        "summary": "36氪援引剁椒Spicy数据，主播小团团抖音复出首秀涨粉破百万，直播电商回暖信号。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T07:00:00+08:00",
+        "url": "https://www.36kr.com/p/3983193565468293",
+        "source": "36氪",
+        "tags": [
+          "小团团",
+          "抖音",
+          "直播电商",
+          "涨粉"
+        ]
+      },
+      {
+        "id": "w056",
+        "accountId": "digitaling",
+        "accountName": "数英DIGITALING",
+        "title": "艾菲CXO Forum实效营销收官",
+        "summary": "数英报道艾菲CXO Forum落幕，聚焦实效营销与品牌增长方法论，品牌主与代理商共议。",
+        "date": "09-14",
+        "publishedAt": "2026-09-14T18:00:00+08:00",
+        "url": "https://www.digitaling.com/articles/1581166.html",
+        "source": "数英DIGITALING",
+        "tags": [
+          "艾菲",
+          "CXO Forum",
+          "实效营销",
+          "品牌增长"
+        ]
+      },
+      {
+        "id": "w055",
+        "accountId": "socialbeta",
+        "accountName": "SocialBeta",
+        "title": "lululemon开启天猫超级品牌日",
+        "summary": "SocialBeta报道lululemon携手天猫超级品牌日，强化运动生活方式心智与会员运营。",
+        "date": "09-14",
+        "publishedAt": "2026-09-14T18:30:00+08:00",
+        "url": "https://socialbeta.com/article/111361",
+        "source": "SocialBeta",
+        "tags": [
+          "lululemon",
+          "天猫超品日",
+          "运动",
+          "生活方式"
+        ]
+      },
+      {
+        "id": "w054",
+        "accountId": "socialbeta",
+        "accountName": "SocialBeta",
+        "title": "华为乾崑智能辅助驾驶户外广告大屏上线",
+        "summary": "SocialBeta报道华为乾崑智能辅助驾驶户外广告大屏上线，科技感视觉强化品牌认知。",
+        "date": "09-14",
+        "publishedAt": "2026-09-14T19:00:00+08:00",
+        "url": "https://socialbeta.com/article/111360",
+        "source": "SocialBeta",
+        "tags": [
+          "华为乾崑",
+          "辅助驾驶",
+          "户外广告",
+          "科技"
+        ]
+      },
+      {
+        "id": "w053",
+        "accountId": "meihua",
+        "accountName": "梅花网",
+        "title": "不靠IP品牌联名，品牌内容营销还能怎么玩",
+        "summary": "腾讯网联合梅花网探讨去IP联名化趋势下，品牌以自有内容资产驱动增长的路径。",
+        "date": "09-14",
+        "publishedAt": "2026-09-14T20:00:00+08:00",
+        "url": "https://news.qq.com/rain/a/20260914A0C1F800",
+        "source": "腾讯网",
+        "tags": [
+          "内容营销",
+          "IP联名",
+          "品牌",
+          "趋势"
+        ]
+      },
+      {
+        "id": "w052",
+        "accountId": "ifeng",
+        "accountName": "凤凰网",
+        "title": "Lee Cooper×孟子义秋冬品牌大片释出",
+        "summary": "凤凰网报道Lee Cooper官宣孟子义出演秋冬品牌大片，明星代言矩阵扩容拉动声量。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T12:00:00+08:00",
+        "url": "https://biz.ifeng.com/c/8wPRZWJu92Z",
+        "source": "凤凰网",
+        "tags": [
+          "Lee Cooper",
+          "孟子义",
+          "品牌大片",
+          "代言"
+        ]
+      },
+      {
         "id": "w001",
         "accountId": "adheadline",
         "accountName": "广告头条",
@@ -7972,12 +8159,12 @@ var DASH_DATA ={
       "title": "Champion 品牌代言人",
       "action": "新剧《兰香如故》剧宣联动Champion穿搭",
       "volume": "剧宣穿搭二创声量走高",
-      "posVoice": "微博热搜",
-      "posVoiceSource": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E4%B8%81%E7%A6%B9%E5%85%AE%E5%8D%A2%E6%98%B1%E6%99%93%E6%96%B0%E5%89%A7%E5%BB%B6%E6%9C%9F%E5%BC%80%E6%9C%BA%23",
-      "posVoiceUrl": "本期未见显著负面",
-      "negVoice": "",
+      "posVoice": "新剧《兰香如故》剧宣联动Champion穿搭登微博热搜",
+      "posVoiceSource": "微博",
+      "posVoiceUrl": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E4%B8%81%E7%A6%B9%E5%85%AE%E5%8D%A2%E6%98%B1%E6%96%B0%E5%89%A7%E5%BB%B6%E6%9C%9F%E5%BC%80%E6%9C%BA%23",
+      "negVoice": "本期未见显著负面",
       "negVoiceSource": "",
-      "negVoiceUrl": "09-13",
+      "negVoiceUrl": "",
       "date": "09-13"
     },
     {
@@ -7988,12 +8175,12 @@ var DASH_DATA ={
       "title": "YSL 全球品牌大使",
       "action": "新剧组敬业人设出圈带动YSL声量",
       "volume": "片场二创刷屏",
-      "posVoice": "微博热搜",
-      "posVoiceSource": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E7%89%87%E5%9C%BA%E4%BB%8E%E4%B8%8D%E6%8F%90%E8%AF%8D%23",
-      "posVoiceUrl": "本期未见显著负面",
-      "negVoice": "",
+      "posVoice": "新剧片场敬业人设出圈带动YSL声量登微博热搜",
+      "posVoiceSource": "微博",
+      "posVoiceUrl": "https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E7%89%87%E5%9C%BA%E4%BB%8E%E4%B8%8D%E6%8F%90%E8%AF%8D%23",
+      "negVoice": "本期未见显著负面",
       "negVoiceSource": "",
-      "negVoiceUrl": "09-13",
+      "negVoiceUrl": "",
       "date": "09-13"
     },
     {
@@ -8004,12 +8191,12 @@ var DASH_DATA ={
       "title": "Crocs 品牌代言人",
       "action": "Crocs 9月舒适季代言Unfurgettable Clog",
       "volume": "首双鞋履代言引Gen-Z关注",
-      "posVoice": "BookingAgentInfo",
-      "posVoiceSource": "https://bookingagentinfo.com/news/mckenna-grace-headlines-crocs-latest-campaign/",
-      "posVoiceUrl": "本期未见显著负面",
-      "negVoice": "",
+      "posVoice": "Crocs 9月舒适季代言Unfurgettable Clog，首双鞋履代言引Gen-Z关注",
+      "posVoiceSource": "BookingAgentInfo",
+      "posVoiceUrl": "https://bookingagentinfo.com/news/mckenna-grace-headlines-crocs-latest-campaign/",
+      "negVoice": "本期未见显著负面",
       "negVoiceSource": "",
-      "negVoiceUrl": "09-12",
+      "negVoiceUrl": "",
       "date": "09-12"
     },
     {
@@ -8020,29 +8207,13 @@ var DASH_DATA ={
       "title": "Vuori 全球品牌大使",
       "action": "Vuori全球“Find What Moves You”campaign",
       "volume": "舞蹈背景带动女性运动线",
-      "posVoice": "BookingAgentInfo",
-      "posVoiceSource": "https://bookingagentinfo.com/news/chase-infiniti-partners-with-vuori-for-global-find-what-moves-you-campaign",
-      "posVoiceUrl": "本期未见显著负面",
-      "negVoice": "",
+      "posVoice": "Vuori全球「Find What Moves You」campaign，舞蹈背景带动女性运动线",
+      "posVoiceSource": "BookingAgentInfo",
+      "posVoiceUrl": "https://bookingagentinfo.com/news/chase-infiniti-partners-with-vuori-for-global-find-what-moves-you-campaign",
+      "negVoice": "本期未见显著负面",
       "negVoiceSource": "",
-      "negVoiceUrl": "09-12",
+      "negVoiceUrl": "",
       "date": "09-12"
-    },
-    {
-      "id": "e005",
-      "brand": "marklona",
-      "celeb": "KARINA",
-      "region": "海外",
-      "title": "MARK & LONA 首位女性品牌大使",
-      "action": "aespa成员KARINA出任品牌首位女性大使，26AW视觉9.9上线",
-      "volume": "首位女性大使话题引爆",
-      "posVoice": "MARK & LONA",
-      "posVoiceSource": "https://markandlona.us/blogs/news/karina-26aw",
-      "posVoiceUrl": "本期未见显著负面",
-      "negVoice": "",
-      "negVoiceSource": "",
-      "negVoiceUrl": "09-09",
-      "date": "09-09"
     },
     {
       "brand": "科颜氏",
@@ -8406,25 +8577,6 @@ var DASH_DATA ={
       "id": "e024"
     },
     {
-      "brand": "haochi",
-      "celeb": "檀健次",
-      "region": "内地",
-      "title": "豪士面包全球代言人",
-      "date": "09-10",
-      "action": "主题TVC《早起小动员》+联名礼盒",
-      "volume": "多城市地标户外传播",
-      "posVoice": "长期主义内核契合",
-      "posVoiceSource": "今日头条",
-      "posVoiceUrl": "https://www.toutiao.com/article/7683734781175153178/",
-      "negVoice": "本期未见显著负面",
-      "negVoiceSource": "",
-      "negVoiceUrl": "",
-      "source": "今日头条",
-      "url": "https://www.toutiao.com/article/7683734781175153178/",
-      "updatedAt": "2026-09-13T23:58:00.000Z",
-      "id": "e025"
-    },
-    {
       "updatedAt": "2026-09-12T07:58:00+08:00",
       "brand": "MAC魅可",
       "celeb": "田曦薇",
@@ -8499,25 +8651,6 @@ var DASH_DATA ={
       "url": "https://markandlona.us/blogs/news/karina-26aw",
       "updatedAt": "2026-09-13T23:58:00.000Z",
       "id": "e029"
-    },
-    {
-      "brand": "pioneer",
-      "celeb": "鹿晗",
-      "region": "内地",
-      "title": "拓路者全球代言人",
-      "date": "09-07",
-      "action": "品牌史上首位全球代言人，主题「先锋拓路 城野皆是主场」",
-      "volume": "14城商圈巨幕点亮，粉丝涌入直播间",
-      "posVoice": "粉丝全平台打卡解锁周边",
-      "posVoiceSource": "手机新浪网",
-      "posVoiceUrl": "https://www.sina.cn/news/detail/5340567878765238.html",
-      "negVoice": "本期未见显著负面",
-      "negVoiceSource": "",
-      "negVoiceUrl": "",
-      "source": "手机新浪网",
-      "url": "https://www.sina.cn/news/detail/5340567878765238.html",
-      "updatedAt": "2026-09-13T23:58:00.000Z",
-      "id": "e030"
     },
     {
       "brand": "fila",
@@ -8689,6 +8822,63 @@ var DASH_DATA ={
       "url": "http://www.socialbeta.com/#marieadeline-jyz",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "id": "e039"
+    },
+    {
+      "brand": "莎莎苏",
+      "celeb": "钟楚曦",
+      "region": "内地",
+      "title": "ZSAZSAZSU 全球品牌代言人",
+      "date": "09-15",
+      "action": "9月15日钟楚曦官宣出任女鞋品牌ZSAZSAZSU（莎莎苏）全球品牌代言人。",
+      "volume": "官宣带动品牌声量，时尚圈热议",
+      "posVoice": "粉丝：钟楚曦高级感契合品牌调性",
+      "posVoiceSource": "微博",
+      "posVoiceUrl": "https://weibo.com/6897606002/5343343867593980",
+      "negVoice": "本期未见显著负面",
+      "negVoiceSource": "",
+      "negVoiceUrl": "",
+      "source": "微博",
+      "url": "https://weibo.com/6897606002/5343343867593980",
+      "updatedAt": "2026-09-15T13:00:00+08:00",
+      "id": "e040"
+    },
+    {
+      "brand": "纪梵希",
+      "celeb": "杨紫",
+      "region": "内地",
+      "title": "Givenchy 品牌代言人",
+      "date": "09-15",
+      "action": "9月15日杨紫官宣成为Givenchy纪梵希品牌代言人，海内外同步释出平面。",
+      "volume": "官宣刷屏，粉丝力挺",
+      "posVoice": "粉丝：杨紫优雅气质契合品牌",
+      "posVoiceSource": "微博",
+      "posVoiceUrl": "https://weibo.com/9187170836/5343303904266133",
+      "negVoice": "本期未见显著负面",
+      "negVoiceSource": "",
+      "negVoiceUrl": "",
+      "source": "微博",
+      "url": "https://weibo.com/9187170836/5343303904266133",
+      "updatedAt": "2026-09-15T13:15:00+08:00",
+      "id": "e041"
+    },
+    {
+      "brand": "Lee Cooper",
+      "celeb": "孟子义",
+      "region": "内地",
+      "title": "Lee Cooper 全球品牌代言人",
+      "date": "09-15",
+      "action": "Lee Cooper官宣孟子义为全球品牌代言人，释出秋冬品牌大片（孟子义已任美力城亚太区代言人）。",
+      "volume": "秋冬大片曝光，明星矩阵扩容",
+      "posVoice": "粉丝：孟子义英伦风契合品牌",
+      "posVoiceSource": "凤凰网",
+      "posVoiceUrl": "https://biz.ifeng.com/c/8wPRZWJu92Z",
+      "negVoice": "本期未见显著负面",
+      "negVoiceSource": "",
+      "negVoiceUrl": "",
+      "source": "凤凰网",
+      "url": "https://biz.ifeng.com/c/8wPRZWJu92Z",
+      "updatedAt": "2026-09-15T12:00:00+08:00",
+      "id": "e042"
     }
   ],
   "__pinnedWeekly": {
