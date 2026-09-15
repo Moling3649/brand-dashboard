@@ -1,7 +1,7 @@
-var DASH_DATA ={
+var DASH_DATA = {
   "version": 2,
   "date": "09-15",
-  "updatedAt": "2026-09-15T17:23:36+08:00",
+  "updatedAt": "2026-09-15T17:54:33+08:00",
   "trendDates": [
     "09-07",
     "09-08",
@@ -9243,25 +9243,6 @@ var DASH_DATA ={
       "id": "e029"
     },
     {
-      "brand": "cos",
-      "celeb": "蔡徐坤",
-      "region": "内地",
-      "title": "COS 全球品牌代言人",
-      "date": "09-07",
-      "action": "COS官宣蔡徐坤为全球品牌代言人。",
-      "volume": "时尚圈官宣战持续升温",
-      "posVoice": "社媒讨论风格叙事",
-      "posVoiceSource": "SocialBeta",
-      "posVoiceUrl": "http://www.socialbeta.com/#cos-cxk",
-      "negVoice": "本期未见显著负面",
-      "negVoiceSource": "",
-      "negVoiceUrl": "",
-      "source": "SocialBeta",
-      "url": "http://www.socialbeta.com/#cos-cxk",
-      "updatedAt": "2026-09-15T07:58:00+08:00",
-      "id": "e030"
-    },
-    {
       "brand": "haoshi",
       "celeb": "檀健次",
       "region": "内地",
@@ -9278,7 +9259,7 @@ var DASH_DATA ={
       "source": "中国商报网",
       "url": "https://www.zgswcn.com/news.html?aid=369183",
       "updatedAt": "2026-09-15T07:58:00+08:00",
-      "id": "e031"
+      "id": "e030"
     },
     {
       "brand": "pioneercamp",
@@ -9297,7 +9278,7 @@ var DASH_DATA ={
       "source": "新浪新闻",
       "url": "https://www.sina.cn/news/detail/5340567878765238.html",
       "updatedAt": "2026-09-15T07:58:00+08:00",
-      "id": "e032"
+      "id": "e031"
     },
     {
       "brand": "p&g",
@@ -9316,7 +9297,7 @@ var DASH_DATA ={
       "source": "新浪品牌日报",
       "url": "https://www.sina.cn/news/detail/5341532830040335.html",
       "updatedAt": "2026-09-15T07:58:00+08:00",
-      "id": "e033"
+      "id": "e032"
     },
     {
       "brand": "d&g",
@@ -9335,10 +9316,10 @@ var DASH_DATA ={
       "source": "Shining Awards",
       "url": "https://shiningawards.com/txts-soobin-named-global-ambassador-for-dolcegabbana-showcases-2026-fall-winter/",
       "updatedAt": "2026-09-15T07:58:00+08:00",
-      "id": "e034"
+      "id": "e033"
     },
     {
-      "brand": "bananain",
+      "brand": "蕉内",
       "celeb": "马思纯",
       "region": "内地",
       "title": "蕉内 温暖代言人",
@@ -9346,15 +9327,15 @@ var DASH_DATA ={
       "action": "蕉内官宣马思纯为品牌温暖代言人，释出热皮肌底衣系列新品。",
       "volume": "冬日舒适衣物话题升温",
       "posVoice": "粉丝正向",
-      "posVoiceSource": "SocialBeta",
-      "posVoiceUrl": "http://www.socialbeta.com/#bananain-masicun",
+      "posVoiceSource": "新浪新闻 / 微博",
+      "posVoiceUrl": "https://weibo.com/7408455981/5341939538855517",
       "negVoice": "本期未见显著负面",
       "negVoiceSource": "",
       "negVoiceUrl": "",
-      "source": "SocialBeta",
-      "url": "http://www.socialbeta.com/#bananain-masicun",
-      "updatedAt": "2026-09-15T07:58:00+08:00",
-      "id": "e035"
+      "source": "新浪新闻",
+      "url": "https://www.sina.cn/news/detail/5341707261447709.html",
+      "updatedAt": "2026-09-15T17:54:33+08:00",
+      "id": "e034"
     },
     {
       "brand": "marydale",
@@ -9373,7 +9354,7 @@ var DASH_DATA ={
       "source": "SocialBeta",
       "url": "http://www.socialbeta.com/#marieadeline-jyz",
       "updatedAt": "2026-09-15T07:58:00+08:00",
-      "id": "e036"
+      "id": "e035"
     },
     {
       "brand": "莎莎苏",
@@ -9392,26 +9373,7 @@ var DASH_DATA ={
       "source": "微博",
       "url": "https://weibo.com/6897606002/5343343867593980",
       "updatedAt": "2026-09-15T13:00:00+08:00",
-      "id": "e037"
-    },
-    {
-      "brand": "纪梵希",
-      "celeb": "杨紫",
-      "region": "内地",
-      "title": "Givenchy 品牌代言人",
-      "date": "09-15",
-      "action": "9月15日杨紫官宣成为Givenchy纪梵希品牌代言人，海内外同步释出平面。",
-      "volume": "官宣刷屏，粉丝力挺",
-      "posVoice": "粉丝：杨紫优雅气质契合品牌",
-      "posVoiceSource": "微博",
-      "posVoiceUrl": "https://weibo.com/9187170836/5343303904266133",
-      "negVoice": "本期未见显著负面",
-      "negVoiceSource": "",
-      "negVoiceUrl": "",
-      "source": "微博",
-      "url": "https://weibo.com/9187170836/5343303904266133",
-      "updatedAt": "2026-09-15T13:15:00+08:00",
-      "id": "e038"
+      "id": "e036"
     },
     {
       "brand": "Lee Cooper",
@@ -9430,10 +9392,10 @@ var DASH_DATA ={
       "source": "凤凰网",
       "url": "https://biz.ifeng.com/c/8wPRZWJu92Z",
       "updatedAt": "2026-09-15T12:00:00+08:00",
-      "id": "e039"
+      "id": "e037"
     },
     {
-      "id": "e040",
+      "id": "e038",
       "updatedAt": "2026-09-15T17:23:36+08:00",
       "brand": "crocs",
       "region": "内地",
@@ -9452,17 +9414,17 @@ var DASH_DATA ={
       "url": "https://sports.sina.cn/others/2026-09-15/detail-inirwmwe3814672.d.html"
     },
     {
-      "id": "e041",
-      "updatedAt": "2026-09-15T17:23:36+08:00",
-      "brand": "givenchy",
+      "id": "e039",
+      "updatedAt": "2026-09-15T17:54:33+08:00",
+      "brand": "纪梵希",
       "region": "内地",
       "celeb": "杨紫",
       "title": "GIVENCHY纪梵希品牌代言人",
       "date": "09-15",
-      "action": "杨紫成为纪梵希中国区唯一女代言人，集齐四奢代言",
-      "volume": "四奢女帝格局成型（粉丝口径）",
-      "posVoice": "优雅是敢于做自己的锋芒",
-      "posVoiceSource": "微博",
+      "action": "2026年9月15日，GIVENCHY纪梵希正式宣布演员杨紫成为品牌代言人（品牌中国区唯一女代言人），海内外多平台同步释出官宣物料，杨紫集齐四奢代言。",
+      "volume": "官宣刷屏，四奢女帝格局成型（粉丝口径）",
+      "posVoice": "优雅是敢于做自己的锋芒；粉丝：杨紫优雅气质契合品牌。",
+      "posVoiceSource": "微博·品牌日报",
       "posVoiceUrl": "https://weibo.com/ttarticle/p/show?id=2309405343400017920203",
       "negVoice": "本期未见显著负面",
       "negVoiceSource": "",
@@ -9471,7 +9433,7 @@ var DASH_DATA ={
       "url": "https://weibo.com/ttarticle/p/show?id=2309405343400017920203"
     },
     {
-      "id": "e042",
+      "id": "e040",
       "updatedAt": "2026-09-15T17:23:36+08:00",
       "brand": "cos",
       "region": "内地",
@@ -9490,7 +9452,7 @@ var DASH_DATA ={
       "url": "https://weibo.com/1851599157/5343338405823876"
     },
     {
-      "id": "e043",
+      "id": "e041",
       "updatedAt": "2026-09-15T17:23:36+08:00",
       "brand": "hoka",
       "region": "内地",
