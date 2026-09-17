@@ -1,7 +1,7 @@
 var DASH_DATA ={
   "version": 2,
   "date": "09-17",
-  "updatedAt": "2026-09-17T17:11:00+08:00",
+  "updatedAt": "2026-09-17T17:25:01+08:00",
   "trendDates": [
     "09-08",
     "09-09",
@@ -7830,1064 +7830,176 @@ var DASH_DATA ={
     ],
     "items": [
       {
-        "id": "w001",
-        "accountId": "ebrun",
-        "accountName": "亿邦动力",
-        "title": "抖音电商公布2026双11活动节奏",
-        "summary": "抖音电商披露2026双11大促节奏与玩法，商家侧备战启动，内容场与货架场协同加码。",
-        "date": "09-15",
-        "publishedAt": "2026-09-15T09:00:00+08:00",
-        "url": "https://www.ebrun.com/ebrungo/zb/708183.shtml",
-        "source": "亿邦动力",
-        "tags": [
-          "抖音电商",
-          "双11",
-          "大促",
-          "电商"
-        ]
-      },
-      {
-        "id": "w002",
-        "accountId": "netease",
-        "accountName": "网易",
-        "title": "电商早报：iPhone 18 Pro首销售罄；TikTok Shop美区放开图文挂车",
-        "summary": "行业早报汇总iPhone 18 Pro首销售罄、TikTok Shop美国区开放图文挂车等电商与平台动态。",
-        "date": "09-15",
-        "publishedAt": "2026-09-15T08:55:00+08:00",
-        "url": "https://www.163.com/dy/article/L6RTB8T805118A6A.html",
-        "source": "网易",
-        "tags": [
-          "iPhone18",
-          "TikTok Shop",
-          "电商早报",
-          "平台"
-        ]
-      },
-      {
-        "id": "w003",
-        "accountId": "meihua",
-        "accountName": "梅花网",
-        "title": "一周舆情监测：宁德时代回应车间员工过激行为",
-        "summary": "梅花网舆情周报聚焦宁德时代就车间员工过激行为回应，品牌危机沟通与雇主形象受关注。",
-        "date": "09-15",
-        "publishedAt": "2026-09-15T11:09:00+08:00",
-        "url": "https://www.163.com/dy/article/L6S50BOB05524GC3.html",
-        "source": "梅花网",
-        "tags": [
-          "宁德时代",
-          "舆情",
-          "危机公关",
-          "品牌"
-        ]
-      },
-      {
-        "id": "w004",
-        "accountId": "duojiao",
-        "accountName": "剁椒Spicy",
-        "title": "千叶珠宝暴雷幕后：资金链危机与闭店风波",
-        "summary": "联商网联合剁椒Spicy深挖千叶珠宝资金链危机与闭店风波始末，加盟模式风险暴露。",
-        "date": "09-15",
-        "publishedAt": "2026-09-15T10:00:00+08:00",
-        "url": "https://www.linkshop.com/news/2026552132.shtml",
-        "source": "联商网",
-        "tags": [
-          "千叶珠宝",
-          "加盟",
-          "闭店",
-          "零售"
-        ]
-      },
-      {
-        "id": "w005",
         "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "一根葫芦藤抵过绍兴文旅千万宣传费",
-        "summary": "36氪复盘绍兴文旅借一根葫芦藤内容出圈，低预算叙事营销跑赢千万级投放。",
-        "date": "09-15",
-        "publishedAt": "2026-09-15T10:39:00+08:00",
-        "url": "https://www.36kr.com/p/3984059665792005",
+        "title": "「贴脸」看演唱会，VR 音乐电影来了",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T16:30:00+08:00",
+        "url": "https://www.36kr.com/p/3986963999489025",
         "source": "36氪",
         "tags": [
-          "绍兴文旅",
-          "内容营销",
-          "出圈",
-          "文旅"
-        ]
+          "文娱",
+          "消费新业态"
+        ],
+        "summary": "黄明昊 VR 音乐电影上线，36氪解析「贴脸看演唱会」的粉丝体验新业态——VR 内容正成为文娱消费与品牌营销的新入口。",
+        "id": "w001"
       },
       {
-        "id": "w006",
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "小团团抖音首秀涨粉破百万",
-        "summary": "36氪援引剁椒Spicy数据，主播小团团抖音复出首秀涨粉破百万，直播电商回暖信号。",
-        "date": "09-15",
-        "publishedAt": "2026-09-15T07:00:00+08:00",
-        "url": "https://www.36kr.com/p/3983193565468293",
-        "source": "36氪",
+        "accountId": "socialbeta",
+        "title": "Levi’s 联名 ROSÉ 探索丹宁的多种答案",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T16:20:00+08:00",
+        "url": "https://socialbeta.com/campaign/28543",
+        "source": "SocialBeta",
         "tags": [
-          "小团团",
-          "抖音",
-          "直播电商",
-          "涨粉"
-        ]
+          "跨界联名",
+          "新品营销"
+        ],
+        "summary": "Levi’s 官宣与 BLACKPINK 成员 ROSÉ 合作「Levi Strauss with ROSÉ」，以丹宁的多种穿搭答案为主题释出联名物料，借 K-pop 顶流撬动年轻女性客群。",
+        "id": "w002"
       },
       {
-        "id": "w007",
         "accountId": "digitaling",
-        "accountName": "数英DIGITALING",
-        "title": "艾菲CXO Forum实效营销收官",
-        "summary": "数英报道艾菲CXO Forum落幕，聚焦实效营销与品牌增长方法论，品牌主与代理商共议。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T18:00:00+08:00",
-        "url": "https://www.digitaling.com/articles/1581166.html",
+        "title": "豪士×檀健次：把一顿早餐，做成一场值得醒来的梦",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T15:10:00+08:00",
+        "url": "https://www.digitaling.com/projects/377999.html",
         "source": "数英DIGITALING",
         "tags": [
-          "艾菲",
-          "CXO Forum",
-          "实效营销",
-          "品牌增长"
-        ]
+          "代言人营销",
+          "食品",
+          "TVC"
+        ],
+        "summary": "豪士面包携手品牌代言人檀健次推出早餐场景 campaign，用「值得醒来的梦」把一顿早餐情绪化，数英项目库收录并给出 8.6 分。",
+        "id": "w003"
       },
       {
-        "id": "w008",
+        "accountId": "kr36",
+        "title": "商超、传统零食品牌入局，新鲜零食进入「加速期」",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T15:05:00+08:00",
+        "url": "https://www.36kr.com/p/3986119077313543",
+        "source": "36氪",
+        "tags": [
+          "消费",
+          "零售"
+        ],
+        "summary": "36氪报道新鲜零食赛道加速：商超与传统零食品牌纷纷入局，围绕「新鲜」重构产品与货架，短保供应链与渠道效率成为竞争关键。",
+        "id": "w004"
+      },
+      {
+        "accountId": "digitaling",
+        "title": "Prada 再度合作中国女足，美自有力量",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T14:40:00+08:00",
+        "url": "https://www.digitaling.com/projects/377635.html",
+        "source": "数英DIGITALING",
+        "tags": [
+          "体育营销",
+          "服饰",
+          "奢侈品"
+        ],
+        "summary": "Prada 与中国女足二度合作，延续运动女性叙事，以「美自有力量」为主题释出全新 campaign，强化品牌在中国市场的本土体育营销布局。",
+        "id": "w005"
+      },
+      {
         "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "lululemon开启天猫超级品牌日",
-        "summary": "SocialBeta报道lululemon携手天猫超级品牌日，强化运动生活方式心智与会员运营。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T18:30:00+08:00",
-        "url": "https://socialbeta.com/article/111361",
+        "title": "滴露携手迪士尼打造玩具总动员「痛街」",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T14:20:00+08:00",
+        "url": "https://socialbeta.com/campaign/28539",
         "source": "SocialBeta",
         "tags": [
-          "lululemon",
-          "天猫超品日",
-          "运动",
-          "生活方式"
-        ]
-      },
-      {
-        "id": "w009",
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "华为乾崑智能辅助驾驶户外广告大屏上线",
-        "summary": "SocialBeta报道华为乾崑智能辅助驾驶户外广告大屏上线，科技感视觉强化品牌认知。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T19:00:00+08:00",
-        "url": "https://socialbeta.com/article/111360",
-        "source": "SocialBeta",
-        "tags": [
-          "华为乾崑",
-          "辅助驾驶",
-          "户外广告",
-          "科技"
-        ]
-      },
-      {
-        "id": "w010",
-        "accountId": "meihua",
-        "accountName": "梅花网",
-        "title": "不靠IP品牌联名，品牌内容营销还能怎么玩",
-        "summary": "腾讯网联合梅花网探讨去IP联名化趋势下，品牌以自有内容资产驱动增长的路径。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T20:00:00+08:00",
-        "url": "https://news.qq.com/rain/a/20260914A0C1F800",
-        "source": "腾讯网",
-        "tags": [
-          "内容营销",
+          "跨界联名",
           "IP联名",
-          "品牌",
-          "趋势"
-        ]
+          "线下营销"
+        ],
+        "summary": "滴露×迪士尼《玩具总动员》主题街区落地，胡迪、巴斯光年、三眼仔等角色「集体出逃」，把除菌产品场景包装成可打卡的主题街道，延续品牌与迪士尼的 IP 联名线。",
+        "id": "w006"
       },
       {
-        "id": "w011",
-        "accountId": "ifeng",
-        "accountName": "凤凰网",
-        "title": "Lee Cooper×孟子义秋冬品牌大片释出",
-        "summary": "凤凰网报道Lee Cooper官宣孟子义出演秋冬品牌大片，明星代言矩阵扩容拉动声量。",
-        "date": "09-15",
-        "publishedAt": "2026-09-15T12:00:00+08:00",
-        "url": "https://biz.ifeng.com/c/8wPRZWJu92Z",
-        "source": "凤凰网",
+        "accountId": "socialbeta",
+        "title": "刘雯成为萧邦全球品牌大使",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T13:20:00+08:00",
+        "url": "https://socialbeta.com/campaign/28538",
+        "source": "SocialBeta",
         "tags": [
-          "Lee Cooper",
-          "孟子义",
-          "品牌大片",
-          "代言"
-        ]
+          "代言人营销",
+          "奢侈品"
+        ],
+        "summary": "Chopard 萧邦官宣刘雯出任全球品牌大使，主视觉以「钻石自在流转」为主题，进一步强化品牌在高级珠宝腕表领域的东方表达。",
+        "id": "w007"
+      },
+      {
+        "accountId": "meihua",
+        "title": "野人先生听劝「冷处理」罗永浩吐槽事件",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T13:05:00+08:00",
+        "url": "https://www.meihua.info/article/7009981946086400",
+        "source": "梅花网",
+        "tags": [
+          "公关",
+          "危机处理"
+        ],
+        "summary": "被罗永浩点名批评后，野人先生最新发帖选择「冷处理」未正面回应，网友评价「沉默是金」，梅花网复盘这场餐饮品牌与头部主播的舆论拉扯。",
+        "id": "w008"
+      },
+      {
+        "accountId": "meihua",
+        "title": "真正的过日子人，都在买贴牌货",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T13:02:00+08:00",
+        "url": "https://www.meihua.info/article/7007174349440000",
+        "source": "梅花网",
+        "tags": [
+          "行业观察",
+          "消费趋势"
+        ],
+        "summary": "刺猬公社拆解「贴牌人生」消费现象：白牌与贴牌商品正在占领追求性价比的日常货架，折射当下消费理性化趋势，对品牌溢价能力提出新考验。",
+        "id": "w009"
+      },
+      {
+        "accountId": "ebrun",
+        "title": "消失20年的「结婚大件」突然翻红，年轻人的解压神器登上品类TOP",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T12:00:00+08:00",
+        "url": "https://www.ebrun.com/20260917/708424.shtml",
+        "source": "亿邦动力",
+        "tags": [
+          "新消费",
+          "品类趋势"
+        ],
+        "summary": "亿邦动力观察：智能家用缝纫机、标签机等「消失的老品类」靠情绪价值翻红；Brother 以「云充」按页付费把硬件一次性交易变成持续服务，成为品类增长新样本。",
+        "id": "w010"
+      },
+      {
+        "accountId": "ebrun",
+        "title": "亿邦动力郑敏：全球化新品牌进入「物种爆发期」",
+        "date": "09-17",
+        "publishedAt": "2026-09-17T11:20:00+08:00",
+        "url": "https://m.ebrun.com/708491.html",
+        "source": "亿邦动力",
+        "tags": [
+          "出海",
+          "品牌全球化"
+        ],
+        "summary": "在 Accelerate 2026 China 跨境生态加速大会上，亿邦动力董事长郑敏解读《品牌全球化加速增长洞察报告》：消费发现路径已从搜索转向「AI发现」，中国供应链+工程师+审美形成新交叉点。",
+        "id": "w011"
       },
       {
         "id": "w012",
-        "accountId": "adheadline",
-        "accountName": "广告头条",
-        "title": "2026小红书互联网峰会发布双升级策略",
-        "summary": "小红书互联网峰会以「Redouble 种出长效新增长」为主题，推深度种草+种草用增双投协同，拆解存量竞争下的增长路径。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T16:28:00+08:00",
-        "url": "https://www.toutiao.com/article/7685304752070820358",
-        "source": "品牌优先看",
-        "tags": [
-          "小红书",
-          "种草",
-          "增长",
-          "峰会"
-        ]
-      },
-      {
-        "id": "w013",
-        "accountId": "digitaling",
-        "accountName": "数英DIGITALING",
-        "title": "京东运动户外超品日 9/14晚8点开启",
-        "summary": "京东运动联合阿迪达斯、lululemon、李宁等开启运动户外超级品类日，发起#我的每一步都算数#抖音共创挑战赛。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T15:10:00+08:00",
-        "url": "https://www.toutiao.com/article/7685284344289706559",
-        "source": "今日头条",
-        "tags": [
-          "京东",
-          "运动户外",
-          "lululemon",
-          "超品日"
-        ]
-      },
-      {
-        "id": "w014",
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "本周值得关注的 7 个品牌营销案例",
-        "summary": "SocialBeta盘点NIKE郑钦文逆风翻盘文案、Spēs《你偏要出人头地》等7个品牌营销案例，NIKE以走心文案拉升好感，Spēs将功效卖点升维人生叙事。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T14:00:00+08:00",
-        "url": "https://socialbeta.com/article/111355",
-        "source": "SocialBeta",
-        "tags": [
-          "NIKE",
-          "Spēs",
-          "品牌营销",
-          "TVC"
-        ]
-      },
-      {
-        "id": "w015",
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "小红书押注AI小游戏，内容平台互动赛道升温",
-        "summary": "小红书9月布局AI小游戏，与微信、抖音在互动内容赛道竞争，B站抖音已推类似工具。",
-        "date": "09-13",
-        "publishedAt": "2026-09-13T08:00:00+08:00",
-        "url": "https://new.qq.com/rain/a/20260903A04ZPX00",
-        "source": "腾讯网·竞核",
-        "tags": [
-          "小红书",
-          "AI",
-          "互动内容"
-        ]
-      },
-      {
-        "id": "w016",
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "2026.9.12 品牌日报：信任与节奏成核心关键词",
-        "summary": "蜜雪海外4378家、霸王茶姬东南亚扩张、名创主动降速；王一博×蓝芩、梓渝×妮维雅、檀健次×MK官宣。",
-        "date": "09-13",
-        "publishedAt": "2026-09-13T08:00:00+08:00",
-        "url": "https://m.weibo.cn/status/5342248095973958",
-        "source": "微博品牌日报",
-        "tags": [
-          "品牌日报",
-          "出海",
-          "代言"
-        ]
-      },
-      {
-        "id": "w018",
-        "accountId": "ebrun",
-        "accountName": "亿邦动力",
-        "title": "小红书推小红村丰收节 系列助农行动",
-        "summary": "小红书参与2026中国农民丰收节金秋消费季，线下小红村丰收市集展销云川新助农好物，线上开启丰收主题话题征集并千万流量扶持。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T16:30:00+08:00",
-        "url": "https://www.100ec.cn/detail--6663724.html",
-        "source": "网经社",
-        "tags": [
-          "小红书",
-          "助农",
-          "公益"
-        ]
-      },
-      {
-        "id": "w019",
         "accountId": "meihua",
-        "accountName": "梅花网",
-        "title": "美妆营销集中翻车：流量换增长亟待转型",
-        "summary": "薇诺娜、韩束、百雀羚、谷雨、自然堂等国货品牌密集陷入营销风波，销售费用持续膨胀，行业从买流量转向建品牌。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T16:00:00+08:00",
-        "url": "https://www.toutiao.com/article/7684380083863175730/",
+        "title": "美妆营销集中翻车背后：「流量换增长」亟待转型",
+        "date": "09-16",
+        "publishedAt": "2026-09-16T14:30:00+08:00",
         "source": "中国经营报",
+        "summary": "薇诺娜、韩束、百雀羚、谷雨、自然堂等国货同期陷入营销风波，行业销售费用持续膨胀，从买流量到建品牌成转型命题。",
+        "url": "https://www.toutiao.com/article/7684380083863175730/",
         "tags": [
           "美妆",
           "营销",
           "翻车"
         ]
-      },
-      {
-        "id": "w020",
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "美妆品牌全球代言人矩阵化 珀莱雅分层最细",
-        "summary": "2026美妆代言从押注一人转向配置一群人，珀莱雅按全球/品类/单品分层：易烊千玺整体、刘亦菲防晒、宋佳护肤、孟子义护肤，矩阵清晰。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T15:00:00+08:00",
-        "url": "https://www.jiemian.com/article/15075875.html",
-        "source": "界面新闻",
-        "tags": [
-          "代言",
-          "珀莱雅",
-          "美妆"
-        ]
-      },
-      {
-        "id": "w021",
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "娃岛联萌×GLOOMY快闪 小众圈层IP的大众商业潜力",
-        "summary": "娃岛联萌携手经典亚文化IP GLOOMY打造沉浸快闪，预约1分钟约满、限定周边首小时售罄，三年营收从0到亿，成潮玩IP联名标杆。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T14:30:00+08:00",
-        "url": "https://www.163.com/dy/article/L6K2SKLB051795TH.html",
-        "source": "三文娱",
-        "tags": [
-          "IP联名",
-          "快闪",
-          "潮玩"
-        ]
-      },
-      {
-        "id": "w022",
-        "accountId": "meihua",
-        "accountName": "梅花网",
-        "title": "时尚圈“官宣战”打响：杨幂SW回归/王一博ALO/赵露思ALO",
-        "summary": "杨幂重磅官宣全球代言人回归斯图尔特·韦茨曼，王一博成ALO全球品牌大使，赵露思成ALO中国市场首位合作面孔，代言进入矩阵化精细运营。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T08:50:00+08:00",
-        "url": "https://www.163.com/dy/article/L6CSQGT40552KKOK.html",
-        "source": "网易·ELLE",
-        "tags": [
-          "代言",
-          "时尚",
-          "杨幂"
-        ]
-      },
-      {
-        "id": "w023",
-        "accountId": "socialbeta",
-        "accountName": "广告头条",
-        "title": "小红书×中影预约放映 达成电影战略合作",
-        "summary": "海浪电影周期间中影预约放映与小红书电影签署战略协议，共建“兴趣观影”系统闭环，平台内容生态向消费与文旅场景渗透。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T08:40:00+08:00",
-        "url": "https://new.qq.com/rain/a/20260907A0CZA100",
-        "source": "腾讯新闻",
-        "tags": [
-          "小红书",
-          "中影",
-          "电影"
-        ]
-      },
-      {
-        "id": "w024",
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "lululemon第八年天猫超级品牌日 沈阳wunder puff动态剧场",
-        "summary": "lululemon连续第八年开启天猫超级品牌日，沈阳粮仓文创园呈现wunder puff动态剧场，李宇春与陶身体剧场亮相。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T08:30:00+08:00",
-        "url": "https://www.ceweekly.cn/company/2026/0911/500086.html",
-        "source": "经济网",
-        "tags": [
-          "lululemon",
-          "超级品牌日",
-          "运动"
-        ]
-      },
-      {
-        "accountId": "duojiao",
-        "date": "09-11",
-        "publishedAt": "2026-09-11T17:00:00+08:00",
-        "title": "2026.9.11 品牌日报：珀莱雅收购花知晓/霸王茶姬出海/肖战荣耀",
-        "summary": "剁椒Spicy转评品牌日报：珀莱雅7.8亿收购花知晓、霸王茶姬出海东盟高端路线、肖战成荣耀Magic9首位代言人。",
-        "source": "剁椒Spicy公众号·品牌动向周讯",
-        "url": "https://m.weibo.cn/status/5341893475959592",
-        "reportSource": "品牌日报",
-        "reportUrl": "https://weibo.com/1851599157/5341893475959592",
-        "tags": [
-          "美妆",
-          "出海",
-          "代言"
-        ],
-        "pinnedWeekly": false,
-        "id": "w025"
-      },
-      {
-        "accountId": "meihua",
-        "date": "09-11",
-        "publishedAt": "2026-09-11T16:45:00+08:00",
-        "title": "小红书「纯过日子」走红：年轻人用生活哲学实现精神上行",
-        "summary": "千瓜数据监测 #纯过日子 近2周笔记增229%+、互动482%+，品牌借生活化场景种草。",
-        "source": "梅花网",
-        "url": "https://dy.163.com/article/L6FKMCTH0556L9SL.html",
-        "reportSource": "千瓜数据·网易号",
-        "reportUrl": "https://dy.163.com/article/L6FKMCTH0556L9SL.html",
-        "tags": [
-          "小红书",
-          "种草",
-          "趋势"
-        ],
-        "pinnedWeekly": false,
-        "id": "w026"
-      },
-      {
-        "id": "w027",
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "蜜雪冰城中期净利首降14.7% 茶饮进入存量竞争",
-        "summary": "蜜雪集团上半年营收152.16亿(+2.3%)，期内利润23.19亿(-14.7%)上市首现负增长，新茶饮告别\"开店即增长\"的粗放扩张时代。",
-        "date": "09-11",
-        "publishedAt": "2026-09-11T08:30:00+08:00",
-        "url": "https://www.cet.com.cn/zhpd/zscj/10538429.shtml",
-        "source": "中国经济新闻网",
-        "tags": [
-          "蜜雪冰城",
-          "财报",
-          "新茶饮"
-        ]
-      },
-      {
-        "id": "w028",
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "瑞幸获穆巴达拉10亿美元战略投资",
-        "summary": "阿布扎比主权基金穆巴达拉携手大钲资本对瑞幸进行约10亿美元战略投资，被视为国际化基石资本。",
-        "date": "09-10",
-        "publishedAt": "2026-09-10T15:30:00+08:00",
-        "url": "https://new.qq.com/rain/a/20260910A074DE00",
-        "source": "36氪公众号",
-        "tags": [
-          "瑞幸",
-          "融资",
-          "消费"
-        ]
-      },
-      {
-        "id": "w029",
-        "accountId": "adheadline",
-        "accountName": "广告头条",
-        "title": "瑞幸×YOYO下一波「时光代理人」9.14上线，联名规则惹争议",
-        "summary": "瑞幸YOYO第一波售罄引争议，第二波「时光代理人」定档9.14，杯型与谷子规则成讨论焦点。",
-        "date": "09-10",
-        "publishedAt": "2026-09-10T14:00:00+08:00",
-        "url": "https://post.m.smzdm.com/p/aggqmp2m",
-        "source": "广告头条公众号",
-        "tags": [
-          "瑞幸",
-          "联名",
-          "谷子"
-        ]
-      },
-      {
-        "id": "w030",
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "古茗×YOYO 联名营销案例复盘",
-        "summary": "古茗×YOYO联名新品营销被SocialBeta收录为本周案例，茶饮联名持续破圈。",
-        "date": "09-10",
-        "publishedAt": "2026-09-10T12:00:00+08:00",
-        "url": "https://socialbeta.com/",
-        "source": "SocialBeta公众号",
-        "tags": [
-          "古茗",
-          "联名",
-          "营销"
-        ]
-      },
-      {
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "5元1颗\"茶姬蛋\"，霸王茶姬在布什么局？",
-        "summary": "36氪拆解霸王茶姬品类扩张账本：Geelato进入190+家门店、试点门店GMV平均提升超20%；柠檬奶新客获取率+45%；\"茶姬蛋\"5元定价为引流试验；CEO张俊杰定调2026为\"调整与企稳之年\"",
-        "date": "09-09",
-        "publishedAt": "2026-09-09T14:00:00+08:00",
-        "url": "https://www.36kr.com/p/3974026996101640",
-        "source": "36氪公众号",
-        "tags": [
-          "茶饮",
-          "品类扩张",
-          "财报解读"
-        ],
-        "id": "w031"
-      },
-      {
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "与老凤祥、潮宏基谈IP联名：黄金品牌比2年前更懂年轻人了吗？",
-        "summary": "剁椒Spicy调研（36氪授权发布）：周大福×故宫联名7个月零售值约40亿港元为拉新最佳IP；潮宏基推\"一城一非遗\"、老凤祥启动\"凤鸣计划\"；黄金品牌从贴形象进化到\"懂粉丝再设计\"的精细运营",
-        "date": "09-09",
-        "publishedAt": "2026-09-09T11:00:00+08:00",
-        "url": "https://36kr.com/p/3974499133141509",
-        "source": "36氪公众号（剁椒Spicy授权）",
-        "tags": [
-          "IP联名",
-          "黄金珠宝",
-          "年轻化"
-        ],
-        "id": "w032"
-      },
-      {
-        "accountId": "digitaling",
-        "accountName": "数英DIGITALING",
-        "title": "5个好创意，给生活松绑",
-        "summary": "数英项目库两周精选：美团买药×万爱皆可七夕片\"别成为无聊的大人\"、抖音AI短片《反正也没时间活》把\"时间贫困\"变成可感知的数字、南食召\"躲夏\"家常路线等五个\"不给答案\"的创意案例",
-        "date": "09-09",
-        "publishedAt": "2026-09-09T10:30:00+08:00",
-        "url": "https://www.digitaling.com/articles/1578170.html",
-        "source": "数英DIGITALING公众号",
-        "tags": [
-          "广告创意",
-          "案例盘点",
-          "AI营销"
-        ],
-        "id": "w033"
-      },
-      {
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "思加图发布了一本走着读的杂志「外」刊",
-        "summary": "思加图2026冬季新品上线：全球品牌代言人杨幂拍摄代言大片并投放成都/上海/深圳商圈大屏，9月6日成都特刊快闪首日请来民间大师献长嘴壶功夫茶，可抽杨幂亲签；品牌延续\"把鞋履做成城市事件\"的地广打法",
-        "date": "09-09",
-        "publishedAt": "2026-09-09T10:00:00+08:00",
-        "url": "https://socialbeta.com/campaign/28454",
-        "source": "SocialBeta公众号",
-        "tags": [
-          "广告创意",
-          "线下快闪",
-          "杨幂"
-        ],
-        "id": "w034"
-      },
-      {
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "渠道为王还是品牌至上？新茶饮走向两种命运",
-        "summary": "36氪：蜜雪冰城的困境与古茗的增长说明「渠道为王」各有利弊，而奈雪的茶与霸王茶姬验证了「品牌至上」的喜与忧；2026上半年6份新茶饮财报显示行业没有放之四海皆准的成功公式。",
-        "date": "09-09",
-        "url": "https://36kr.com/p/3974585974993160",
-        "source": "36氪",
-        "tags": [
-          "行业",
-          "新茶饮",
-          "财报"
-        ],
-        "publishedAt": "2026-09-09T09:10:00+08:00",
-        "id": "w035"
-      },
-      {
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "护舒宝发布《Like A Girl》2.0：自信由我",
-        "summary": "开学季护舒宝发布全新品牌短片《自信由我》，延续2014年《Like A Girl》的社会实验视角，邀请不同年龄女性分享身份看法；国内自2015年起落地\"我就是女生\"长期主题：校园青春第一课、卫生巾捐赠与校厕改造",
-        "date": "09-09",
-        "publishedAt": "2026-09-09T09:00:00+08:00",
-        "url": "https://socialbeta.com/campaign/28438",
-        "source": "SocialBeta公众号",
-        "tags": [
-          "品牌片",
-          "女性营销",
-          "社会议题"
-        ],
-        "id": "w036"
-      },
-      {
-        "accountId": "digitaling",
-        "accountName": "数英DIGITALING",
-        "title": "AI低俗广告盛行，国货美妆批量翻车",
-        "summary": "数英：百雀羚、倾颜、温博士等国货美妆官方/授权账号发布「低俗AI广告」接连翻车，用「纵欲过度」等羞辱话术制造容貌焦虑；AI把擦边内容做成流水线，公关「人」的价值恰恰被凸显。",
-        "date": "09-09",
-        "url": "https://www.digitaling.com/articles/1263898.html",
-        "source": "数英DIGITALING",
-        "tags": [
-          "观点",
-          "美妆",
-          "AI营销"
-        ],
-        "publishedAt": "2026-09-09T08:35:00+08:00",
-        "id": "w037"
-      },
-      {
-        "accountId": "meihua",
-        "accountName": "梅花网",
-        "title": "寿司郎店内家长接小便上热搜，宝珀联动《王者荣耀》｜一周热门",
-        "summary": "梅花网「一周热门」：寿司郎店内不文明行为事件登上热搜、品牌危机公关处置受关注；宝珀联名《王者荣耀》探索奢侈品牌×国民游戏的新组合；本周热门案例与舆情事件一网打尽。",
-        "date": "09-08",
-        "url": "https://www.meihua.info/article/6995817134851072",
-        "source": "梅花网",
-        "tags": [
-          "一周热门",
-          "案例"
-        ],
-        "id": "w038",
-        "publishedAt": "2026-09-08T08:30:00+08:00"
-      },
-      {
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "本周值得关注的7个品牌营销案例：亚朵星球《睡觉第一名》、宜家×Xbox",
-        "summary": "亚朵星球邀请导演邵艺辉编剧执导品牌短片《睡觉第一名》（齐溪、邱天主演），以“冠军妈妈王苗苗”的成长故事照见成年人内卷压力，把“深睡”升维成对抗竞争的生活选择；宜家携手Xbox 25周年推出「YXSTABY 西斯塔比」系列，摇杆造型凳调用原始3D模型、复刻动态逻辑，亮相科隆游戏展。",
-        "date": "09-08",
-        "url": "https://socialbeta.com/article/111340",
-        "source": "SocialBeta",
-        "tags": [
-          "案例",
-          "广告创意"
-        ],
-        "id": "w039",
-        "publishedAt": "2026-09-08T08:30:00+08:00"
-      },
-      {
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "Agency of the Month：作品出圈，财报也出圈",
-        "summary": "本期聚焦FF佛海佛瑞（多邻国×跳海酒馆“国际象棋臭棋节”、YSL七夕短片）与胜加（淘宝七夕“好巧，在淘宝”乞巧节叙事）等近期作品与经营双优的代理商，附在招职位。",
-        "date": "09-08",
-        "url": "https://socialbeta.com/article/111343",
-        "source": "SocialBeta",
-        "tags": [
-          "代理商",
-          "行业动态"
-        ],
-        "id": "w040",
-        "publishedAt": "2026-09-08T08:30:00+08:00"
-      },
-      {
-        "accountId": "ebrun",
-        "accountName": "亿邦动力",
-        "title": "雅诗兰黛设奢华美容总裁 统管五大高端品牌",
-        "summary": "Justin Boxford任奢华美容全球总裁统管海蓝之谜/雅诗兰黛/雅芮/朵梵/朗仕；2026财年净销售额150.49亿美元增5%扭亏，中国内地有机增长9%为集团最高、抖音成撬动新客核心阵地。",
-        "date": "09-08",
-        "url": "https://m.ebrun.com/706478.html",
-        "source": "亿邦动力",
-        "tags": [
-          "组织调整",
-          "美妆"
-        ],
-        "id": "w041",
-        "publishedAt": "2026-09-08T08:30:00+08:00"
-      },
-      {
-        "accountId": "ebrun",
-        "accountName": "亿邦动力",
-        "title": "雅诗兰黛一周动向：中国区净销售额30.58亿美元增速居首",
-        "summary": "集团CEO称中国内地护肤品/彩妆/香水全面增长；线上占中国业务超50%且两位数增长，抖音为撬动新客核心阵地；中国创新研发中心贡献约三成本土创新。",
-        "date": "09-08",
-        "url": "https://m.ebrun.com/706516.html",
-        "source": "亿邦动力",
-        "tags": [
-          "财报",
-          "美妆"
-        ],
-        "id": "w042",
-        "publishedAt": "2026-09-08T08:30:00+08:00"
-      },
-      {
-        "id": "w043",
-        "accountId": "socialbeta",
-        "accountName": "剁椒Spicy",
-        "title": "瑞幸×名创优品YOYO；F426×YUY小玉；LAVAZZA拉瓦萨×Red Velvet｜一周IP联名大事件",
-        "summary": "剁椒Spicy「一周IP联名大事件」专栏 9月7日盘点的12大品牌×IP联名动态：①瑞幸×名创优品YOYO（联名杯/杯套/杯袋 9.7上线 购买指定套餐送周边）；②LAVAZZA×Red Velvet（9.10上线 买丝绒夏日套餐赠限定小卡）；③优酸乳×十日终焉（9.8/10/11 酸甜登场 携六位学长学姐联名口味+嚼柠檬包装）；④肯德基×重返未来：1999（9.11开启 9.12-13全国特别「9店」副本）；⑤茶百道×天官赐福动画官方（9.12 10:00 1旗舰店+36主题店+4款限定包装+5款限定周边）；⑥悸动×开心超人联盟（9.10 上线 贴纸/可动冰箱贴/打卡牌/迷你徽章/镜子）；⑦INTO YOU×TUNEE GOODS「玩色农场」系列（8.20上新 全新精华唇釉+气垫腮红+双头遮瑕+面综盘四款新品）；⑧霸王茶姬×迪士尼（9.4起「轻因·桂馥兰香」「轻因·折桂令」全国上线 公主系列周边/主题杯/主题门店）；⑨遗忘之海×罗森（9.7-10.4 16家主题店 集点换联动马克杯 线上预售9.7 10:00起）；⑩金匠寿司×Boocha（9.4-10.31第一弹 徽章/亚克力挂件/陶瓷杯/行李牌/寿司碟套装）；⑪德克士×彩棠（9.5起 买套餐赠定制粉扑+彩棠粉底液或随身镜）；⑫Champion×Hello Kitty（9.6 20:00 线下门店+天猫首发 甜酷卫衣/百搭包/心动潮鞋）。",
-        "date": "09-07",
-        "publishedAt": "2026-09-07T18:00:00+08:00",
-        "url": "https://mp.weixin.qq.com/s/gdAHrAb-nJHj1CuJ7l1V5A",
-        "source": "剁椒Spicy公众号·一周IP联名大事件",
-        "tags": [
-          "IP联名周讯",
-          "用户指定必收录",
-          "周报"
-        ],
-        "pinnedWeekly": true
-      },
-      {
-        "accountId": "digitaling",
-        "source": "数英网",
-        "title": "瑞幸你到底派了多少人在互联网冲浪？YOYO酱联名真被盼来了",
-        "summary": "拆解瑞幸×名创优品YOYO联名如何把网友许愿变成神级营销。",
-        "url": "https://www.digitaling.com/articles/1578667.html",
-        "publishedAt": "2026-09-07T12:00:00+08:00",
-        "date": "09-07",
-        "tags": [
-          "联名",
-          "咖啡",
-          "洞察"
-        ],
-        "pinnedWeekly": false,
-        "id": "w044"
-      },
-      {
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "厌倦了「标准答案」的年轻人，开始「野性」消费",
-        "summary": "零下20度“流放宁古塔”、洛阳应天门“男贵妃”爆改、Cityboat、Hyrox、KKV手账水彩——2025年中国情绪经济市场规模已达2.72万亿元，年轻人从“悦人”转向“悦己”，为跳脱日常的出格体验与心流专注付费。",
-        "date": "09-07",
-        "url": "https://36kr.com/p/3972948614918657",
-        "source": "36氪",
-        "tags": [
-          "消费趋势",
-          "情绪经济"
-        ],
-        "id": "w045",
-        "publishedAt": "2026-09-07T08:30:00+08:00"
-      },
-      {
-        "accountId": "adman",
-        "accountName": "廣告狂人",
-        "title": "一周营销案例速读VOL.497：DQ机器人“小Sha”上工、喜茶应届生采风出圈、快手光合嘉年华",
-        "summary": "八个新鲜案例：DQ联合Sharpa的机器人“小Sha”正式进驻上海吴江路门店，无固定站位完成抓勺子、撒小料等精细操作；喜茶应届设计师云南采风笔记引发“人文关怀”热议；快手光合嘉年华2.2万人打卡五大主题村——“最耐看的营销都是不像广告的广告”。",
-        "date": "09-07",
-        "url": "https://www.163.com/dy/article/L6357G5C0525APMK.html",
-        "source": "廣告狂人 / 网易号",
-        "tags": [
-          "广告创意",
-          "案例"
-        ],
-        "id": "w046",
-        "publishedAt": "2026-09-07T08:30:00+08:00"
-      },
-      {
-        "id": "w047",
-        "accountId": "socialbeta",
-        "accountName": "SocialBeta",
-        "title": "肯德基联名奥利奥：你俩胆子可真是“肥嘟嘟”",
-        "summary": "肯德基与奥利奥联名新品开卖即引玩梗狂欢，“肯德基味奥利奥还是奥利奥味肯德基”成社交话题；SocialBeta 本周案例榜同时收录 MUJI「这样就好」、Marshall「守住现场」等品牌叙事向案例。",
-        "date": "09-06",
-        "url": "https://socialbeta.com/article/111294",
-        "source": "SocialBeta",
-        "tags": [
-          "案例",
-          "跨界联名"
-        ],
-        "publishedAt": "2026-09-06T08:30:00+08:00"
-      },
-      {
-        "id": "w048",
-        "accountId": "duojiao",
-        "accountName": "剁椒Spicy",
-        "title": "云旗&郝熠然脆升升官宣24H销售额2167万+;王俊凯蜂花官宣全渠道销售额1800万+;王一博代言云南白药|一周代言人盘点",
-        "summary": "剁椒Spicy【代言人周讯·一周大事件】（2026-08-31 至 09-06）本期收录22起官宣事件：王俊凯蜂花全渠道销售额1800万+/总曝光3.6亿、脆升升×云旗&郝熠然24H销售额2167万+/全域曝光5500万+、锅圈食汇×黄子弘凡全渠道GMV9.4亿+、于适KIMTRUE且初、王一博云南白药牙膏全球代言人、杨幂StuartWeitzman、Angelababy橘朵全球代言人、李宇春三生花、刘昊然DR.WU达尔肤、华晨宇网易云音乐首位代言人。",
-        "date": "09-06",
-        "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgSwhtXwx_nmkI6lS5ynIJuMUx3A6gnvBUrlqXa8Fplpd91YVid7PrCbb3lhZLzFi73xmkAYHD1vXReNiH1TjrsC4GGgfGH_J0-ebjfLs8Y1AdSgFpIgfoxgvRrLwCQowxTyihpFUGJ9ibsCR4Wci88-90KzQNBjdH6IW6Kwj1OMc8jjt3bGaKYI0NxIrmKiiobEWFfT8XJizdafYtKSkae0CjotuuiAmOIg..",
-        "source": "剁椒Spicy公众号·代言人周讯一周大事件",
-        "tags": [
-          "一周大事件",
-          "明星代言",
-          "代言战报"
-        ],
-        "publishedAt": "2026-09-06T08:30:00+08:00"
-      },
-      {
-        "id": "w049",
-        "accountId": "digitaling",
-        "accountName": "数英DIGITALING",
-        "title": "汉堡王“火焰让一切史诗般壮丽”、小米汽车门店爆改巨型手办盒",
-        "summary": "数英最新收录：汉堡王回归标志性品牌符号“火”，以史诗感广告主张明火烤制的风味与力量；小米汽车门店爆改巨型手办盒制造打卡奇观；还有香港Uber“保持你的节奏”、Netflix活人广告牌等海外创意。",
-        "date": "09-06",
-        "url": "https://www.digitaling.com/projects/375717.html",
-        "source": "数英DIGITALING",
-        "tags": [
-          "广告创意",
-          "案例"
-        ],
-        "publishedAt": "2026-09-06T08:30:00+08:00"
-      },
-      {
-        "id": "w050",
-        "accountId": "topys",
-        "accountName": "顶尖文案TOPYS",
-        "title": "Fotografiska即将亮相深圳湾：首展《TOILETPAPER》与摄影师Ferrari对谈",
-        "summary": "TOPYS专访《TOILETPAPER》联合创始人、摄影师Pierpaolo Ferrari：这本没有任何文字、只有离奇照片的“厕所读物”如何以“不完美”内在驱动在图像时代独树一帜——“当你创作出一个可以有多种含义的影像时，你就赢了”。",
-        "date": "09-06",
-        "url": "https://m.topys.cn/article/34736",
-        "source": "顶尖文案TOPYS",
-        "tags": [
-          "广告创意",
-          "艺术访谈"
-        ],
-        "publishedAt": "2026-09-06T08:30:00+08:00"
-      },
-      {
-        "accountId": "digitaling",
-        "accountName": "数英DIGITALING",
-        "title": "2026中秋礼盒大赏征集启动：创意礼盒大盘点即将开幕",
-        "summary": "数英年度中秋礼盒大赏再启：征集各企业定制中秋礼盒实拍（截止9月18日），历年礼盒从月饼进化到公仔、零食、电子产品与玩具——“中秋的创意到底能有多大”成为品牌周边创意的集中检阅场。",
-        "date": "09-05",
-        "url": "https://www.digitaling.com/articles/1572108.html",
-        "source": "数英DIGITALING",
-        "tags": [
-          "征集",
-          "包装创意"
-        ],
-        "id": "w051",
-        "publishedAt": "2026-09-05T08:30:00+08:00"
-      },
-      {
-        "id": "w053",
-        "accountId": "kr36",
-        "accountName": "36氪",
-        "title": "之禾、PANE们突围，离“中国奢侈品”又近一步",
-        "summary": "之禾把门店开到巴黎香榭丽舍圆点广场（邻居是爱马仕），PANE、裘真、山下有松批量占据上海核心商圈黄金点位；沥金追踪15个国产中高端服饰品牌搜索热度全部跑赢行业均值，“国产无高端”共识正被打破。",
-        "date": "09-05",
-        "url": "https://www.36kr.com/p/3970605943927040",
-        "source": "36氪",
-        "tags": [
-          "品牌"
-        ],
-        "publishedAt": "2026-09-05T08:30:00+08:00"
-      },
-      {
-        "id": "w054",
-        "accountId": "adheadline",
-        "accountName": "广告头条",
-        "title": "营销人的灵感库247期：麦当劳新包装“撞脸”LV，瑞幸×YOYO联名预热",
-        "summary": "本周灵感库盘点：麦当劳新包装被指“撞脸”LV；瑞幸与名创优品YOYO联名进入倒计时；黄景瑜海报惊现“三只耳朵”翻车；lululemon×陶身体剧场超品日大片、DQ×Sharpa全球首个机器人餐厅、汉堡王“火焰让一切史诗般壮丽”等案例。",
-        "date": "09-05",
-        "url": "https://news.qq.com/rain/a/20260905A098Y100",
-        "source": "广告头条 / 腾讯新闻",
-        "tags": [
-          "案例"
-        ],
-        "publishedAt": "2026-09-05T08:30:00+08:00"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "案例一周 Vol.414：海露/凯乐石/Spēs等",
-        "summary": "SocialBeta本周精选7个品牌营销案例，含海露、凯乐石、Spēs等品牌创意。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T12:00:00+08:00",
-        "url": "https://socialbeta.com/tag/%20%E6%A1%88%E4%BE%8B",
-        "source": "SocialBeta",
-        "tags": [
-          "案例一周",
-          "品牌营销",
-          "Spēs"
-        ],
-        "id": "w055",
-        "accountName": "SocialBeta"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "UGG × Willy Chavarria 联名",
-        "summary": "UGG与Willy Chavarria带来“Let’s UGG It Out”联名，机车文化与舒适潮鞋碰撞。",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T12:30:00+08:00",
-        "url": "http://www.socialbeta.com/#ugg-willy",
-        "source": "SocialBeta",
-        "tags": [
-          "UGG",
-          "联名",
-          "潮流"
-        ],
-        "id": "w056",
-        "accountName": "SocialBeta"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "古茗开始在奶茶店里打啤酒了",
-        "summary": "古茗在门店推出现打啤酒，coffee,tea or beer?",
-        "date": "09-14",
-        "publishedAt": "2026-09-14T12:00:00+08:00",
-        "url": "http://www.socialbeta.com/#socialbeta-guming-beer",
-        "source": "SocialBeta",
-        "tags": [
-          "古茗",
-          "啤酒",
-          "新品"
-        ],
-        "id": "w057",
-        "accountName": "SocialBeta"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "王一博成为 ALO 全球品牌大使",
-        "summary": "ALO官宣王一博为全球品牌大使，从赛道到日常一起身心平衡。",
-        "date": "09-12",
-        "publishedAt": "2026-09-12T11:30:00+08:00",
-        "url": "http://www.socialbeta.com/#alo-wangyibo",
-        "source": "SocialBeta",
-        "tags": [
-          "王一博",
-          "ALO",
-          "代言"
-        ],
-        "id": "w058",
-        "accountName": "SocialBeta"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "蔡徐坤成为 COS 全球品牌代言人",
-        "summary": "COS官宣蔡徐坤为全球品牌代言人，风格并不来自某个既定答案。",
-        "date": "09-07",
-        "publishedAt": "2026-09-07T16:30:00+08:00",
-        "url": "http://www.socialbeta.com/#cos-cxk",
-        "source": "SocialBeta",
-        "tags": [
-          "蔡徐坤",
-          "COS",
-          "代言"
-        ],
-        "id": "w059",
-        "accountName": "SocialBeta"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "喜茶新“入职”的设计师是一群小孩",
-        "summary": "喜茶新设计又被夸爆，背后有小孩指点？",
-        "date": "09-10",
-        "publishedAt": "2026-09-10T17:00:00+08:00",
-        "url": "http://www.socialbeta.com/#heytea-kids",
-        "source": "SocialBeta",
-        "tags": [
-          "喜茶",
-          "设计",
-          "公益"
-        ],
-        "id": "w060",
-        "accountName": "SocialBeta"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "玛丽黛佳官宣金允植为星品底妆代言人",
-        "summary": "玛丽黛佳官宣金允植为星品底妆代言人，“允”的期待正式成真。",
-        "date": "09-07",
-        "publishedAt": "2026-09-07T10:00:00+08:00",
-        "url": "http://www.socialbeta.com/#marieadeline-jyz",
-        "source": "SocialBeta",
-        "tags": [
-          "玛丽黛佳",
-          "金允植",
-          "底妆"
-        ],
-        "id": "w061",
-        "accountName": "SocialBeta"
-      },
-      {
-        "accountId": "socialbeta",
-        "title": "祖·玛珑邀请毛孩子们加入“绒绒俱乐部”",
-        "summary": "祖玛珑为狗狗打造首款香氛沐浴露。",
-        "date": "09-07",
-        "publishedAt": "2026-09-07T15:00:00+08:00",
-        "url": "http://www.socialbeta.com/#jomalone-pets",
-        "source": "SocialBeta",
-        "tags": [
-          "祖玛珑",
-          "宠物",
-          "香氛"
-        ],
-        "id": "w062",
-        "accountName": "SocialBeta"
-      },
-      {
-        "id": "w063",
-        "accountId": "socialbeta",
-        "source": "SocialBeta",
-        "publishedAt": "2026-09-15T14:00:00+08:00",
-        "date": "09-15",
-        "url": "https://socialbeta.com/campaign/28521",
-        "title": "瑞幸摇身变成「时光咖啡馆」代理人了？",
-        "summary": "瑞幸与国创动画《时光代理人》联名，将时光照相馆延伸为线下时光咖啡馆，咸芝士豆乳系列新品上线，瞄准谷子消费圈层。",
-        "tags": [
-          "联名",
-          "案例"
-        ],
-        "pinnedWeekly": false
-      },
-      {
-        "id": "w064",
-        "accountId": "ebrun",
-        "source": "亿邦动力",
-        "publishedAt": "2026-09-15T10:30:00+08:00",
-        "date": "09-15",
-        "url": "https://www.ebrun.com/20260915/708199.shtml",
-        "title": "泡泡玛特到访LVMH总部 拟开欧洲首家旗舰店",
-        "summary": "王宁到访巴黎LVMH总部，计划于奥斯曼大道开出欧洲首家旗舰店，落地欧洲线下零售。",
-        "tags": [
-          "出海",
-          "零售"
-        ],
-        "pinnedWeekly": false
-      },
-      {
-        "id": "w065",
-        "accountId": "duojiao",
-        "source": "微博·品牌日报",
-        "publishedAt": "2026-09-15T12:00:00+08:00",
-        "date": "09-15",
-        "url": "https://weibo.com/1851599157/5343338405823876",
-        "title": "2026年9月15日品牌日报：明星代言与品牌营销动态汇总",
-        "summary": "杨紫×纪梵希、蔡徐坤×COS、积家×帕丁森同日官宣；乐高×王一博周边商业化落地，奢侈品牌抢人大战升级。",
-        "tags": [
-          "品牌日报",
-          "代言"
-        ],
-        "pinnedWeekly": false
-      },
-      {
-        "id": "w066",
-        "accountId": "meihua",
-        "source": "微博",
-        "publishedAt": "2026-09-15T13:00:00+08:00",
-        "date": "09-15",
-        "url": "https://weibo.com/ttarticle/p/show?id=2309405343331449700526",
-        "title": "娃岛联萌×Gloomy联名快闪 探索「快闪2.0」",
-        "summary": "娃岛联萌携手GLOOMY推沉浸式快闪，预约1分钟抢空，三年营收从0到亿，稳居淘宝棉花娃娃三榜第一。",
-        "tags": [
-          "IP",
-          "快闪"
-        ],
-        "pinnedWeekly": false
-      },
-      {
-        "accountId": "meihua",
-        "accountName": "梅花网",
-        "title": "小红书市集「新秀现场」：100家原创商家线下选秀",
-        "summary": "9月12-16日小红书市集新秀现场落地上海黄浦世博创意秀场，面向站内百万商家征选，100家原创好店首次集体线下亮相，激活线下商业活力。",
-        "date": "09-16",
-        "publishedAt": "2026-09-16T09:00:00+08:00",
-        "url": "https://www.jfdaily.com/news/detail?id=1177015",
-        "source": "上观新闻/界面新闻",
-        "tags": [
-          "小红书",
-          "市集",
-          "新秀现场",
-          "原创",
-          "线下"
-        ],
-        "id": "w067"
-      },
-      {
-        "accountId": "digitaling",
-        "accountName": "数英DIGITALING",
-        "title": "2026小红书互联网峰会：深度种草+种草用增双升级",
-        "summary": "9月11日2026小红书互联网行业峰会在上海召开，发布「深度种草+种草用增」双升级策略，拆解存量竞争下从心智到生意的增长路径。",
-        "date": "09-16",
-        "publishedAt": "2026-09-16T09:05:00+08:00",
-        "url": "https://www.zgswcn.com/news.html?aid=370528",
-        "source": "中国商报网",
-        "tags": [
-          "小红书",
-          "峰会",
-          "种草",
-          "增长",
-          "营销"
-        ],
-        "id": "w068"
       },
       {
         "accountId": "socialbeta",
@@ -8905,52 +8017,234 @@ var DASH_DATA ={
           "霸王茶姬",
           "品牌热点"
         ],
-        "id": "w069"
+        "id": "w013"
       },
       {
-        "id": "w70",
-        "accountId": "socialbeta",
-        "title": "瑞幸摇身变成「时光咖啡馆」代理人了？",
+        "accountId": "digitaling",
+        "accountName": "数英DIGITALING",
+        "title": "2026小红书互联网峰会：深度种草+种草用增双升级",
+        "summary": "9月11日2026小红书互联网行业峰会在上海召开，发布「深度种草+种草用增」双升级策略，拆解存量竞争下从心智到生意的增长路径。",
         "date": "09-16",
-        "publishedAt": "2026-09-16T15:10:00+08:00",
-        "source": "SocialBeta",
-        "summary": "9.14瑞幸×国创动画《时光代理人》联名上线，将「时光照相馆」延伸为线下「时光咖啡馆」，推咸芝士豆乳茶与怀表周边。",
-        "url": "https://socialbeta.com/campaign/28521",
+        "publishedAt": "2026-09-16T09:05:00+08:00",
+        "url": "https://www.zgswcn.com/news.html?aid=370528",
+        "source": "中国商报网",
         "tags": [
-          "联名",
-          "咖啡",
-          "二次元"
-        ]
+          "小红书",
+          "峰会",
+          "种草",
+          "增长",
+          "营销"
+        ],
+        "id": "w014"
       },
       {
-        "id": "w71",
         "accountId": "meihua",
-        "title": "美妆营销集中翻车背后：「流量换增长」亟待转型",
+        "accountName": "梅花网",
+        "title": "小红书市集「新秀现场」：100家原创商家线下选秀",
+        "summary": "9月12-16日小红书市集新秀现场落地上海黄浦世博创意秀场，面向站内百万商家征选，100家原创好店首次集体线下亮相，激活线下商业活力。",
         "date": "09-16",
-        "publishedAt": "2026-09-16T14:30:00+08:00",
-        "source": "中国经营报",
-        "summary": "薇诺娜、韩束、百雀羚、谷雨、自然堂等国货同期陷入营销风波，行业销售费用持续膨胀，从买流量到建品牌成转型命题。",
-        "url": "https://www.toutiao.com/article/7684380083863175730/",
-        "tags": [
-          "美妆",
-          "营销",
-          "翻车"
-        ]
-      },
-      {
-        "id": "w72",
-        "accountId": "adheadline",
-        "title": "小红书市集「新秀现场」100家原创商家集体线下亮相",
-        "date": "09-16",
-        "publishedAt": "2026-09-16T13:20:00+08:00",
-        "source": "界面新闻",
-        "summary": "9.12-16小红书市集新秀现场落地上海世博创意秀场，100位线上主理人携代表作围绕四大赛道首次集体线下亮相。",
-        "url": "https://www.163.com/dy/article/L6S575JS0534A4SC.html",
+        "publishedAt": "2026-09-16T09:00:00+08:00",
+        "url": "https://www.jfdaily.com/news/detail?id=1177015",
+        "source": "上观新闻/界面新闻",
         "tags": [
           "小红书",
           "市集",
-          "原创"
+          "新秀现场",
+          "原创",
+          "线下"
+        ],
+        "id": "w015"
+      },
+      {
+        "id": "w016",
+        "accountId": "socialbeta",
+        "source": "SocialBeta",
+        "publishedAt": "2026-09-15T14:00:00+08:00",
+        "date": "09-15",
+        "url": "https://socialbeta.com/campaign/28521",
+        "title": "瑞幸摇身变成「时光咖啡馆」代理人了？",
+        "summary": "瑞幸与国创动画《时光代理人》联名，将时光照相馆延伸为线下时光咖啡馆，咸芝士豆乳系列新品上线，瞄准谷子消费圈层。",
+        "tags": [
+          "联名",
+          "案例"
+        ],
+        "pinnedWeekly": false
+      },
+      {
+        "id": "w017",
+        "accountId": "meihua",
+        "source": "微博",
+        "publishedAt": "2026-09-15T13:00:00+08:00",
+        "date": "09-15",
+        "url": "https://weibo.com/ttarticle/p/show?id=2309405343331449700526",
+        "title": "娃岛联萌×Gloomy联名快闪 探索「快闪2.0」",
+        "summary": "娃岛联萌携手GLOOMY推沉浸式快闪，预约1分钟抢空，三年营收从0到亿，稳居淘宝棉花娃娃三榜第一。",
+        "tags": [
+          "IP",
+          "快闪"
+        ],
+        "pinnedWeekly": false
+      },
+      {
+        "id": "w018",
+        "accountId": "duojiao",
+        "source": "微博·品牌日报",
+        "publishedAt": "2026-09-15T12:00:00+08:00",
+        "date": "09-15",
+        "url": "https://weibo.com/1851599157/5343338405823876",
+        "title": "2026年9月15日品牌日报：明星代言与品牌营销动态汇总",
+        "summary": "杨紫×纪梵希、蔡徐坤×COS、积家×帕丁森同日官宣；乐高×王一博周边商业化落地，奢侈品牌抢人大战升级。",
+        "tags": [
+          "品牌日报",
+          "代言"
+        ],
+        "pinnedWeekly": false
+      },
+      {
+        "id": "w019",
+        "accountId": "meihua",
+        "accountName": "梅花网",
+        "title": "一周舆情监测：宁德时代回应车间员工过激行为",
+        "summary": "梅花网舆情周报聚焦宁德时代就车间员工过激行为回应，品牌危机沟通与雇主形象受关注。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T11:09:00+08:00",
+        "url": "https://www.163.com/dy/article/L6S50BOB05524GC3.html",
+        "source": "梅花网",
+        "tags": [
+          "宁德时代",
+          "舆情",
+          "危机公关",
+          "品牌"
         ]
+      },
+      {
+        "id": "w020",
+        "accountId": "kr36",
+        "accountName": "36氪",
+        "title": "一根葫芦藤抵过绍兴文旅千万宣传费",
+        "summary": "36氪复盘绍兴文旅借一根葫芦藤内容出圈，低预算叙事营销跑赢千万级投放。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T10:39:00+08:00",
+        "url": "https://www.36kr.com/p/3984059665792005",
+        "source": "36氪",
+        "tags": [
+          "绍兴文旅",
+          "内容营销",
+          "出圈",
+          "文旅"
+        ]
+      },
+      {
+        "id": "w021",
+        "accountId": "ebrun",
+        "source": "亿邦动力",
+        "publishedAt": "2026-09-15T10:30:00+08:00",
+        "date": "09-15",
+        "url": "https://www.ebrun.com/20260915/708199.shtml",
+        "title": "泡泡玛特到访LVMH总部 拟开欧洲首家旗舰店",
+        "summary": "王宁到访巴黎LVMH总部，计划于奥斯曼大道开出欧洲首家旗舰店，落地欧洲线下零售。",
+        "tags": [
+          "出海",
+          "零售"
+        ],
+        "pinnedWeekly": false
+      },
+      {
+        "id": "w022",
+        "accountId": "duojiao",
+        "accountName": "剁椒Spicy",
+        "title": "千叶珠宝暴雷幕后：资金链危机与闭店风波",
+        "summary": "联商网联合剁椒Spicy深挖千叶珠宝资金链危机与闭店风波始末，加盟模式风险暴露。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T10:00:00+08:00",
+        "url": "https://www.linkshop.com/news/2026552132.shtml",
+        "source": "联商网",
+        "tags": [
+          "千叶珠宝",
+          "加盟",
+          "闭店",
+          "零售"
+        ]
+      },
+      {
+        "id": "w023",
+        "accountId": "ebrun",
+        "accountName": "亿邦动力",
+        "title": "抖音电商公布2026双11活动节奏",
+        "summary": "抖音电商披露2026双11大促节奏与玩法，商家侧备战启动，内容场与货架场协同加码。",
+        "date": "09-15",
+        "publishedAt": "2026-09-15T09:00:00+08:00",
+        "url": "https://www.ebrun.com/ebrungo/zb/708183.shtml",
+        "source": "亿邦动力",
+        "tags": [
+          "抖音电商",
+          "双11",
+          "大促",
+          "电商"
+        ]
+      },
+      {
+        "id": "w024",
+        "accountId": "adheadline",
+        "accountName": "广告头条",
+        "title": "瑞幸×YOYO下一波「时光代理人」9.14上线，联名规则惹争议",
+        "summary": "瑞幸YOYO第一波售罄引争议，第二波「时光代理人」定档9.14，杯型与谷子规则成讨论焦点。",
+        "date": "09-10",
+        "publishedAt": "2026-09-10T14:00:00+08:00",
+        "url": "https://post.m.smzdm.com/p/aggqmp2m",
+        "source": "广告头条公众号",
+        "tags": [
+          "瑞幸",
+          "联名",
+          "谷子"
+        ]
+      },
+      {
+        "id": "w025",
+        "accountId": "duojiao",
+        "accountName": "剁椒Spicy",
+        "title": "瑞幸×名创优品YOYO；F426×YUY小玉；LAVAZZA拉瓦萨×Red Velvet｜一周IP联名大事件",
+        "summary": "剁椒Spicy「一周IP联名大事件」专栏 9月7日盘点的12大品牌×IP联名动态：①瑞幸×名创优品YOYO（联名杯/杯套/杯袋 9.7上线 购买指定套餐送周边）；②LAVAZZA×Red Velvet（9.10上线 买丝绒夏日套餐赠限定小卡）；③优酸乳×十日终焉（9.8/10/11 酸甜登场 携六位学长学姐联名口味+嚼柠檬包装）；④肯德基×重返未来：1999（9.11开启 9.12-13全国特别「9店」副本）；⑤茶百道×天官赐福动画官方（9.12 10:00 1旗舰店+36主题店+4款限定包装+5款限定周边）；⑥悸动×开心超人联盟（9.10 上线 贴纸/可动冰箱贴/打卡牌/迷你徽章/镜子）；⑦INTO YOU×TUNEE GOODS「玩色农场」系列（8.20上新 全新精华唇釉+气垫腮红+双头遮瑕+面综盘四款新品）；⑧霸王茶姬×迪士尼（9.4起「轻因·桂馥兰香」「轻因·折桂令」全国上线 公主系列周边/主题杯/主题门店）；⑨遗忘之海×罗森（9.7-10.4 16家主题店 集点换联动马克杯 线上预售9.7 10:00起）；⑩金匠寿司×Boocha（9.4-10.31第一弹 徽章/亚克力挂件/陶瓷杯/行李牌/寿司碟套装）；⑪德克士×彩棠（9.5起 买套餐赠定制粉扑+彩棠粉底液或随身镜）；⑫Champion×Hello Kitty（9.6 20:00 线下门店+天猫首发 甜酷卫衣/百搭包/心动潮鞋）。",
+        "date": "09-07",
+        "publishedAt": "2026-09-07T18:00:00+08:00",
+        "url": "https://mp.weixin.qq.com/s/gdAHrAb-nJHj1CuJ7l1V5A",
+        "source": "剁椒Spicy公众号·一周IP联名大事件",
+        "tags": [
+          "IP联名周讯",
+          "用户指定必收录",
+          "周报"
+        ],
+        "pinnedWeekly": true
+      },
+      {
+        "accountId": "adman",
+        "accountName": "廣告狂人",
+        "title": "一周营销案例速读VOL.497：DQ机器人“小Sha”上工、喜茶应届生采风出圈、快手光合嘉年华",
+        "summary": "八个新鲜案例：DQ联合Sharpa的机器人“小Sha”正式进驻上海吴江路门店，无固定站位完成抓勺子、撒小料等精细操作；喜茶应届设计师云南采风笔记引发“人文关怀”热议；快手光合嘉年华2.2万人打卡五大主题村——“最耐看的营销都是不像广告的广告”。",
+        "date": "09-07",
+        "url": "https://www.163.com/dy/article/L6357G5C0525APMK.html",
+        "source": "廣告狂人 / 网易号",
+        "tags": [
+          "广告创意",
+          "案例"
+        ],
+        "id": "w026",
+        "publishedAt": "2026-09-07T08:30:00+08:00"
+      },
+      {
+        "id": "w027",
+        "accountId": "topys",
+        "accountName": "顶尖文案TOPYS",
+        "title": "Fotografiska即将亮相深圳湾：首展《TOILETPAPER》与摄影师Ferrari对谈",
+        "summary": "TOPYS专访《TOILETPAPER》联合创始人、摄影师Pierpaolo Ferrari：这本没有任何文字、只有离奇照片的“厕所读物”如何以“不完美”内在驱动在图像时代独树一帜——“当你创作出一个可以有多种含义的影像时，你就赢了”。",
+        "date": "09-06",
+        "url": "https://m.topys.cn/article/34736",
+        "source": "顶尖文案TOPYS",
+        "tags": [
+          "广告创意",
+          "艺术访谈"
+        ],
+        "publishedAt": "2026-09-06T08:30:00+08:00"
       }
     ]
   },
