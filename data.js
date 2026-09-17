@@ -1,7 +1,7 @@
-var DASH_DATA = {
+var DASH_DATA ={
   "version": 2,
   "date": "09-17",
-  "updatedAt": "2026-09-17T07:58:00+08:00",
+  "updatedAt": "2026-09-17T12:01:23+08:00",
   "trendDates": [
     "09-08",
     "09-09",
@@ -6539,7 +6539,9 @@ var DASH_DATA = {
       "updatedDate": "09-13",
       "updatedAt": "2026-09-13T07:58:00+08:00",
       "status": "进行中",
-      "id": "c060"
+      "id": "c060",
+      "topVoiceSource": "sgCheapo",
+      "topVoiceUrl": "https://sgcheapo.com/luckin-coffee-collabs-with-quby-to-launch-black-sesame-hojicha-latte-blind-boxes-and-more"
     },
     {
       "brand": "chabaidao",
@@ -6558,7 +6560,9 @@ var DASH_DATA = {
       "updatedDate": "09-13",
       "updatedAt": "2026-09-13T07:58:00+08:00",
       "status": "进行中",
-      "id": "c061"
+      "id": "c061",
+      "topVoiceSource": "微博",
+      "topVoiceUrl": "https://weibo.com/6502206666/5340521358953382"
     },
     {
       "brand": "sw",
@@ -6577,7 +6581,9 @@ var DASH_DATA = {
       "updatedDate": "09-13",
       "updatedAt": "2026-09-13T07:58:00+08:00",
       "status": "进行中",
-      "id": "c062"
+      "id": "c062",
+      "topVoiceSource": "Concall",
+      "topVoiceUrl": "https://cn.concall.com/article/detail/article_id/6039"
     },
     {
       "brand": "fenghua",
@@ -6995,7 +7001,9 @@ var DASH_DATA = {
       "updatedDate": "09-15",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "status": "进行中",
-      "id": "c082"
+      "id": "c082",
+      "topVoiceSource": "中国新闻网",
+      "topVoiceUrl": "https://m.chinanews.com/wap/detail/chs/zw/jw687339.shtml"
     },
     {
       "brand": "popmart",
@@ -7014,7 +7022,9 @@ var DASH_DATA = {
       "updatedDate": "09-15",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "status": "进行中",
-      "id": "c083"
+      "id": "c083",
+      "topVoiceSource": "新浪财经",
+      "topVoiceUrl": "https://www.163.com/dy/article/L6FC92CQ05568W0A.html"
     },
     {
       "brand": "miniso",
@@ -7033,7 +7043,9 @@ var DASH_DATA = {
       "updatedDate": "09-15",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "status": "进行中",
-      "id": "c084"
+      "id": "c084",
+      "topVoiceSource": "胖鲸头条",
+      "topVoiceUrl": "https://www.163.com/dy/article/L6O8UL9U0539E9ND.html"
     },
     {
       "brand": "guming",
@@ -7052,7 +7064,9 @@ var DASH_DATA = {
       "updatedDate": "09-15",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "status": "进行中",
-      "id": "c085"
+      "id": "c085",
+      "topVoiceSource": "SocialBeta",
+      "topVoiceUrl": "http://www.socialbeta.com/#guming-beer"
     },
     {
       "brand": "heytea",
@@ -7071,7 +7085,9 @@ var DASH_DATA = {
       "updatedDate": "09-15",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "status": "进行中",
-      "id": "c086"
+      "id": "c086",
+      "topVoiceSource": "SocialBeta",
+      "topVoiceUrl": "http://www.socialbeta.com/#heytea-partner"
     },
     {
       "brand": "luckin",
@@ -7090,7 +7106,9 @@ var DASH_DATA = {
       "updatedDate": "09-15",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "status": "进行中",
-      "id": "c087"
+      "id": "c087",
+      "topVoiceSource": "长桥证券",
+      "topVoiceUrl": "https://longbridge.com/news/298530998"
     },
     {
       "brand": "spes",
@@ -7109,7 +7127,9 @@ var DASH_DATA = {
       "updatedDate": "09-15",
       "updatedAt": "2026-09-15T07:58:00+08:00",
       "status": "进行中",
-      "id": "c088"
+      "id": "c088",
+      "topVoiceSource": "SocialBeta",
+      "topVoiceUrl": "http://www.socialbeta.com/#spes-tvc"
     },
     {
       "id": "c089",
@@ -7254,7 +7274,9 @@ var DASH_DATA = {
       "source": "美通社",
       "url": "https://www.prnasia.com/story/547924-1.shtml",
       "status": "进行中",
-      "updatedAt": "2026-09-16T09:56:00+08:00"
+      "updatedAt": "2026-09-16T09:56:00+08:00",
+      "id": "c101",
+      "updatedDate": "09-17"
     },
     {
       "brand": "名创优品",
@@ -7273,7 +7295,9 @@ var DASH_DATA = {
       "source": "网易",
       "url": "https://www.163.com/dy/article/L6QFIHK6051993MA.html",
       "status": "进行中",
-      "updatedAt": "2026-09-16T09:56:00+08:00"
+      "updatedAt": "2026-09-16T09:56:00+08:00",
+      "id": "c102",
+      "updatedDate": "09-17"
     },
     {
       "brand": "RIPSTAR爆炸星",
@@ -7292,7 +7316,9 @@ var DASH_DATA = {
       "source": "新浪",
       "url": "https://www.sina.cn/news/detail/5342279469373002.html",
       "status": "即将开始",
-      "updatedAt": "2026-09-16T09:56:00+08:00"
+      "updatedAt": "2026-09-16T09:56:00+08:00",
+      "id": "c103",
+      "updatedDate": "09-17"
     },
     {
       "brand": "anta",
@@ -7419,6 +7445,132 @@ var DASH_DATA = {
       "updatedAt": "2026-09-16T17:05:00+08:00",
       "status": "进行中",
       "id": "c100"
+    },
+    {
+      "id": "c104",
+      "updatedDate": "09-17",
+      "updatedAt": "2026-09-17T12:01:23+08:00",
+      "brand": "nike",
+      "cat": "apparel",
+      "name": "Nike×NBA Standard Issue 系列首发",
+      "window": "2026-09-15 起",
+      "type": "联名/新品",
+      "action": "2026-27 NBA 赛季球队装备系列首发，覆盖全部 30 队 fleece/针织/上装下装，纽约时装周「End of Ordinary」大秀亮相",
+      "volume": "全 30 队完整装备线；Aero-Fit 性能科技",
+      "volumeIndex": 8,
+      "sale": "",
+      "topVoice": "以「End of Ordinary」大秀把球队装备推向运动×街头×球迷服饰",
+      "topVoiceSource": "Sneakers Cartel",
+      "topVoiceUrl": "https://sneakerscartel.com/breaking-down-the-nike-x-nba-standard-issue-collection",
+      "sentiment": "正面",
+      "source": "Sneakers Cartel",
+      "url": "https://sneakerscartel.com/breaking-down-the-nike-x-nba-standard-issue-collection",
+      "status": "进行中"
+    },
+    {
+      "id": "c105",
+      "updatedDate": "09-17",
+      "updatedAt": "2026-09-17T12:01:23+08:00",
+      "brand": "adidas",
+      "cat": "apparel",
+      "name": "adidas×Anthony Edwards Superstar II 联名",
+      "window": "2026-09-18 发售",
+      "type": "联名/新品",
+      "action": "NBA 球星 Anthony Edwards 联名 Superstar II「Bliss Blue」配色，Clear Blue / Tech Grey Metallic / Cloud White",
+      "volume": "售价 $110；货号 LA7828",
+      "volumeIndex": 7,
+      "sale": "",
+      "topVoice": "复古篮球鞋型叠加当代街头审美，延续 Edwards 代言矩阵",
+      "topVoiceSource": "Malakye",
+      "topVoiceUrl": "https://malakye.com/news/brand/adidas/anthony-edwards-x-adidas-superstar-ii-bliss-blue-september-2026-release-date-inf/2512",
+      "sentiment": "正面",
+      "source": "Malakye",
+      "url": "https://malakye.com/news/brand/adidas/anthony-edwards-x-adidas-superstar-ii-bliss-blue-september-2026-release-date-inf/2512",
+      "status": "进行中"
+    },
+    {
+      "id": "c106",
+      "updatedDate": "09-17",
+      "updatedAt": "2026-09-17T12:01:23+08:00",
+      "brand": "fila",
+      "cat": "apparel",
+      "name": "FILA MUSE「套住秋天」城市漫游·上海",
+      "window": "2026-09-03 上市起",
+      "type": "新品/快闪",
+      "action": "MUSE 套装秋日系列焕新，武康路三站沉浸式城市漫游（书房/疗愈所/灵感会客厅），刘恋现身女性主题对谈",
+      "volume": "MUSE 灵感漫游地图 + 印章打卡；官方商城/天猫/京东同步",
+      "volumeIndex": 7,
+      "sale": "",
+      "topVoice": "从三八节「明天的 WOMEN」到「套住秋天」，持续聚焦女性成长表达",
+      "topVoiceSource": "时尚COSMO",
+      "topVoiceUrl": "https://www.cosmopolitancn.com/cosmo/fashion/detail/51246",
+      "sentiment": "正面",
+      "source": "时尚COSMO",
+      "url": "https://www.cosmopolitancn.com/cosmo/fashion/detail/51246",
+      "status": "进行中"
+    },
+    {
+      "id": "c107",
+      "updatedDate": "09-17",
+      "updatedAt": "2026-09-17T12:01:23+08:00",
+      "brand": "lining",
+      "cat": "apparel",
+      "name": "李宁×白鹿 万龙甲冲锋衣/林韵2 户外种草",
+      "window": "即日起至 2026-09-30",
+      "type": "代言/互动",
+      "action": "李宁品牌代言人白鹿同款户外穿搭征集，万龙甲三合一冲锋衣 + 林韵2 山系薄底鞋",
+      "volume": "微博带话题 #与山河共彩# #白鹿同款# 参与抽白鹿亲签",
+      "volumeIndex": 7,
+      "sale": "",
+      "topVoice": "白鹿亲签福利引爆户外穿搭 UGC",
+      "topVoiceSource": "李宁官方微博",
+      "topVoiceUrl": "https://weibo.com/1716244511/RhOGIrtlj",
+      "sentiment": "正面",
+      "source": "李宁官方微博",
+      "url": "https://weibo.com/1716244511/RhOGIrtlj",
+      "status": "进行中"
+    },
+    {
+      "id": "c108",
+      "updatedDate": "09-17",
+      "updatedAt": "2026-09-17T12:01:23+08:00",
+      "brand": "florasis",
+      "cat": "beauty",
+      "name": "花西子 西湖情境香氛系列「莲/竹/游/憩」+ 古风发布会",
+      "window": "2026-09-12 起",
+      "type": "新品/品牌事件",
+      "action": "西湖情境系列（莲/竹/游/憩）香氛上线；9 月 12 日古风美学发布会，东方剪影环节复原中式眉眼轮廓",
+      "volume": "气垫登日本杂志粉底液+气垫类第 4；银座 GINZA SIX 海外旗舰店在售",
+      "volumeIndex": 7,
+      "sale": "",
+      "topVoice": "东方美学发布会成行业样本，海外（日本）渠道铺货加速",
+      "topVoiceSource": "今日头条",
+      "topVoiceUrl": "https://www.toutiao.com/article/7684310234675855924",
+      "sentiment": "正面",
+      "source": "今日头条",
+      "url": "https://www.toutiao.com/article/7684310234675855924",
+      "status": "进行中"
+    },
+    {
+      "id": "c109",
+      "updatedDate": "09-17",
+      "updatedAt": "2026-09-17T12:01:23+08:00",
+      "brand": "popmart",
+      "cat": "ip",
+      "name": "泡泡玛特×MINITEEN 联名盲盒（13 只小动物）",
+      "window": "2026-09 发售预热",
+      "type": "联名/新品",
+      "action": "泡泡玛特官宣与 MINITEEN 联名盲盒，13 只小动物款引发粉丝期待",
+      "volume": "13 只 Q 版小动物；微博话题 #MINITEEN泡泡玛特联名#",
+      "volumeIndex": 7,
+      "sale": "",
+      "topVoice": "IP 联名撬动非盲盒用户，「本来以为泡泡玛特赚不到我的钱」出圈",
+      "topVoiceSource": "泡泡玛特官方微博",
+      "topVoiceUrl": "https://weibo.com/7443134115/5343534040748047",
+      "sentiment": "正面",
+      "source": "泡泡玛特官方微博",
+      "url": "https://weibo.com/7443134115/5343534040748047",
+      "status": "进行中"
     }
   ],
   "wechatNews": {
