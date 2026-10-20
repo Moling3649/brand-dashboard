@@ -658,7 +658,7 @@ window.__wbBoot = function(fromCache){
       ${xhsActs.map(a=>`<div class="hot-row">
         <span class="hot-no" style="background:#e11d48">活</span>
         <div class="hot-body">
-          <div class="hot-topic">${a.url?`<a href="${a.url}" target="_blank">${a.name} ↗</a>`:a.name}</div>
+          <div class="hot-topic">${a.url?`<a href="${a.url}" target="_blank">${(a.topic||a.name||'（无标题）')} ↗</a>`:(a.topic||a.name||'（无标题）')}</div>
           <div class="hot-note">${a.date?('['+a.date+'] '):''}${a.note}</div>
           <div class="hot-src">来源：${a.reportUrl?`<a href="${a.reportUrl}" target="_blank">${a.reportSource||a.source} ↗</a>`:(a.url?`<a href="${a.url}" target="_blank">${a.source}</a>`:a.source)}${a.reportUrl?` · <a href="${a.url}" target="_blank">话题搜索页 ↗</a>`:''}</div>
         </div>
