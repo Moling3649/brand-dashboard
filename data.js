@@ -1665,7 +1665,7 @@ var DASH_DATA = {
   "news": [
     {
       "brand": "FILA",
-      "cat": "sport",
+      "cat": "apparel",
       "heat": 82,
       "date": "10-20",
       "source": "体育大生意",
@@ -1697,7 +1697,7 @@ var DASH_DATA = {
     },
     {
       "brand": "bawang",
-      "cat": "drink",
+      "cat": "food",
       "heat": 70,
       "date": "10-19",
       "source": "什么值得买",
@@ -1776,7 +1776,7 @@ var DASH_DATA = {
     },
     {
       "brand": "bawang",
-      "cat": "drink",
+      "cat": "food",
       "heat": 78,
       "date": "10-15",
       "source": "新浪新闻",
@@ -1792,7 +1792,7 @@ var DASH_DATA = {
     },
     {
       "brand": "回力",
-      "cat": "shoe",
+      "cat": "apparel",
       "heat": 84,
       "date": "10-15",
       "source": "中国经济新闻网",
@@ -1824,7 +1824,7 @@ var DASH_DATA = {
     },
     {
       "brand": "anta",
-      "cat": "sport",
+      "cat": "apparel",
       "heat": 92,
       "date": "10-12",
       "source": "新浪·品牌日报",
@@ -1840,7 +1840,7 @@ var DASH_DATA = {
     },
     {
       "brand": "lining",
-      "cat": "sport",
+      "cat": "apparel",
       "heat": 85,
       "date": "10-12",
       "source": "新浪·品牌日报",
@@ -1856,7 +1856,7 @@ var DASH_DATA = {
     },
     {
       "brand": "bawang",
-      "cat": "drink",
+      "cat": "food",
       "heat": 95,
       "date": "10-12",
       "source": "新浪·品牌日报",
@@ -1888,7 +1888,7 @@ var DASH_DATA = {
     },
     {
       "brand": "bawang",
-      "cat": "drink",
+      "cat": "food",
       "heat": 66,
       "date": "10-10",
       "source": "金讯/都市快报",
@@ -5662,7 +5662,7 @@ var DASH_DATA = {
     },
     {
       "brand": "霸王茶姬",
-      "cat": "drink",
+      "cat": "food",
       "name": "霸王茶姬×乌镇戏剧节联名周边",
       "window": "2026.10.15 - 2026.10.25",
       "type": "文旅联名×限定周边",
@@ -5683,7 +5683,7 @@ var DASH_DATA = {
     },
     {
       "brand": "霸王茶姬",
-      "cat": "drink",
+      "cat": "food",
       "name": "霸王茶姬×CLOT抹茶系列撕杯抽奖",
       "window": "2026.10.08 - 2026.11.08",
       "type": "明星联名×互动抽奖",
@@ -5746,7 +5746,7 @@ var DASH_DATA = {
     },
     {
       "brand": "回力",
-      "cat": "shoe",
+      "cat": "apparel",
       "name": "回力×王俊凯双品牌代言",
       "window": "2026.10.15 - 2026.12.31",
       "type": "明星代言×品牌年轻化",
@@ -5767,7 +5767,7 @@ var DASH_DATA = {
     },
     {
       "brand": "小红书",
-      "cat": "platform",
+      "cat": "daily",
       "name": "小红书官方发布2026秋冬趋势「繁荣主义」",
       "window": "2026.10.08 - 2026.12.31",
       "type": "平台趋势发布×种草营销",
@@ -5830,7 +5830,7 @@ var DASH_DATA = {
     },
     {
       "brand": "FILA",
-      "cat": "sport",
+      "cat": "apparel",
       "name": "FILA×宋威龙品牌代言人",
       "window": "2026.10.20 - 2026.12.31",
       "type": "明星代言×冬日大片",

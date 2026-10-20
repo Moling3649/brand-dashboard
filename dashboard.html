@@ -504,7 +504,7 @@ window.__wbBoot = function(fromCache){
 
   // 单张上升趋势卡（TOP1 高亮）
   function riseCard(entry, i){
-    const b = entry.b, c = CAT[b.cat];
+    const b = entry.b, c = CAT[b.cat] || {color:'#6b7280',name:'综合'};
     const days = (b.trend||[]).filter(x=>typeof x==='number').length;
     const nw = D.news.filter(n=>n.brand===b.id).sort((x,y)=>y.heat-x.heat)[0];
     const riseTxt = entry.rise>0 ? `▲ 区间上升 +${entry.rise}` : '— 区间持平';
@@ -546,7 +546,7 @@ window.__wbBoot = function(fromCache){
     const list = D.brands.filter(b=>curCat==='all'||b.cat===curCat).sort((a,b)=>b.heat-a.heat);
     document.getElementById('rankSub').textContent = `共 ${list.length} 个品牌`;
     document.getElementById('rankList').innerHTML = list.map((b,i)=>{
-      const c = CAT[b.cat];
+      const c = CAT[b.cat] || {color:'#6b7280',name:'综合'};
       return `<div class="rank-row ${curBrand===b.id?'sel':''}" data-id="${b.id}">
         <div class="rank-no ${i<3?'top':''}">${i+1}</div>
         <div class="rank-name"><span class="cdot" style="background:${c.color}"></span>${b.name}</div>
@@ -571,7 +571,7 @@ window.__wbBoot = function(fromCache){
     if(!list.length){ el.innerHTML = '<div class="feed-empty">该筛选条件下今日暂无热点资讯</div>'; return; }
     const itemHtml = n=>{
       const b = BRAND[n.brand] || {name:'IP行业'};
-      const c = CAT[n.cat];
+      const c = CAT[n.cat] || {color:'#6b7280',name:'综合'};
       const title = n.url ? `<a href="${n.url}" target="_blank">${n.title}</a>` : n.title;
       return `<div class="news-item">
         <div class="heat-badge ${badgeCls(n.heat)}"><b>${n.heat}</b><span>热度</span></div>
