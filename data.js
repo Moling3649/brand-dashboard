@@ -1,9 +1,8 @@
 var DASH_DATA = {
   "version": 2,
-  "date": "10-20",
-  "updatedAt": "2026-10-20T19:06:07+08:00",
+  "date": "10-21",
+  "updatedAt": "2026-10-21T12:45:00+08:00",
   "trendDates": [
-    "10-09",
     "10-10",
     "10-11",
     "10-12",
@@ -14,9 +13,10 @@ var DASH_DATA = {
     "10-17",
     "10-18",
     "10-19",
-    "10-20"
+    "10-20",
+    "10-21"
   ],
-  "dataNote": "[2026-10-20 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-20 起），更早条目已删除，本次保留 11 / 原 11 条；accounts 监测源清单不变。[2026-10-20 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 52 / 原 93 条。[2026-10-20 刷新] 19:00增量：微博/抖音实时榜单重建；news 去重追加 11 条真实资讯(均附来源URL)；过期「进行中」campaign 翻「已结束」42 条；品牌估算指标沿用10-20 15:30口径(标注为估算)，仅滚动 trend 窗口与 delta。后续由 prune 脚本裁剪。[2026-10-20 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-20 起），更早条目已删除，本次保留 11 / 原 43 条；accounts 监测源清单不变。[2026-10-20 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 93 / 原 134 条。2026-10-20 全量刷新：news 追加 10-12~10-20 真实资讯(均附来源URL)；hotlists 中微博(60s.viki.moe)/抖音(iesdouyin)为实时真实榜单，小红书热点/热门话题榜/活动榜依据小红书官方2026秋冬趋势「繁荣主义」与千瓜数据报告经WebSearch聚合，wbEntertainment/dySeeding 由热搜总榜标签筛选+近期品牌代言动态增补；campaigns/wechatNews/celebrityEndorsements 前插 10月真实战役/公众号聚合/代言动态。品牌估算指标(soc/sales/heat/delta/trend)为基于公开财报与媒体报道的估算，非平台官方实时数据。",
+  "dataNote": "[2026-10-21 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-21 起），更早条目已删除，本次保留 12 / 原 13 条；accounts 监测源清单不变。[2026-10-21 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 55 / 原 58 条。[2026-10-21 12:45 刷新] 实时热榜：微博(60s.viki.moe)/抖音(iesdouyin)为 10-21 真实榜单重建；小红书趋势/文娱/种草垂直榜沿用近90日/近24h 聚合并标注 10-21。品牌趋势滚动至 10-21 窗口，anta/李宁/泡泡玛特/瑞幸/蜜雪/珀莱雅/毛戈平/薇诺娜/霸王茶姬等依据 10-12~10-19 真实新闻微调估算指标（标注为估算）；新增 news 10 条、campaigns 6 条、celebrity 2 条、wechatNews 2 条（均附来源 URL）。上升 TOP3 由 trend 末值-初值于 10-21 窗口实时重算。",
   "categories": [
     {
       "id": "apparel",
@@ -50,12 +50,11 @@ var DASH_DATA = {
       "id": "anta",
       "name": "安踏",
       "cat": "apparel",
-      "soc": 98,
-      "sales": 93,
-      "news": 106,
-      "delta": 3.0,
+      "soc": 100,
+      "sales": 94,
+      "news": 109,
+      "delta": 2,
       "trend": [
-        95,
         95,
         95,
         95,
@@ -66,9 +65,10 @@ var DASH_DATA = {
         96,
         95,
         98,
-        98
+        98,
+        100
       ],
-      "heat": 98
+      "heat": 100
     },
     {
       "id": "lululemon",
@@ -77,9 +77,8 @@ var DASH_DATA = {
       "soc": 81,
       "sales": 86,
       "news": 90,
-      "delta": 1.0,
+      "delta": 0,
       "trend": [
-        83,
         83,
         83,
         83,
@@ -90,6 +89,7 @@ var DASH_DATA = {
         82,
         83,
         84,
+        84,
         84
       ],
       "heat": 84
@@ -98,10 +98,10 @@ var DASH_DATA = {
       "id": "lining",
       "name": "李宁",
       "cat": "apparel",
-      "soc": 92,
-      "sales": 82,
-      "news": 93,
-      "delta": 0.0,
+      "soc": 94,
+      "sales": 83,
+      "news": 95,
+      "delta": 2,
       "trend": [
         89,
         89,
@@ -114,9 +114,9 @@ var DASH_DATA = {
         89,
         89,
         89,
-        89
+        91
       ],
-      "heat": 89
+      "heat": 91
     },
     {
       "id": "nike",
@@ -125,7 +125,7 @@ var DASH_DATA = {
       "soc": 80,
       "sales": 72,
       "news": 88,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         79,
         79,
@@ -149,7 +149,7 @@ var DASH_DATA = {
       "soc": 73,
       "sales": 76,
       "news": 69,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         73,
         73,
@@ -173,7 +173,7 @@ var DASH_DATA = {
       "soc": 73,
       "sales": 74,
       "news": 70,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         73,
         73,
@@ -197,7 +197,7 @@ var DASH_DATA = {
       "soc": 66,
       "sales": 68,
       "news": 56,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         65,
         65,
@@ -221,7 +221,7 @@ var DASH_DATA = {
       "soc": 62,
       "sales": 68,
       "news": 66,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         65,
         65,
@@ -245,7 +245,7 @@ var DASH_DATA = {
       "soc": 59,
       "sales": 65,
       "news": 61,
-      "delta": -1.0,
+      "delta": 0,
       "trend": [
         62,
         62,
@@ -256,7 +256,7 @@ var DASH_DATA = {
         62,
         62,
         62,
-        62,
+        61,
         61,
         61
       ],
@@ -269,7 +269,7 @@ var DASH_DATA = {
       "soc": 55,
       "sales": 58,
       "news": 45,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         54,
         54,
@@ -293,7 +293,7 @@ var DASH_DATA = {
       "soc": 58,
       "sales": 64,
       "news": 67,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         62,
         62,
@@ -317,7 +317,7 @@ var DASH_DATA = {
       "soc": 64,
       "sales": 56,
       "news": 76,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         64,
         64,
@@ -341,7 +341,7 @@ var DASH_DATA = {
       "soc": 56,
       "sales": 54,
       "news": 70,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         58,
         58,
@@ -365,7 +365,7 @@ var DASH_DATA = {
       "soc": 48,
       "sales": 46,
       "news": 42,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         46,
         46,
@@ -389,7 +389,7 @@ var DASH_DATA = {
       "soc": 46,
       "sales": 44,
       "news": 42,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         45,
         45,
@@ -413,7 +413,7 @@ var DASH_DATA = {
       "soc": 44,
       "sales": 42,
       "news": 44,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         43,
         43,
@@ -437,7 +437,7 @@ var DASH_DATA = {
       "soc": 42,
       "sales": 40,
       "news": 38,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         41,
         41,
@@ -461,7 +461,7 @@ var DASH_DATA = {
       "soc": 51,
       "sales": 48,
       "news": 72,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         54,
         54,
@@ -482,12 +482,11 @@ var DASH_DATA = {
       "id": "mixue",
       "name": "蜜雪冰城",
       "cat": "food",
-      "soc": 80,
-      "sales": 85,
-      "news": 83,
-      "delta": 0.0,
+      "soc": 82,
+      "sales": 86,
+      "news": 86,
+      "delta": 2,
       "trend": [
-        82,
         82,
         82,
         82,
@@ -498,18 +497,19 @@ var DASH_DATA = {
         81,
         82,
         82,
-        82
+        82,
+        84
       ],
-      "heat": 82
+      "heat": 84
     },
     {
       "id": "luckin",
       "name": "瑞幸咖啡",
       "cat": "food",
-      "soc": 93,
-      "sales": 90,
-      "news": 103,
-      "delta": 0.0,
+      "soc": 96,
+      "sales": 91,
+      "news": 108,
+      "delta": 3,
       "trend": [
         94,
         94,
@@ -522,20 +522,19 @@ var DASH_DATA = {
         94,
         94,
         94,
-        94
+        97
       ],
-      "heat": 94
+      "heat": 97
     },
     {
       "id": "bawang",
       "name": "霸王茶姬",
       "cat": "food",
-      "soc": 87,
-      "sales": 88,
-      "news": 93,
-      "delta": 4.0,
+      "soc": 88,
+      "sales": 89,
+      "news": 95,
+      "delta": 1,
       "trend": [
-        85,
         85,
         85,
         85,
@@ -546,9 +545,10 @@ var DASH_DATA = {
         87,
         86,
         89,
-        89
+        89,
+        90
       ],
-      "heat": 89
+      "heat": 90
     },
     {
       "id": "starbucks",
@@ -557,7 +557,7 @@ var DASH_DATA = {
       "soc": 78,
       "sales": 74,
       "news": 78,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         77,
         77,
@@ -581,7 +581,7 @@ var DASH_DATA = {
       "soc": 76,
       "sales": 70,
       "news": 74,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         74,
         74,
@@ -602,10 +602,10 @@ var DASH_DATA = {
       "id": "guming",
       "name": "古茗",
       "cat": "food",
-      "soc": 73,
-      "sales": 78,
-      "news": 88,
-      "delta": 2.0,
+      "soc": 74,
+      "sales": 79,
+      "news": 89,
+      "delta": 0,
       "trend": [
         76,
         76,
@@ -616,7 +616,7 @@ var DASH_DATA = {
         76,
         76,
         76,
-        76,
+        78,
         78,
         78
       ],
@@ -629,7 +629,7 @@ var DASH_DATA = {
       "soc": 71,
       "sales": 70,
       "news": 77,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         72,
         72,
@@ -653,7 +653,7 @@ var DASH_DATA = {
       "soc": 68,
       "sales": 60,
       "news": 72,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         66,
         66,
@@ -677,7 +677,7 @@ var DASH_DATA = {
       "soc": 64,
       "sales": 62,
       "news": 66,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         64,
         64,
@@ -701,7 +701,7 @@ var DASH_DATA = {
       "soc": 62,
       "sales": 62,
       "news": 64,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         62,
         62,
@@ -725,7 +725,7 @@ var DASH_DATA = {
       "soc": 58,
       "sales": 60,
       "news": 58,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         59,
         59,
@@ -749,7 +749,7 @@ var DASH_DATA = {
       "soc": 70,
       "sales": 68,
       "news": 74,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         70,
         70,
@@ -770,12 +770,11 @@ var DASH_DATA = {
       "id": "popmart",
       "name": "泡泡玛特",
       "cat": "ip",
-      "soc": 94,
-      "sales": 94,
-      "news": 99,
-      "delta": 2.0,
+      "soc": 97,
+      "sales": 95,
+      "news": 103,
+      "delta": 3,
       "trend": [
-        93,
         93,
         93,
         93,
@@ -786,9 +785,10 @@ var DASH_DATA = {
         98,
         95,
         95,
-        95
+        95,
+        98
       ],
-      "heat": 95
+      "heat": 98
     },
     {
       "id": "blokees",
@@ -797,7 +797,7 @@ var DASH_DATA = {
       "soc": 79,
       "sales": 74,
       "news": 79,
-      "delta": 1.0,
+      "delta": 0,
       "trend": [
         77,
         77,
@@ -806,7 +806,7 @@ var DASH_DATA = {
         77,
         77,
         77,
-        77,
+        78,
         78,
         78,
         78,
@@ -821,7 +821,7 @@ var DASH_DATA = {
       "soc": 77,
       "sales": 72,
       "news": 80,
-      "delta": 2.0,
+      "delta": 0,
       "trend": [
         74,
         74,
@@ -832,7 +832,7 @@ var DASH_DATA = {
         74,
         74,
         74,
-        74,
+        76,
         76,
         76
       ],
@@ -845,7 +845,7 @@ var DASH_DATA = {
       "soc": 72,
       "sales": 70,
       "news": 73,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         72,
         72,
@@ -869,7 +869,7 @@ var DASH_DATA = {
       "soc": 71,
       "sales": 68,
       "news": 51,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         66,
         66,
@@ -893,7 +893,7 @@ var DASH_DATA = {
       "soc": 66,
       "sales": 60,
       "news": 48,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         61,
         61,
@@ -917,7 +917,7 @@ var DASH_DATA = {
       "soc": 62,
       "sales": 58,
       "news": 46,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         58,
         58,
@@ -941,7 +941,7 @@ var DASH_DATA = {
       "soc": 60,
       "sales": 56,
       "news": 44,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         56,
         56,
@@ -965,7 +965,7 @@ var DASH_DATA = {
       "soc": 55,
       "sales": 52,
       "news": 52,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         54,
         54,
@@ -989,7 +989,7 @@ var DASH_DATA = {
       "soc": 50,
       "sales": 60,
       "news": 42,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         51,
         51,
@@ -1010,12 +1010,11 @@ var DASH_DATA = {
       "id": "miniso",
       "name": "名创优品",
       "cat": "daily",
-      "soc": 95,
-      "sales": 89,
-      "news": 103,
-      "delta": 2.0,
+      "soc": 96,
+      "sales": 90,
+      "news": 104,
+      "delta": 1,
       "trend": [
-        93,
         93,
         93,
         93,
@@ -1026,9 +1025,10 @@ var DASH_DATA = {
         94,
         94,
         95,
-        95
+        95,
+        96
       ],
-      "heat": 95
+      "heat": 96
     },
     {
       "id": "purcotton",
@@ -1037,7 +1037,7 @@ var DASH_DATA = {
       "soc": 66,
       "sales": 68,
       "news": 62,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         66,
         66,
@@ -1061,7 +1061,7 @@ var DASH_DATA = {
       "soc": 62,
       "sales": 72,
       "news": 58,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         64,
         64,
@@ -1085,7 +1085,7 @@ var DASH_DATA = {
       "soc": 60,
       "sales": 71,
       "news": 58,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         63,
         63,
@@ -1109,7 +1109,7 @@ var DASH_DATA = {
       "soc": 66,
       "sales": 62,
       "news": 58,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         63,
         63,
@@ -1133,7 +1133,7 @@ var DASH_DATA = {
       "soc": 58,
       "sales": 60,
       "news": 44,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         56,
         56,
@@ -1157,7 +1157,7 @@ var DASH_DATA = {
       "soc": 82,
       "sales": 60,
       "news": 85,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         76,
         76,
@@ -1181,7 +1181,7 @@ var DASH_DATA = {
       "soc": 46,
       "sales": 58,
       "news": 40,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         48,
         48,
@@ -1205,7 +1205,7 @@ var DASH_DATA = {
       "soc": 52,
       "sales": 62,
       "news": 40,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         53,
         53,
@@ -1229,7 +1229,7 @@ var DASH_DATA = {
       "soc": 45,
       "sales": 58,
       "news": 40,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         48,
         48,
@@ -1253,7 +1253,7 @@ var DASH_DATA = {
       "soc": 82,
       "sales": 62,
       "news": 86,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         77,
         77,
@@ -1277,7 +1277,7 @@ var DASH_DATA = {
       "soc": 85,
       "sales": 76,
       "news": 85,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         82,
         82,
@@ -1301,7 +1301,7 @@ var DASH_DATA = {
       "soc": 62,
       "sales": 58,
       "news": 56,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         60,
         60,
@@ -1325,7 +1325,7 @@ var DASH_DATA = {
       "soc": 66,
       "sales": 60,
       "news": 58,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         63,
         63,
@@ -1349,7 +1349,7 @@ var DASH_DATA = {
       "soc": 58,
       "sales": 62,
       "news": 46,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         57,
         57,
@@ -1373,7 +1373,7 @@ var DASH_DATA = {
       "soc": 52,
       "sales": 64,
       "news": 48,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         55,
         55,
@@ -1397,7 +1397,7 @@ var DASH_DATA = {
       "soc": 48,
       "sales": 62,
       "news": 44,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         51,
         51,
@@ -1421,7 +1421,7 @@ var DASH_DATA = {
       "soc": 56,
       "sales": 66,
       "news": 50,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         58,
         58,
@@ -1445,7 +1445,7 @@ var DASH_DATA = {
       "soc": 54,
       "sales": 60,
       "news": 46,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         54,
         54,
@@ -1469,7 +1469,7 @@ var DASH_DATA = {
       "soc": 60,
       "sales": 70,
       "news": 52,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         61,
         61,
@@ -1493,7 +1493,7 @@ var DASH_DATA = {
       "soc": 58,
       "sales": 62,
       "news": 48,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         57,
         57,
@@ -1517,7 +1517,7 @@ var DASH_DATA = {
       "soc": 62,
       "sales": 68,
       "news": 49,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         61,
         61,
@@ -1526,8 +1526,8 @@ var DASH_DATA = {
         61,
         61,
         61,
-        61,
         62,
+        61,
         61,
         61,
         61
@@ -1541,7 +1541,7 @@ var DASH_DATA = {
       "soc": 85,
       "sales": 72,
       "news": 85,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         81,
         81,
@@ -1550,8 +1550,8 @@ var DASH_DATA = {
         81,
         81,
         81,
-        81,
         83,
+        81,
         81,
         81,
         81
@@ -1565,7 +1565,7 @@ var DASH_DATA = {
       "soc": 64,
       "sales": 58,
       "news": 62,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         62,
         62,
@@ -1589,7 +1589,7 @@ var DASH_DATA = {
       "soc": 70,
       "sales": 60,
       "news": 82,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         69,
         69,
@@ -1610,12 +1610,11 @@ var DASH_DATA = {
       "id": "proya",
       "name": "珀莱雅",
       "cat": "beauty",
-      "soc": 87,
-      "sales": 84,
-      "news": 93,
-      "delta": 1.0,
+      "soc": 91,
+      "sales": 87,
+      "news": 98,
+      "delta": 4,
       "trend": [
-        86,
         86,
         86,
         86,
@@ -1626,9 +1625,10 @@ var DASH_DATA = {
         88,
         86,
         87,
-        87
+        87,
+        91
       ],
-      "heat": 87
+      "heat": 91
     },
     {
       "id": "florasis",
@@ -1637,7 +1637,7 @@ var DASH_DATA = {
       "soc": 75,
       "sales": 66,
       "news": 80,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         73,
         73,
@@ -1661,7 +1661,7 @@ var DASH_DATA = {
       "soc": 66,
       "sales": 64,
       "news": 70,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         66,
         66,
@@ -1685,7 +1685,7 @@ var DASH_DATA = {
       "soc": 72,
       "sales": 70,
       "news": 79,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         73,
         73,
@@ -1694,8 +1694,8 @@ var DASH_DATA = {
         73,
         73,
         73,
-        73,
         74,
+        73,
         73,
         73,
         73
@@ -1709,7 +1709,7 @@ var DASH_DATA = {
       "soc": 74,
       "sales": 66,
       "news": 74,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         72,
         72,
@@ -1733,7 +1733,7 @@ var DASH_DATA = {
       "soc": 67,
       "sales": 58,
       "news": 64,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         64,
         64,
@@ -1757,7 +1757,7 @@ var DASH_DATA = {
       "soc": 70,
       "sales": 64,
       "news": 82,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         71,
         71,
@@ -1781,7 +1781,7 @@ var DASH_DATA = {
       "soc": 86,
       "sales": 74,
       "news": 89,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         83,
         83,
@@ -1805,7 +1805,7 @@ var DASH_DATA = {
       "soc": 68,
       "sales": 66,
       "news": 66,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         67,
         67,
@@ -1829,7 +1829,7 @@ var DASH_DATA = {
       "soc": 68,
       "sales": 67,
       "news": 66,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         67,
         67,
@@ -1850,10 +1850,10 @@ var DASH_DATA = {
       "id": "winona",
       "name": "薇诺娜",
       "cat": "beauty",
-      "soc": 66,
-      "sales": 62,
-      "news": 64,
-      "delta": 0.0,
+      "soc": 68,
+      "sales": 63,
+      "news": 67,
+      "delta": 2,
       "trend": [
         64,
         64,
@@ -1866,9 +1866,9 @@ var DASH_DATA = {
         64,
         64,
         64,
-        64
+        66
       ],
-      "heat": 64
+      "heat": 66
     },
     {
       "id": "skechers",
@@ -1876,7 +1876,7 @@ var DASH_DATA = {
       "soc": 81,
       "sales": 80,
       "news": 86,
-      "delta": 1.0,
+      "delta": 0,
       "trend": [
         81,
         81,
@@ -1885,7 +1885,7 @@ var DASH_DATA = {
         81,
         81,
         81,
-        81,
+        82,
         82,
         82,
         82,
@@ -1900,7 +1900,7 @@ var DASH_DATA = {
       "soc": 75,
       "sales": 78,
       "news": 79,
-      "delta": 1.0,
+      "delta": 0,
       "trend": [
         76,
         76,
@@ -1909,7 +1909,7 @@ var DASH_DATA = {
         76,
         76,
         76,
-        76,
+        77,
         77,
         77,
         77,
@@ -1924,7 +1924,7 @@ var DASH_DATA = {
       "soc": 76,
       "sales": 62,
       "news": 78,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         72,
         72,
@@ -1948,7 +1948,7 @@ var DASH_DATA = {
       "soc": 72,
       "sales": 66,
       "news": 74,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         71,
         71,
@@ -1972,7 +1972,7 @@ var DASH_DATA = {
       "soc": 70,
       "sales": 64,
       "news": 68,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         68,
         68,
@@ -1996,7 +1996,7 @@ var DASH_DATA = {
       "soc": 66,
       "sales": 68,
       "news": 76,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         69,
         69,
@@ -2020,7 +2020,7 @@ var DASH_DATA = {
       "soc": 62,
       "sales": 66,
       "news": 64,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         64,
         64,
@@ -2044,7 +2044,7 @@ var DASH_DATA = {
       "soc": 58,
       "sales": 52,
       "news": 56,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         56,
         56,
@@ -2068,7 +2068,7 @@ var DASH_DATA = {
       "soc": 52,
       "sales": 48,
       "news": 54,
-      "delta": 0.0,
+      "delta": 0,
       "trend": [
         51,
         51,
@@ -2088,6 +2088,141 @@ var DASH_DATA = {
     }
   ],
   "news": [
+    {
+      "brand": "proya",
+      "cat": "beauty",
+      "title": "珀莱雅双11红宝石面霜4.0预售超40万件，成李佳琦美妆节最大赢家",
+      "summary": "10-15 天猫双11预售开闸，珀莱雅红宝石面霜迭代至4.0、新品蕴白系列当场售罄10万套+，开启15天预售模式，双抗特证面膜预售约20万件。",
+      "source": "申万化妆品",
+      "date": "10-21",
+      "url": "https://news.qq.com/rain/a/20261016A0049G00",
+      "heat": 92,
+      "tags": [
+        "双11",
+        "珀莱雅",
+        "美妆节"
+      ]
+    },
+    {
+      "brand": "luckin",
+      "cat": "food",
+      "title": "瑞幸全国3.6万家门店上新珍珠奶茶系列，9.9元起跨界茶饮",
+      "summary": "10-12 瑞幸正式上新经典珍珠奶茶/黑糖珍珠泰奶，主打0植脂末现煮珍珠，并官宣黄油小熊联名，向现制饮品全品类加速升级。",
+      "source": "观察者网",
+      "date": "10-21",
+      "url": "https://www.toutiao.com/article/7695982507922735626",
+      "heat": 88,
+      "tags": [
+        "瑞幸",
+        "珍珠奶茶",
+        "跨界"
+      ]
+    },
+    {
+      "brand": "popmart",
+      "cat": "ip",
+      "title": "泡泡玛特LABUBU「一喵变猫」发售，隐藏款缅因猫炒至666元",
+      "summary": "10-15 LABUBU新系列盲盒开售数秒售罄，隐藏款二级市场价格一度达666元（溢价4倍）；上半年集团营收171.7亿、经调整净利51.6亿。",
+      "source": "蓝鲸新闻",
+      "date": "10-21",
+      "url": "https://www.toutiao.com/article/7697086393650070067",
+      "heat": 90,
+      "tags": [
+        "泡泡玛特",
+        "LABUBU",
+        "盲盒"
+      ]
+    },
+    {
+      "brand": "anta",
+      "cat": "apparel",
+      "title": "安踏完成收购PUMA 29.06%股权，正式成为第一大股东",
+      "summary": "10-7 安踏集团以15.055亿欧元完成收购PUMA 29.06%股权交割，品牌矩阵新增国际运动品牌；10-15 官宣吴昕品牌大使、与清华联合研究院升级。",
+      "source": "腾讯新闻",
+      "date": "10-21",
+      "url": "https://news.qq.com/rain/a/20261010A0CM2H00",
+      "heat": 89,
+      "tags": [
+        "安踏",
+        "PUMA",
+        "收购"
+      ]
+    },
+    {
+      "brand": "lining",
+      "cat": "apparel",
+      "title": "李宁与NBA中国达成多年市场合作伙伴，故宫联名系列10月上市",
+      "summary": "10-7 李宁宣布与NBA中国多年合作，覆盖NBA Hoop Park/House及青少年篮球；山河入色·故宫联名羽绒服/飞电6 e于10月上市。",
+      "source": "今日头条",
+      "date": "10-21",
+      "url": "https://www.toutiao.com/article/7697549109787410999",
+      "heat": 86,
+      "tags": [
+        "李宁",
+        "NBA",
+        "故宫联名"
+      ]
+    },
+    {
+      "brand": "mixue",
+      "cat": "food",
+      "title": "蜜雪冰城洛阳旗舰店开业三天营业额超332万元，刷新单店日销纪录",
+      "summary": "国庆期间蜜雪冰城洛阳旗舰店融入本地文化升级场景，3天累计营业额超332万、单日破120万；2026上半年收入152.16亿、全球门店约6.4万家。",
+      "source": "腾讯新闻",
+      "date": "10-21",
+      "url": "https://news.qq.com/rain/a/20261012A0B40W00",
+      "heat": 84,
+      "tags": [
+        "蜜雪冰城",
+        "旗舰店",
+        "线下"
+      ]
+    },
+    {
+      "brand": "maogeping",
+      "cat": "beauty",
+      "title": "毛戈平双11黑曜气垫预售超10万+，护肤心智持续蓄势",
+      "summary": "10-15 李佳琦美妆节毛戈平黑曜气垫预售超10万+、皮肤衣预计超3万件，上播SKU同比+2，彩妆心智领先、护肤线发力。",
+      "source": "申万化妆品",
+      "date": "10-21",
+      "url": "https://news.qq.com/rain/a/20261018A0AX2U00",
+      "heat": 85,
+      "tags": [
+        "毛戈平",
+        "双11",
+        "气垫"
+      ]
+    },
+    {
+      "brand": "winona",
+      "cat": "beauty",
+      "title": "薇诺娜双11特护霜预售超20万件，敏感肌大单品领跑",
+      "summary": "10-15 薇诺娜特护霜预售预计超20万件、清透防晒乳约10万件，经典大单品合作李佳琦直播间，双11业绩增长可期。",
+      "source": "搜狐时尚",
+      "date": "10-21",
+      "url": "https://fashion.sohu.com/a/1087774502_122946192",
+      "heat": 83,
+      "tags": [
+        "薇诺娜",
+        "双11",
+        "敏感肌"
+      ]
+    },
+    {
+      "brand": "bawang",
+      "cat": "food",
+      "title": "霸王茶姬郑钦文中网夺冠推买一送一，小程序因流量过大崩溃",
+      "summary": "10-12 霸王茶姬借全球代言人郑钦文中网夺冠推全品类买一送一，官方小程序因流量过大崩溃，品牌国民度持续攀升。",
+      "source": "观察者网",
+      "date": "10-21",
+      "url": "https://www.toutiao.com/article/7695930377562505762",
+      "heat": 82,
+      "tags": [
+        "霸王茶姬",
+        "郑钦文",
+        "体育营销"
+      ]
+    },
     {
       "brand": "FILA",
       "cat": "apparel",
@@ -4873,669 +5008,669 @@ var DASH_DATA = {
     }
   ],
   "hotlists": {
-    "note": "2026-10-20 19:00 重抓：微博(60s.viki.moe实时热搜Top30)、抖音(iesdouyin官方热点榜Top30)为实时真实榜单（抓取于2026-10-20 19:02:01）；小红书热点榜(12)/活动榜(3)/热门话题榜(20)依据小红书官方2026秋冬趋势「繁荣主义」(浏览1.8亿+)与千瓜数据报告经WebSearch聚合整理（真实近期话题：月亮节/大城小聚/繁荣主义等）；wbEntertainment(微博文娱榜)与dySeeding(抖音种草榜)由热搜总榜按文娱/种草标签筛选增补；所有条目date=10-20，url直连话题/搜索页。",
+    "note": "2026-10-21 12:45 重抓：微博(60s.viki.moe 实时热搜 Top30)、抖音(iesdouyin 官方热点榜 Top30) 为实时真实榜单（抓取于 2026-10-21 12:44）；小红书热点榜(12)/活动榜(3)/热门话题榜(20) 依据小红书官方2026秋冬趋势「繁荣主义」与千瓜数据报告经 WebSearch 聚合整理（近90日热点，沿用）；wbEntertainment(微博文娱榜) 与 dySeeding(抖音种草榜) 由 10-21 实时热搜总榜按文娱/种草标签筛选增补；所有条目 date=10-21，url 直连话题/搜索页。",
     "weibo": [
       {
         "rank": 1,
-        "topic": "钟南山院士才是真正的薄肌90后",
-        "note": "微博实时热搜第1位，热度1132670",
+        "topic": "拟出台的中国AI禁令震动全球",
+        "note": "微博实时热搜第1位，热度1,162,335",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E9%99%A2%E5%A3%AB%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%96%84%E8%82%8C90%E5%90%8E",
+        "url": "https://s.weibo.com/weibo?q=%E6%8B%9F%E5%87%BA%E5%8F%B0%E7%9A%84%E4%B8%AD%E5%9B%BDAI%E7%A6%81%E4%BB%A4%E9%9C%87%E5%8A%A8%E5%85%A8%E7%90%83",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E9%99%A2%E5%A3%AB%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%96%84%E8%82%8C90%E5%90%8E"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%8B%9F%E5%87%BA%E5%8F%B0%E7%9A%84%E4%B8%AD%E5%9B%BDAI%E7%A6%81%E4%BB%A4%E9%9C%87%E5%8A%A8%E5%85%A8%E7%90%83"
       },
       {
         "rank": 2,
-        "topic": "韩路说小天才手表烂而且极贵",
-        "note": "微博实时热搜第2位，热度835508",
+        "topic": "武志红 李雪",
+        "note": "微博实时热搜第2位，热度979,820",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E8%B7%AF%E8%AF%B4%E5%B0%8F%E5%A4%A9%E6%89%8D%E6%89%8B%E8%A1%A8%E7%83%82%E8%80%8C%E4%B8%94%E6%9E%81%E8%B4%B5",
+        "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E5%BF%97%E7%BA%A2%20%E6%9D%8E%E9%9B%AA",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E9%9F%A9%E8%B7%AF%E8%AF%B4%E5%B0%8F%E5%A4%A9%E6%89%8D%E6%89%8B%E8%A1%A8%E7%83%82%E8%80%8C%E4%B8%94%E6%9E%81%E8%B4%B5"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%AD%A6%E5%BF%97%E7%BA%A2%20%E6%9D%8E%E9%9B%AA"
       },
       {
         "rank": 3,
-        "topic": "90年了我们一直在找你们的名字",
-        "note": "微博实时热搜第3位，热度636972",
+        "topic": "一组数字看震撼人心的伟大远征",
+        "note": "微博实时热搜第3位，热度918,777",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=90%E5%B9%B4%E4%BA%86%E6%88%91%E4%BB%AC%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%89%BE%E4%BD%A0%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%BB%84%E6%95%B0%E5%AD%97%E7%9C%8B%E9%9C%87%E6%92%BC%E4%BA%BA%E5%BF%83%E7%9A%84%E4%BC%9F%E5%A4%A7%E8%BF%9C%E5%BE%81",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=90%E5%B9%B4%E4%BA%86%E6%88%91%E4%BB%AC%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%89%BE%E4%BD%A0%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E4%B8%80%E7%BB%84%E6%95%B0%E5%AD%97%E7%9C%8B%E9%9C%87%E6%92%BC%E4%BA%BA%E5%BF%83%E7%9A%84%E4%BC%9F%E5%A4%A7%E8%BF%9C%E5%BE%81"
       },
       {
         "rank": 4,
-        "topic": "被狗咬伤后狗死亡女子已打疫苗",
-        "note": "微博实时热搜第4位，热度631649",
+        "topic": "雷霆马刺大冲突",
+        "note": "微博实时热搜第4位，热度909,439",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%A2%AB%E7%8B%97%E5%92%AC%E4%BC%A4%E5%90%8E%E7%8B%97%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%AD%90%E5%B7%B2%E6%89%93%E7%96%AB%E8%8B%97",
+        "url": "https://s.weibo.com/weibo?q=%E9%9B%B7%E9%9C%86%E9%A9%AC%E5%88%BA%E5%A4%A7%E5%86%B2%E7%AA%81",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%A2%AB%E7%8B%97%E5%92%AC%E4%BC%A4%E5%90%8E%E7%8B%97%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%AD%90%E5%B7%B2%E6%89%93%E7%96%AB%E8%8B%97"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E9%9B%B7%E9%9C%86%E9%A9%AC%E5%88%BA%E5%A4%A7%E5%86%B2%E7%AA%81"
       },
       {
         "rank": 5,
-        "topic": "新鲜牛肉烫10秒到底够不够",
-        "note": "微博实时热搜第5位，热度624484",
+        "topic": "目前我国只批准两款L3车型",
+        "note": "微博实时热搜第5位，热度719,281",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%96%B0%E9%B2%9C%E7%89%9B%E8%82%89%E7%83%AB10%E7%A7%92%E5%88%B0%E5%BA%95%E5%A4%9F%E4%B8%8D%E5%A4%9F",
+        "url": "https://s.weibo.com/weibo?q=%E7%9B%AE%E5%89%8D%E6%88%91%E5%9B%BD%E5%8F%AA%E6%89%B9%E5%87%86%E4%B8%A4%E6%AC%BEL3%E8%BD%A6%E5%9E%8B",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%96%B0%E9%B2%9C%E7%89%9B%E8%82%89%E7%83%AB10%E7%A7%92%E5%88%B0%E5%BA%95%E5%A4%9F%E4%B8%8D%E5%A4%9F"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%9B%AE%E5%89%8D%E6%88%91%E5%9B%BD%E5%8F%AA%E6%89%B9%E5%87%86%E4%B8%A4%E6%AC%BEL3%E8%BD%A6%E5%9E%8B"
       },
       {
         "rank": 6,
-        "topic": "维密靠大学生翻身",
-        "note": "微博实时热搜第6位，热度411035",
+        "topic": "国家癌症中心公布发病前五癌症",
+        "note": "微博实时热搜第6位，热度697,770",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%BB%B4%E5%AF%86%E9%9D%A0%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BF%BB%E8%BA%AB",
+        "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E7%99%8C%E7%97%87%E4%B8%AD%E5%BF%83%E5%85%AC%E5%B8%83%E5%8F%91%E7%97%85%E5%89%8D%E4%BA%94%E7%99%8C%E7%97%87",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%BB%B4%E5%AF%86%E9%9D%A0%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BF%BB%E8%BA%AB"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E7%99%8C%E7%97%87%E4%B8%AD%E5%BF%83%E5%85%AC%E5%B8%83%E5%8F%91%E7%97%85%E5%89%8D%E4%BA%94%E7%99%8C%E7%97%87"
       },
       {
         "rank": 7,
-        "topic": "前三季度国民经济四大亮点",
-        "note": "微博实时热搜第7位，热度410147",
+        "topic": "甲状腺癌为何越来越多",
+        "note": "微博实时热搜第7位，热度639,130",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E5%9B%9B%E5%A4%A7%E4%BA%AE%E7%82%B9",
+        "url": "https://s.weibo.com/weibo?q=%E7%94%B2%E7%8A%B6%E8%85%BA%E7%99%8C%E4%B8%BA%E4%BD%95%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E5%9B%9B%E5%A4%A7%E4%BA%AE%E7%82%B9"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B2%E7%8A%B6%E8%85%BA%E7%99%8C%E4%B8%BA%E4%BD%95%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A4%9A"
       },
       {
         "rank": 8,
-        "topic": "钟南山心梗后仍每周运动3次",
-        "note": "微博实时热搜第8位，热度409533",
+        "topic": "13岁男孩被打后多次求助宿管遭拒",
+        "note": "微博实时热搜第8位，热度479,772",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E5%BF%83%E6%A2%97%E5%90%8E%E4%BB%8D%E6%AF%8F%E5%91%A8%E8%BF%90%E5%8A%A83%E6%AC%A1",
+        "url": "https://s.weibo.com/weibo?q=13%E5%B2%81%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%89%93%E5%90%8E%E5%A4%9A%E6%AC%A1%E6%B1%82%E5%8A%A9%E5%AE%BF%E7%AE%A1%E9%81%AD%E6%8B%92",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E5%BF%83%E6%A2%97%E5%90%8E%E4%BB%8D%E6%AF%8F%E5%91%A8%E8%BF%90%E5%8A%A83%E6%AC%A1"
+        "reportUrl": "https://s.weibo.com/weibo?q=13%E5%B2%81%E7%94%B7%E5%AD%A9%E8%A2%AB%E6%89%93%E5%90%8E%E5%A4%9A%E6%AC%A1%E6%B1%82%E5%8A%A9%E5%AE%BF%E7%AE%A1%E9%81%AD%E6%8B%92"
       },
       {
         "rank": 9,
-        "topic": "小米全新车型曝光",
-        "note": "微博实时热搜第9位，热度284307",
+        "topic": "宝马员工争着离职挤崩系统",
+        "note": "微博实时热搜第9位，热度465,399",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%85%A8%E6%96%B0%E8%BD%A6%E5%9E%8B%E6%9B%9D%E5%85%89",
+        "url": "https://s.weibo.com/weibo?q=%E5%AE%9D%E9%A9%AC%E5%91%98%E5%B7%A5%E4%BA%89%E7%9D%80%E7%A6%BB%E8%81%8C%E6%8C%A4%E5%B4%A9%E7%B3%BB%E7%BB%9F",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%85%A8%E6%96%B0%E8%BD%A6%E5%9E%8B%E6%9B%9D%E5%85%89"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%AE%9D%E9%A9%AC%E5%91%98%E5%B7%A5%E4%BA%89%E7%9D%80%E7%A6%BB%E8%81%8C%E6%8C%A4%E5%B4%A9%E7%B3%BB%E7%BB%9F"
       },
       {
         "rank": 10,
-        "topic": "智驾小蓝灯 L3车型",
-        "note": "微博实时热搜第10位，热度239554",
+        "topic": "魏娆知道自己的身世了",
+        "note": "微博实时热搜第10位，热度442,420",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%99%BA%E9%A9%BE%E5%B0%8F%E8%93%9D%E7%81%AF%20L3%E8%BD%A6%E5%9E%8B",
+        "url": "https://s.weibo.com/weibo?q=%E9%AD%8F%E5%A8%86%E7%9F%A5%E9%81%93%E8%87%AA%E5%B7%B1%E7%9A%84%E8%BA%AB%E4%B8%96%E4%BA%86",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%99%BA%E9%A9%BE%E5%B0%8F%E8%93%9D%E7%81%AF%20L3%E8%BD%A6%E5%9E%8B"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E9%AD%8F%E5%A8%86%E7%9F%A5%E9%81%93%E8%87%AA%E5%B7%B1%E7%9A%84%E8%BA%AB%E4%B8%96%E4%BA%86"
       },
       {
         "rank": 11,
-        "topic": "曝湖南台力捧张雅琪原因",
-        "note": "微博实时热搜第11位，热度238114",
+        "topic": "男子编造肖战演唱会谣言被行拘",
+        "note": "微博实时热搜第11位，热度440,024",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%B9%96%E5%8D%97%E5%8F%B0%E5%8A%9B%E6%8D%A7%E5%BC%A0%E9%9B%85%E7%90%AA%E5%8E%9F%E5%9B%A0",
+        "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E7%BC%96%E9%80%A0%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E8%B0%A3%E8%A8%80%E8%A2%AB%E8%A1%8C%E6%8B%98",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%B9%96%E5%8D%97%E5%8F%B0%E5%8A%9B%E6%8D%A7%E5%BC%A0%E9%9B%85%E7%90%AA%E5%8E%9F%E5%9B%A0"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E7%BC%96%E9%80%A0%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E8%B0%A3%E8%A8%80%E8%A2%AB%E8%A1%8C%E6%8B%98"
       },
       {
         "rank": 12,
-        "topic": "刘恺威黎纪君承认恋情",
-        "note": "微博实时热搜第12位，热度237161",
+        "topic": "曝艺人自费高定",
+        "note": "微博实时热搜第12位，热度438,733",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E9%BB%8E%E7%BA%AA%E5%90%9B%E6%89%BF%E8%AE%A4%E6%81%8B%E6%83%85",
+        "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E8%89%BA%E4%BA%BA%E8%87%AA%E8%B4%B9%E9%AB%98%E5%AE%9A",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E9%BB%8E%E7%BA%AA%E5%90%9B%E6%89%BF%E8%AE%A4%E6%81%8B%E6%83%85"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%9B%9D%E8%89%BA%E4%BA%BA%E8%87%AA%E8%B4%B9%E9%AB%98%E5%AE%9A"
       },
       {
         "rank": 13,
-        "topic": "小天才封闭社交倒逼家长购买",
-        "note": "微博实时热搜第13位，热度235756",
+        "topic": "檀健次听劝接了纸巾代言",
+        "note": "微博实时热搜第13位，热度434,809",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%A4%A9%E6%89%8D%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E5%80%92%E9%80%BC%E5%AE%B6%E9%95%BF%E8%B4%AD%E4%B9%B0",
+        "url": "https://s.weibo.com/weibo?q=%E6%AA%80%E5%81%A5%E6%AC%A1%E5%90%AC%E5%8A%9D%E6%8E%A5%E4%BA%86%E7%BA%B8%E5%B7%BE%E4%BB%A3%E8%A8%80",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%A4%A9%E6%89%8D%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E5%80%92%E9%80%BC%E5%AE%B6%E9%95%BF%E8%B4%AD%E4%B9%B0"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%AA%80%E5%81%A5%E6%AC%A1%E5%90%AC%E5%8A%9D%E6%8E%A5%E4%BA%86%E7%BA%B8%E5%B7%BE%E4%BB%A3%E8%A8%80"
       },
       {
         "rank": 14,
-        "topic": "肖战演唱会二开时间",
-        "note": "微博实时热搜第14位，热度235620",
+        "topic": "父亲遛狗幼童坠亡称已将狗处理",
+        "note": "微博实时热搜第14位，热度431,752",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E4%BA%8C%E5%BC%80%E6%97%B6%E9%97%B4",
+        "url": "https://s.weibo.com/weibo?q=%E7%88%B6%E4%BA%B2%E9%81%9B%E7%8B%97%E5%B9%BC%E7%AB%A5%E5%9D%A0%E4%BA%A1%E7%A7%B0%E5%B7%B2%E5%B0%86%E7%8B%97%E5%A4%84%E7%90%86",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E4%BA%8C%E5%BC%80%E6%97%B6%E9%97%B4"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%88%B6%E4%BA%B2%E9%81%9B%E7%8B%97%E5%B9%BC%E7%AB%A5%E5%9D%A0%E4%BA%A1%E7%A7%B0%E5%B7%B2%E5%B0%86%E7%8B%97%E5%A4%84%E7%90%86"
       },
       {
         "rank": 15,
-        "topic": "国家数据集团成立",
-        "note": "微博实时热搜第15位，热度235434",
+        "topic": "坠亡幼童爷爷称一家人不谈补偿问题",
+        "note": "微博实时热搜第15位，热度430,525",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2%E6%88%90%E7%AB%8B",
+        "url": "https://s.weibo.com/weibo?q=%E5%9D%A0%E4%BA%A1%E5%B9%BC%E7%AB%A5%E7%88%B7%E7%88%B7%E7%A7%B0%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%B8%8D%E8%B0%88%E8%A1%A5%E5%81%BF%E9%97%AE%E9%A2%98",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2%E6%88%90%E7%AB%8B"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%9D%A0%E4%BA%A1%E5%B9%BC%E7%AB%A5%E7%88%B7%E7%88%B7%E7%A7%B0%E4%B8%80%E5%AE%B6%E4%BA%BA%E4%B8%8D%E8%B0%88%E8%A1%A5%E5%81%BF%E9%97%AE%E9%A2%98"
       },
       {
         "rank": 16,
-        "topic": "工信部称确有部分车企产品验证不充分",
-        "note": "微博实时热搜第16位，热度235371",
+        "topic": "刘恺威曾谈对杨幂的第一印象",
+        "note": "微博实时热搜第16位，热度428,413",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%B7%A5%E4%BF%A1%E9%83%A8%E7%A7%B0%E7%A1%AE%E6%9C%89%E9%83%A8%E5%88%86%E8%BD%A6%E4%BC%81%E4%BA%A7%E5%93%81%E9%AA%8C%E8%AF%81%E4%B8%8D%E5%85%85%E5%88%86",
+        "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E6%9B%BE%E8%B0%88%E5%AF%B9%E6%9D%A8%E5%B9%82%E7%9A%84%E7%AC%AC%E4%B8%80%E5%8D%B0%E8%B1%A1",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%B7%A5%E4%BF%A1%E9%83%A8%E7%A7%B0%E7%A1%AE%E6%9C%89%E9%83%A8%E5%88%86%E8%BD%A6%E4%BC%81%E4%BA%A7%E5%93%81%E9%AA%8C%E8%AF%81%E4%B8%8D%E5%85%85%E5%88%86"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E6%9B%BE%E8%B0%88%E5%AF%B9%E6%9D%A8%E5%B9%82%E7%9A%84%E7%AC%AC%E4%B8%80%E5%8D%B0%E8%B1%A1"
       },
       {
         "rank": 17,
-        "topic": "郭宇欣直播打赏退款",
-        "note": "微博实时热搜第17位，热度235144",
+        "topic": "律师谈肖战二开不退票",
+        "note": "微博实时热搜第17位，热度425,534",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E9%83%AD%E5%AE%87%E6%AC%A3%E7%9B%B4%E6%92%AD%E6%89%93%E8%B5%8F%E9%80%80%E6%AC%BE",
+        "url": "https://s.weibo.com/weibo?q=%E5%BE%8B%E5%B8%88%E8%B0%88%E8%82%96%E6%88%98%E4%BA%8C%E5%BC%80%E4%B8%8D%E9%80%80%E7%A5%A8",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E9%83%AD%E5%AE%87%E6%AC%A3%E7%9B%B4%E6%92%AD%E6%89%93%E8%B5%8F%E9%80%80%E6%AC%BE"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BE%8B%E5%B8%88%E8%B0%88%E8%82%96%E6%88%98%E4%BA%8C%E5%BC%80%E4%B8%8D%E9%80%80%E7%A5%A8"
       },
       {
         "rank": 18,
-        "topic": "京东iPhone降价",
-        "note": "微博实时热搜第18位，热度234903",
+        "topic": "全明星阵容告诉你中国人能飞",
+        "note": "微博实时热搜第18位，热度420,896",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9CiPhone%E9%99%8D%E4%BB%B7",
+        "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E6%98%8E%E6%98%9F%E9%98%B5%E5%AE%B9%E5%91%8A%E8%AF%89%E4%BD%A0%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9CiPhone%E9%99%8D%E4%BB%B7"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%85%A8%E6%98%8E%E6%98%9F%E9%98%B5%E5%AE%B9%E5%91%8A%E8%AF%89%E4%BD%A0%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E"
       },
       {
         "rank": 19,
-        "topic": "特朗普民意支持率31%",
-        "note": "微博实时热搜第19位，热度234632",
+        "topic": "A股",
+        "note": "微博实时热搜第19位，热度420,707",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E6%B0%91%E6%84%8F%E6%94%AF%E6%8C%81%E7%8E%8731%25",
+        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E6%B0%91%E6%84%8F%E6%94%AF%E6%8C%81%E7%8E%8731%25"
+        "reportUrl": "https://s.weibo.com/weibo?q=A%E8%82%A1"
       },
       {
         "rank": 20,
-        "topic": "儿童手表封闭社交成常态",
-        "note": "微博实时热搜第20位，热度234613",
+        "topic": "国台办回应民进党当局拒绝张凌赫赴台",
+        "note": "微博实时热搜第20位，热度378,449",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%84%BF%E7%AB%A5%E6%89%8B%E8%A1%A8%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E6%88%90%E5%B8%B8%E6%80%81",
+        "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%8F%B0%E5%8A%9E%E5%9B%9E%E5%BA%94%E6%B0%91%E8%BF%9B%E5%85%9A%E5%BD%93%E5%B1%80%E6%8B%92%E7%BB%9D%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%B5%B4%E5%8F%B0",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%84%BF%E7%AB%A5%E6%89%8B%E8%A1%A8%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E6%88%90%E5%B8%B8%E6%80%81"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%8F%B0%E5%8A%9E%E5%9B%9E%E5%BA%94%E6%B0%91%E8%BF%9B%E5%85%9A%E5%BD%93%E5%B1%80%E6%8B%92%E7%BB%9D%E5%BC%A0%E5%87%8C%E8%B5%AB%E8%B5%B4%E5%8F%B0"
       },
       {
         "rank": 21,
-        "topic": "我国没有抽中学历",
-        "note": "微博实时热搜第21位，热度225150",
+        "topic": "陈瑜林子濠结婚",
+        "note": "微博实时热搜第21位，热度365,676",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E6%B2%A1%E6%9C%89%E6%8A%BD%E4%B8%AD%E5%AD%A6%E5%8E%86",
+        "url": "https://s.weibo.com/weibo?q=%E9%99%88%E7%91%9C%E6%9E%97%E5%AD%90%E6%BF%A0%E7%BB%93%E5%A9%9A",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E6%B2%A1%E6%9C%89%E6%8A%BD%E4%B8%AD%E5%AD%A6%E5%8E%86"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E9%99%88%E7%91%9C%E6%9E%97%E5%AD%90%E6%BF%A0%E7%BB%93%E5%A9%9A"
       },
       {
         "rank": 22,
-        "topic": "曝iPhoneDuo折痕区来回滑动有波纹",
-        "note": "微博实时热搜第22位，热度221589",
+        "topic": "易梦玲因护照被偷错过维密秀",
+        "note": "微博实时热搜第22位，热度363,496",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%9B%9DiPhoneDuo%E6%8A%98%E7%97%95%E5%8C%BA%E6%9D%A5%E5%9B%9E%E6%BB%91%E5%8A%A8%E6%9C%89%E6%B3%A2%E7%BA%B9",
+        "url": "https://s.weibo.com/weibo?q=%E6%98%93%E6%A2%A6%E7%8E%B2%E5%9B%A0%E6%8A%A4%E7%85%A7%E8%A2%AB%E5%81%B7%E9%94%99%E8%BF%87%E7%BB%B4%E5%AF%86%E7%A7%80",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%9B%9DiPhoneDuo%E6%8A%98%E7%97%95%E5%8C%BA%E6%9D%A5%E5%9B%9E%E6%BB%91%E5%8A%A8%E6%9C%89%E6%B3%A2%E7%BA%B9"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%98%93%E6%A2%A6%E7%8E%B2%E5%9B%A0%E6%8A%A4%E7%85%A7%E8%A2%AB%E5%81%B7%E9%94%99%E8%BF%87%E7%BB%B4%E5%AF%86%E7%A7%80"
       },
       {
         "rank": 23,
-        "topic": "刘恺威父亲说想快点见见黎纪君",
-        "note": "微博实时热搜第23位，热度218560",
+        "topic": "疑似崔秀彬照片事件当事人回应",
+        "note": "微博实时热搜第23位，热度362,816",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E7%88%B6%E4%BA%B2%E8%AF%B4%E6%83%B3%E5%BF%AB%E7%82%B9%E8%A7%81%E8%A7%81%E9%BB%8E%E7%BA%AA%E5%90%9B",
+        "url": "https://s.weibo.com/weibo?q=%E7%96%91%E4%BC%BC%E5%B4%94%E7%A7%80%E5%BD%AC%E7%85%A7%E7%89%87%E4%BA%8B%E4%BB%B6%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%9B%9E%E5%BA%94",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E7%88%B6%E4%BA%B2%E8%AF%B4%E6%83%B3%E5%BF%AB%E7%82%B9%E8%A7%81%E8%A7%81%E9%BB%8E%E7%BA%AA%E5%90%9B"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%96%91%E4%BC%BC%E5%B4%94%E7%A7%80%E5%BD%AC%E7%85%A7%E7%89%87%E4%BA%8B%E4%BB%B6%E5%BD%93%E4%BA%8B%E4%BA%BA%E5%9B%9E%E5%BA%94"
       },
       {
         "rank": 24,
-        "topic": "肖战说菅韧姿角色和他一样",
-        "note": "微博实时热搜第24位，热度214653",
+        "topic": "男子捡到38000元留了道题给失主",
+        "note": "微博实时热搜第24位，热度348,900",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E8%AF%B4%E8%8F%85%E9%9F%A7%E5%A7%BF%E8%A7%92%E8%89%B2%E5%92%8C%E4%BB%96%E4%B8%80%E6%A0%B7",
+        "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E6%8D%A1%E5%88%B038000%E5%85%83%E7%95%99%E4%BA%86%E9%81%93%E9%A2%98%E7%BB%99%E5%A4%B1%E4%B8%BB",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E8%AF%B4%E8%8F%85%E9%9F%A7%E5%A7%BF%E8%A7%92%E8%89%B2%E5%92%8C%E4%BB%96%E4%B8%80%E6%A0%B7"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E6%8D%A1%E5%88%B038000%E5%85%83%E7%95%99%E4%BA%86%E9%81%93%E9%A2%98%E7%BB%99%E5%A4%B1%E4%B8%BB"
       },
       {
         "rank": 25,
-        "topic": "水煮蛋和螃蟹只差一个老吃家",
-        "note": "微博实时热搜第25位，热度212996",
+        "topic": "女子节食减肥半年瘦9公斤查出骨肌双亏",
+        "note": "微博实时热搜第25位，热度283,585",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%B0%B4%E7%85%AE%E8%9B%8B%E5%92%8C%E8%9E%83%E8%9F%B9%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E8%80%81%E5%90%83%E5%AE%B6",
+        "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%8A%82%E9%A3%9F%E5%87%8F%E8%82%A5%E5%8D%8A%E5%B9%B4%E7%98%A69%E5%85%AC%E6%96%A4%E6%9F%A5%E5%87%BA%E9%AA%A8%E8%82%8C%E5%8F%8C%E4%BA%8F",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%B0%B4%E7%85%AE%E8%9B%8B%E5%92%8C%E8%9E%83%E8%9F%B9%E5%8F%AA%E5%B7%AE%E4%B8%80%E4%B8%AA%E8%80%81%E5%90%83%E5%AE%B6"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%8A%82%E9%A3%9F%E5%87%8F%E8%82%A5%E5%8D%8A%E5%B9%B4%E7%98%A69%E5%85%AC%E6%96%A4%E6%9F%A5%E5%87%BA%E9%AA%A8%E8%82%8C%E5%8F%8C%E4%BA%8F"
       },
       {
         "rank": 26,
-        "topic": "妈妈怕女儿吃苹果不洗故意裹面粉",
-        "note": "微博实时热搜第26位，热度208589",
+        "topic": "iPhoneDuo开箱",
+        "note": "微博实时热搜第26位，热度278,495",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A6%88%E5%A6%88%E6%80%95%E5%A5%B3%E5%84%BF%E5%90%83%E8%8B%B9%E6%9E%9C%E4%B8%8D%E6%B4%97%E6%95%85%E6%84%8F%E8%A3%B9%E9%9D%A2%E7%B2%89",
+        "url": "https://s.weibo.com/weibo?q=iPhoneDuo%E5%BC%80%E7%AE%B1",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A6%88%E5%A6%88%E6%80%95%E5%A5%B3%E5%84%BF%E5%90%83%E8%8B%B9%E6%9E%9C%E4%B8%8D%E6%B4%97%E6%95%85%E6%84%8F%E8%A3%B9%E9%9D%A2%E7%B2%89"
+        "reportUrl": "https://s.weibo.com/weibo?q=iPhoneDuo%E5%BC%80%E7%AE%B1"
       },
       {
         "rank": 27,
-        "topic": "张柏芝说养育3个儿子很轻松",
-        "note": "微博实时热搜第27位，热度197371",
+        "topic": "武志红李雪公开互撕",
+        "note": "微博实时热搜第27位，热度276,011",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9F%8F%E8%8A%9D%E8%AF%B4%E5%85%BB%E8%82%B23%E4%B8%AA%E5%84%BF%E5%AD%90%E5%BE%88%E8%BD%BB%E6%9D%BE",
+        "url": "https://s.weibo.com/weibo?q=%E6%AD%A6%E5%BF%97%E7%BA%A2%E6%9D%8E%E9%9B%AA%E5%85%AC%E5%BC%80%E4%BA%92%E6%92%95",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9F%8F%E8%8A%9D%E8%AF%B4%E5%85%BB%E8%82%B23%E4%B8%AA%E5%84%BF%E5%AD%90%E5%BE%88%E8%BD%BB%E6%9D%BE"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%AD%A6%E5%BF%97%E7%BA%A2%E6%9D%8E%E9%9B%AA%E5%85%AC%E5%BC%80%E4%BA%92%E6%92%95"
       },
       {
         "rank": 28,
-        "topic": "女子被流浪狗咬伤后几分钟狗死亡",
-        "note": "微博实时热搜第28位，热度196857",
+        "topic": "男孩因耐克鞋挑衅殴打同学致重伤",
+        "note": "微博实时热搜第28位，热度270,309",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%A2%AB%E6%B5%81%E6%B5%AA%E7%8B%97%E5%92%AC%E4%BC%A4%E5%90%8E%E5%87%A0%E5%88%86%E9%92%9F%E7%8B%97%E6%AD%BB%E4%BA%A1",
+        "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%A9%E5%9B%A0%E8%80%90%E5%85%8B%E9%9E%8B%E6%8C%91%E8%A1%85%E6%AE%B4%E6%89%93%E5%90%8C%E5%AD%A6%E8%87%B4%E9%87%8D%E4%BC%A4",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%A2%AB%E6%B5%81%E6%B5%AA%E7%8B%97%E5%92%AC%E4%BC%A4%E5%90%8E%E5%87%A0%E5%88%86%E9%92%9F%E7%8B%97%E6%AD%BB%E4%BA%A1"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%A9%E5%9B%A0%E8%80%90%E5%85%8B%E9%9E%8B%E6%8C%91%E8%A1%85%E6%AE%B4%E6%89%93%E5%90%8C%E5%AD%A6%E8%87%B4%E9%87%8D%E4%BC%A4"
       },
       {
         "rank": 29,
-        "topic": "27岁宠物爱心博主感染罕见真菌离世",
-        "note": "微博实时热搜第29位，热度196186",
+        "topic": "突然发现已经无法停止使用AI了",
+        "note": "微博实时热搜第29位，热度269,626",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=27%E5%B2%81%E5%AE%A0%E7%89%A9%E7%88%B1%E5%BF%83%E5%8D%9A%E4%B8%BB%E6%84%9F%E6%9F%93%E7%BD%95%E8%A7%81%E7%9C%9F%E8%8F%8C%E7%A6%BB%E4%B8%96",
+        "url": "https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E5%8F%91%E7%8E%B0%E5%B7%B2%E7%BB%8F%E6%97%A0%E6%B3%95%E5%81%9C%E6%AD%A2%E4%BD%BF%E7%94%A8AI%E4%BA%86",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=27%E5%B2%81%E5%AE%A0%E7%89%A9%E7%88%B1%E5%BF%83%E5%8D%9A%E4%B8%BB%E6%84%9F%E6%9F%93%E7%BD%95%E8%A7%81%E7%9C%9F%E8%8F%8C%E7%A6%BB%E4%B8%96"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%AA%81%E7%84%B6%E5%8F%91%E7%8E%B0%E5%B7%B2%E7%BB%8F%E6%97%A0%E6%B3%95%E5%81%9C%E6%AD%A2%E4%BD%BF%E7%94%A8AI%E4%BA%86"
       },
       {
         "rank": 30,
-        "topic": "董明珠称橘子1块5太贵不准卖",
-        "note": "微博实时热搜第30位，热度177441",
+        "topic": "嫁金钗",
+        "note": "微博实时热搜第30位，热度264,368",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%A7%B0%E6%A9%98%E5%AD%901%E5%9D%975%E5%A4%AA%E8%B4%B5%E4%B8%8D%E5%87%86%E5%8D%96",
+        "url": "https://s.weibo.com/weibo?q=%E5%AB%81%E9%87%91%E9%92%97",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%91%A3%E6%98%8E%E7%8F%A0%E7%A7%B0%E6%A9%98%E5%AD%901%E5%9D%975%E5%A4%AA%E8%B4%B5%E4%B8%8D%E5%87%86%E5%8D%96"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%AB%81%E9%87%91%E9%92%97"
       }
     ],
     "douyin": [
       {
         "rank": 1,
-        "topic": "美舰冲闯南沙群岛仙宾礁附近海域",
-        "note": "抖音热点榜第1位，热度11579829",
+        "topic": "NBA揭幕战76人击败尼克斯",
+        "note": "抖音实时热点第1位，热度12,133,553",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E7%BE%8E%E8%88%B0%E5%86%B2%E9%97%AF%E5%8D%97%E6%B2%99%E7%BE%A4%E5%B2%9B%E4%BB%99%E5%AE%BE%E7%A4%81%E9%99%84%E8%BF%91%E6%B5%B7%E5%9F%9F",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%BE%8E%E8%88%B0%E5%86%B2%E9%97%AF%E5%8D%97%E6%B2%99%E7%BE%A4%E5%B2%9B%E4%BB%99%E5%AE%BE%E7%A4%81%E9%99%84%E8%BF%91%E6%B5%B7%E5%9F%9F"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=NBA%E6%8F%AD%E5%B9%95%E6%88%9876%E4%BA%BA%E5%87%BB%E8%B4%A5%E5%B0%BC%E5%85%8B%E6%96%AF",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=NBA%E6%8F%AD%E5%B9%95%E6%88%9876%E4%BA%BA%E5%87%BB%E8%B4%A5%E5%B0%BC%E5%85%8B%E6%96%AF"
       },
       {
         "rank": 2,
-        "topic": "英雄联盟S16瑞士轮首日赛程",
-        "note": "抖音热点榜第2位，热度11482096",
+        "topic": "日美大规模军演引发多地抗议",
+        "note": "抖音实时热点第2位，热度11,974,976",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9FS16%E7%91%9E%E5%A3%AB%E8%BD%AE%E9%A6%96%E6%97%A5%E8%B5%9B%E7%A8%8B",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9FS16%E7%91%9E%E5%A3%AB%E8%BD%AE%E9%A6%96%E6%97%A5%E8%B5%9B%E7%A8%8B"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E6%97%A5%E7%BE%8E%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%86%9B%E6%BC%94%E5%BC%95%E5%8F%91%E5%A4%9A%E5%9C%B0%E6%8A%97%E8%AE%AE",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%97%A5%E7%BE%8E%E5%A4%A7%E8%A7%84%E6%A8%A1%E5%86%9B%E6%BC%94%E5%BC%95%E5%8F%91%E5%A4%9A%E5%9C%B0%E6%8A%97%E8%AE%AE"
       },
       {
         "rank": 3,
-        "topic": "三季度1.92亿人次出入境",
-        "note": "抖音热点榜第3位，热度11147429",
+        "topic": "中国经济新动能孕育新机遇",
+        "note": "抖音实时热点第3位，热度11,635,267",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E4%B8%89%E5%AD%A3%E5%BA%A61.92%E4%BA%BF%E4%BA%BA%E6%AC%A1%E5%87%BA%E5%85%A5%E5%A2%83",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%89%E5%AD%A3%E5%BA%A61.92%E4%BA%BF%E4%BA%BA%E6%AC%A1%E5%87%BA%E5%85%A5%E5%A2%83"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%96%B0%E5%8A%A8%E8%83%BD%E5%AD%95%E8%82%B2%E6%96%B0%E6%9C%BA%E9%81%87",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%96%B0%E5%8A%A8%E8%83%BD%E5%AD%95%E8%82%B2%E6%96%B0%E6%9C%BA%E9%81%87"
       },
       {
         "rank": 4,
-        "topic": "台风蔷琵将进入48小时警戒线",
-        "note": "抖音热点榜第4位，热度11126150",
+        "topic": "NBA揭幕战马刺雷霆爆发冲突",
+        "note": "抖音实时热点第4位，热度11,326,680",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E5%B0%86%E8%BF%9B%E5%85%A548%E5%B0%8F%E6%97%B6%E8%AD%A6%E6%88%92%E7%BA%BF",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E5%B0%86%E8%BF%9B%E5%85%A548%E5%B0%8F%E6%97%B6%E8%AD%A6%E6%88%92%E7%BA%BF"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=NBA%E6%8F%AD%E5%B9%95%E6%88%98%E9%A9%AC%E5%88%BA%E9%9B%B7%E9%9C%86%E7%88%86%E5%8F%91%E5%86%B2%E7%AA%81",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=NBA%E6%8F%AD%E5%B9%95%E6%88%98%E9%A9%AC%E5%88%BA%E9%9B%B7%E9%9C%86%E7%88%86%E5%8F%91%E5%86%B2%E7%AA%81"
       },
       {
         "rank": 5,
-        "topic": "新闻联播",
-        "note": "抖音热点榜第5位，热度10548527",
+        "topic": "全国已开始进入赏秋模式",
+        "note": "抖音实时热点第5位，热度10,677,548",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%85%A8%E5%9B%BD%E5%B7%B2%E5%BC%80%E5%A7%8B%E8%BF%9B%E5%85%A5%E8%B5%8F%E7%A7%8B%E6%A8%A1%E5%BC%8F",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%85%A8%E5%9B%BD%E5%B7%B2%E5%BC%80%E5%A7%8B%E8%BF%9B%E5%85%A5%E8%B5%8F%E7%A7%8B%E6%A8%A1%E5%BC%8F"
       },
       {
         "rank": 6,
-        "topic": "吴艳妮说只要跑得动就不会退役",
-        "note": "抖音热点榜第6位，热度10547240",
+        "topic": "国内黄金克价跌破890元",
+        "note": "抖音实时热点第6位，热度10,650,748",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%90%B4%E8%89%B3%E5%A6%AE%E8%AF%B4%E5%8F%AA%E8%A6%81%E8%B7%91%E5%BE%97%E5%8A%A8%E5%B0%B1%E4%B8%8D%E4%BC%9A%E9%80%80%E5%BD%B9",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%90%B4%E8%89%B3%E5%A6%AE%E8%AF%B4%E5%8F%AA%E8%A6%81%E8%B7%91%E5%BE%97%E5%8A%A8%E5%B0%B1%E4%B8%8D%E4%BC%9A%E9%80%80%E5%BD%B9"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%9B%BD%E5%86%85%E9%BB%84%E9%87%91%E5%85%8B%E4%BB%B7%E8%B7%8C%E7%A0%B4890%E5%85%83",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%9B%BD%E5%86%85%E9%BB%84%E9%87%91%E5%85%8B%E4%BB%B7%E8%B7%8C%E7%A0%B4890%E5%85%83"
       },
       {
         "rank": 7,
         "topic": "当东北人假装南方人",
-        "note": "抖音热点榜第7位，热度9432948",
+        "note": "抖音实时热点第7位，热度9,258,362",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
+        "date": "10-21",
+        "source": "抖音热点",
         "url": "https://www.douyin.com/search?keyword=%E5%BD%93%E4%B8%9C%E5%8C%97%E4%BA%BA%E5%81%87%E8%A3%85%E5%8D%97%E6%96%B9%E4%BA%BA",
-        "reportSource": "抖音热点榜",
+        "reportSource": "抖音热点",
         "reportUrl": "https://www.douyin.com/search?keyword=%E5%BD%93%E4%B8%9C%E5%8C%97%E4%BA%BA%E5%81%87%E8%A3%85%E5%8D%97%E6%96%B9%E4%BA%BA"
       },
       {
         "rank": 8,
-        "topic": "王者根本没有这样的共鸣之战",
-        "note": "抖音热点榜第8位，热度9385167",
+        "topic": "雷霆对阵马刺打出梦幻开局",
+        "note": "抖音实时热点第8位，热度9,244,318",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E7%8E%8B%E8%80%85%E6%A0%B9%E6%9C%AC%E6%B2%A1%E6%9C%89%E8%BF%99%E6%A0%B7%E7%9A%84%E5%85%B1%E9%B8%A3%E4%B9%8B%E6%88%98",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%8E%8B%E8%80%85%E6%A0%B9%E6%9C%AC%E6%B2%A1%E6%9C%89%E8%BF%99%E6%A0%B7%E7%9A%84%E5%85%B1%E9%B8%A3%E4%B9%8B%E6%88%98"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E9%9B%B7%E9%9C%86%E5%AF%B9%E9%98%B5%E9%A9%AC%E5%88%BA%E6%89%93%E5%87%BA%E6%A2%A6%E5%B9%BB%E5%BC%80%E5%B1%80",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E9%9B%B7%E9%9C%86%E5%AF%B9%E9%98%B5%E9%A9%AC%E5%88%BA%E6%89%93%E5%87%BA%E6%A2%A6%E5%B9%BB%E5%BC%80%E5%B1%80"
       },
       {
         "rank": 9,
-        "topic": "披旭日旗中国留学生已被遣返",
-        "note": "抖音热点榜第9位，热度9364039",
-        "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E5%B7%B2%E8%A2%AB%E9%81%A3%E8%BF%94",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%8A%AB%E6%97%AD%E6%97%A5%E6%97%97%E4%B8%AD%E5%9B%BD%E7%95%99%E5%AD%A6%E7%94%9F%E5%B7%B2%E8%A2%AB%E9%81%A3%E8%BF%94"
-      },
-      {
-        "rank": 10,
         "topic": "当初雪落在大同古城",
-        "note": "抖音热点榜第10位，热度9293545",
+        "note": "抖音实时热点第9位，热度9,204,274",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
+        "date": "10-21",
+        "source": "抖音热点",
         "url": "https://www.douyin.com/search?keyword=%E5%BD%93%E5%88%9D%E9%9B%AA%E8%90%BD%E5%9C%A8%E5%A4%A7%E5%90%8C%E5%8F%A4%E5%9F%8E",
-        "reportSource": "抖音热点榜",
+        "reportSource": "抖音热点",
         "reportUrl": "https://www.douyin.com/search?keyword=%E5%BD%93%E5%88%9D%E9%9B%AA%E8%90%BD%E5%9C%A8%E5%A4%A7%E5%90%8C%E5%8F%A4%E5%9F%8E"
       },
       {
-        "rank": 11,
-        "topic": "我关注的中国设计师都在抖音大秀",
-        "note": "抖音热点榜第11位，热度9219026",
+        "rank": 10,
+        "topic": "国家数据集团成立",
+        "note": "抖音实时热点第10位，热度9,198,663",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E6%88%91%E5%85%B3%E6%B3%A8%E7%9A%84%E4%B8%AD%E5%9B%BD%E8%AE%BE%E8%AE%A1%E5%B8%88%E9%83%BD%E5%9C%A8%E6%8A%96%E9%9F%B3%E5%A4%A7%E7%A7%80",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%88%91%E5%85%B3%E6%B3%A8%E7%9A%84%E4%B8%AD%E5%9B%BD%E8%AE%BE%E8%AE%A1%E5%B8%88%E9%83%BD%E5%9C%A8%E6%8A%96%E9%9F%B3%E5%A4%A7%E7%A7%80"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%9B%BD%E5%AE%B6%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2%E6%88%90%E7%AB%8B",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%9B%BD%E5%AE%B6%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2%E6%88%90%E7%AB%8B"
+      },
+      {
+        "rank": 11,
+        "topic": "babybay空降hanghang直播间",
+        "note": "抖音实时热点第11位，热度9,139,472",
+        "brand": "",
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=babybay%E7%A9%BA%E9%99%8Dhanghang%E7%9B%B4%E6%92%AD%E9%97%B4",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=babybay%E7%A9%BA%E9%99%8Dhanghang%E7%9B%B4%E6%92%AD%E9%97%B4"
       },
       {
         "rank": 12,
-        "topic": "天黑了该我在乐园上场了",
-        "note": "抖音热点榜第12位，热度9156456",
+        "topic": "医学生锐评offer8",
+        "note": "抖音实时热点第12位，热度9,123,477",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%A4%A9%E9%BB%91%E4%BA%86%E8%AF%A5%E6%88%91%E5%9C%A8%E4%B9%90%E5%9B%AD%E4%B8%8A%E5%9C%BA%E4%BA%86",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%A4%A9%E9%BB%91%E4%BA%86%E8%AF%A5%E6%88%91%E5%9C%A8%E4%B9%90%E5%9B%AD%E4%B8%8A%E5%9C%BA%E4%BA%86"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%8C%BB%E5%AD%A6%E7%94%9F%E9%94%90%E8%AF%84offer8",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%8C%BB%E5%AD%A6%E7%94%9F%E9%94%90%E8%AF%84offer8"
       },
       {
         "rank": 13,
         "topic": "警惕网络婚恋诈骗",
-        "note": "抖音热点榜第13位，热度9073245",
+        "note": "抖音实时热点第13位，热度9,072,804",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
+        "date": "10-21",
+        "source": "抖音热点",
         "url": "https://www.douyin.com/search?keyword=%E8%AD%A6%E6%83%95%E7%BD%91%E7%BB%9C%E5%A9%9A%E6%81%8B%E8%AF%88%E9%AA%97",
-        "reportSource": "抖音热点榜",
+        "reportSource": "抖音热点",
         "reportUrl": "https://www.douyin.com/search?keyword=%E8%AD%A6%E6%83%95%E7%BD%91%E7%BB%9C%E5%A9%9A%E6%81%8B%E8%AF%88%E9%AA%97"
       },
       {
         "rank": 14,
-        "topic": "KDA新歌神之八秒",
-        "note": "抖音热点榜第14位，热度9024435",
+        "topic": "巴黎4:2巴萨",
+        "note": "抖音实时热点第14位，热度8,899,221",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=KDA%E6%96%B0%E6%AD%8C%E7%A5%9E%E4%B9%8B%E5%85%AB%E7%A7%92",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=KDA%E6%96%B0%E6%AD%8C%E7%A5%9E%E4%B9%8B%E5%85%AB%E7%A7%92"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%B7%B4%E9%BB%8E4%3A2%E5%B7%B4%E8%90%A8",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%B7%B4%E9%BB%8E4%3A2%E5%B7%B4%E8%90%A8"
       },
       {
         "rank": 15,
-        "topic": "长今你在工作里加了什么啊",
-        "note": "抖音热点榜第15位，热度8932559",
+        "topic": "NBA活塞121:113逆转凯尔特人",
+        "note": "抖音实时热点第15位，热度8,884,898",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E9%95%BF%E4%BB%8A%E4%BD%A0%E5%9C%A8%E5%B7%A5%E4%BD%9C%E9%87%8C%E5%8A%A0%E4%BA%86%E4%BB%80%E4%B9%88%E5%95%8A",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E9%95%BF%E4%BB%8A%E4%BD%A0%E5%9C%A8%E5%B7%A5%E4%BD%9C%E9%87%8C%E5%8A%A0%E4%BA%86%E4%BB%80%E4%B9%88%E5%95%8A"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=NBA%E6%B4%BB%E5%A1%9E121%3A113%E9%80%86%E8%BD%AC%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=NBA%E6%B4%BB%E5%A1%9E121%3A113%E9%80%86%E8%BD%AC%E5%87%AF%E5%B0%94%E7%89%B9%E4%BA%BA"
       },
       {
         "rank": 16,
-        "topic": "妲己配音大赛",
-        "note": "抖音热点榜第16位，热度8744886",
+        "topic": "小城良方开播",
+        "note": "抖音实时热点第16位，热度8,052,031",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%A6%B2%E5%B7%B1%E9%85%8D%E9%9F%B3%E5%A4%A7%E8%B5%9B",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%A6%B2%E5%B7%B1%E9%85%8D%E9%9F%B3%E5%A4%A7%E8%B5%9B"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%BC%80%E6%92%AD",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%BC%80%E6%92%AD"
       },
       {
         "rank": 17,
-        "topic": "王者荣耀2026周年庆CG",
-        "note": "抖音热点榜第17位，热度8388030",
+        "topic": "KDA新歌神之八秒",
+        "note": "抖音实时热点第17位，热度7,830,958",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%802026%E5%91%A8%E5%B9%B4%E5%BA%86CG",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%802026%E5%91%A8%E5%B9%B4%E5%BA%86CG"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=KDA%E6%96%B0%E6%AD%8C%E7%A5%9E%E4%B9%8B%E5%85%AB%E7%A7%92",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=KDA%E6%96%B0%E6%AD%8C%E7%A5%9E%E4%B9%8B%E5%85%AB%E7%A7%92"
       },
       {
         "rank": 18,
-        "topic": "功夫小咪重出江湖",
-        "note": "抖音热点榜第18位，热度8354869",
+        "topic": "被无情画硬控8秒",
+        "note": "抖音实时热点第18位，热度7,827,498",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%8A%9F%E5%A4%AB%E5%B0%8F%E5%92%AA%E9%87%8D%E5%87%BA%E6%B1%9F%E6%B9%96",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%8A%9F%E5%A4%AB%E5%B0%8F%E5%92%AA%E9%87%8D%E5%87%BA%E6%B1%9F%E6%B9%96"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E8%A2%AB%E6%97%A0%E6%83%85%E7%94%BB%E7%A1%AC%E6%8E%A78%E7%A7%92",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E8%A2%AB%E6%97%A0%E6%83%85%E7%94%BB%E7%A1%AC%E6%8E%A78%E7%A7%92"
       },
       {
         "rank": 19,
-        "topic": "跟随魏娆体会成长型爽文人生",
-        "note": "抖音热点榜第19位，热度8293732",
+        "topic": "嫁金钗外祖母真的无条件爱魏娆",
+        "note": "抖音实时热点第19位，热度7,801,130",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E8%B7%9F%E9%9A%8F%E9%AD%8F%E5%A8%86%E4%BD%93%E4%BC%9A%E6%88%90%E9%95%BF%E5%9E%8B%E7%88%BD%E6%96%87%E4%BA%BA%E7%94%9F",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%B7%9F%E9%9A%8F%E9%AD%8F%E5%A8%86%E4%BD%93%E4%BC%9A%E6%88%90%E9%95%BF%E5%9E%8B%E7%88%BD%E6%96%87%E4%BA%BA%E7%94%9F"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%AB%81%E9%87%91%E9%92%97%E5%A4%96%E7%A5%96%E6%AF%8D%E7%9C%9F%E7%9A%84%E6%97%A0%E6%9D%A1%E4%BB%B6%E7%88%B1%E9%AD%8F%E5%A8%86",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%AB%81%E9%87%91%E9%92%97%E5%A4%96%E7%A5%96%E6%AF%8D%E7%9C%9F%E7%9A%84%E6%97%A0%E6%9D%A1%E4%BB%B6%E7%88%B1%E9%AD%8F%E5%A8%86"
       },
       {
         "rank": 20,
-        "topic": "绝美旗袍可可妆",
-        "note": "抖音热点榜第20位，热度8093998",
+        "topic": "问闻吻稳你的心",
+        "note": "抖音实时热点第20位，热度7,792,444",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E7%BB%9D%E7%BE%8E%E6%97%97%E8%A2%8D%E5%8F%AF%E5%8F%AF%E5%A6%86",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%BB%9D%E7%BE%8E%E6%97%97%E8%A2%8D%E5%8F%AF%E5%8F%AF%E5%A6%86"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E9%97%AE%E9%97%BB%E5%90%BB%E7%A8%B3%E4%BD%A0%E7%9A%84%E5%BF%83",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E9%97%AE%E9%97%BB%E5%90%BB%E7%A8%B3%E4%BD%A0%E7%9A%84%E5%BF%83"
       },
       {
         "rank": 21,
-        "topic": "国服孙策收到实体版孙策皮肤",
-        "note": "抖音热点榜第21位，热度7986431",
+        "topic": "直击骚乱后的巴黎",
+        "note": "抖音实时热点第21位，热度7,791,512",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%9B%BD%E6%9C%8D%E5%AD%99%E7%AD%96%E6%94%B6%E5%88%B0%E5%AE%9E%E4%BD%93%E7%89%88%E5%AD%99%E7%AD%96%E7%9A%AE%E8%82%A4",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%9B%BD%E6%9C%8D%E5%AD%99%E7%AD%96%E6%94%B6%E5%88%B0%E5%AE%9E%E4%BD%93%E7%89%88%E5%AD%99%E7%AD%96%E7%9A%AE%E8%82%A4"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E7%9B%B4%E5%87%BB%E9%AA%9A%E4%B9%B1%E5%90%8E%E7%9A%84%E5%B7%B4%E9%BB%8E",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%9B%B4%E5%87%BB%E9%AA%9A%E4%B9%B1%E5%90%8E%E7%9A%84%E5%B7%B4%E9%BB%8E"
       },
       {
         "rank": 22,
-        "topic": "小城良方弟弟怀疑自己不是亲生",
-        "note": "抖音热点榜第22位，热度7963004",
+        "topic": "瞬移滑镜慢动作挑战",
+        "note": "抖音实时热点第22位，热度7,781,673",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%BC%9F%E5%BC%9F%E6%80%80%E7%96%91%E8%87%AA%E5%B7%B1%E4%B8%8D%E6%98%AF%E4%BA%B2%E7%94%9F",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%BC%9F%E5%BC%9F%E6%80%80%E7%96%91%E8%87%AA%E5%B7%B1%E4%B8%8D%E6%98%AF%E4%BA%B2%E7%94%9F"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E7%9E%AC%E7%A7%BB%E6%BB%91%E9%95%9C%E6%85%A2%E5%8A%A8%E4%BD%9C%E6%8C%91%E6%88%98",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%9E%AC%E7%A7%BB%E6%BB%91%E9%95%9C%E6%85%A2%E5%8A%A8%E4%BD%9C%E6%8C%91%E6%88%98"
       },
       {
         "rank": 23,
-        "topic": "也有凑企鹅唱歌给我听啦",
-        "note": "抖音热点榜第23位，热度7880191",
+        "topic": "进入面要多吃面要多见时代",
+        "note": "抖音实时热点第23位，热度7,768,195",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E4%B9%9F%E6%9C%89%E5%87%91%E4%BC%81%E9%B9%85%E5%94%B1%E6%AD%8C%E7%BB%99%E6%88%91%E5%90%AC%E5%95%A6",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B9%9F%E6%9C%89%E5%87%91%E4%BC%81%E9%B9%85%E5%94%B1%E6%AD%8C%E7%BB%99%E6%88%91%E5%90%AC%E5%95%A6"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E8%BF%9B%E5%85%A5%E9%9D%A2%E8%A6%81%E5%A4%9A%E5%90%83%E9%9D%A2%E8%A6%81%E5%A4%9A%E8%A7%81%E6%97%B6%E4%BB%A3",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%9B%E5%85%A5%E9%9D%A2%E8%A6%81%E5%A4%9A%E5%90%83%E9%9D%A2%E8%A6%81%E5%A4%9A%E8%A7%81%E6%97%B6%E4%BB%A3"
       },
       {
         "rank": 24,
-        "topic": "刘晓艳郑马名场面渲染大赛",
-        "note": "抖音热点榜第24位，热度7854886",
+        "topic": "冬天第一串车厘子糖葫芦",
+        "note": "抖音实时热点第24位，热度7,766,088",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%88%98%E6%99%93%E8%89%B3%E9%83%91%E9%A9%AC%E5%90%8D%E5%9C%BA%E9%9D%A2%E6%B8%B2%E6%9F%93%E5%A4%A7%E8%B5%9B",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%88%98%E6%99%93%E8%89%B3%E9%83%91%E9%A9%AC%E5%90%8D%E5%9C%BA%E9%9D%A2%E6%B8%B2%E6%9F%93%E5%A4%A7%E8%B5%9B"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%86%AC%E5%A4%A9%E7%AC%AC%E4%B8%80%E4%B8%B2%E8%BD%A6%E5%8E%98%E5%AD%90%E7%B3%96%E8%91%AB%E8%8A%A6",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%86%AC%E5%A4%A9%E7%AC%AC%E4%B8%80%E4%B8%B2%E8%BD%A6%E5%8E%98%E5%AD%90%E7%B3%96%E8%91%AB%E8%8A%A6"
       },
       {
         "rank": 25,
-        "topic": "饭撒摇手势舞",
-        "note": "抖音热点榜第25位，热度7844537",
+        "topic": "看到肖战的刘铮亮就不烧心了",
+        "note": "抖音实时热点第25位，热度7,760,470",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E9%A5%AD%E6%92%92%E6%91%87%E6%89%8B%E5%8A%BF%E8%88%9E",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E9%A5%AD%E6%92%92%E6%91%87%E6%89%8B%E5%8A%BF%E8%88%9E"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E7%9C%8B%E5%88%B0%E8%82%96%E6%88%98%E7%9A%84%E5%88%98%E9%93%AE%E4%BA%AE%E5%B0%B1%E4%B8%8D%E7%83%A7%E5%BF%83%E4%BA%86",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%9C%8B%E5%88%B0%E8%82%96%E6%88%98%E7%9A%84%E5%88%98%E9%93%AE%E4%BA%AE%E5%B0%B1%E4%B8%8D%E7%83%A7%E5%BF%83%E4%BA%86"
       },
       {
         "rank": 26,
-        "topic": "孟屯惊魂夜全程笑点拉满",
-        "note": "抖音热点榜第26位，热度7822211",
+        "topic": "刘晓艳郑马名场面渲染大赛",
+        "note": "抖音实时热点第26位，热度7,756,578",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E5%AD%9F%E5%B1%AF%E6%83%8A%E9%AD%82%E5%A4%9C%E5%85%A8%E7%A8%8B%E7%AC%91%E7%82%B9%E6%8B%89%E6%BB%A1",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%AD%9F%E5%B1%AF%E6%83%8A%E9%AD%82%E5%A4%9C%E5%85%A8%E7%A8%8B%E7%AC%91%E7%82%B9%E6%8B%89%E6%BB%A1"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E5%88%98%E6%99%93%E8%89%B3%E9%83%91%E9%A9%AC%E5%90%8D%E5%9C%BA%E9%9D%A2%E6%B8%B2%E6%9F%93%E5%A4%A7%E8%B5%9B",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%88%98%E6%99%93%E8%89%B3%E9%83%91%E9%A9%AC%E5%90%8D%E5%9C%BA%E9%9D%A2%E6%B8%B2%E6%9F%93%E5%A4%A7%E8%B5%9B"
       },
       {
         "rank": 27,
-        "topic": "枫叶一红就知道该出片了",
-        "note": "抖音热点榜第27位，热度7810242",
+        "topic": "饭撒摇手势舞",
+        "note": "抖音实时热点第27位，热度7,750,009",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E6%9E%AB%E5%8F%B6%E4%B8%80%E7%BA%A2%E5%B0%B1%E7%9F%A5%E9%81%93%E8%AF%A5%E5%87%BA%E7%89%87%E4%BA%86",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%9E%AB%E5%8F%B6%E4%B8%80%E7%BA%A2%E5%B0%B1%E7%9F%A5%E9%81%93%E8%AF%A5%E5%87%BA%E7%89%87%E4%BA%86"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E9%A5%AD%E6%92%92%E6%91%87%E6%89%8B%E5%8A%BF%E8%88%9E",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E9%A5%AD%E6%92%92%E6%91%87%E6%89%8B%E5%8A%BF%E8%88%9E"
       },
       {
         "rank": 28,
-        "topic": "三角洲野火测评来了",
-        "note": "抖音热点榜第28位，热度7801675",
+        "topic": "长今你在工作里加了什么啊",
+        "note": "抖音实时热点第28位，热度7,746,397",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E9%87%8E%E7%81%AB%E6%B5%8B%E8%AF%84%E6%9D%A5%E4%BA%86",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E9%87%8E%E7%81%AB%E6%B5%8B%E8%AF%84%E6%9D%A5%E4%BA%86"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E9%95%BF%E4%BB%8A%E4%BD%A0%E5%9C%A8%E5%B7%A5%E4%BD%9C%E9%87%8C%E5%8A%A0%E4%BA%86%E4%BB%80%E4%B9%88%E5%95%8A",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E9%95%BF%E4%BB%8A%E4%BD%A0%E5%9C%A8%E5%B7%A5%E4%BD%9C%E9%87%8C%E5%8A%A0%E4%BA%86%E4%BB%80%E4%B9%88%E5%95%8A"
       },
       {
         "rank": 29,
-        "topic": "三角洲S12新赛季超前爆料",
-        "note": "抖音热点榜第29位，热度7794403",
+        "topic": "也有凑企鹅唱歌给我听啦",
+        "note": "抖音实时热点第29位，热度7,742,934",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2S12%E6%96%B0%E8%B5%9B%E5%AD%A3%E8%B6%85%E5%89%8D%E7%88%86%E6%96%99",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2S12%E6%96%B0%E8%B5%9B%E5%AD%A3%E8%B6%85%E5%89%8D%E7%88%86%E6%96%99"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E4%B9%9F%E6%9C%89%E5%87%91%E4%BC%81%E9%B9%85%E5%94%B1%E6%AD%8C%E7%BB%99%E6%88%91%E5%90%AC%E5%95%A6",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B9%9F%E6%9C%89%E5%87%91%E4%BC%81%E9%B9%85%E5%94%B1%E6%AD%8C%E7%BB%99%E6%88%91%E5%90%AC%E5%95%A6"
       },
       {
         "rank": 30,
-        "topic": "等夏天等秋天",
-        "note": "抖音热点榜第30位，热度7781976",
+        "topic": "火影手游古堡萌黄全技能爆料",
+        "note": "抖音实时热点第30位，热度7,719,240",
         "brand": "",
-        "date": "10-20",
-        "source": "抖音热点榜",
-        "url": "https://www.douyin.com/search?keyword=%E7%AD%89%E5%A4%8F%E5%A4%A9%E7%AD%89%E7%A7%8B%E5%A4%A9",
-        "reportSource": "抖音热点榜",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%AD%89%E5%A4%8F%E5%A4%A9%E7%AD%89%E7%A7%8B%E5%A4%A9"
+        "date": "10-21",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E7%81%AB%E5%BD%B1%E6%89%8B%E6%B8%B8%E5%8F%A4%E5%A0%A1%E8%90%8C%E9%BB%84%E5%85%A8%E6%8A%80%E8%83%BD%E7%88%86%E6%96%99",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%81%AB%E5%BD%B1%E6%89%8B%E6%B8%B8%E5%8F%A4%E5%A0%A1%E8%90%8C%E9%BB%84%E5%85%A8%E6%8A%80%E8%83%BD%E7%88%86%E6%96%99"
       }
     ],
     "xiaohongshu": [
@@ -5544,7 +5679,7 @@ var DASH_DATA = {
         "topic": "繁荣主义",
         "note": "小红书2026秋冬官方趋势，#繁荣主义 浏览量1.8亿+，提倡理性购买×感性使用",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%B9%81%E8%8D%A3%E4%B8%BB%E4%B9%89",
         "reportSource": "小红书官方趋势",
@@ -5555,7 +5690,7 @@ var DASH_DATA = {
         "topic": "浓装正当时",
         "note": "#浓装正当时 近3周浏览量破4000万，繁荣主义核心穿搭话题",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B5%93%E8%A3%85%E6%AD%A3%E5%BD%93%E6%97%B6",
         "reportSource": "千瓜数据",
@@ -5566,7 +5701,7 @@ var DASH_DATA = {
         "topic": "波尔多红穿搭",
         "note": "繁荣主义色板代表色，秋日浓装高频配色",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B3%A2%E5%B0%94%E5%A4%9A%E7%BA%A2%E7%A9%BF%E6%90%AD",
         "reportSource": "小红书官方趋势",
@@ -5577,7 +5712,7 @@ var DASH_DATA = {
         "topic": "喜悦粉",
         "note": "繁荣主义推荐色，甜美饱满情绪色",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%96%9C%E6%82%A6%E7%B2%89",
         "reportSource": "小红书官方趋势",
@@ -5588,7 +5723,7 @@ var DASH_DATA = {
         "topic": "堆堆袜叠穿",
         "note": "繁荣主义层次叠穿关键元素",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A0%86%E5%A0%86%E8%A2%9C%E5%8F%A0%E7%A9%BF",
         "reportSource": "小红书官方趋势",
@@ -5599,7 +5734,7 @@ var DASH_DATA = {
         "topic": "月亮节",
         "note": "#小红书月亮节 浏览量1.1亿，UGC创作IP",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9C%88%E4%BA%AE%E8%8A%82",
         "reportSource": "小红书官方",
@@ -5610,7 +5745,7 @@ var DASH_DATA = {
         "topic": "大城小聚",
         "note": "小红书13周年北京首钢园城市主题活动（10/24-30）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E5%9F%8E%E5%B0%8F%E8%81%9A",
         "reportSource": "小红书官方",
@@ -5621,7 +5756,7 @@ var DASH_DATA = {
         "topic": "多巴胺穿搭",
         "note": "高饱和情绪穿搭持续热门",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%A9%BF%E6%90%AD",
         "reportSource": "千瓜数据",
@@ -5632,7 +5767,7 @@ var DASH_DATA = {
         "topic": "城市walk",
         "note": "城市漫游轻量出行内容",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9F%8E%E5%B8%82walk",
         "reportSource": "千瓜数据",
@@ -5643,7 +5778,7 @@ var DASH_DATA = {
         "topic": "听劝式装修",
         "note": "网友互改家装真实案例",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%AC%E5%8A%9D%E5%BC%8F%E8%A3%85%E4%BF%AE",
         "reportSource": "千瓜数据",
@@ -5654,7 +5789,7 @@ var DASH_DATA = {
         "topic": "早C晚A",
         "note": "经典护肤流程长青话题",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%97%A9C%E6%99%9AA",
         "reportSource": "千瓜数据",
@@ -5665,7 +5800,7 @@ var DASH_DATA = {
         "topic": "以油养肤",
         "note": "秋冬护肤热门方向",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BB%A5%E6%B2%B9%E5%85%BB%E8%82%A4",
         "reportSource": "千瓜数据",
@@ -5678,7 +5813,7 @@ var DASH_DATA = {
         "topic": "小红书月亮节",
         "note": "站内现象级IP，#小红书月亮节 浏览1.1亿、#一见月亮心就亮 8036万，诗歌/影像/手工/艺术四赛道征集",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书官方",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E7%BA%A2%E4%B9%A6%E6%9C%88%E4%BA%AE%E8%8A%82",
         "reportSource": "小红书官方",
@@ -5689,7 +5824,7 @@ var DASH_DATA = {
         "topic": "大城小聚",
         "note": "小红书13年来首次北京大型城市活动，10/24-30首钢园，互动展+市集+音乐节+交流，预热曝光近千万",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书官方",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E5%9F%8E%E5%B0%8F%E8%81%9A",
         "reportSource": "小红书官方",
@@ -5700,7 +5835,7 @@ var DASH_DATA = {
         "topic": "繁荣主义",
         "note": "2026秋冬官方时尚趋势，理性购买×感性使用，#繁荣主义 浏览1.8亿+",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书官方",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%B9%81%E8%8D%A3%E4%B8%BB%E4%B9%89",
         "reportSource": "小红书官方趋势",
@@ -5713,7 +5848,7 @@ var DASH_DATA = {
         "topic": "繁荣主义",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%B9%81%E8%8D%A3%E4%B8%BB%E4%B9%89",
         "reportSource": "千瓜数据",
@@ -5724,7 +5859,7 @@ var DASH_DATA = {
         "topic": "浓装正当时",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B5%93%E8%A3%85%E6%AD%A3%E5%BD%93%E6%97%B6",
         "reportSource": "千瓜数据",
@@ -5735,7 +5870,7 @@ var DASH_DATA = {
         "topic": "波尔多红穿搭",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B3%A2%E5%B0%94%E5%A4%9A%E7%BA%A2%E7%A9%BF%E6%90%AD",
         "reportSource": "千瓜数据",
@@ -5746,7 +5881,7 @@ var DASH_DATA = {
         "topic": "喜悦粉",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%96%9C%E6%82%A6%E7%B2%89",
         "reportSource": "千瓜数据",
@@ -5757,7 +5892,7 @@ var DASH_DATA = {
         "topic": "堆堆袜叠穿",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A0%86%E5%A0%86%E8%A2%9C%E5%8F%A0%E7%A9%BF",
         "reportSource": "千瓜数据",
@@ -5768,7 +5903,7 @@ var DASH_DATA = {
         "topic": "月亮节",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9C%88%E4%BA%AE%E8%8A%82",
         "reportSource": "千瓜数据",
@@ -5779,7 +5914,7 @@ var DASH_DATA = {
         "topic": "大城小聚",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E5%9F%8E%E5%B0%8F%E8%81%9A",
         "reportSource": "千瓜数据",
@@ -5790,7 +5925,7 @@ var DASH_DATA = {
         "topic": "多巴胺穿搭",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%9A%E5%B7%B4%E8%83%BA%E7%A9%BF%E6%90%AD",
         "reportSource": "千瓜数据",
@@ -5801,7 +5936,7 @@ var DASH_DATA = {
         "topic": "城市walk",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9F%8E%E5%B8%82walk",
         "reportSource": "千瓜数据",
@@ -5812,7 +5947,7 @@ var DASH_DATA = {
         "topic": "听劝式装修",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%90%AC%E5%8A%9D%E5%BC%8F%E8%A3%85%E4%BF%AE",
         "reportSource": "千瓜数据",
@@ -5823,7 +5958,7 @@ var DASH_DATA = {
         "topic": "早C晚A",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%97%A9C%E6%99%9AA",
         "reportSource": "千瓜数据",
@@ -5834,7 +5969,7 @@ var DASH_DATA = {
         "topic": "以油养肤",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BB%A5%E6%B2%B9%E5%85%BB%E8%82%A4",
         "reportSource": "千瓜数据",
@@ -5845,7 +5980,7 @@ var DASH_DATA = {
         "topic": "美拉德穿搭",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%BE%8E%E6%8B%89%E5%BE%B7%E7%A9%BF%E6%90%AD",
         "reportSource": "千瓜数据",
@@ -5856,7 +5991,7 @@ var DASH_DATA = {
         "topic": "松弛感",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%9D%BE%E5%BC%9B%E6%84%9F",
         "reportSource": "千瓜数据",
@@ -5867,7 +6002,7 @@ var DASH_DATA = {
         "topic": "纯欲风",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%BA%AF%E6%AC%B2%E9%A3%8E",
         "reportSource": "千瓜数据",
@@ -5878,7 +6013,7 @@ var DASH_DATA = {
         "topic": "爆改",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E7%88%86%E6%94%B9",
         "reportSource": "千瓜数据",
@@ -5889,7 +6024,7 @@ var DASH_DATA = {
         "topic": "上班恶心穿搭",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%8A%E7%8F%AD%E6%81%B6%E5%BF%83%E7%A9%BF%E6%90%AD",
         "reportSource": "千瓜数据",
@@ -5900,7 +6035,7 @@ var DASH_DATA = {
         "topic": "反向旅游",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%8D%E5%90%91%E6%97%85%E6%B8%B8",
         "reportSource": "千瓜数据",
@@ -5911,7 +6046,7 @@ var DASH_DATA = {
         "topic": "中式老钱风",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%AD%E5%BC%8F%E8%80%81%E9%92%B1%E9%A3%8E",
         "reportSource": "千瓜数据",
@@ -5922,7 +6057,7 @@ var DASH_DATA = {
         "topic": "早八妆容",
         "note": "小红书近期热门趋势话题（千瓜数据/官方趋势聚合）",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "小红书/千瓜数据",
         "url": "https://www.xiaohongshu.com/search_result?keyword=%E6%97%A9%E5%85%AB%E5%A6%86%E5%AE%B9",
         "reportSource": "千瓜数据",
@@ -5931,299 +6066,299 @@ var DASH_DATA = {
     ],
     "wbEntertainment": [
       {
-        "rank": 12,
+        "rank": 1,
+        "topic": "男子编造肖战演唱会谣言被行拘",
+        "note": "微博实时热搜第11位，热度440,024",
+        "brand": "",
+        "date": "10-21",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E7%BC%96%E9%80%A0%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E8%B0%A3%E8%A8%80%E8%A2%AB%E8%A1%8C%E6%8B%98",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B7%E5%AD%90%E7%BC%96%E9%80%A0%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E8%B0%A3%E8%A8%80%E8%A2%AB%E8%A1%8C%E6%8B%98"
+      },
+      {
+        "rank": 2,
+        "topic": "檀健次听劝接了纸巾代言",
+        "note": "微博实时热搜第13位，热度434,809",
+        "brand": "",
+        "date": "10-21",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E6%AA%80%E5%81%A5%E6%AC%A1%E5%90%AC%E5%8A%9D%E6%8E%A5%E4%BA%86%E7%BA%B8%E5%B7%BE%E4%BB%A3%E8%A8%80",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%AA%80%E5%81%A5%E6%AC%A1%E5%90%AC%E5%8A%9D%E6%8E%A5%E4%BA%86%E7%BA%B8%E5%B7%BE%E4%BB%A3%E8%A8%80"
+      },
+      {
+        "rank": 3,
+        "topic": "刘恺威曾谈对杨幂的第一印象",
+        "note": "微博实时热搜第16位，热度428,413",
+        "brand": "",
+        "date": "10-21",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E6%9B%BE%E8%B0%88%E5%AF%B9%E6%9D%A8%E5%B9%82%E7%9A%84%E7%AC%AC%E4%B8%80%E5%8D%B0%E8%B1%A1",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E6%9B%BE%E8%B0%88%E5%AF%B9%E6%9D%A8%E5%B9%82%E7%9A%84%E7%AC%AC%E4%B8%80%E5%8D%B0%E8%B1%A1"
+      },
+      {
+        "rank": 4,
+        "topic": "律师谈肖战二开不退票",
+        "note": "微博实时热搜第17位，热度425,534",
+        "brand": "",
+        "date": "10-21",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%BE%8B%E5%B8%88%E8%B0%88%E8%82%96%E6%88%98%E4%BA%8C%E5%BC%80%E4%B8%8D%E9%80%80%E7%A5%A8",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BE%8B%E5%B8%88%E8%B0%88%E8%82%96%E6%88%98%E4%BA%8C%E5%BC%80%E4%B8%8D%E9%80%80%E7%A5%A8"
+      },
+      {
+        "rank": 5,
+        "topic": "全明星阵容告诉你中国人能飞",
+        "note": "微博实时热搜第18位，热度420,896",
+        "brand": "",
+        "date": "10-21",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E6%98%8E%E6%98%9F%E9%98%B5%E5%AE%B9%E5%91%8A%E8%AF%89%E4%BD%A0%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%85%A8%E6%98%8E%E6%98%9F%E9%98%B5%E5%AE%B9%E5%91%8A%E8%AF%89%E4%BD%A0%E4%B8%AD%E5%9B%BD%E4%BA%BA%E8%83%BD%E9%A3%9E"
+      },
+      {
+        "rank": 6,
         "topic": "刘恺威黎纪君承认恋情",
         "note": "微博实时热搜第12位，热度237161",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E9%BB%8E%E7%BA%AA%E5%90%9B%E6%89%BF%E8%AE%A4%E6%81%8B%E6%83%85",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E5%88%98%E6%81%BA%E5%A8%81%E9%BB%8E%E7%BA%AA%E5%90%9B%E6%89%BF%E8%AE%A4%E6%81%8B%E6%83%85"
       },
       {
-        "rank": 14,
+        "rank": 7,
         "topic": "肖战演唱会二开时间",
         "note": "微博实时热搜第14位，热度235620",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E4%BA%8C%E5%BC%80%E6%97%B6%E9%97%B4",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E6%BC%94%E5%94%B1%E4%BC%9A%E4%BA%8C%E5%BC%80%E6%97%B6%E9%97%B4"
       },
       {
-        "rank": 1,
+        "rank": 8,
         "topic": "钟南山院士才是真正的薄肌90后",
         "note": "微博实时热搜第1位，热度1132670",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E9%99%A2%E5%A3%AB%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%96%84%E8%82%8C90%E5%90%8E",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E9%99%A2%E5%A3%AB%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%96%84%E8%82%8C90%E5%90%8E"
       },
       {
-        "rank": 2,
+        "rank": 9,
         "topic": "韩路说小天才手表烂而且极贵",
         "note": "微博实时热搜第2位，热度835508",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E9%9F%A9%E8%B7%AF%E8%AF%B4%E5%B0%8F%E5%A4%A9%E6%89%8D%E6%89%8B%E8%A1%A8%E7%83%82%E8%80%8C%E4%B8%94%E6%9E%81%E8%B4%B5",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E9%9F%A9%E8%B7%AF%E8%AF%B4%E5%B0%8F%E5%A4%A9%E6%89%8D%E6%89%8B%E8%A1%A8%E7%83%82%E8%80%8C%E4%B8%94%E6%9E%81%E8%B4%B5"
       },
       {
-        "rank": 3,
+        "rank": 10,
         "topic": "90年了我们一直在找你们的名字",
         "note": "微博实时热搜第3位，热度636972",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=90%E5%B9%B4%E4%BA%86%E6%88%91%E4%BB%AC%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%89%BE%E4%BD%A0%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=90%E5%B9%B4%E4%BA%86%E6%88%91%E4%BB%AC%E4%B8%80%E7%9B%B4%E5%9C%A8%E6%89%BE%E4%BD%A0%E4%BB%AC%E7%9A%84%E5%90%8D%E5%AD%97"
       },
       {
-        "rank": 4,
+        "rank": 11,
         "topic": "被狗咬伤后狗死亡女子已打疫苗",
         "note": "微博实时热搜第4位，热度631649",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E8%A2%AB%E7%8B%97%E5%92%AC%E4%BC%A4%E5%90%8E%E7%8B%97%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%AD%90%E5%B7%B2%E6%89%93%E7%96%AB%E8%8B%97",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E8%A2%AB%E7%8B%97%E5%92%AC%E4%BC%A4%E5%90%8E%E7%8B%97%E6%AD%BB%E4%BA%A1%E5%A5%B3%E5%AD%90%E5%B7%B2%E6%89%93%E7%96%AB%E8%8B%97"
       },
       {
-        "rank": 5,
+        "rank": 12,
         "topic": "新鲜牛肉烫10秒到底够不够",
         "note": "微博实时热搜第5位，热度624484",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E6%96%B0%E9%B2%9C%E7%89%9B%E8%82%89%E7%83%AB10%E7%A7%92%E5%88%B0%E5%BA%95%E5%A4%9F%E4%B8%8D%E5%A4%9F",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E6%96%B0%E9%B2%9C%E7%89%9B%E8%82%89%E7%83%AB10%E7%A7%92%E5%88%B0%E5%BA%95%E5%A4%9F%E4%B8%8D%E5%A4%9F"
       },
       {
-        "rank": 6,
+        "rank": 13,
         "topic": "维密靠大学生翻身",
         "note": "微博实时热搜第6位，热度411035",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E7%BB%B4%E5%AF%86%E9%9D%A0%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BF%BB%E8%BA%AB",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E7%BB%B4%E5%AF%86%E9%9D%A0%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%BF%BB%E8%BA%AB"
       },
       {
-        "rank": 7,
+        "rank": 14,
         "topic": "前三季度国民经济四大亮点",
         "note": "微博实时热搜第7位，热度410147",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E5%9B%9B%E5%A4%A7%E4%BA%AE%E7%82%B9",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E5%89%8D%E4%B8%89%E5%AD%A3%E5%BA%A6%E5%9B%BD%E6%B0%91%E7%BB%8F%E6%B5%8E%E5%9B%9B%E5%A4%A7%E4%BA%AE%E7%82%B9"
       },
       {
-        "rank": 8,
+        "rank": 15,
         "topic": "钟南山心梗后仍每周运动3次",
         "note": "微博实时热搜第8位，热度409533",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E5%BF%83%E6%A2%97%E5%90%8E%E4%BB%8D%E6%AF%8F%E5%91%A8%E8%BF%90%E5%8A%A83%E6%AC%A1",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E9%92%9F%E5%8D%97%E5%B1%B1%E5%BF%83%E6%A2%97%E5%90%8E%E4%BB%8D%E6%AF%8F%E5%91%A8%E8%BF%90%E5%8A%A83%E6%AC%A1"
       },
       {
-        "rank": 9,
+        "rank": 16,
         "topic": "小米全新车型曝光",
         "note": "微博实时热搜第9位，热度284307",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%85%A8%E6%96%B0%E8%BD%A6%E5%9E%8B%E6%9B%9D%E5%85%89",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E5%85%A8%E6%96%B0%E8%BD%A6%E5%9E%8B%E6%9B%9D%E5%85%89"
       },
       {
-        "rank": 10,
+        "rank": 17,
         "topic": "智驾小蓝灯 L3车型",
         "note": "微博实时热搜第10位，热度239554",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E6%99%BA%E9%A9%BE%E5%B0%8F%E8%93%9D%E7%81%AF%20L3%E8%BD%A6%E5%9E%8B",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E6%99%BA%E9%A9%BE%E5%B0%8F%E8%93%9D%E7%81%AF%20L3%E8%BD%A6%E5%9E%8B"
       },
       {
-        "rank": 11,
+        "rank": 18,
         "topic": "曝湖南台力捧张雅琪原因",
         "note": "微博实时热搜第11位，热度238114",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%B9%96%E5%8D%97%E5%8F%B0%E5%8A%9B%E6%8D%A7%E5%BC%A0%E9%9B%85%E7%90%AA%E5%8E%9F%E5%9B%A0",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%B9%96%E5%8D%97%E5%8F%B0%E5%8A%9B%E6%8D%A7%E5%BC%A0%E9%9B%85%E7%90%AA%E5%8E%9F%E5%9B%A0"
       },
       {
-        "rank": 13,
+        "rank": 19,
         "topic": "小天才封闭社交倒逼家长购买",
         "note": "微博实时热搜第13位，热度235756",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%A4%A9%E6%89%8D%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E5%80%92%E9%80%BC%E5%AE%B6%E9%95%BF%E8%B4%AD%E4%B9%B0",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E5%B0%8F%E5%A4%A9%E6%89%8D%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E5%80%92%E9%80%BC%E5%AE%B6%E9%95%BF%E8%B4%AD%E4%B9%B0"
       },
       {
-        "rank": 15,
+        "rank": 20,
         "topic": "国家数据集团成立",
         "note": "微博实时热搜第15位，热度235434",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "微博热搜",
         "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2%E6%88%90%E7%AB%8B",
         "reportSource": "微博热搜",
         "reportUrl": "https://s.weibo.com/weibo?q=%E5%9B%BD%E5%AE%B6%E6%95%B0%E6%8D%AE%E9%9B%86%E5%9B%A2%E6%88%90%E7%AB%8B"
-      },
-      {
-        "rank": 16,
-        "topic": "工信部称确有部分车企产品验证不充分",
-        "note": "微博实时热搜第16位，热度235371",
-        "brand": "",
-        "date": "10-20",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%B7%A5%E4%BF%A1%E9%83%A8%E7%A7%B0%E7%A1%AE%E6%9C%89%E9%83%A8%E5%88%86%E8%BD%A6%E4%BC%81%E4%BA%A7%E5%93%81%E9%AA%8C%E8%AF%81%E4%B8%8D%E5%85%85%E5%88%86",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%B7%A5%E4%BF%A1%E9%83%A8%E7%A7%B0%E7%A1%AE%E6%9C%89%E9%83%A8%E5%88%86%E8%BD%A6%E4%BC%81%E4%BA%A7%E5%93%81%E9%AA%8C%E8%AF%81%E4%B8%8D%E5%85%85%E5%88%86"
-      },
-      {
-        "rank": 17,
-        "topic": "郭宇欣直播打赏退款",
-        "note": "微博实时热搜第17位，热度235144",
-        "brand": "",
-        "date": "10-20",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E9%83%AD%E5%AE%87%E6%AC%A3%E7%9B%B4%E6%92%AD%E6%89%93%E8%B5%8F%E9%80%80%E6%AC%BE",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E9%83%AD%E5%AE%87%E6%AC%A3%E7%9B%B4%E6%92%AD%E6%89%93%E8%B5%8F%E9%80%80%E6%AC%BE"
-      },
-      {
-        "rank": 18,
-        "topic": "京东iPhone降价",
-        "note": "微博实时热搜第18位，热度234903",
-        "brand": "",
-        "date": "10-20",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9CiPhone%E9%99%8D%E4%BB%B7",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9CiPhone%E9%99%8D%E4%BB%B7"
-      },
-      {
-        "rank": 19,
-        "topic": "特朗普民意支持率31%",
-        "note": "微博实时热搜第19位，热度234632",
-        "brand": "",
-        "date": "10-20",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E6%B0%91%E6%84%8F%E6%94%AF%E6%8C%81%E7%8E%8731%25",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%89%B9%E6%9C%97%E6%99%AE%E6%B0%91%E6%84%8F%E6%94%AF%E6%8C%81%E7%8E%8731%25"
-      },
-      {
-        "rank": 20,
-        "topic": "儿童手表封闭社交成常态",
-        "note": "微博实时热搜第20位，热度234613",
-        "brand": "",
-        "date": "10-20",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%84%BF%E7%AB%A5%E6%89%8B%E8%A1%A8%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E6%88%90%E5%B8%B8%E6%80%81",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%84%BF%E7%AB%A5%E6%89%8B%E8%A1%A8%E5%B0%81%E9%97%AD%E7%A4%BE%E4%BA%A4%E6%88%90%E5%B8%B8%E6%80%81"
       }
     ],
     "dySeeding": [
       {
-        "rank": 28,
+        "rank": 1,
         "topic": "三角洲野火测评来了",
         "note": "抖音热点榜第28位，热度7801675",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "抖音热点榜",
         "url": "https://www.douyin.com/search?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E9%87%8E%E7%81%AB%E6%B5%8B%E8%AF%84%E6%9D%A5%E4%BA%86",
         "reportSource": "抖音热点榜",
         "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%89%E8%A7%92%E6%B4%B2%E9%87%8E%E7%81%AB%E6%B5%8B%E8%AF%84%E6%9D%A5%E4%BA%86"
       },
       {
-        "rank": 1,
+        "rank": 2,
         "topic": "美舰冲闯南沙群岛仙宾礁附近海域",
         "note": "抖音热点榜第1位，热度11579829",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "抖音热点榜",
         "url": "https://www.douyin.com/search?keyword=%E7%BE%8E%E8%88%B0%E5%86%B2%E9%97%AF%E5%8D%97%E6%B2%99%E7%BE%A4%E5%B2%9B%E4%BB%99%E5%AE%BE%E7%A4%81%E9%99%84%E8%BF%91%E6%B5%B7%E5%9F%9F",
         "reportSource": "抖音热点榜",
         "reportUrl": "https://www.douyin.com/search?keyword=%E7%BE%8E%E8%88%B0%E5%86%B2%E9%97%AF%E5%8D%97%E6%B2%99%E7%BE%A4%E5%B2%9B%E4%BB%99%E5%AE%BE%E7%A4%81%E9%99%84%E8%BF%91%E6%B5%B7%E5%9F%9F"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "topic": "英雄联盟S16瑞士轮首日赛程",
         "note": "抖音热点榜第2位，热度11482096",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "抖音热点榜",
         "url": "https://www.douyin.com/search?keyword=%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9FS16%E7%91%9E%E5%A3%AB%E8%BD%AE%E9%A6%96%E6%97%A5%E8%B5%9B%E7%A8%8B",
         "reportSource": "抖音热点榜",
         "reportUrl": "https://www.douyin.com/search?keyword=%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9FS16%E7%91%9E%E5%A3%AB%E8%BD%AE%E9%A6%96%E6%97%A5%E8%B5%9B%E7%A8%8B"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "topic": "三季度1.92亿人次出入境",
         "note": "抖音热点榜第3位，热度11147429",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "抖音热点榜",
         "url": "https://www.douyin.com/search?keyword=%E4%B8%89%E5%AD%A3%E5%BA%A61.92%E4%BA%BF%E4%BA%BA%E6%AC%A1%E5%87%BA%E5%85%A5%E5%A2%83",
         "reportSource": "抖音热点榜",
         "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%89%E5%AD%A3%E5%BA%A61.92%E4%BA%BF%E4%BA%BA%E6%AC%A1%E5%87%BA%E5%85%A5%E5%A2%83"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "topic": "台风蔷琵将进入48小时警戒线",
         "note": "抖音热点榜第4位，热度11126150",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "抖音热点榜",
         "url": "https://www.douyin.com/search?keyword=%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E5%B0%86%E8%BF%9B%E5%85%A548%E5%B0%8F%E6%97%B6%E8%AD%A6%E6%88%92%E7%BA%BF",
         "reportSource": "抖音热点榜",
         "reportUrl": "https://www.douyin.com/search?keyword=%E5%8F%B0%E9%A3%8E%E8%94%B7%E7%90%B5%E5%B0%86%E8%BF%9B%E5%85%A548%E5%B0%8F%E6%97%B6%E8%AD%A6%E6%88%92%E7%BA%BF"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "topic": "新闻联播",
         "note": "抖音热点榜第5位，热度10548527",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "抖音热点榜",
         "url": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD",
         "reportSource": "抖音热点榜",
         "reportUrl": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "topic": "吴艳妮说只要跑得动就不会退役",
         "note": "抖音热点榜第6位，热度10547240",
         "brand": "",
-        "date": "10-20",
+        "date": "10-21",
         "source": "抖音热点榜",
         "url": "https://www.douyin.com/search?keyword=%E5%90%B4%E8%89%B3%E5%A6%AE%E8%AF%B4%E5%8F%AA%E8%A6%81%E8%B7%91%E5%BE%97%E5%8A%A8%E5%B0%B1%E4%B8%8D%E4%BC%9A%E9%80%80%E5%BD%B9",
         "reportSource": "抖音热点榜",
@@ -6233,7 +6368,87 @@ var DASH_DATA = {
   },
   "campaigns": [
     {
-      "brand": "麦当劳",
+      "brand": "proya",
+      "cat": "beauty",
+      "name": "珀莱雅双11李佳琦美妆节",
+      "action": "大单品预售+达人直播",
+      "window": "10-15~11-11",
+      "type": "大促",
+      "status": "进行中",
+      "volumeIndex": 96,
+      "volume": "红宝石面霜4.0预售超40万件、蕴白系列售罄10万套+",
+      "sale": "预售15天模式，客单提升",
+      "sentiment": "正面",
+      "updatedDate": "10-21",
+      "updatedAt": "2026-10-21T12:45:00+08:00",
+      "topVoice": "网友：红宝石面霜真香，蹲一个补货",
+      "topVoiceUrl": "https://news.qq.com/rain/a/20261016A0049G00",
+      "topVoiceSource": "微博",
+      "url": "https://news.qq.com/rain/a/20261016A0049G00",
+      "source": "申万化妆品"
+    },
+    {
+      "brand": "luckin",
+      "cat": "food",
+      "name": "瑞幸珍珠奶茶全国上新",
+      "action": "新品上市+跨界联名",
+      "window": "10-12起",
+      "type": "新品",
+      "status": "进行中",
+      "volumeIndex": 92,
+      "volume": "3.6万家门店上新，0植脂末现煮珍珠",
+      "sale": "非咖饮品占比持续提升，撬动下午茶时段",
+      "sentiment": "正面",
+      "updatedDate": "10-21",
+      "updatedAt": "2026-10-21T12:45:00+08:00",
+      "topVoice": "网友：9.9珍珠奶茶真香，比茶饮店方便",
+      "topVoiceUrl": "https://www.toutiao.com/article/7695982507922735626",
+      "topVoiceSource": "微博",
+      "url": "https://www.toutiao.com/article/7695982507922735626",
+      "source": "观察者网"
+    },
+    {
+      "brand": "anta",
+      "cat": "apparel",
+      "name": "安踏×清华大学联合研究院升级",
+      "action": "品牌合作+研发",
+      "window": "10-15起",
+      "type": "合作",
+      "status": "进行中",
+      "volumeIndex": 88,
+      "volume": "联合研究院升级发布，加码运动科技",
+      "sale": "研发驱动产品迭代",
+      "sentiment": "正面",
+      "updatedDate": "10-21",
+      "updatedAt": "2026-10-21T12:45:00+08:00",
+      "topVoice": "网友：国货运动品牌越来越能打",
+      "topVoiceUrl": "https://news.qq.com/rain/a/20261010A0CM2H00",
+      "topVoiceSource": "微博",
+      "url": "https://news.qq.com/rain/a/20261010A0CM2H00",
+      "source": "腾讯新闻"
+    },
+    {
+      "brand": "lining",
+      "cat": "apparel",
+      "name": "李宁×NBA中国多年合作",
+      "action": "体育营销+IP合作",
+      "window": "10-07起",
+      "type": "合作",
+      "status": "进行中",
+      "volumeIndex": 87,
+      "volume": "覆盖NBA Hoop Park/House及青少年篮球",
+      "sale": "绑定顶级篮球IP深化专业形象",
+      "sentiment": "正面",
+      "updatedDate": "10-21",
+      "updatedAt": "2026-10-21T12:45:00+08:00",
+      "topVoice": "网友：李宁这波NBA联动稳了",
+      "topVoiceUrl": "https://www.toutiao.com/article/7697549109787410999",
+      "topVoiceSource": "微博",
+      "url": "https://www.toutiao.com/article/7697549109787410999",
+      "source": "今日头条"
+    },
+    {
+      "brand": "ip-industry",
       "cat": "food",
       "name": "麦当劳×G-DRAGON亚洲多市场联动",
       "window": "2026.10.08 - 2026.11.30",
@@ -6254,7 +6469,7 @@ var DASH_DATA = {
       "id": "c123"
     },
     {
-      "brand": "霸王茶姬",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "霸王茶姬×乌镇戏剧节联名周边",
       "window": "2026.10.15 - 2026.10.25",
@@ -6275,7 +6490,7 @@ var DASH_DATA = {
       "id": "c124"
     },
     {
-      "brand": "霸王茶姬",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "霸王茶姬×CLOT抹茶系列撕杯抽奖",
       "window": "2026.10.08 - 2026.11.08",
@@ -6296,7 +6511,7 @@ var DASH_DATA = {
       "id": "c125"
     },
     {
-      "brand": "塔可钟",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "塔可钟×多邻国全球塔可日联名",
       "window": "2026.10.01 - 2026.11.15",
@@ -6317,7 +6532,7 @@ var DASH_DATA = {
       "id": "c126"
     },
     {
-      "brand": "ERDOS",
+      "brand": "ip-industry",
       "cat": "apparel",
       "name": "ERDOS×辛芷蕾联名系列",
       "window": "2026.10.16 - 2026.11.30",
@@ -6338,7 +6553,7 @@ var DASH_DATA = {
       "id": "c127"
     },
     {
-      "brand": "回力",
+      "brand": "ip-industry",
       "cat": "apparel",
       "name": "回力×王俊凯双品牌代言",
       "window": "2026.10.15 - 2026.12.31",
@@ -6359,7 +6574,7 @@ var DASH_DATA = {
       "id": "c128"
     },
     {
-      "brand": "小红书",
+      "brand": "ip-industry",
       "cat": "daily",
       "name": "小红书官方发布2026秋冬趋势「繁荣主义」",
       "window": "2026.10.08 - 2026.12.31",
@@ -6380,7 +6595,7 @@ var DASH_DATA = {
       "id": "c129"
     },
     {
-      "brand": "安敏优",
+      "brand": "ip-industry",
       "cat": "beauty",
       "name": "安敏优×孙坚青蒿产地纪实短片",
       "window": "2026.10.12 - 2026.11.12",
@@ -6401,7 +6616,7 @@ var DASH_DATA = {
       "id": "c130"
     },
     {
-      "brand": "泡泡玛特",
+      "brand": "ip-industry",
       "cat": "ip",
       "name": "LABUBU「一喵变猫」系列发售",
       "window": "2026.10.15 - 2026.11.15",
@@ -6422,7 +6637,7 @@ var DASH_DATA = {
       "id": "c131"
     },
     {
-      "brand": "FILA",
+      "brand": "ip-industry",
       "cat": "apparel",
       "name": "FILA×宋威龙品牌代言人",
       "window": "2026.10.20 - 2026.12.31",
@@ -6443,7 +6658,7 @@ var DASH_DATA = {
       "id": "c132"
     },
     {
-      "brand": "乐而雅",
+      "brand": "ip-industry",
       "cat": "beauty",
       "name": "乐而雅×孙千品牌代言人",
       "window": "2026.10.20 - 2026.12.31",
@@ -6464,7 +6679,7 @@ var DASH_DATA = {
       "id": "c133"
     },
     {
-      "brand": "CPB肌肤之钥",
+      "brand": "ip-industry",
       "cat": "beauty",
       "name": "CPB肌肤之钥×刘诗诗品牌代言人",
       "window": "2026.10.14 - 2026.12.31",
@@ -6485,7 +6700,7 @@ var DASH_DATA = {
       "id": "c134"
     },
     {
-      "brand": "瑞幸咖啡",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "米乳拿铁新品 + JOJO的奇妙冒险联名定档10月",
       "window": "2026.09.12 - 2026.10.31",
@@ -6506,7 +6721,7 @@ var DASH_DATA = {
       "id": "c3"
     },
     {
-      "brand": "名创优品",
+      "brand": "ip-industry",
       "cat": "daily",
       "name": "MINISO×三丽鸥 勇者主题手办盲盒",
       "window": "2026.09.11 - 2026.10.31",
@@ -6527,7 +6742,7 @@ var DASH_DATA = {
       "id": "c4"
     },
     {
-      "brand": "斯凯奇 Skechers",
+      "brand": "ip-industry",
       "cat": "apparel",
       "name": "「舒适奇了 Comfort For All」全新品牌形象发布 + 熊猫鞋六代舞台灵感系列",
       "window": "2026.09.04 - 2026.10.31",
@@ -6548,7 +6763,7 @@ var DASH_DATA = {
       "id": "c5"
     },
     {
-      "brand": "ECCO 爱步",
+      "brand": "ip-industry",
       "cat": "apparel",
       "name": "「自然有动线」全新户外系列（BIOM 成衣+鞋履）",
       "window": "2026.09.07 - 2026.11.30",
@@ -6824,7 +7039,7 @@ var DASH_DATA = {
       "updatedDate": "09-10",
       "updatedAt": "2026-09-10T17:08:00+08:00",
       "status": "进行中",
-      "brand": "瑞幸咖啡",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "获穆巴达拉10亿美元战略投资",
       "window": "2026.09.10 - 2026.12.31",
@@ -6845,7 +7060,7 @@ var DASH_DATA = {
       "updatedDate": "09-10",
       "updatedAt": "2026-09-10T17:08:00+08:00",
       "status": "进行中",
-      "brand": "霸王茶姬",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "×迪士尼公主「轻因系列」联名",
       "window": "2026.09.04 - 2026.10.31",
@@ -6866,7 +7081,7 @@ var DASH_DATA = {
       "updatedDate": "09-10",
       "updatedAt": "2026-09-10T17:08:00+08:00",
       "status": "进行中",
-      "brand": "橘朵 Judydoll",
+      "brand": "ip-industry",
       "cat": "beauty",
       "name": "官宣Angelababy杨颖全球代言人",
       "window": "2026.09.06 - 2026.12.31",
@@ -6887,7 +7102,7 @@ var DASH_DATA = {
       "updatedDate": "09-10",
       "updatedAt": "2026-09-10T17:08:00+08:00",
       "status": "进行中",
-      "brand": "维达",
+      "brand": "ip-industry",
       "cat": "daily",
       "name": "×张凌赫全球代言人「安心套组」",
       "window": "2026.09.08 - 2026.12.31",
@@ -6908,7 +7123,7 @@ var DASH_DATA = {
       "updatedDate": "09-11",
       "updatedAt": "2026-09-11T07:58:00+08:00",
       "status": "进行中",
-      "brand": "蜜雪冰城",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "中期业绩：利润首降但派特别股息约10亿",
       "window": "2026.08.27 - 2026.12.31",
@@ -6929,7 +7144,7 @@ var DASH_DATA = {
       "updatedDate": "09-12",
       "updatedAt": "2026-09-12T07:58:00+08:00",
       "status": "进行中",
-      "brand": "霸王茶姬",
+      "brand": "ip-industry",
       "cat": "food",
       "name": "出海东盟高端路线+张俊杰卸任董事长",
       "window": "2026.09.06 - 2026.12.31",
@@ -7031,7 +7246,7 @@ var DASH_DATA = {
       "sentiment": "正面"
     },
     {
-      "brand": "alo",
+      "brand": "ip-industry",
       "cat": "apparel",
       "name": "王一博×ALO全球品牌大使",
       "window": "2026.09-进行中",
@@ -7157,7 +7372,7 @@ var DASH_DATA = {
       "topVoiceUrl": "https://longbridge.com/news/298530998"
     },
     {
-      "brand": "名创优品",
+      "brand": "ip-industry",
       "cat": "daily",
       "name": "名创优品×LISA全球巡回快闪",
       "window": "2026.09.16 - 2026.10.31",
@@ -7178,7 +7393,7 @@ var DASH_DATA = {
       "updatedDate": "09-17"
     },
     {
-      "brand": "RIPSTAR爆炸星",
+      "brand": "ip-industry",
       "cat": "apparel",
       "name": "RIPSTAR Speeder系列运动短靴发售",
       "window": "2026.09.20 - 2026.10.20",
@@ -7302,27 +7517,6 @@ var DASH_DATA = {
       "status": "进行中",
       "topVoiceSource": "新华网",
       "topVoiceUrl": "https://www.news.cn/fashion/20260918/4b5da67483f14d54a3b98f10114b5a1d/c.html"
-    },
-    {
-      "brand": "霸王茶姬",
-      "cat": "food",
-      "name": "霸王茶姬「金乌扶摇」新品上市 + 徽章盲袋",
-      "window": "2026.09.13 - 2026.09.30",
-      "type": "新品上市",
-      "action": "9月13日起全国门店上新金乌扶摇原叶鲜奶茶（新会青柑+云南普洱），下单双大杯套餐即得金乌/青柑/茶马古道/会友四枚锌合金徽章盲袋，引发抽卡式收集热。",
-      "volume": "徽章盲袋引发连夜攻略与称重玄学，社交媒体口味评价两极分化",
-      "volumeIndex": 70,
-      "sale": "金乌扶摇徽章盲袋（四枚）",
-      "topVoice": "网友吐槽普洱味过重、似口服液，也有人称赞金属质感徽章高颜值，话题#金乌扶摇#登社交媒体热议",
-      "topVoiceSource": "咖啡网",
-      "topVoiceUrl": "https://m.gafei.com/views-139415",
-      "sentiment": "争议",
-      "source": "咖啡网",
-      "url": "https://m.gafei.com/views-139415",
-      "updatedDate": "09-20",
-      "updatedAt": "2026-09-20T07:58:00+08:00",
-      "status": "已结束",
-      "id": "c122"
     }
   ],
   "wechatNews": {
@@ -7554,24 +7748,55 @@ var DASH_DATA = {
         "id": "w43"
       },
       {
+        "accountId": "digitaling",
+        "accountName": "数英DIGITALING",
+        "title": "2026双11美妆节观察：国货龙头上新+折扣抢跑首日",
+        "summary": "珀莱雅、毛戈平、可复美、薇诺娜等上播SKU同比增加，红宝石面霜4.0、小红笔眼霜4.0等升级款集中亮相，行业从营销驱动转向产品迭代驱动。",
+        "url": "https://fashion.sohu.com/a/1087774502_122946192",
+        "source": "数英DIGITALING",
+        "date": "10-21",
+        "tags": [
+          "双11",
+          "美妆",
+          "国货"
+        ],
+        "pinnedWeekly": false
+      },
+      {
         "accountId": "socialbeta",
         "accountName": "SocialBeta",
-        "title": "SocialBeta：2026人文营销10大趋势报告——算法时代，人本答案",
-        "summary": "报告基于全年3000余起案例，提炼十大人文营销趋势：用户共创、反精致叙事、生活化触点、圈层消融、向善经营、生活方式表达、AI共生、品牌人格化；lululemon、珀莱雅等以人本表达深化心智。",
-        "date": "09-20",
-        "publishedAt": "2026-09-20T09:00:00+08:00",
-        "url": "https://www.sohu.com/a/1032482336_121834073",
-        "source": "搜狐",
+        "title": "瑞幸卖珍珠奶茶：咖啡门店开始争夺茶饮订单",
+        "summary": "瑞幸全国上新珍珠奶茶系列，以高密度门店与配送承接下午茶时段，咖啡与茶饮边界被门店和时段重画。",
+        "url": "https://www.toutiao.com/article/7695982507922735626",
+        "source": "SocialBeta",
+        "date": "10-21",
         "tags": [
-          "趋势报告",
-          "人文营销",
-          "AI"
+          "瑞幸",
+          "跨界",
+          "茶饮"
         ],
-        "id": "w33"
+        "pinnedWeekly": false
       }
     ]
   },
   "celebrityEndorsements": [
+    {
+      "celeb": "吴昕",
+      "region": "内地",
+      "brand": "安踏",
+      "title": "安踏官宣吴昕成为品牌大使（面包羽绒服）",
+      "action": "大使官宣",
+      "volume": "10-15 官宣，解锁多彩冬日穿搭",
+      "posVoice": "网友：吴昕和安踏好搭",
+      "posVoiceUrl": "https://news.qq.com/rain/a/20261018A09WIT00",
+      "posVoiceSource": "微博",
+      "negVoice": "",
+      "negVoiceUrl": "",
+      "negVoiceSource": "微博",
+      "url": "https://news.qq.com/rain/a/20261018A09WIT00",
+      "source": "腾讯网",
+      "date": "10-15"
+    },
     {
       "brand": "FILA",
       "celeb": "宋威龙",
