@@ -8529,7 +8529,7 @@ var DASH_DATA = {
     {
       "celeb": "瓦伦丁·德比斯",
       "region": "海外",
-      "brand": "anta",
+      "brand": "安踏",
       "title": "安踏官宣职业摩托车赛车手瓦伦丁·德比斯为品牌代言人",
       "action": "品牌代言人官宣",
       "volume": "10月22日官宣，携手张雪机车ZXMOTO，拓展机车文化系列",
@@ -8546,7 +8546,7 @@ var DASH_DATA = {
     {
       "celeb": "吴昕",
       "region": "内地",
-      "brand": "anta",
+      "brand": "安踏",
       "title": "安踏宣布吴昕为品牌大使",
       "action": "品牌大使官宣",
       "volume": "10月15日官宣",
@@ -8563,7 +8563,7 @@ var DASH_DATA = {
     {
       "celeb": "张镇麟",
       "region": "内地",
-      "brand": "lining",
+      "brand": "李宁",
       "title": "李宁官宣签约上海男篮前锋张镇麟（千万级多年合同）",
       "action": "代言人签约",
       "volume": "10月16日官宣，补齐CBA本土锋线球星矩阵",
@@ -8580,7 +8580,7 @@ var DASH_DATA = {
     {
       "celeb": "肖战",
       "region": "内地",
-      "brand": "lining",
+      "brand": "李宁",
       "title": "李宁品牌全球代言人肖战演绎好彩羽绒服（冬日 Campaign）",
       "action": "品牌全球代言人（Campaign）",
       "volume": "10月15日好彩羽绒服/TVC上线",
@@ -8597,7 +8597,7 @@ var DASH_DATA = {
     {
       "celeb": "田曦薇",
       "region": "内地",
-      "brand": "miniso",
+      "brand": "名创优品",
       "title": "名创优品官宣田曦薇为品牌代言人（毛绒节）",
       "action": "品牌代言人官宣",
       "volume": "10月19日官宣，共创「甜品厨房」系列，微博话题阅读4.7亿",
@@ -8614,7 +8614,7 @@ var DASH_DATA = {
     {
       "celeb": "无畏（JDG）",
       "region": "内地",
-      "brand": "proya",
+      "brand": "珀莱雅",
       "title": "珀莱雅官宣无畏（JDG）为双抗高光大使（王者荣耀周年庆）",
       "action": "品牌大使官宣",
       "volume": "10月24日，双抗快闪空间登陆王者荣耀2026周年庆",
@@ -8631,7 +8631,7 @@ var DASH_DATA = {
     {
       "celeb": "宋威龙",
       "region": "内地",
-      "brand": "anta",
+      "brand": "安踏",
       "title": "安踏官宣宋威龙成为品牌代言人（双十一营销）",
       "action": "代言人官宣",
       "volume": "10月20日官宣，启动双十一营销",
@@ -8648,7 +8648,7 @@ var DASH_DATA = {
     {
       "celeb": "王安宇",
       "region": "内地",
-      "brand": "anta",
+      "brand": "安踏",
       "title": "安踏新签代言人王安宇（9月）",
       "action": "代言人官宣",
       "volume": "9月新签，补充品牌年轻化矩阵",
@@ -8905,7 +8905,7 @@ var DASH_DATA = {
       "updatedAt": "2026-09-19T07:58:00+08:00"
     },
     {
-      "brand": "loreal",
+      "brand": "巴黎欧莱雅",
       "celeb": "周也",
       "region": "内地",
       "title": "巴黎欧莱雅彩妆代言人",
@@ -9455,7 +9455,7 @@ var DASH_DATA = {
     },
     {
       "id": "e024",
-      "brand": "ysl",
+      "brand": "YSL Beauty",
       "celeb": "肖战",
       "region": "内地",
       "title": "YSL 全球品牌大使",
@@ -9471,7 +9471,7 @@ var DASH_DATA = {
       "updatedAt": "2026-09-18T09:40:00+08:00"
     },
     {
-      "brand": "fenghua",
+      "brand": "蜂花",
       "celeb": "王俊凯",
       "region": "内地",
       "title": "蜂花品牌代言人",
@@ -9490,7 +9490,7 @@ var DASH_DATA = {
       "id": "e020"
     },
     {
-      "brand": "yunnanbaiyao",
+      "brand": "云南白药牙膏",
       "celeb": "王一博",
       "region": "内地",
       "title": "云南白药牙膏全球品牌代言人",
@@ -9509,7 +9509,7 @@ var DASH_DATA = {
       "id": "e021"
     },
     {
-      "brand": "loreal",
+      "brand": "巴黎欧莱雅",
       "celeb": "张凌赫",
       "region": "内地",
       "title": "巴黎欧莱雅美发代言人",
@@ -9944,7 +9944,7 @@ var DASH_DATA = {
       "id": "e046"
     },
     {
-      "brand": "fila",
+      "brand": "斐乐 FILA",
       "celeb": "王安宇",
       "region": "内地",
       "title": "FILA品牌代言人",
