@@ -1,7 +1,7 @@
 var DASH_DATA = {
   "version": 2,
   "date": "10-27",
-  "updatedAt": "2026-10-27T13:57:30+08:00",
+  "updatedAt": "2026-10-27T19:09:34+08:00",
   "trendDates": [
     "10-16",
     "10-17",
@@ -16,7 +16,7 @@ var DASH_DATA = {
     "10-26",
     "10-27"
   ],
-  "dataNote": "[2026-10-27 13:57 刷新] 纯本地自动化增量刷新：重建微博/抖音实时热榜（抖音更新 2026-10-27 13:52:34）；追加真实当日新闻 1 条（李宁·智通财经）；brands trend/delta 估算重算。[2026-10-27 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-27 起），更早条目已删除，本次保留 16 / 原 16 条；accounts 监测源清单不变。[2026-10-27 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 82 / 原 82 条。[2026-10-27 刷新] 纯本地自动化：news 当日强制保障 8 条；微博/抖音实时热榜重建；明星代言监测去重追加 1 条（近7日真实代言 9 条）；新增真实 campaigns 8 条；brands trend/delta 估算重算。[2026-10-26 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-26 起），更早条目已删除，本次保留 16 / 原 16 条；accounts 监测源清单不变。[2026-10-26 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 74 / 原 74 条。[2026-10-26 本地自动更新] 联网检索50+品牌近30天真实新闻（WebSearch，带来源URL），当日(10-26)资讯5条置顶；微博/抖音实时热榜API重建（60s.viki.moe / iesdouyin）；小红书活动(3)/趋势(20)/综合(12)由小红书官方趋势与千瓜数据聚合；明星代言真实刷新5条（近7日3条）；营销动作与公众号资讯按30天窗口裁剪（prune脚本）。soc/sales/heat 为公开报道与行业榜单估算值，非平台官方数据。[2026-10-26 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-26 起），更早条目已删除，本次保留 15 / 原 15 条；accounts 监测源清单不变。[2026-10-26 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 62 / 原 62 条。[2026-10-26 本地自动更新] 联网检索50+品牌近30天真实新闻（WebSearch，带来源URL），当日(10-26)资讯13条置顶；微博/抖音实时热榜API重建；小红书聚合；明星代言真实刷新2条（近7日7条）；营销动作与公众号资讯按30天窗口裁剪（prune脚本）。soc/sales/heat 为公开报道与行业榜单估算值，非平台官方数据。[2026-10-25 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 62 / 原 62 条。[2026-10-25 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-25 起），更早条目已删除，本次保留 15 / 原 15 条；accounts 监测源清单不变。[2026-10-25 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 62 / 原 63 条。[2026-10-25 刷新] 实时热榜：微博(60s.viki.moe)/抖音(iesdouyin)为 2026-10-25T10:19:42+08:00 真实榜单重建；小红书活动(3)/趋势(20)/综合(12)由小红书官方趋势与千瓜数据(2026秋冬繁荣主义等)聚合整理。新增 news 20 条（anta/popmart/luckin/mixue/bawang/miniso/proya/lululemon/lining/guming/starbucks/mgp 等优先级品牌，均附来源URL）；新增 campaigns 8 条、wechatNews 3 条、celebrity 2 条。brands 趋势滚动至 10-25 窗口、delta 重算（标注为估算）。hotlists/wbEntertainment/dySeeding 由真实热搜总榜+近期文娱动态增补。",
+  "dataNote": "[2026-10-27 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 86 / 原 86 条。[2026-10-27 19:09 刷新] 纯本地自动化增量刷新：重建微博/抖音实时热榜（抖音 active_time=2026-10-27 19:02:59）；真实新增新闻 8 条（含当日 14 条）；新增真实 campaigns 4 条；明星代言真实刷新（去重后新增 0 条，近7日真实代言 9 条）；brands trend/delta 估算重算。[2026-10-27 13:57 刷新] 纯本地自动化增量刷新：重建微博/抖音实时热榜（抖音更新 2026-10-27 13:52:34）；追加真实当日新闻 1 条（李宁·智通财经）；brands trend/delta 估算重算。[2026-10-27 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-27 起），更早条目已删除，本次保留 16 / 原 16 条；accounts 监测源清单不变。[2026-10-27 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 82 / 原 82 条。[2026-10-27 刷新] 纯本地自动化：news 当日强制保障 8 条；微博/抖音实时热榜重建；明星代言监测去重追加 1 条（近7日真实代言 9 条）；新增真实 campaigns 8 条；brands trend/delta 估算重算。[2026-10-26 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-26 起），更早条目已删除，本次保留 16 / 原 16 条；accounts 监测源清单不变。[2026-10-26 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 74 / 原 74 条。[2026-10-26 本地自动更新] 联网检索50+品牌近30天真实新闻（WebSearch，带来源URL），当日(10-26)资讯5条置顶；微博/抖音实时热榜API重建（60s.viki.moe / iesdouyin）；小红书活动(3)/趋势(20)/综合(12)由小红书官方趋势与千瓜数据聚合；明星代言真实刷新5条（近7日3条）；营销动作与公众号资讯按30天窗口裁剪（prune脚本）。soc/sales/heat 为公开报道与行业榜单估算值，非平台官方数据。[2026-10-26 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-26 起），更早条目已删除，本次保留 15 / 原 15 条；accounts 监测源清单不变。[2026-10-26 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 62 / 原 62 条。[2026-10-26 本地自动更新] 联网检索50+品牌近30天真实新闻（WebSearch，带来源URL），当日(10-26)资讯13条置顶；微博/抖音实时热榜API重建；小红书聚合；明星代言真实刷新2条（近7日7条）；营销动作与公众号资讯按30天窗口裁剪（prune脚本）。soc/sales/heat 为公开报道与行业榜单估算值，非平台官方数据。[2026-10-25 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 62 / 原 62 条。[2026-10-25 裁剪] 行业公众号资讯仅保留近30天内容（2026-09-25 起），更早条目已删除，本次保留 15 / 原 15 条；accounts 监测源清单不变。[2026-10-25 裁剪] 营销动作监测仅保留一个月内相关讯息：进行中活动全部保留；已结束且超过30天或无大量负面反馈者已提前清理，本次保留 62 / 原 63 条。[2026-10-25 刷新] 实时热榜：微博(60s.viki.moe)/抖音(iesdouyin)为 2026-10-25T10:19:42+08:00 真实榜单重建；小红书活动(3)/趋势(20)/综合(12)由小红书官方趋势与千瓜数据(2026秋冬繁荣主义等)聚合整理。新增 news 20 条（anta/popmart/luckin/mixue/bawang/miniso/proya/lululemon/lining/guming/starbucks/mgp 等优先级品牌，均附来源URL）；新增 campaigns 8 条、wechatNews 3 条、celebrity 2 条。brands 趋势滚动至 10-25 窗口、delta 重算（标注为估算）。hotlists/wbEntertainment/dySeeding 由真实热搜总榜+近期文娱动态增补。",
   "categories": [
     {
       "id": "apparel",
@@ -52,7 +52,7 @@ var DASH_DATA = {
       "cat": "apparel",
       "soc": 100,
       "sales": 94,
-      "news": 27,
+      "news": 28,
       "delta": 0,
       "trend": [
         95,
@@ -74,10 +74,10 @@ var DASH_DATA = {
       "id": "lululemon",
       "name": "lululemon",
       "cat": "apparel",
-      "soc": 81,
+      "soc": 82,
       "sales": 86,
-      "news": 16,
-      "delta": 1,
+      "news": 17,
+      "delta": 2,
       "trend": [
         83,
         82,
@@ -90,9 +90,9 @@ var DASH_DATA = {
         84,
         85,
         85,
-        86
+        87
       ],
-      "heat": 85
+      "heat": 86
     },
     {
       "id": "lining",
@@ -482,10 +482,10 @@ var DASH_DATA = {
       "id": "mixue",
       "name": "蜜雪冰城",
       "cat": "food",
-      "soc": 82,
+      "soc": 83,
       "sales": 86,
-      "news": 18,
-      "delta": 1,
+      "news": 19,
+      "delta": 2,
       "trend": [
         82,
         81,
@@ -498,18 +498,18 @@ var DASH_DATA = {
         84,
         85,
         85,
-        86
+        87
       ],
-      "heat": 85
+      "heat": 86
     },
     {
       "id": "luckin",
       "name": "瑞幸咖啡",
       "cat": "food",
-      "soc": 96,
+      "soc": 97,
       "sales": 91,
-      "news": 21,
-      "delta": 1,
+      "news": 22,
+      "delta": 2,
       "trend": [
         94,
         94,
@@ -522,9 +522,9 @@ var DASH_DATA = {
         97,
         98,
         98,
-        99
+        100
       ],
-      "heat": 98
+      "heat": 99
     },
     {
       "id": "bawang",
@@ -554,10 +554,10 @@ var DASH_DATA = {
       "id": "starbucks",
       "name": "星巴克",
       "cat": "food",
-      "soc": 78,
+      "soc": 79,
       "sales": 74,
-      "news": 5,
-      "delta": 1,
+      "news": 6,
+      "delta": 2,
       "trend": [
         77,
         77,
@@ -570,9 +570,9 @@ var DASH_DATA = {
         77,
         78,
         78,
-        79
+        80
       ],
-      "heat": 78
+      "heat": 79
     },
     {
       "id": "heytea",
@@ -602,10 +602,10 @@ var DASH_DATA = {
       "id": "guming",
       "name": "古茗",
       "cat": "food",
-      "soc": 74,
+      "soc": 75,
       "sales": 79,
-      "news": 11,
-      "delta": 1,
+      "news": 12,
+      "delta": 2,
       "trend": [
         76,
         76,
@@ -618,9 +618,9 @@ var DASH_DATA = {
         78,
         79,
         79,
-        80
+        81
       ],
-      "heat": 79
+      "heat": 80
     },
     {
       "id": "songsu",
@@ -770,9 +770,9 @@ var DASH_DATA = {
       "id": "popmart",
       "name": "泡泡玛特",
       "cat": "ip",
-      "soc": 97,
+      "soc": 98,
       "sales": 95,
-      "news": 34,
+      "news": 35,
       "delta": 0,
       "trend": [
         97,
@@ -1610,10 +1610,10 @@ var DASH_DATA = {
       "id": "proya",
       "name": "珀莱雅",
       "cat": "beauty",
-      "soc": 91,
+      "soc": 92,
       "sales": 87,
-      "news": 17,
-      "delta": 1,
+      "news": 18,
+      "delta": 2,
       "trend": [
         86,
         88,
@@ -1626,9 +1626,9 @@ var DASH_DATA = {
         91,
         92,
         92,
-        93
+        94
       ],
-      "heat": 92
+      "heat": 93
     },
     {
       "id": "florasis",
@@ -2090,6 +2090,86 @@ var DASH_DATA = {
   "news": [
     {
       "date": "10-27",
+      "brand": "proya",
+      "cat": "beauty",
+      "title": "双11首发经济成亮点：珀莱雅李佳琦直播间GMV约5.1亿元居首",
+      "summary": "证券时报：今年双11平台集中发力新品首发，美妆是核心赛道；珀莱雅主品牌在李佳琦直播间GMV约5.1亿元，位列预售首日品牌销售额第一。",
+      "source": "证券时报",
+      "url": "https://www.163.com/dy/article/LA83UVPH0514R9OJ.html",
+      "heat": 84,
+      "tags": [
+        "珀莱雅",
+        "双11",
+        "李佳琦",
+        "首发经济"
+      ]
+    },
+    {
+      "date": "10-27",
+      "brand": "anta",
+      "cat": "apparel",
+      "title": "安踏双11：林孝埈10月27日晚天猫直播间，499元面包羽绒服开抢",
+      "summary": "安踏双11已开跑，品牌代言人林孝埈10月27日晚现身天猫蜜蜂惊喜社安踏专场；499元鸭绒版面包羽绒服叠加多层券后到手，主推雪御羽绒PRO。",
+      "source": "什么值得买",
+      "url": "https://post.smzdm.com/p/a26xg4vd/",
+      "heat": 83,
+      "tags": [
+        "安踏",
+        "双11",
+        "林孝埈",
+        "羽绒服"
+      ]
+    },
+    {
+      "date": "10-27",
+      "brand": "starbucks",
+      "cat": "food",
+      "title": "天猫双11食品生鲜战报：星巴克精品冻干黑咖啡抱抱桶上新",
+      "summary": "亿邦动力：星巴克精品冻干黑咖啡抱抱桶等新品与新口味吸引年轻人尝鲜，IP联名与咖啡液带动品牌成交。",
+      "source": "亿邦动力",
+      "url": "https://dy.163.com/article/LA8V447305118A6A.html",
+      "heat": 78,
+      "tags": [
+        "星巴克",
+        "双11",
+        "冻干咖啡",
+        "新品"
+      ]
+    },
+    {
+      "date": "10-27",
+      "brand": "luckin",
+      "cat": "food",
+      "title": "天猫双11食品生鲜战报：瑞幸即享旗舰店店播成交增长210%",
+      "summary": "亿邦动力：截至10月25日天猫双11食品生鲜战报，瑞幸即享旗舰店店播成交同比增长210%，三丽鸥联名咖啡液吸引年轻新客。",
+      "source": "亿邦动力",
+      "url": "https://dy.163.com/article/LA8V447305118A6A.html",
+      "heat": 82,
+      "tags": [
+        "瑞幸",
+        "双11",
+        "食品生鲜战报",
+        "店播"
+      ]
+    },
+    {
+      "date": "10-27",
+      "brand": "popmart",
+      "cat": "ip",
+      "title": "泡泡玛特10月底将在北京开出首家甜品店",
+      "summary": "泡泡玛特高管在业绩会上透露，10月底将在北京开出第一家独立甜品店，IP向餐饮场景延伸。",
+      "source": "新浪财经/财经网",
+      "url": "https://k.sina.com.cn/article_1642088277_61e04755040027nd2.html?kdurlshow=1",
+      "heat": 80,
+      "tags": [
+        "泡泡玛特",
+        "甜品店",
+        "业绩会",
+        "IP"
+      ]
+    },
+    {
+      "date": "10-27",
       "brand": "lining",
       "cat": "apparel",
       "title": "李宁Q3流水折扣小幅承压，智通维持买入评级",
@@ -2231,6 +2311,38 @@ var DASH_DATA = {
         "券商",
         "买入",
         "奥运"
+      ]
+    },
+    {
+      "date": "10-26",
+      "brand": "lululemon",
+      "cat": "apparel",
+      "title": "lululemon遭分析师下调至「卖出」评级，预计2026财年营收下滑5%-7%",
+      "summary": "Seeking Alpha分析师将lululemon由「中性」下调至「卖出」，称连续两次下调指引、2026财年营收预计同比降5%-7%，品牌相关性与销售动能走弱。",
+      "source": "OpenBell/Seeking Alpha",
+      "url": "https://news.openbell.live/news/lulu-lululemon-downgraded-to-sell-by-analyst-on-weakening-outlook-2026-10-26",
+      "heat": 76,
+      "tags": [
+        "lululemon",
+        "评级下调",
+        "财报",
+        "卖出"
+      ]
+    },
+    {
+      "date": "10-26",
+      "brand": "mixue",
+      "cat": "food",
+      "title": "蜜雪冰城「转转杯」走红：转动杯身切换雪王表情，门店称不额外收费",
+      "summary": "极目新闻：蜜雪冰城新款「雪王转转杯」可通过转动杯身切换多种雪王表情，相关视频点赞超10万；门店称主要用于中杯热饮，不额外收费但数量有限。",
+      "source": "极目新闻/搜狐",
+      "url": "https://m.sohu.com/a/1093481606_121284943",
+      "heat": 80,
+      "tags": [
+        "蜜雪冰城",
+        "转转杯",
+        "雪王",
+        "互动包装"
       ]
     },
     {
@@ -2867,6 +2979,22 @@ var DASH_DATA = {
         "麻将"
       ],
       "cat": "ip"
+    },
+    {
+      "date": "10-21",
+      "brand": "guming",
+      "cat": "food",
+      "title": "古茗Q3经营更新：全年净开店指引下调至1100-1200家，Q3同店中单位数增长",
+      "summary": "腾讯/中金：古茗2026全年净开店指引由约2000家下调至1100-1200家，Q3同店销售中单位数增长、9月加盟商利润双位数提升，2027年有望提速。",
+      "source": "腾讯新闻/中金",
+      "url": "https://new.qq.com/rain/a/20261014A0D8QN00",
+      "heat": 75,
+      "tags": [
+        "古茗",
+        "Q3",
+        "开店指引",
+        "同店增长"
+      ]
     },
     {
       "date": "10-21",
@@ -6276,166 +6404,67 @@ var DASH_DATA = {
     }
   ],
   "hotlists": {
-    "note": "热榜更新于 2026-10-27T13:57:30+08:00：微博/抖音为实时API重建（60s.viki.moe、iesdouyin，抖音更新 2026-10-27 13:52:34）；小红书活动/趋势/综合由小红书官方趋势与千瓜数据聚合（近90日热点）。",
+    "note": "[2026-10-27 19:09 刷新] 微博/抖音实时热榜由 60s.viki.moe / iesdouyin 实时接口重建（抖音 active_time=2026-10-27 19:02:59）；小红书活动/趋势/综合为 WebSearch+千瓜数据聚合（非实时接口），wbEntertainment/dySeeding 取自真实热搜 Top20。所有热榜条目均含可渲染标题。",
     "weibo": [
       {
         "rank": 1,
-        "topic": "多个品牌终止与姆巴佩合作",
-        "note": "微博实时热搜第1位，热度10,020,484",
+        "topic": "外交部回应姆巴佩涉华不当言论",
+        "note": "微博实时热搜第1位，热度9,696,573",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E4%B8%AA%E5%93%81%E7%89%8C%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C",
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%9A%E4%B8%AA%E5%93%81%E7%89%8C%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA"
       },
       {
         "rank": 2,
-        "topic": "姆巴佩深知被羞辱的滋味却不懂尊重",
-        "note": "微博实时热搜第2位，热度3,675,542",
+        "topic": "姆巴佩涉华不当言论引众怒",
+        "note": "微博实时热搜第2位，热度1,799,127",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B7%B1%E7%9F%A5%E8%A2%AB%E7%BE%9E%E8%BE%B1%E7%9A%84%E6%BB%8B%E5%91%B3%E5%8D%B4%E4%B8%8D%E6%87%82%E5%B0%8A%E9%87%8D",
+        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA%E5%BC%95%E4%BC%97%E6%80%92",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B7%B1%E7%9F%A5%E8%A2%AB%E7%BE%9E%E8%BE%B1%E7%9A%84%E6%BB%8B%E5%91%B3%E5%8D%B4%E4%B8%8D%E6%87%82%E5%B0%8A%E9%87%8D"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA%E5%BC%95%E4%BC%97%E6%80%92"
       },
       {
         "rank": 3,
-        "topic": "老字号新顶流",
-        "note": "微博实时热搜第3位，热度1,755,878",
+        "topic": "我国能源绿色转型成绩单",
+        "note": "微博实时热搜第3位，热度1,451,377",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%80%81%E5%AD%97%E5%8F%B7%E6%96%B0%E9%A1%B6%E6%B5%81",
+        "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%80%81%E5%AD%97%E5%8F%B7%E6%96%B0%E9%A1%B6%E6%B5%81"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95"
       },
       {
         "rank": 4,
-        "topic": "懂球帝对姆巴佩不当发言不翻译不接受",
-        "note": "微博实时热搜第4位，热度1,707,924",
+        "topic": "姆巴佩多平台被禁言",
+        "note": "微博实时热搜第4位，热度846,543",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%87%82%E7%90%83%E5%B8%9D%E5%AF%B9%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%B8%8D%E5%BD%93%E5%8F%91%E8%A8%80%E4%B8%8D%E7%BF%BB%E8%AF%91%E4%B8%8D%E6%8E%A5%E5%8F%97",
+        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%A4%9A%E5%B9%B3%E5%8F%B0%E8%A2%AB%E7%A6%81%E8%A8%80",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%87%82%E7%90%83%E5%B8%9D%E5%AF%B9%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%B8%8D%E5%BD%93%E5%8F%91%E8%A8%80%E4%B8%8D%E7%BF%BB%E8%AF%91%E4%B8%8D%E6%8E%A5%E5%8F%97"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%A4%9A%E5%B9%B3%E5%8F%B0%E8%A2%AB%E7%A6%81%E8%A8%80"
       },
       {
         "rank": 5,
-        "topic": "参加婚礼吃了一桌子外卖",
-        "note": "微博实时热搜第5位，热度785,199",
+        "topic": "极客湾旗舰芯片大横评",
+        "note": "微博实时热搜第5位，热度451,673",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%8F%82%E5%8A%A0%E5%A9%9A%E7%A4%BC%E5%90%83%E4%BA%86%E4%B8%80%E6%A1%8C%E5%AD%90%E5%A4%96%E5%8D%96",
+        "url": "https://s.weibo.com/weibo?q=%E6%9E%81%E5%AE%A2%E6%B9%BE%E6%97%97%E8%88%B0%E8%8A%AF%E7%89%87%E5%A4%A7%E6%A8%AA%E8%AF%84",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%8F%82%E5%8A%A0%E5%A9%9A%E7%A4%BC%E5%90%83%E4%BA%86%E4%B8%80%E6%A1%8C%E5%AD%90%E5%A4%96%E5%8D%96"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%9E%81%E5%AE%A2%E6%B9%BE%E6%97%97%E8%88%B0%E8%8A%AF%E7%89%87%E5%A4%A7%E6%A8%AA%E8%AF%84"
       },
       {
         "rank": 6,
-        "topic": "东鹏饮料终止与姆巴佩合作",
-        "note": "微博实时热搜第6位，热度642,976",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C"
-      },
-      {
-        "rank": 7,
-        "topic": "电诈头目刘忍被押解回国画面曝光",
-        "note": "微博实时热搜第7位，热度490,801",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%94%B5%E8%AF%88%E5%A4%B4%E7%9B%AE%E5%88%98%E5%BF%8D%E8%A2%AB%E6%8A%BC%E8%A7%A3%E5%9B%9E%E5%9B%BD%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B5%E8%AF%88%E5%A4%B4%E7%9B%AE%E5%88%98%E5%BF%8D%E8%A2%AB%E6%8A%BC%E8%A7%A3%E5%9B%9E%E5%9B%BD%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89"
-      },
-      {
-        "rank": 8,
-        "topic": "央视下架姆巴佩报道",
-        "note": "微博实时热搜第8位，热度488,878",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%8A%A5%E9%81%93",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%8A%A5%E9%81%93"
-      },
-      {
-        "rank": 9,
-        "topic": "藏族女孩给子弟兵当翻译",
-        "note": "微博实时热搜第9位，热度468,396",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%97%8F%E6%97%8F%E5%A5%B3%E5%AD%A9%E7%BB%99%E5%AD%90%E5%BC%9F%E5%85%B5%E5%BD%93%E7%BF%BB%E8%AF%91",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%97%8F%E6%97%8F%E5%A5%B3%E5%AD%A9%E7%BB%99%E5%AD%90%E5%BC%9F%E5%85%B5%E5%BD%93%E7%BF%BB%E8%AF%91"
-      },
-      {
-        "rank": 10,
-        "topic": "声生不息宝岛季2首发阵容",
-        "note": "微博实时热搜第10位，热度456,707",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E5%AE%9D%E5%B2%9B%E5%AD%A32%E9%A6%96%E5%8F%91%E9%98%B5%E5%AE%B9",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E5%AE%9D%E5%B2%9B%E5%AD%A32%E9%A6%96%E5%8F%91%E9%98%B5%E5%AE%B9"
-      },
-      {
-        "rank": 11,
-        "topic": "皇马大吧声明",
-        "note": "微博实时热搜第11位，热度448,658",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E"
-      },
-      {
-        "rank": 12,
-        "topic": "张一鸣刷新中国首富财富纪录",
-        "note": "微博实时热搜第12位，热度439,572",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E4%B8%80%E9%B8%A3%E5%88%B7%E6%96%B0%E4%B8%AD%E5%9B%BD%E9%A6%96%E5%AF%8C%E8%B4%A2%E5%AF%8C%E7%BA%AA%E5%BD%95",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BC%A0%E4%B8%80%E9%B8%A3%E5%88%B7%E6%96%B0%E4%B8%AD%E5%9B%BD%E9%A6%96%E5%AF%8C%E8%B4%A2%E5%AF%8C%E7%BA%AA%E5%BD%95"
-      },
-      {
-        "rank": 13,
-        "topic": "小红书发布姆巴佩相关声明",
-        "note": "微博实时热搜第13位，热度436,062",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%8F%91%E5%B8%83%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9B%B8%E5%85%B3%E5%A3%B0%E6%98%8E",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%8F%91%E5%B8%83%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9B%B8%E5%85%B3%E5%A3%B0%E6%98%8E"
-      },
-      {
-        "rank": 14,
-        "topic": "厉娜许飞 华妃端妃",
-        "note": "微博实时热搜第14位，热度428,685",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E8%AE%B8%E9%A3%9E%20%E5%8D%8E%E5%A6%83%E7%AB%AF%E5%A6%83",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E8%AE%B8%E9%A3%9E%20%E5%8D%8E%E5%A6%83%E7%AB%AF%E5%A6%83"
-      },
-      {
-        "rank": 15,
         "topic": "迪奥下架姆巴佩内容",
-        "note": "微博实时热搜第15位，热度428,334",
+        "note": "微博实时热搜第6位，热度446,343",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
@@ -6444,31 +6473,75 @@ var DASH_DATA = {
         "reportUrl": "https://s.weibo.com/weibo?q=%E8%BF%AA%E5%A5%A5%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%86%85%E5%AE%B9"
       },
       {
-        "rank": 16,
-        "topic": "A股 科技股",
-        "note": "微博实时热搜第16位，热度414,437",
+        "rank": 7,
+        "topic": "大唐辟珠记编剧",
+        "note": "微博实时热搜第7位，热度366,319",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1",
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0%E7%BC%96%E5%89%A7",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=A%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0%E7%BC%96%E5%89%A7"
       },
       {
-        "rank": 17,
-        "topic": "玉簟秋这能播吗",
-        "note": "微博实时热搜第17位，热度346,034",
+        "rank": 8,
+        "topic": "万花世界杀青",
+        "note": "微博实时热搜第8位，热度365,675",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%8E%89%E7%B0%9F%E7%A7%8B%E8%BF%99%E8%83%BD%E6%92%AD%E5%90%97",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%87%E8%8A%B1%E4%B8%96%E7%95%8C%E6%9D%80%E9%9D%92",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%8E%89%E7%B0%9F%E7%A7%8B%E8%BF%99%E8%83%BD%E6%92%AD%E5%90%97"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E4%B8%87%E8%8A%B1%E4%B8%96%E7%95%8C%E6%9D%80%E9%9D%92"
       },
       {
-        "rank": 18,
+        "rank": 9,
+        "topic": "孩子们心中的英雄有了模样",
+        "note": "微博实时热搜第9位，热度364,760",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%BF%83%E4%B8%AD%E7%9A%84%E8%8B%B1%E9%9B%84%E6%9C%89%E4%BA%86%E6%A8%A1%E6%A0%B7",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%BF%83%E4%B8%AD%E7%9A%84%E8%8B%B1%E9%9B%84%E6%9C%89%E4%BA%86%E6%A8%A1%E6%A0%B7"
+      },
+      {
+        "rank": 10,
+        "topic": "婚宴点外卖是朋友主动要求的",
+        "note": "微博实时热搜第10位，热度363,966",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%AE%B4%E7%82%B9%E5%A4%96%E5%8D%96%E6%98%AF%E6%9C%8B%E5%8F%8B%E4%B8%BB%E5%8A%A8%E8%A6%81%E6%B1%82%E7%9A%84",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%AE%B4%E7%82%B9%E5%A4%96%E5%8D%96%E6%98%AF%E6%9C%8B%E5%8F%8B%E4%B8%BB%E5%8A%A8%E8%A6%81%E6%B1%82%E7%9A%84"
+      },
+      {
+        "rank": 11,
+        "topic": "肖战伴手礼17斤",
+        "note": "微博实时热搜第11位，热度363,043",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E4%BC%B4%E6%89%8B%E7%A4%BC17%E6%96%A4",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E4%BC%B4%E6%89%8B%E7%A4%BC17%E6%96%A4"
+      },
+      {
+        "rank": 12,
+        "topic": "皇马大吧声明",
+        "note": "微博实时热搜第12位，热度362,585",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E"
+      },
+      {
+        "rank": 13,
         "topic": "新娘回应参加婚礼吃了一桌外卖",
-        "note": "微博实时热搜第18位，热度345,039",
+        "note": "微博实时热搜第13位，热度361,122",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
@@ -6477,154 +6550,231 @@ var DASH_DATA = {
         "reportUrl": "https://s.weibo.com/weibo?q=%E6%96%B0%E5%A8%98%E5%9B%9E%E5%BA%94%E5%8F%82%E5%8A%A0%E5%A9%9A%E7%A4%BC%E5%90%83%E4%BA%86%E4%B8%80%E6%A1%8C%E5%A4%96%E5%8D%96"
       },
       {
-        "rank": 19,
-        "topic": "富士康员工曝iPhoneDuo碎屏原因",
-        "note": "微博实时热搜第19位，热度341,955",
+        "rank": 14,
+        "topic": "西甲",
+        "note": "微博实时热搜第14位，热度360,850",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%AF%8C%E5%A3%AB%E5%BA%B7%E5%91%98%E5%B7%A5%E6%9B%9DiPhoneDuo%E7%A2%8E%E5%B1%8F%E5%8E%9F%E5%9B%A0",
+        "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%94%B2",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%AF%8C%E5%A3%AB%E5%BA%B7%E5%91%98%E5%B7%A5%E6%9B%9DiPhoneDuo%E7%A2%8E%E5%B1%8F%E5%8E%9F%E5%9B%A0"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%94%B2"
+      },
+      {
+        "rank": 15,
+        "topic": "A股今天下跌原因是什么",
+        "note": "微博实时热搜第15位，热度359,480",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%BB%8A%E5%A4%A9%E4%B8%8B%E8%B7%8C%E5%8E%9F%E5%9B%A0%E6%98%AF%E4%BB%80%E4%B9%88",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%BB%8A%E5%A4%A9%E4%B8%8B%E8%B7%8C%E5%8E%9F%E5%9B%A0%E6%98%AF%E4%BB%80%E4%B9%88"
+      },
+      {
+        "rank": 16,
+        "topic": "众解说谈Breathe出装",
+        "note": "微博实时热搜第16位，热度359,033",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E4%BC%97%E8%A7%A3%E8%AF%B4%E8%B0%88Breathe%E5%87%BA%E8%A3%85",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E4%BC%97%E8%A7%A3%E8%AF%B4%E8%B0%88Breathe%E5%87%BA%E8%A3%85"
+      },
+      {
+        "rank": 17,
+        "topic": "刚签下姆巴佩的昂跑能维权吗",
+        "note": "微博实时热搜第17位，热度358,518",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%88%9A%E7%AD%BE%E4%B8%8B%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9A%84%E6%98%82%E8%B7%91%E8%83%BD%E7%BB%B4%E6%9D%83%E5%90%97",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%88%9A%E7%AD%BE%E4%B8%8B%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9A%84%E6%98%82%E8%B7%91%E8%83%BD%E7%BB%B4%E6%9D%83%E5%90%97"
+      },
+      {
+        "rank": 18,
+        "topic": "田曦薇宋威龙合作大唐辟珠记",
+        "note": "微博实时热搜第18位，热度351,482",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%E5%AE%8B%E5%A8%81%E9%BE%99%E5%90%88%E4%BD%9C%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%E5%AE%8B%E5%A8%81%E9%BE%99%E5%90%88%E4%BD%9C%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0"
+      },
+      {
+        "rank": 19,
+        "topic": "大唐辟珠记",
+        "note": "微博实时热搜第19位，热度350,497",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0"
       },
       {
         "rank": 20,
-        "topic": "徽剑遭劫持被逼删文",
-        "note": "微博实时热搜第20位，热度341,257",
+        "topic": "中国妇女报批姆巴佩",
+        "note": "微博实时热搜第20位，热度340,545",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%BE%BD%E5%89%91%E9%81%AD%E5%8A%AB%E6%8C%81%E8%A2%AB%E9%80%BC%E5%88%A0%E6%96%87",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A6%87%E5%A5%B3%E6%8A%A5%E6%89%B9%E5%A7%86%E5%B7%B4%E4%BD%A9",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BE%BD%E5%89%91%E9%81%AD%E5%8A%AB%E6%8C%81%E8%A2%AB%E9%80%BC%E5%88%A0%E6%96%87"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A6%87%E5%A5%B3%E6%8A%A5%E6%89%B9%E5%A7%86%E5%B7%B4%E4%BD%A9"
       },
       {
         "rank": 21,
-        "topic": "商场水管爆裂36万新车被喷3小时",
-        "note": "微博实时热搜第21位，热度337,605",
+        "topic": "极客湾谈韬芯片轻舟已过万重山",
+        "note": "微博实时热搜第21位，热度328,320",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E6%B0%B4%E7%AE%A1%E7%88%86%E8%A3%8236%E4%B8%87%E6%96%B0%E8%BD%A6%E8%A2%AB%E5%96%B73%E5%B0%8F%E6%97%B6",
+        "url": "https://s.weibo.com/weibo?q=%E6%9E%81%E5%AE%A2%E6%B9%BE%E8%B0%88%E9%9F%AC%E8%8A%AF%E7%89%87%E8%BD%BB%E8%88%9F%E5%B7%B2%E8%BF%87%E4%B8%87%E9%87%8D%E5%B1%B1",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%95%86%E5%9C%BA%E6%B0%B4%E7%AE%A1%E7%88%86%E8%A3%8236%E4%B8%87%E6%96%B0%E8%BD%A6%E8%A2%AB%E5%96%B73%E5%B0%8F%E6%97%B6"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%9E%81%E5%AE%A2%E6%B9%BE%E8%B0%88%E9%9F%AC%E8%8A%AF%E7%89%87%E8%BD%BB%E8%88%9F%E5%B7%B2%E8%BF%87%E4%B8%87%E9%87%8D%E5%B1%B1"
       },
       {
         "rank": 22,
-        "topic": "球迷发声抵制姆巴佩",
-        "note": "微博实时热搜第22位，热度335,429",
+        "topic": "字节跳动赚麻了",
+        "note": "微博实时热搜第22位，热度319,257",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%90%83%E8%BF%B7%E5%8F%91%E5%A3%B0%E6%8A%B5%E5%88%B6%E5%A7%86%E5%B7%B4%E4%BD%A9",
+        "url": "https://s.weibo.com/weibo?q=%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E8%B5%9A%E9%BA%BB%E4%BA%86",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%90%83%E8%BF%B7%E5%8F%91%E5%A3%B0%E6%8A%B5%E5%88%B6%E5%A7%86%E5%B7%B4%E4%BD%A9"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E8%B5%9A%E9%BA%BB%E4%BA%86"
       },
       {
         "rank": 23,
-        "topic": "张子萱一见面就扑进陈赫怀里",
-        "note": "微博实时热搜第23位，热度332,761",
+        "topic": "姆巴佩深知被羞辱的滋味却不懂尊重",
+        "note": "微博实时热搜第23位，热度316,861",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%AD%90%E8%90%B1%E4%B8%80%E8%A7%81%E9%9D%A2%E5%B0%B1%E6%89%91%E8%BF%9B%E9%99%88%E8%B5%AB%E6%80%80%E9%87%8C",
+        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B7%B1%E7%9F%A5%E8%A2%AB%E7%BE%9E%E8%BE%B1%E7%9A%84%E6%BB%8B%E5%91%B3%E5%8D%B4%E4%B8%8D%E6%87%82%E5%B0%8A%E9%87%8D",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%AD%90%E8%90%B1%E4%B8%80%E8%A7%81%E9%9D%A2%E5%B0%B1%E6%89%91%E8%BF%9B%E9%99%88%E8%B5%AB%E6%80%80%E9%87%8C"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B7%B1%E7%9F%A5%E8%A2%AB%E7%BE%9E%E8%BE%B1%E7%9A%84%E6%BB%8B%E5%91%B3%E5%8D%B4%E4%B8%8D%E6%87%82%E5%B0%8A%E9%87%8D"
       },
       {
         "rank": 24,
-        "topic": "姥姥介意被叫外婆",
-        "note": "微博实时热搜第24位，热度331,450",
+        "topic": "李子祺只写硕博不写本科",
+        "note": "微博实时热搜第24位，热度303,087",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A7%A5%E5%A7%A5%E4%BB%8B%E6%84%8F%E8%A2%AB%E5%8F%AB%E5%A4%96%E5%A9%86",
+        "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%AD%90%E7%A5%BA%E5%8F%AA%E5%86%99%E7%A1%95%E5%8D%9A%E4%B8%8D%E5%86%99%E6%9C%AC%E7%A7%91",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%A5%E5%A7%A5%E4%BB%8B%E6%84%8F%E8%A2%AB%E5%8F%AB%E5%A4%96%E5%A9%86"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%AD%90%E7%A5%BA%E5%8F%AA%E5%86%99%E7%A1%95%E5%8D%9A%E4%B8%8D%E5%86%99%E6%9C%AC%E7%A7%91"
       },
       {
         "rank": 25,
-        "topic": "蒙牛终止与姆巴佩合作",
-        "note": "微博实时热搜第25位，热度327,216",
+        "topic": "央视叫停涉姆巴佩赛事和广告播出",
+        "note": "微博实时热搜第25位，热度292,014",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%92%99%E7%89%9B%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C",
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E5%8F%AB%E5%81%9C%E6%B6%89%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%B5%9B%E4%BA%8B%E5%92%8C%E5%B9%BF%E5%91%8A%E6%92%AD%E5%87%BA",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%92%99%E7%89%9B%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E5%8F%AB%E5%81%9C%E6%B6%89%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%B5%9B%E4%BA%8B%E5%92%8C%E5%B9%BF%E5%91%8A%E6%92%AD%E5%87%BA"
       },
       {
         "rank": 26,
-        "topic": "网友把黄多多和吴彦祖老婆的礼服互换",
-        "note": "微博实时热搜第26位，热度325,297",
+        "topic": "A股不宜过度悲观",
+        "note": "微博实时热搜第26位，热度285,452",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%BD%91%E5%8F%8B%E6%8A%8A%E9%BB%84%E5%A4%9A%E5%A4%9A%E5%92%8C%E5%90%B4%E5%BD%A6%E7%A5%96%E8%80%81%E5%A9%86%E7%9A%84%E7%A4%BC%E6%9C%8D%E4%BA%92%E6%8D%A2",
+        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%B8%8D%E5%AE%9C%E8%BF%87%E5%BA%A6%E6%82%B2%E8%A7%82",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%BD%91%E5%8F%8B%E6%8A%8A%E9%BB%84%E5%A4%9A%E5%A4%9A%E5%92%8C%E5%90%B4%E5%BD%A6%E7%A5%96%E8%80%81%E5%A9%86%E7%9A%84%E7%A4%BC%E6%9C%8D%E4%BA%92%E6%8D%A2"
+        "reportUrl": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%B8%8D%E5%AE%9C%E8%BF%87%E5%BA%A6%E6%82%B2%E8%A7%82"
       },
       {
         "rank": 27,
-        "topic": "肖战一想到自己要干什么就憋不住笑",
-        "note": "微博实时热搜第27位，热度324,590",
+        "topic": "蒋欣明显被吓到了",
+        "note": "微博实时热搜第27位，热度280,773",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E4%B8%80%E6%83%B3%E5%88%B0%E8%87%AA%E5%B7%B1%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88%E5%B0%B1%E6%86%8B%E4%B8%8D%E4%BD%8F%E7%AC%91",
+        "url": "https://s.weibo.com/weibo?q=%E8%92%8B%E6%AC%A3%E6%98%8E%E6%98%BE%E8%A2%AB%E5%90%93%E5%88%B0%E4%BA%86",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E4%B8%80%E6%83%B3%E5%88%B0%E8%87%AA%E5%B7%B1%E8%A6%81%E5%B9%B2%E4%BB%80%E4%B9%88%E5%B0%B1%E6%86%8B%E4%B8%8D%E4%BD%8F%E7%AC%91"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E8%92%8B%E6%AC%A3%E6%98%8E%E6%98%BE%E8%A2%AB%E5%90%93%E5%88%B0%E4%BA%86"
       },
       {
         "rank": 28,
-        "topic": "演技好到突然懂了不搭噶的两个人",
-        "note": "微博实时热搜第28位，热度301,277",
+        "topic": "蒋芸发长文",
+        "note": "微博实时热搜第28位，热度274,336",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%BC%94%E6%8A%80%E5%A5%BD%E5%88%B0%E7%AA%81%E7%84%B6%E6%87%82%E4%BA%86%E4%B8%8D%E6%90%AD%E5%99%B6%E7%9A%84%E4%B8%A4%E4%B8%AA%E4%BA%BA",
+        "url": "https://s.weibo.com/weibo?q=%E8%92%8B%E8%8A%B8%E5%8F%91%E9%95%BF%E6%96%87",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%BC%94%E6%8A%80%E5%A5%BD%E5%88%B0%E7%AA%81%E7%84%B6%E6%87%82%E4%BA%86%E4%B8%8D%E6%90%AD%E5%99%B6%E7%9A%84%E4%B8%A4%E4%B8%AA%E4%BA%BA"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E8%92%8B%E8%8A%B8%E5%8F%91%E9%95%BF%E6%96%87"
       },
       {
         "rank": 29,
-        "topic": "邓紫棋魏大勋粉丝现状",
-        "note": "微博实时热搜第29位，热度280,479",
+        "topic": "干化工一个月两百万是人没了",
+        "note": "微博实时热搜第29位，热度273,798",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E9%AD%8F%E5%A4%A7%E5%8B%8B%E7%B2%89%E4%B8%9D%E7%8E%B0%E7%8A%B6",
+        "url": "https://s.weibo.com/weibo?q=%E5%B9%B2%E5%8C%96%E5%B7%A5%E4%B8%80%E4%B8%AA%E6%9C%88%E4%B8%A4%E7%99%BE%E4%B8%87%E6%98%AF%E4%BA%BA%E6%B2%A1%E4%BA%86",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E9%82%93%E7%B4%AB%E6%A3%8B%E9%AD%8F%E5%A4%A7%E5%8B%8B%E7%B2%89%E4%B8%9D%E7%8E%B0%E7%8A%B6"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%B9%B2%E5%8C%96%E5%B7%A5%E4%B8%80%E4%B8%AA%E6%9C%88%E4%B8%A4%E7%99%BE%E4%B8%87%E6%98%AF%E4%BA%BA%E6%B2%A1%E4%BA%86"
       },
       {
         "rank": 30,
-        "topic": "75岁白发女儿见到23岁牺牲的父亲",
-        "note": "微博实时热搜第30位，热度245,560",
+        "topic": "金鸡奖提名最佳女主的哭戏",
+        "note": "微博实时热搜第30位，热度273,110",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=75%E5%B2%81%E7%99%BD%E5%8F%91%E5%A5%B3%E5%84%BF%E8%A7%81%E5%88%B023%E5%B2%81%E7%89%BA%E7%89%B2%E7%9A%84%E7%88%B6%E4%BA%B2",
+        "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E6%8F%90%E5%90%8D%E6%9C%80%E4%BD%B3%E5%A5%B3%E4%B8%BB%E7%9A%84%E5%93%AD%E6%88%8F",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=75%E5%B2%81%E7%99%BD%E5%8F%91%E5%A5%B3%E5%84%BF%E8%A7%81%E5%88%B023%E5%B2%81%E7%89%BA%E7%89%B2%E7%9A%84%E7%88%B6%E4%BA%B2"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E5%A5%96%E6%8F%90%E5%90%8D%E6%9C%80%E4%BD%B3%E5%A5%B3%E4%B8%BB%E7%9A%84%E5%93%AD%E6%88%8F"
       }
     ],
     "douyin": [
       {
         "rank": 1,
-        "topic": "这样的景区逛着不烧心",
-        "note": "抖音实时热点第1位，热度12,355,753（更新 2026-10-27 13:52:34）",
+        "topic": "外交部回应姆巴佩发表不当言论",
+        "note": "抖音实时热点第1位，热度12,398,996（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%BF%99%E6%A0%B7%E7%9A%84%E6%99%AF%E5%8C%BA%E9%80%9B%E7%9D%80%E4%B8%8D%E7%83%A7%E5%BF%83",
+        "url": "https://www.douyin.com/search?keyword=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8F%91%E8%A1%A8%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%99%E6%A0%B7%E7%9A%84%E6%99%AF%E5%8C%BA%E9%80%9B%E7%9D%80%E4%B8%8D%E7%83%A7%E5%BF%83"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8F%91%E8%A1%A8%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA"
       },
       {
         "rank": 2,
+        "topic": "想要秋天不烧心就去山里野",
+        "note": "抖音实时热点第2位，热度12,326,146（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E6%83%B3%E8%A6%81%E7%A7%8B%E5%A4%A9%E4%B8%8D%E7%83%A7%E5%BF%83%E5%B0%B1%E5%8E%BB%E5%B1%B1%E9%87%8C%E9%87%8E",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%83%B3%E8%A6%81%E7%A7%8B%E5%A4%A9%E4%B8%8D%E7%83%A7%E5%BF%83%E5%B0%B1%E5%8E%BB%E5%B1%B1%E9%87%8C%E9%87%8E"
+      },
+      {
+        "rank": 3,
+        "topic": "我国能源绿色转型成绩单",
+        "note": "抖音实时热点第3位，热度11,945,995（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95"
+      },
+      {
+        "rank": 4,
         "topic": "全网最励志的三角梅出圈了",
-        "note": "抖音实时热点第2位，热度11,848,369（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第4位，热度10,876,135（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -6633,64 +6783,42 @@ var DASH_DATA = {
         "reportUrl": "https://www.douyin.com/search?keyword=%E5%85%A8%E7%BD%91%E6%9C%80%E5%8A%B1%E5%BF%97%E7%9A%84%E4%B8%89%E8%A7%92%E6%A2%85%E5%87%BA%E5%9C%88%E4%BA%86"
       },
       {
-        "rank": 3,
-        "topic": "这张跨山越海的电网越织越密",
-        "note": "抖音实时热点第3位，热度11,318,079（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%BF%99%E5%BC%A0%E8%B7%A8%E5%B1%B1%E8%B6%8A%E6%B5%B7%E7%9A%84%E7%94%B5%E7%BD%91%E8%B6%8A%E7%BB%87%E8%B6%8A%E5%AF%86",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%99%E5%BC%A0%E8%B7%A8%E5%B1%B1%E8%B6%8A%E6%B5%B7%E7%9A%84%E7%94%B5%E7%BD%91%E8%B6%8A%E7%BB%87%E8%B6%8A%E5%AF%86"
-      },
-      {
-        "rank": 4,
-        "topic": "东鹏饮料：终止与姆巴佩全部合作",
-        "note": "抖音实时热点第4位，热度11,274,783（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%EF%BC%9A%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%85%A8%E9%83%A8%E5%90%88%E4%BD%9C",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%EF%BC%9A%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%85%A8%E9%83%A8%E5%90%88%E4%BD%9C"
-      },
-      {
         "rank": 5,
-        "topic": "树枝版齐天大圣太震撼了",
-        "note": "抖音实时热点第5位，热度10,408,256（更新 2026-10-27 13:52:34）",
+        "topic": "新闻联播",
+        "note": "抖音实时热点第5位，热度10,226,306（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86",
+        "url": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD"
       },
       {
         "rank": 6,
-        "topic": "五谷绘出万里长城雄姿",
-        "note": "抖音实时热点第6位，热度9,661,781（更新 2026-10-27 13:52:34）",
+        "topic": "iPad mini8升级总结",
+        "note": "抖音实时热点第6位，热度9,683,936（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E4%BA%94%E8%B0%B7%E7%BB%98%E5%87%BA%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E9%9B%84%E5%A7%BF",
+        "url": "https://www.douyin.com/search?keyword=iPad%20mini8%E5%8D%87%E7%BA%A7%E6%80%BB%E7%BB%93",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%BA%94%E8%B0%B7%E7%BB%98%E5%87%BA%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E9%9B%84%E5%A7%BF"
+        "reportUrl": "https://www.douyin.com/search?keyword=iPad%20mini8%E5%8D%87%E7%BA%A7%E6%80%BB%E7%BB%93"
       },
       {
         "rank": 7,
-        "topic": "德国总统抵达安徽开启访华行程",
-        "note": "抖音实时热点第7位，热度7,791,663（更新 2026-10-27 13:52:34）",
+        "topic": "抖音娃改时装周",
+        "note": "抖音实时热点第7位，热度8,439,740（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B",
+        "url": "https://www.douyin.com/search?keyword=%E6%8A%96%E9%9F%B3%E5%A8%83%E6%94%B9%E6%97%B6%E8%A3%85%E5%91%A8",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%8A%96%E9%9F%B3%E5%A8%83%E6%94%B9%E6%97%B6%E8%A3%85%E5%91%A8"
       },
       {
         "rank": 8,
         "topic": "凯恩荣膺2026年金球奖",
-        "note": "抖音实时热点第8位，热度7,763,815（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第8位，热度8,406,865（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -6700,52 +6828,52 @@ var DASH_DATA = {
       },
       {
         "rank": 9,
-        "topic": "我国工业降碳水平持续提升",
-        "note": "抖音实时热点第9位，热度7,725,149（更新 2026-10-27 13:52:34）",
+        "topic": "广交会见证国货出海新变化",
+        "note": "抖音实时热点第9位，热度8,375,494（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E5%B7%A5%E4%B8%9A%E9%99%8D%E7%A2%B3%E6%B0%B4%E5%B9%B3%E6%8C%81%E7%BB%AD%E6%8F%90%E5%8D%87",
+        "url": "https://www.douyin.com/search?keyword=%E5%B9%BF%E4%BA%A4%E4%BC%9A%E8%A7%81%E8%AF%81%E5%9B%BD%E8%B4%A7%E5%87%BA%E6%B5%B7%E6%96%B0%E5%8F%98%E5%8C%96",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E5%B7%A5%E4%B8%9A%E9%99%8D%E7%A2%B3%E6%B0%B4%E5%B9%B3%E6%8C%81%E7%BB%AD%E6%8F%90%E5%8D%87"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%B9%BF%E4%BA%A4%E4%BC%9A%E8%A7%81%E8%AF%81%E5%9B%BD%E8%B4%A7%E5%87%BA%E6%B5%B7%E6%96%B0%E5%8F%98%E5%8C%96"
       },
       {
         "rank": 10,
-        "topic": "河头老街NPC唱歌太牛了",
-        "note": "抖音实时热点第10位，热度7,703,493（更新 2026-10-27 13:52:34）",
+        "topic": "树枝版齐天大圣太震撼了",
+        "note": "抖音实时热点第10位，热度8,167,470（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%B2%B3%E5%A4%B4%E8%80%81%E8%A1%97NPC%E5%94%B1%E6%AD%8C%E5%A4%AA%E7%89%9B%E4%BA%86",
+        "url": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%B2%B3%E5%A4%B4%E8%80%81%E8%A1%97NPC%E5%94%B1%E6%AD%8C%E5%A4%AA%E7%89%9B%E4%BA%86"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86"
       },
       {
         "rank": 11,
-        "topic": "过日子人秋冬穿搭指南",
-        "note": "抖音实时热点第11位，热度7,698,569（更新 2026-10-27 13:52:34）",
+        "topic": "德国总统抵达安徽开启访华行程",
+        "note": "抖音实时热点第11位，热度7,741,599（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%BF%87%E6%97%A5%E5%AD%90%E4%BA%BA%E7%A7%8B%E5%86%AC%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97",
+        "url": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%87%E6%97%A5%E5%AD%90%E4%BA%BA%E7%A7%8B%E5%86%AC%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B"
       },
       {
         "rank": 12,
-        "topic": "火箭军开展无预告战斗发射训练",
-        "note": "抖音实时热点第12位，热度7,692,209（更新 2026-10-27 13:52:34）",
+        "topic": "辽宁舰编队绕菲律宾远洋训练",
+        "note": "抖音实时热点第12位，热度7,713,298（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E7%81%AB%E7%AE%AD%E5%86%9B%E5%BC%80%E5%B1%95%E6%97%A0%E9%A2%84%E5%91%8A%E6%88%98%E6%96%97%E5%8F%91%E5%B0%84%E8%AE%AD%E7%BB%83",
+        "url": "https://www.douyin.com/search?keyword=%E8%BE%BD%E5%AE%81%E8%88%B0%E7%BC%96%E9%98%9F%E7%BB%95%E8%8F%B2%E5%BE%8B%E5%AE%BE%E8%BF%9C%E6%B4%8B%E8%AE%AD%E7%BB%83",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%81%AB%E7%AE%AD%E5%86%9B%E5%BC%80%E5%B1%95%E6%97%A0%E9%A2%84%E5%91%8A%E6%88%98%E6%96%97%E5%8F%91%E5%B0%84%E8%AE%AD%E7%BB%83"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BE%BD%E5%AE%81%E8%88%B0%E7%BC%96%E9%98%9F%E7%BB%95%E8%8F%B2%E5%BE%8B%E5%AE%BE%E8%BF%9C%E6%B4%8B%E8%AE%AD%E7%BB%83"
       },
       {
         "rank": 13,
         "topic": "老干妈HR回应AI裁员传闻",
-        "note": "抖音实时热点第13位，热度7,670,507（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第13位，热度7,678,973（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -6755,8 +6883,19 @@ var DASH_DATA = {
       },
       {
         "rank": 14,
+        "topic": "是谁还没看过谢帝的女装分享啊",
+        "note": "抖音实时热点第14位，热度7,674,873（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E6%98%AF%E8%B0%81%E8%BF%98%E6%B2%A1%E7%9C%8B%E8%BF%87%E8%B0%A2%E5%B8%9D%E7%9A%84%E5%A5%B3%E8%A3%85%E5%88%86%E4%BA%AB%E5%95%8A",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%98%AF%E8%B0%81%E8%BF%98%E6%B2%A1%E7%9C%8B%E8%BF%87%E8%B0%A2%E5%B8%9D%E7%9A%84%E5%A5%B3%E8%A3%85%E5%88%86%E4%BA%AB%E5%95%8A"
+      },
+      {
+        "rank": 15,
         "topic": "AL战队致歉",
-        "note": "抖音实时热点第14位，热度7,667,091（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第15位，热度7,671,056（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -6765,20 +6904,31 @@ var DASH_DATA = {
         "reportUrl": "https://www.douyin.com/search?keyword=AL%E6%88%98%E9%98%9F%E8%87%B4%E6%AD%89"
       },
       {
-        "rank": 15,
-        "topic": "我是你的新白娘子呀",
-        "note": "抖音实时热点第15位，热度7,666,755（更新 2026-10-27 13:52:34）",
+        "rank": 16,
+        "topic": "10月29日晚国内油价将调整",
+        "note": "抖音实时热点第16位，热度7,662,226（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%88%91%E6%98%AF%E4%BD%A0%E7%9A%84%E6%96%B0%E7%99%BD%E5%A8%98%E5%AD%90%E5%91%80",
+        "url": "https://www.douyin.com/search?keyword=10%E6%9C%8829%E6%97%A5%E6%99%9A%E5%9B%BD%E5%86%85%E6%B2%B9%E4%BB%B7%E5%B0%86%E8%B0%83%E6%95%B4",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%88%91%E6%98%AF%E4%BD%A0%E7%9A%84%E6%96%B0%E7%99%BD%E5%A8%98%E5%AD%90%E5%91%80"
+        "reportUrl": "https://www.douyin.com/search?keyword=10%E6%9C%8829%E6%97%A5%E6%99%9A%E5%9B%BD%E5%86%85%E6%B2%B9%E4%BB%B7%E5%B0%86%E8%B0%83%E6%95%B4"
       },
       {
-        "rank": 16,
+        "rank": 17,
+        "topic": "KPL十周年carry手势舞挑战",
+        "note": "抖音实时热点第17位，热度7,659,023（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=KPL%E5%8D%81%E5%91%A8%E5%B9%B4carry%E6%89%8B%E5%8A%BF%E8%88%9E%E6%8C%91%E6%88%98",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=KPL%E5%8D%81%E5%91%A8%E5%B9%B4carry%E6%89%8B%E5%8A%BF%E8%88%9E%E6%8C%91%E6%88%98"
+      },
+      {
+        "rank": 18,
         "topic": "承诺是你转场挑战",
-        "note": "抖音实时热点第16位，热度7,661,847（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第18位，热度7,658,844（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -6787,75 +6937,20 @@ var DASH_DATA = {
         "reportUrl": "https://www.douyin.com/search?keyword=%E6%89%BF%E8%AF%BA%E6%98%AF%E4%BD%A0%E8%BD%AC%E5%9C%BA%E6%8C%91%E6%88%98"
       },
       {
-        "rank": 17,
-        "topic": "theweeknd香港演唱会",
-        "note": "抖音实时热点第17位，热度7,660,676（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=theweeknd%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=theweeknd%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A"
-      },
-      {
-        "rank": 18,
-        "topic": "2027年国考345万人过审",
-        "note": "抖音实时热点第18位，热度7,658,693（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=2027%E5%B9%B4%E5%9B%BD%E8%80%83345%E4%B8%87%E4%BA%BA%E8%BF%87%E5%AE%A1",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=2027%E5%B9%B4%E5%9B%BD%E8%80%83345%E4%B8%87%E4%BA%BA%E8%BF%87%E5%AE%A1"
-      },
-      {
         "rank": 19,
-        "topic": "前任这样评价我的话那复合吧",
-        "note": "抖音实时热点第19位，热度7,656,736（更新 2026-10-27 13:52:34）",
+        "topic": "盆栽哥香港演唱会采样王菲季候风",
+        "note": "抖音实时热点第19位，热度7,657,516（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E5%89%8D%E4%BB%BB%E8%BF%99%E6%A0%B7%E8%AF%84%E4%BB%B7%E6%88%91%E7%9A%84%E8%AF%9D%E9%82%A3%E5%A4%8D%E5%90%88%E5%90%A7",
+        "url": "https://www.douyin.com/search?keyword=%E7%9B%86%E6%A0%BD%E5%93%A5%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A%E9%87%87%E6%A0%B7%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A3%8E",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%89%8D%E4%BB%BB%E8%BF%99%E6%A0%B7%E8%AF%84%E4%BB%B7%E6%88%91%E7%9A%84%E8%AF%9D%E9%82%A3%E5%A4%8D%E5%90%88%E5%90%A7"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%9B%86%E6%A0%BD%E5%93%A5%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A%E9%87%87%E6%A0%B7%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A3%8E"
       },
       {
         "rank": 20,
-        "topic": "离了孟子义李昀锐谁这么哄我",
-        "note": "抖音实时热点第20位，热度7,647,436（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E7%A6%BB%E4%BA%86%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E8%B0%81%E8%BF%99%E4%B9%88%E5%93%84%E6%88%91",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%A6%BB%E4%BA%86%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E8%B0%81%E8%BF%99%E4%B9%88%E5%93%84%E6%88%91"
-      },
-      {
-        "rank": 21,
-        "topic": "陈小春应采儿 她在闹他在笑",
-        "note": "抖音实时热点第21位，热度7,646,557（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E9%99%88%E5%B0%8F%E6%98%A5%E5%BA%94%E9%87%87%E5%84%BF%20%E5%A5%B9%E5%9C%A8%E9%97%B9%E4%BB%96%E5%9C%A8%E7%AC%91",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E9%99%88%E5%B0%8F%E6%98%A5%E5%BA%94%E9%87%87%E5%84%BF%20%E5%A5%B9%E5%9C%A8%E9%97%B9%E4%BB%96%E5%9C%A8%E7%AC%91"
-      },
-      {
-        "rank": 22,
-        "topic": "AL 0:2 TLAW",
-        "note": "抖音实时热点第22位，热度7,645,307（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=AL%200%3A2%20TLAW",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=AL%200%3A2%20TLAW"
-      },
-      {
-        "rank": 23,
         "topic": "给阿嬷的情书获金狮大赏7项提名",
-        "note": "抖音实时热点第23位，热度7,644,227（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第20位，热度7,657,168（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -6864,20 +6959,53 @@ var DASH_DATA = {
         "reportUrl": "https://www.douyin.com/search?keyword=%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%E8%8E%B7%E9%87%91%E7%8B%AE%E5%A4%A7%E8%B5%8F7%E9%A1%B9%E6%8F%90%E5%90%8D"
       },
       {
-        "rank": 24,
-        "topic": "AL出局了我有话说",
-        "note": "抖音实时热点第24位，热度7,642,704（更新 2026-10-27 13:52:34）",
+        "rank": 21,
+        "topic": "iOS27.2更新汇总",
+        "note": "抖音实时热点第21位，热度7,656,618（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=AL%E5%87%BA%E5%B1%80%E4%BA%86%E6%88%91%E6%9C%89%E8%AF%9D%E8%AF%B4",
+        "url": "https://www.douyin.com/search?keyword=iOS27.2%E6%9B%B4%E6%96%B0%E6%B1%87%E6%80%BB",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=AL%E5%87%BA%E5%B1%80%E4%BA%86%E6%88%91%E6%9C%89%E8%AF%9D%E8%AF%B4"
+        "reportUrl": "https://www.douyin.com/search?keyword=iOS27.2%E6%9B%B4%E6%96%B0%E6%B1%87%E6%80%BB"
+      },
+      {
+        "rank": 22,
+        "topic": "离了孟子义李昀锐谁这么哄我",
+        "note": "抖音实时热点第22位，热度7,654,072（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E7%A6%BB%E4%BA%86%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E8%B0%81%E8%BF%99%E4%B9%88%E5%93%84%E6%88%91",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%A6%BB%E4%BA%86%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E8%B0%81%E8%BF%99%E4%B9%88%E5%93%84%E6%88%91"
+      },
+      {
+        "rank": 23,
+        "topic": "东鹏饮料：终止与姆巴佩全部合作",
+        "note": "抖音实时热点第23位，热度7,653,596（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%EF%BC%9A%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%85%A8%E9%83%A8%E5%90%88%E4%BD%9C",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%EF%BC%9A%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%85%A8%E9%83%A8%E5%90%88%E4%BD%9C"
+      },
+      {
+        "rank": 24,
+        "topic": "AL 0:2 TLAW",
+        "note": "抖音实时热点第24位，热度7,653,086（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=AL%200%3A2%20TLAW",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=AL%200%3A2%20TLAW"
       },
       {
         "rank": 25,
         "topic": "抓紧你的手走过我的朝朝暮暮",
-        "note": "抖音实时热点第25位，热度7,642,299（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第25位，热度7,652,891（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -6887,58 +7015,58 @@ var DASH_DATA = {
       },
       {
         "rank": 26,
-        "topic": "蒙牛终止与姆巴佩合作",
-        "note": "抖音实时热点第26位，热度7,636,569（更新 2026-10-27 13:52:34）",
+        "topic": "哈兰德这波自拍太对味了",
+        "note": "抖音实时热点第26位，热度7,652,750（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%92%99%E7%89%9B%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C",
+        "url": "https://www.douyin.com/search?keyword=%E5%93%88%E5%85%B0%E5%BE%B7%E8%BF%99%E6%B3%A2%E8%87%AA%E6%8B%8D%E5%A4%AA%E5%AF%B9%E5%91%B3%E4%BA%86",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%92%99%E7%89%9B%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%93%88%E5%85%B0%E5%BE%B7%E8%BF%99%E6%B3%A2%E8%87%AA%E6%8B%8D%E5%A4%AA%E5%AF%B9%E5%91%B3%E4%BA%86"
       },
       {
         "rank": 27,
-        "topic": "朋友圈全是旅游的能谈吗",
-        "note": "抖音实时热点第27位，热度7,636,133（更新 2026-10-27 13:52:34）",
+        "topic": "嫁金钗碧桃下线虐哭了",
+        "note": "抖音实时热点第27位，热度7,652,489（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%9C%8B%E5%8F%8B%E5%9C%88%E5%85%A8%E6%98%AF%E6%97%85%E6%B8%B8%E7%9A%84%E8%83%BD%E8%B0%88%E5%90%97",
+        "url": "https://www.douyin.com/search?keyword=%E5%AB%81%E9%87%91%E9%92%97%E7%A2%A7%E6%A1%83%E4%B8%8B%E7%BA%BF%E8%99%90%E5%93%AD%E4%BA%86",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%9C%8B%E5%8F%8B%E5%9C%88%E5%85%A8%E6%98%AF%E6%97%85%E6%B8%B8%E7%9A%84%E8%83%BD%E8%B0%88%E5%90%97"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%AB%81%E9%87%91%E9%92%97%E7%A2%A7%E6%A1%83%E4%B8%8B%E7%BA%BF%E8%99%90%E5%93%AD%E4%BA%86"
       },
       {
         "rank": 28,
-        "topic": "听到妈妈的优点请睁眼",
-        "note": "抖音实时热点第28位，热度7,634,484（更新 2026-10-27 13:52:34）",
+        "topic": "谢谢黑猫我就不吃了",
+        "note": "抖音实时热点第28位，热度7,651,768（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E5%90%AC%E5%88%B0%E5%A6%88%E5%A6%88%E7%9A%84%E4%BC%98%E7%82%B9%E8%AF%B7%E7%9D%81%E7%9C%BC",
+        "url": "https://www.douyin.com/search?keyword=%E8%B0%A2%E8%B0%A2%E9%BB%91%E7%8C%AB%E6%88%91%E5%B0%B1%E4%B8%8D%E5%90%83%E4%BA%86",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%90%AC%E5%88%B0%E5%A6%88%E5%A6%88%E7%9A%84%E4%BC%98%E7%82%B9%E8%AF%B7%E7%9D%81%E7%9C%BC"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E8%B0%A2%E8%B0%A2%E9%BB%91%E7%8C%AB%E6%88%91%E5%B0%B1%E4%B8%8D%E5%90%83%E4%BA%86"
       },
       {
         "rank": 29,
-        "topic": "拆长相锐评测试盲盒",
-        "note": "抖音实时热点第29位，热度7,633,469（更新 2026-10-27 13:52:34）",
+        "topic": "央视叫停涉姆巴佩赛事和广告播出",
+        "note": "抖音实时热点第29位，热度7,651,411（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%8B%86%E9%95%BF%E7%9B%B8%E9%94%90%E8%AF%84%E6%B5%8B%E8%AF%95%E7%9B%B2%E7%9B%92",
+        "url": "https://www.douyin.com/search?keyword=%E5%A4%AE%E8%A7%86%E5%8F%AB%E5%81%9C%E6%B6%89%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%B5%9B%E4%BA%8B%E5%92%8C%E5%B9%BF%E5%91%8A%E6%92%AD%E5%87%BA",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%8B%86%E9%95%BF%E7%9B%B8%E9%94%90%E8%AF%84%E6%B5%8B%E8%AF%95%E7%9B%B2%E7%9B%92"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%A4%AE%E8%A7%86%E5%8F%AB%E5%81%9C%E6%B6%89%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%B5%9B%E4%BA%8B%E5%92%8C%E5%B9%BF%E5%91%8A%E6%92%AD%E5%87%BA"
       },
       {
         "rank": 30,
-        "topic": "薛之谦被歌迷改词演唱感动哭了",
-        "note": "抖音实时热点第30位，热度7,629,737（更新 2026-10-27 13:52:34）",
+        "topic": "迪奥下架姆巴佩相关内容",
+        "note": "抖音实时热点第30位，热度7,649,458（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%96%9B%E4%B9%8B%E8%B0%A6%E8%A2%AB%E6%AD%8C%E8%BF%B7%E6%94%B9%E8%AF%8D%E6%BC%94%E5%94%B1%E6%84%9F%E5%8A%A8%E5%93%AD%E4%BA%86",
+        "url": "https://www.douyin.com/search?keyword=%E8%BF%AA%E5%A5%A5%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%96%9B%E4%B9%8B%E8%B0%A6%E8%A2%AB%E6%AD%8C%E8%BF%B7%E6%94%B9%E8%AF%8D%E6%BC%94%E5%94%B1%E6%84%9F%E5%8A%A8%E5%93%AD%E4%BA%86"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%AA%E5%A5%A5%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9B%B8%E5%85%B3%E5%86%85%E5%AE%B9"
       }
     ],
     "xiaohongshu": [
@@ -7335,162 +7463,63 @@ var DASH_DATA = {
     "wbEntertainment": [
       {
         "rank": 1,
-        "topic": "多个品牌终止与姆巴佩合作",
-        "note": "微博实时热搜第1位，热度10,020,484",
+        "topic": "外交部回应姆巴佩涉华不当言论",
+        "note": "微博实时热搜第1位，热度9,696,573",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A4%9A%E4%B8%AA%E5%93%81%E7%89%8C%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C",
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%9A%E4%B8%AA%E5%93%81%E7%89%8C%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA"
       },
       {
         "rank": 2,
-        "topic": "姆巴佩深知被羞辱的滋味却不懂尊重",
-        "note": "微博实时热搜第2位，热度3,675,542",
+        "topic": "姆巴佩涉华不当言论引众怒",
+        "note": "微博实时热搜第2位，热度1,799,127",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B7%B1%E7%9F%A5%E8%A2%AB%E7%BE%9E%E8%BE%B1%E7%9A%84%E6%BB%8B%E5%91%B3%E5%8D%B4%E4%B8%8D%E6%87%82%E5%B0%8A%E9%87%8D",
+        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA%E5%BC%95%E4%BC%97%E6%80%92",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B7%B1%E7%9F%A5%E8%A2%AB%E7%BE%9E%E8%BE%B1%E7%9A%84%E6%BB%8B%E5%91%B3%E5%8D%B4%E4%B8%8D%E6%87%82%E5%B0%8A%E9%87%8D"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%B6%89%E5%8D%8E%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA%E5%BC%95%E4%BC%97%E6%80%92"
       },
       {
         "rank": 3,
-        "topic": "老字号新顶流",
-        "note": "微博实时热搜第3位，热度1,755,878",
+        "topic": "我国能源绿色转型成绩单",
+        "note": "微博实时热搜第3位，热度1,451,377",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%80%81%E5%AD%97%E5%8F%B7%E6%96%B0%E9%A1%B6%E6%B5%81",
+        "url": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%80%81%E5%AD%97%E5%8F%B7%E6%96%B0%E9%A1%B6%E6%B5%81"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95"
       },
       {
         "rank": 4,
-        "topic": "懂球帝对姆巴佩不当发言不翻译不接受",
-        "note": "微博实时热搜第4位，热度1,707,924",
+        "topic": "姆巴佩多平台被禁言",
+        "note": "微博实时热搜第4位，热度846,543",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E6%87%82%E7%90%83%E5%B8%9D%E5%AF%B9%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%B8%8D%E5%BD%93%E5%8F%91%E8%A8%80%E4%B8%8D%E7%BF%BB%E8%AF%91%E4%B8%8D%E6%8E%A5%E5%8F%97",
+        "url": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%A4%9A%E5%B9%B3%E5%8F%B0%E8%A2%AB%E7%A6%81%E8%A8%80",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E6%87%82%E7%90%83%E5%B8%9D%E5%AF%B9%E5%A7%86%E5%B7%B4%E4%BD%A9%E4%B8%8D%E5%BD%93%E5%8F%91%E8%A8%80%E4%B8%8D%E7%BF%BB%E8%AF%91%E4%B8%8D%E6%8E%A5%E5%8F%97"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%A4%9A%E5%B9%B3%E5%8F%B0%E8%A2%AB%E7%A6%81%E8%A8%80"
       },
       {
         "rank": 5,
-        "topic": "参加婚礼吃了一桌子外卖",
-        "note": "微博实时热搜第5位，热度785,199",
+        "topic": "极客湾旗舰芯片大横评",
+        "note": "微博实时热搜第5位，热度451,673",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%8F%82%E5%8A%A0%E5%A9%9A%E7%A4%BC%E5%90%83%E4%BA%86%E4%B8%80%E6%A1%8C%E5%AD%90%E5%A4%96%E5%8D%96",
+        "url": "https://s.weibo.com/weibo?q=%E6%9E%81%E5%AE%A2%E6%B9%BE%E6%97%97%E8%88%B0%E8%8A%AF%E7%89%87%E5%A4%A7%E6%A8%AA%E8%AF%84",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%8F%82%E5%8A%A0%E5%A9%9A%E7%A4%BC%E5%90%83%E4%BA%86%E4%B8%80%E6%A1%8C%E5%AD%90%E5%A4%96%E5%8D%96"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E6%9E%81%E5%AE%A2%E6%B9%BE%E6%97%97%E8%88%B0%E8%8A%AF%E7%89%87%E5%A4%A7%E6%A8%AA%E8%AF%84"
       },
       {
         "rank": 6,
-        "topic": "东鹏饮料终止与姆巴佩合作",
-        "note": "微博实时热搜第6位，热度642,976",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%90%88%E4%BD%9C"
-      },
-      {
-        "rank": 7,
-        "topic": "电诈头目刘忍被押解回国画面曝光",
-        "note": "微博实时热搜第7位，热度490,801",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%94%B5%E8%AF%88%E5%A4%B4%E7%9B%AE%E5%88%98%E5%BF%8D%E8%A2%AB%E6%8A%BC%E8%A7%A3%E5%9B%9E%E5%9B%BD%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B5%E8%AF%88%E5%A4%B4%E7%9B%AE%E5%88%98%E5%BF%8D%E8%A2%AB%E6%8A%BC%E8%A7%A3%E5%9B%9E%E5%9B%BD%E7%94%BB%E9%9D%A2%E6%9B%9D%E5%85%89"
-      },
-      {
-        "rank": 8,
-        "topic": "央视下架姆巴佩报道",
-        "note": "微博实时热搜第8位，热度488,878",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%8A%A5%E9%81%93",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%AE%E8%A7%86%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E6%8A%A5%E9%81%93"
-      },
-      {
-        "rank": 9,
-        "topic": "藏族女孩给子弟兵当翻译",
-        "note": "微博实时热搜第9位，热度468,396",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E8%97%8F%E6%97%8F%E5%A5%B3%E5%AD%A9%E7%BB%99%E5%AD%90%E5%BC%9F%E5%85%B5%E5%BD%93%E7%BF%BB%E8%AF%91",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E8%97%8F%E6%97%8F%E5%A5%B3%E5%AD%A9%E7%BB%99%E5%AD%90%E5%BC%9F%E5%85%B5%E5%BD%93%E7%BF%BB%E8%AF%91"
-      },
-      {
-        "rank": 10,
-        "topic": "声生不息宝岛季2首发阵容",
-        "note": "微博实时热搜第10位，热度456,707",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E5%AE%9D%E5%B2%9B%E5%AD%A32%E9%A6%96%E5%8F%91%E9%98%B5%E5%AE%B9",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A3%B0%E7%94%9F%E4%B8%8D%E6%81%AF%E5%AE%9D%E5%B2%9B%E5%AD%A32%E9%A6%96%E5%8F%91%E9%98%B5%E5%AE%B9"
-      },
-      {
-        "rank": 11,
-        "topic": "皇马大吧声明",
-        "note": "微博实时热搜第11位，热度448,658",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E"
-      },
-      {
-        "rank": 12,
-        "topic": "张一鸣刷新中国首富财富纪录",
-        "note": "微博实时热搜第12位，热度439,572",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E4%B8%80%E9%B8%A3%E5%88%B7%E6%96%B0%E4%B8%AD%E5%9B%BD%E9%A6%96%E5%AF%8C%E8%B4%A2%E5%AF%8C%E7%BA%AA%E5%BD%95",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BC%A0%E4%B8%80%E9%B8%A3%E5%88%B7%E6%96%B0%E4%B8%AD%E5%9B%BD%E9%A6%96%E5%AF%8C%E8%B4%A2%E5%AF%8C%E7%BA%AA%E5%BD%95"
-      },
-      {
-        "rank": 13,
-        "topic": "小红书发布姆巴佩相关声明",
-        "note": "微博实时热搜第13位，热度436,062",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%8F%91%E5%B8%83%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9B%B8%E5%85%B3%E5%A3%B0%E6%98%8E",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%8F%91%E5%B8%83%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9B%B8%E5%85%B3%E5%A3%B0%E6%98%8E"
-      },
-      {
-        "rank": 14,
-        "topic": "厉娜许飞 华妃端妃",
-        "note": "微博实时热搜第14位，热度428,685",
-        "brand": "",
-        "date": "10-27",
-        "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E8%AE%B8%E9%A3%9E%20%E5%8D%8E%E5%A6%83%E7%AB%AF%E5%A6%83",
-        "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%8E%89%E5%A8%9C%E8%AE%B8%E9%A3%9E%20%E5%8D%8E%E5%A6%83%E7%AB%AF%E5%A6%83"
-      },
-      {
-        "rank": 15,
         "topic": "迪奥下架姆巴佩内容",
-        "note": "微博实时热搜第15位，热度428,334",
+        "note": "微博实时热搜第6位，热度446,343",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
@@ -7499,31 +7528,75 @@ var DASH_DATA = {
         "reportUrl": "https://s.weibo.com/weibo?q=%E8%BF%AA%E5%A5%A5%E4%B8%8B%E6%9E%B6%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%86%85%E5%AE%B9"
       },
       {
-        "rank": 16,
-        "topic": "A股 科技股",
-        "note": "微博实时热搜第16位，热度414,437",
+        "rank": 7,
+        "topic": "大唐辟珠记编剧",
+        "note": "微博实时热搜第7位，热度366,319",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1",
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0%E7%BC%96%E5%89%A7",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=A%E8%82%A1%20%E7%A7%91%E6%8A%80%E8%82%A1"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0%E7%BC%96%E5%89%A7"
       },
       {
-        "rank": 17,
-        "topic": "玉簟秋这能播吗",
-        "note": "微博实时热搜第17位，热度346,034",
+        "rank": 8,
+        "topic": "万花世界杀青",
+        "note": "微博实时热搜第8位，热度365,675",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E7%8E%89%E7%B0%9F%E7%A7%8B%E8%BF%99%E8%83%BD%E6%92%AD%E5%90%97",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%87%E8%8A%B1%E4%B8%96%E7%95%8C%E6%9D%80%E9%9D%92",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E7%8E%89%E7%B0%9F%E7%A7%8B%E8%BF%99%E8%83%BD%E6%92%AD%E5%90%97"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E4%B8%87%E8%8A%B1%E4%B8%96%E7%95%8C%E6%9D%80%E9%9D%92"
       },
       {
-        "rank": 18,
+        "rank": 9,
+        "topic": "孩子们心中的英雄有了模样",
+        "note": "微博实时热搜第9位，热度364,760",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%BF%83%E4%B8%AD%E7%9A%84%E8%8B%B1%E9%9B%84%E6%9C%89%E4%BA%86%E6%A8%A1%E6%A0%B7",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%AD%A9%E5%AD%90%E4%BB%AC%E5%BF%83%E4%B8%AD%E7%9A%84%E8%8B%B1%E9%9B%84%E6%9C%89%E4%BA%86%E6%A8%A1%E6%A0%B7"
+      },
+      {
+        "rank": 10,
+        "topic": "婚宴点外卖是朋友主动要求的",
+        "note": "微博实时热搜第10位，热度363,966",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%AE%B4%E7%82%B9%E5%A4%96%E5%8D%96%E6%98%AF%E6%9C%8B%E5%8F%8B%E4%B8%BB%E5%8A%A8%E8%A6%81%E6%B1%82%E7%9A%84",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A9%9A%E5%AE%B4%E7%82%B9%E5%A4%96%E5%8D%96%E6%98%AF%E6%9C%8B%E5%8F%8B%E4%B8%BB%E5%8A%A8%E8%A6%81%E6%B1%82%E7%9A%84"
+      },
+      {
+        "rank": 11,
+        "topic": "肖战伴手礼17斤",
+        "note": "微博实时热搜第11位，热度363,043",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E4%BC%B4%E6%89%8B%E7%A4%BC17%E6%96%A4",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%E4%BC%B4%E6%89%8B%E7%A4%BC17%E6%96%A4"
+      },
+      {
+        "rank": 12,
+        "topic": "皇马大吧声明",
+        "note": "微博实时热搜第12位，热度362,585",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%E5%A4%A7%E5%90%A7%E5%A3%B0%E6%98%8E"
+      },
+      {
+        "rank": 13,
         "topic": "新娘回应参加婚礼吃了一桌外卖",
-        "note": "微博实时热搜第18位，热度345,039",
+        "note": "微博实时热搜第13位，热度361,122",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
@@ -7532,44 +7605,121 @@ var DASH_DATA = {
         "reportUrl": "https://s.weibo.com/weibo?q=%E6%96%B0%E5%A8%98%E5%9B%9E%E5%BA%94%E5%8F%82%E5%8A%A0%E5%A9%9A%E7%A4%BC%E5%90%83%E4%BA%86%E4%B8%80%E6%A1%8C%E5%A4%96%E5%8D%96"
       },
       {
-        "rank": 19,
-        "topic": "富士康员工曝iPhoneDuo碎屏原因",
-        "note": "微博实时热搜第19位，热度341,955",
+        "rank": 14,
+        "topic": "西甲",
+        "note": "微博实时热搜第14位，热度360,850",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%AF%8C%E5%A3%AB%E5%BA%B7%E5%91%98%E5%B7%A5%E6%9B%9DiPhoneDuo%E7%A2%8E%E5%B1%8F%E5%8E%9F%E5%9B%A0",
+        "url": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%94%B2",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%AF%8C%E5%A3%AB%E5%BA%B7%E5%91%98%E5%B7%A5%E6%9B%9DiPhoneDuo%E7%A2%8E%E5%B1%8F%E5%8E%9F%E5%9B%A0"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E8%A5%BF%E7%94%B2"
+      },
+      {
+        "rank": 15,
+        "topic": "A股今天下跌原因是什么",
+        "note": "微博实时热搜第15位，热度359,480",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%BB%8A%E5%A4%A9%E4%B8%8B%E8%B7%8C%E5%8E%9F%E5%9B%A0%E6%98%AF%E4%BB%80%E4%B9%88",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=A%E8%82%A1%E4%BB%8A%E5%A4%A9%E4%B8%8B%E8%B7%8C%E5%8E%9F%E5%9B%A0%E6%98%AF%E4%BB%80%E4%B9%88"
+      },
+      {
+        "rank": 16,
+        "topic": "众解说谈Breathe出装",
+        "note": "微博实时热搜第16位，热度359,033",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E4%BC%97%E8%A7%A3%E8%AF%B4%E8%B0%88Breathe%E5%87%BA%E8%A3%85",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E4%BC%97%E8%A7%A3%E8%AF%B4%E8%B0%88Breathe%E5%87%BA%E8%A3%85"
+      },
+      {
+        "rank": 17,
+        "topic": "刚签下姆巴佩的昂跑能维权吗",
+        "note": "微博实时热搜第17位，热度358,518",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%88%9A%E7%AD%BE%E4%B8%8B%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9A%84%E6%98%82%E8%B7%91%E8%83%BD%E7%BB%B4%E6%9D%83%E5%90%97",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%88%9A%E7%AD%BE%E4%B8%8B%E5%A7%86%E5%B7%B4%E4%BD%A9%E7%9A%84%E6%98%82%E8%B7%91%E8%83%BD%E7%BB%B4%E6%9D%83%E5%90%97"
+      },
+      {
+        "rank": 18,
+        "topic": "田曦薇宋威龙合作大唐辟珠记",
+        "note": "微博实时热搜第18位，热度351,482",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%E5%AE%8B%E5%A8%81%E9%BE%99%E5%90%88%E4%BD%9C%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E7%94%B0%E6%9B%A6%E8%96%87%E5%AE%8B%E5%A8%81%E9%BE%99%E5%90%88%E4%BD%9C%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0"
+      },
+      {
+        "rank": 19,
+        "topic": "大唐辟珠记",
+        "note": "微博实时热搜第19位，热度350,497",
+        "brand": "",
+        "date": "10-27",
+        "source": "微博热搜",
+        "url": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0",
+        "reportSource": "微博热搜",
+        "reportUrl": "https://s.weibo.com/weibo?q=%E5%A4%A7%E5%94%90%E8%BE%9F%E7%8F%A0%E8%AE%B0"
       },
       {
         "rank": 20,
-        "topic": "徽剑遭劫持被逼删文",
-        "note": "微博实时热搜第20位，热度341,257",
+        "topic": "中国妇女报批姆巴佩",
+        "note": "微博实时热搜第20位，热度340,545",
         "brand": "",
         "date": "10-27",
         "source": "微博热搜",
-        "url": "https://s.weibo.com/weibo?q=%E5%BE%BD%E5%89%91%E9%81%AD%E5%8A%AB%E6%8C%81%E8%A2%AB%E9%80%BC%E5%88%A0%E6%96%87",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A6%87%E5%A5%B3%E6%8A%A5%E6%89%B9%E5%A7%86%E5%B7%B4%E4%BD%A9",
         "reportSource": "微博热搜",
-        "reportUrl": "https://s.weibo.com/weibo?q=%E5%BE%BD%E5%89%91%E9%81%AD%E5%8A%AB%E6%8C%81%E8%A2%AB%E9%80%BC%E5%88%A0%E6%96%87"
+        "reportUrl": "https://s.weibo.com/weibo?q=%E4%B8%AD%E5%9B%BD%E5%A6%87%E5%A5%B3%E6%8A%A5%E6%89%B9%E5%A7%86%E5%B7%B4%E4%BD%A9"
       }
     ],
     "dySeeding": [
       {
         "rank": 1,
-        "topic": "这样的景区逛着不烧心",
-        "note": "抖音实时热点第1位，热度12,355,753（更新 2026-10-27 13:52:34）",
+        "topic": "外交部回应姆巴佩发表不当言论",
+        "note": "抖音实时热点第1位，热度12,398,996（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%BF%99%E6%A0%B7%E7%9A%84%E6%99%AF%E5%8C%BA%E9%80%9B%E7%9D%80%E4%B8%8D%E7%83%A7%E5%BF%83",
+        "url": "https://www.douyin.com/search?keyword=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8F%91%E8%A1%A8%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%99%E6%A0%B7%E7%9A%84%E6%99%AF%E5%8C%BA%E9%80%9B%E7%9D%80%E4%B8%8D%E7%83%A7%E5%BF%83"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8F%91%E8%A1%A8%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA"
       },
       {
         "rank": 2,
+        "topic": "想要秋天不烧心就去山里野",
+        "note": "抖音实时热点第2位，热度12,326,146（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E6%83%B3%E8%A6%81%E7%A7%8B%E5%A4%A9%E4%B8%8D%E7%83%A7%E5%BF%83%E5%B0%B1%E5%8E%BB%E5%B1%B1%E9%87%8C%E9%87%8E",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%83%B3%E8%A6%81%E7%A7%8B%E5%A4%A9%E4%B8%8D%E7%83%A7%E5%BF%83%E5%B0%B1%E5%8E%BB%E5%B1%B1%E9%87%8C%E9%87%8E"
+      },
+      {
+        "rank": 3,
+        "topic": "我国能源绿色转型成绩单",
+        "note": "抖音实时热点第3位，热度11,945,995（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E7%BB%BF%E8%89%B2%E8%BD%AC%E5%9E%8B%E6%88%90%E7%BB%A9%E5%8D%95"
+      },
+      {
+        "rank": 4,
         "topic": "全网最励志的三角梅出圈了",
-        "note": "抖音实时热点第2位，热度11,848,369（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第4位，热度10,876,135（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -7578,64 +7728,42 @@ var DASH_DATA = {
         "reportUrl": "https://www.douyin.com/search?keyword=%E5%85%A8%E7%BD%91%E6%9C%80%E5%8A%B1%E5%BF%97%E7%9A%84%E4%B8%89%E8%A7%92%E6%A2%85%E5%87%BA%E5%9C%88%E4%BA%86"
       },
       {
-        "rank": 3,
-        "topic": "这张跨山越海的电网越织越密",
-        "note": "抖音实时热点第3位，热度11,318,079（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%BF%99%E5%BC%A0%E8%B7%A8%E5%B1%B1%E8%B6%8A%E6%B5%B7%E7%9A%84%E7%94%B5%E7%BD%91%E8%B6%8A%E7%BB%87%E8%B6%8A%E5%AF%86",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%99%E5%BC%A0%E8%B7%A8%E5%B1%B1%E8%B6%8A%E6%B5%B7%E7%9A%84%E7%94%B5%E7%BD%91%E8%B6%8A%E7%BB%87%E8%B6%8A%E5%AF%86"
-      },
-      {
-        "rank": 4,
-        "topic": "东鹏饮料：终止与姆巴佩全部合作",
-        "note": "抖音实时热点第4位，热度11,274,783（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%EF%BC%9A%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%85%A8%E9%83%A8%E5%90%88%E4%BD%9C",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%B8%9C%E9%B9%8F%E9%A5%AE%E6%96%99%EF%BC%9A%E7%BB%88%E6%AD%A2%E4%B8%8E%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%85%A8%E9%83%A8%E5%90%88%E4%BD%9C"
-      },
-      {
         "rank": 5,
-        "topic": "树枝版齐天大圣太震撼了",
-        "note": "抖音实时热点第5位，热度10,408,256（更新 2026-10-27 13:52:34）",
+        "topic": "新闻联播",
+        "note": "抖音实时热点第5位，热度10,226,306（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86",
+        "url": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD"
       },
       {
         "rank": 6,
-        "topic": "五谷绘出万里长城雄姿",
-        "note": "抖音实时热点第6位，热度9,661,781（更新 2026-10-27 13:52:34）",
+        "topic": "iPad mini8升级总结",
+        "note": "抖音实时热点第6位，热度9,683,936（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E4%BA%94%E8%B0%B7%E7%BB%98%E5%87%BA%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E9%9B%84%E5%A7%BF",
+        "url": "https://www.douyin.com/search?keyword=iPad%20mini8%E5%8D%87%E7%BA%A7%E6%80%BB%E7%BB%93",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E4%BA%94%E8%B0%B7%E7%BB%98%E5%87%BA%E4%B8%87%E9%87%8C%E9%95%BF%E5%9F%8E%E9%9B%84%E5%A7%BF"
+        "reportUrl": "https://www.douyin.com/search?keyword=iPad%20mini8%E5%8D%87%E7%BA%A7%E6%80%BB%E7%BB%93"
       },
       {
         "rank": 7,
-        "topic": "德国总统抵达安徽开启访华行程",
-        "note": "抖音实时热点第7位，热度7,791,663（更新 2026-10-27 13:52:34）",
+        "topic": "抖音娃改时装周",
+        "note": "抖音实时热点第7位，热度8,439,740（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B",
+        "url": "https://www.douyin.com/search?keyword=%E6%8A%96%E9%9F%B3%E5%A8%83%E6%94%B9%E6%97%B6%E8%A3%85%E5%91%A8",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%8A%96%E9%9F%B3%E5%A8%83%E6%94%B9%E6%97%B6%E8%A3%85%E5%91%A8"
       },
       {
         "rank": 8,
         "topic": "凯恩荣膺2026年金球奖",
-        "note": "抖音实时热点第8位，热度7,763,815（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第8位，热度8,406,865（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -7645,52 +7773,52 @@ var DASH_DATA = {
       },
       {
         "rank": 9,
-        "topic": "我国工业降碳水平持续提升",
-        "note": "抖音实时热点第9位，热度7,725,149（更新 2026-10-27 13:52:34）",
+        "topic": "广交会见证国货出海新变化",
+        "note": "抖音实时热点第9位，热度8,375,494（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E5%B7%A5%E4%B8%9A%E9%99%8D%E7%A2%B3%E6%B0%B4%E5%B9%B3%E6%8C%81%E7%BB%AD%E6%8F%90%E5%8D%87",
+        "url": "https://www.douyin.com/search?keyword=%E5%B9%BF%E4%BA%A4%E4%BC%9A%E8%A7%81%E8%AF%81%E5%9B%BD%E8%B4%A7%E5%87%BA%E6%B5%B7%E6%96%B0%E5%8F%98%E5%8C%96",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%88%91%E5%9B%BD%E5%B7%A5%E4%B8%9A%E9%99%8D%E7%A2%B3%E6%B0%B4%E5%B9%B3%E6%8C%81%E7%BB%AD%E6%8F%90%E5%8D%87"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%B9%BF%E4%BA%A4%E4%BC%9A%E8%A7%81%E8%AF%81%E5%9B%BD%E8%B4%A7%E5%87%BA%E6%B5%B7%E6%96%B0%E5%8F%98%E5%8C%96"
       },
       {
         "rank": 10,
-        "topic": "河头老街NPC唱歌太牛了",
-        "note": "抖音实时热点第10位，热度7,703,493（更新 2026-10-27 13:52:34）",
+        "topic": "树枝版齐天大圣太震撼了",
+        "note": "抖音实时热点第10位，热度8,167,470（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%B2%B3%E5%A4%B4%E8%80%81%E8%A1%97NPC%E5%94%B1%E6%AD%8C%E5%A4%AA%E7%89%9B%E4%BA%86",
+        "url": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%B2%B3%E5%A4%B4%E8%80%81%E8%A1%97NPC%E5%94%B1%E6%AD%8C%E5%A4%AA%E7%89%9B%E4%BA%86"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86"
       },
       {
         "rank": 11,
-        "topic": "过日子人秋冬穿搭指南",
-        "note": "抖音实时热点第11位，热度7,698,569（更新 2026-10-27 13:52:34）",
+        "topic": "德国总统抵达安徽开启访华行程",
+        "note": "抖音实时热点第11位，热度7,741,599（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E8%BF%87%E6%97%A5%E5%AD%90%E4%BA%BA%E7%A7%8B%E5%86%AC%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97",
+        "url": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BF%87%E6%97%A5%E5%AD%90%E4%BA%BA%E7%A7%8B%E5%86%AC%E7%A9%BF%E6%90%AD%E6%8C%87%E5%8D%97"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B"
       },
       {
         "rank": 12,
-        "topic": "火箭军开展无预告战斗发射训练",
-        "note": "抖音实时热点第12位，热度7,692,209（更新 2026-10-27 13:52:34）",
+        "topic": "辽宁舰编队绕菲律宾远洋训练",
+        "note": "抖音实时热点第12位，热度7,713,298（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E7%81%AB%E7%AE%AD%E5%86%9B%E5%BC%80%E5%B1%95%E6%97%A0%E9%A2%84%E5%91%8A%E6%88%98%E6%96%97%E5%8F%91%E5%B0%84%E8%AE%AD%E7%BB%83",
+        "url": "https://www.douyin.com/search?keyword=%E8%BE%BD%E5%AE%81%E8%88%B0%E7%BC%96%E9%98%9F%E7%BB%95%E8%8F%B2%E5%BE%8B%E5%AE%BE%E8%BF%9C%E6%B4%8B%E8%AE%AD%E7%BB%83",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%81%AB%E7%AE%AD%E5%86%9B%E5%BC%80%E5%B1%95%E6%97%A0%E9%A2%84%E5%91%8A%E6%88%98%E6%96%97%E5%8F%91%E5%B0%84%E8%AE%AD%E7%BB%83"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E8%BE%BD%E5%AE%81%E8%88%B0%E7%BC%96%E9%98%9F%E7%BB%95%E8%8F%B2%E5%BE%8B%E5%AE%BE%E8%BF%9C%E6%B4%8B%E8%AE%AD%E7%BB%83"
       },
       {
         "rank": 13,
         "topic": "老干妈HR回应AI裁员传闻",
-        "note": "抖音实时热点第13位，热度7,670,507（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第13位，热度7,678,973（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -7700,8 +7828,19 @@ var DASH_DATA = {
       },
       {
         "rank": 14,
+        "topic": "是谁还没看过谢帝的女装分享啊",
+        "note": "抖音实时热点第14位，热度7,674,873（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=%E6%98%AF%E8%B0%81%E8%BF%98%E6%B2%A1%E7%9C%8B%E8%BF%87%E8%B0%A2%E5%B8%9D%E7%9A%84%E5%A5%B3%E8%A3%85%E5%88%86%E4%BA%AB%E5%95%8A",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=%E6%98%AF%E8%B0%81%E8%BF%98%E6%B2%A1%E7%9C%8B%E8%BF%87%E8%B0%A2%E5%B8%9D%E7%9A%84%E5%A5%B3%E8%A3%85%E5%88%86%E4%BA%AB%E5%95%8A"
+      },
+      {
+        "rank": 15,
         "topic": "AL战队致歉",
-        "note": "抖音实时热点第14位，热度7,667,091（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第15位，热度7,671,056（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -7710,20 +7849,31 @@ var DASH_DATA = {
         "reportUrl": "https://www.douyin.com/search?keyword=AL%E6%88%98%E9%98%9F%E8%87%B4%E6%AD%89"
       },
       {
-        "rank": 15,
-        "topic": "我是你的新白娘子呀",
-        "note": "抖音实时热点第15位，热度7,666,755（更新 2026-10-27 13:52:34）",
+        "rank": 16,
+        "topic": "10月29日晚国内油价将调整",
+        "note": "抖音实时热点第16位，热度7,662,226（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E6%88%91%E6%98%AF%E4%BD%A0%E7%9A%84%E6%96%B0%E7%99%BD%E5%A8%98%E5%AD%90%E5%91%80",
+        "url": "https://www.douyin.com/search?keyword=10%E6%9C%8829%E6%97%A5%E6%99%9A%E5%9B%BD%E5%86%85%E6%B2%B9%E4%BB%B7%E5%B0%86%E8%B0%83%E6%95%B4",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E6%88%91%E6%98%AF%E4%BD%A0%E7%9A%84%E6%96%B0%E7%99%BD%E5%A8%98%E5%AD%90%E5%91%80"
+        "reportUrl": "https://www.douyin.com/search?keyword=10%E6%9C%8829%E6%97%A5%E6%99%9A%E5%9B%BD%E5%86%85%E6%B2%B9%E4%BB%B7%E5%B0%86%E8%B0%83%E6%95%B4"
       },
       {
-        "rank": 16,
+        "rank": 17,
+        "topic": "KPL十周年carry手势舞挑战",
+        "note": "抖音实时热点第17位，热度7,659,023（更新 2026-10-27 19:02:59）",
+        "brand": "",
+        "date": "10-27",
+        "source": "抖音热点",
+        "url": "https://www.douyin.com/search?keyword=KPL%E5%8D%81%E5%91%A8%E5%B9%B4carry%E6%89%8B%E5%8A%BF%E8%88%9E%E6%8C%91%E6%88%98",
+        "reportSource": "抖音热点",
+        "reportUrl": "https://www.douyin.com/search?keyword=KPL%E5%8D%81%E5%91%A8%E5%B9%B4carry%E6%89%8B%E5%8A%BF%E8%88%9E%E6%8C%91%E6%88%98"
+      },
+      {
+        "rank": 18,
         "topic": "承诺是你转场挑战",
-        "note": "抖音实时热点第16位，热度7,661,847（更新 2026-10-27 13:52:34）",
+        "note": "抖音实时热点第18位，热度7,658,844（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
@@ -7732,48 +7882,26 @@ var DASH_DATA = {
         "reportUrl": "https://www.douyin.com/search?keyword=%E6%89%BF%E8%AF%BA%E6%98%AF%E4%BD%A0%E8%BD%AC%E5%9C%BA%E6%8C%91%E6%88%98"
       },
       {
-        "rank": 17,
-        "topic": "theweeknd香港演唱会",
-        "note": "抖音实时热点第17位，热度7,660,676（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=theweeknd%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=theweeknd%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A"
-      },
-      {
-        "rank": 18,
-        "topic": "2027年国考345万人过审",
-        "note": "抖音实时热点第18位，热度7,658,693（更新 2026-10-27 13:52:34）",
-        "brand": "",
-        "date": "10-27",
-        "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=2027%E5%B9%B4%E5%9B%BD%E8%80%83345%E4%B8%87%E4%BA%BA%E8%BF%87%E5%AE%A1",
-        "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=2027%E5%B9%B4%E5%9B%BD%E8%80%83345%E4%B8%87%E4%BA%BA%E8%BF%87%E5%AE%A1"
-      },
-      {
         "rank": 19,
-        "topic": "前任这样评价我的话那复合吧",
-        "note": "抖音实时热点第19位，热度7,656,736（更新 2026-10-27 13:52:34）",
+        "topic": "盆栽哥香港演唱会采样王菲季候风",
+        "note": "抖音实时热点第19位，热度7,657,516（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E5%89%8D%E4%BB%BB%E8%BF%99%E6%A0%B7%E8%AF%84%E4%BB%B7%E6%88%91%E7%9A%84%E8%AF%9D%E9%82%A3%E5%A4%8D%E5%90%88%E5%90%A7",
+        "url": "https://www.douyin.com/search?keyword=%E7%9B%86%E6%A0%BD%E5%93%A5%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A%E9%87%87%E6%A0%B7%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A3%8E",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E5%89%8D%E4%BB%BB%E8%BF%99%E6%A0%B7%E8%AF%84%E4%BB%B7%E6%88%91%E7%9A%84%E8%AF%9D%E9%82%A3%E5%A4%8D%E5%90%88%E5%90%A7"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%9B%86%E6%A0%BD%E5%93%A5%E9%A6%99%E6%B8%AF%E6%BC%94%E5%94%B1%E4%BC%9A%E9%87%87%E6%A0%B7%E7%8E%8B%E8%8F%B2%E5%AD%A3%E5%80%99%E9%A3%8E"
       },
       {
         "rank": 20,
-        "topic": "离了孟子义李昀锐谁这么哄我",
-        "note": "抖音实时热点第20位，热度7,647,436（更新 2026-10-27 13:52:34）",
+        "topic": "给阿嬷的情书获金狮大赏7项提名",
+        "note": "抖音实时热点第20位，热度7,657,168（更新 2026-10-27 19:02:59）",
         "brand": "",
         "date": "10-27",
         "source": "抖音热点",
-        "url": "https://www.douyin.com/search?keyword=%E7%A6%BB%E4%BA%86%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E8%B0%81%E8%BF%99%E4%B9%88%E5%93%84%E6%88%91",
+        "url": "https://www.douyin.com/search?keyword=%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%E8%8E%B7%E9%87%91%E7%8B%AE%E5%A4%A7%E8%B5%8F7%E9%A1%B9%E6%8F%90%E5%90%8D",
         "reportSource": "抖音热点",
-        "reportUrl": "https://www.douyin.com/search?keyword=%E7%A6%BB%E4%BA%86%E5%AD%9F%E5%AD%90%E4%B9%89%E6%9D%8E%E6%98%80%E9%94%90%E8%B0%81%E8%BF%99%E4%B9%88%E5%93%84%E6%88%91"
+        "reportUrl": "https://www.douyin.com/search?keyword=%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%E8%8E%B7%E9%87%91%E7%8B%AE%E5%A4%A7%E8%B5%8F7%E9%A1%B9%E6%8F%90%E5%90%8D"
       }
     ]
   },
@@ -9468,6 +9596,86 @@ var DASH_DATA = {
       "status": "进行中",
       "topVoiceSource": "新华网",
       "topVoiceUrl": "https://www.news.cn/fashion/20260918/4b5da67483f14d54a3b98f10114b5a1d/c.html"
+    },
+    {
+      "brand": "mixue",
+      "cat": "food",
+      "name": "蜜雪冰城转转杯互动包装",
+      "action": "互动包装营销",
+      "window": "10-26~11-30",
+      "type": "产品",
+      "status": "进行中",
+      "volumeIndex": 78,
+      "volume": "雪王转转杯转动切换表情，社媒走红点赞超10万",
+      "sale": "门店",
+      "sentiment": "正面",
+      "updatedDate": "10-27",
+      "updatedAt": "2026-10-27T19:09:34+08:00",
+      "topVoice": "互动包装带动UGC传播",
+      "topVoiceUrl": "https://m.sohu.com/a/1093481606_121284943",
+      "topVoiceSource": "极目新闻",
+      "url": "https://m.sohu.com/a/1093481606_121284943",
+      "source": "极目新闻"
+    },
+    {
+      "brand": "popmart",
+      "cat": "ip",
+      "name": "泡泡玛特北京首家甜品店",
+      "action": "线下门店+IP衍生",
+      "window": "10-31~长期",
+      "type": "门店",
+      "status": "进行中",
+      "volumeIndex": 80,
+      "volume": "10月底北京首家独立甜品店开业，IP向餐饮延伸",
+      "sale": "线下门店",
+      "sentiment": "正面",
+      "updatedDate": "10-27",
+      "updatedAt": "2026-10-27T19:09:34+08:00",
+      "topVoice": "IP向餐饮场景延伸",
+      "topVoiceUrl": "https://k.sina.com.cn/article_1642088277_61e04755040027nd2.html?kdurlshow=1",
+      "topVoiceSource": "新浪财经",
+      "url": "https://k.sina.com.cn/article_1642088277_61e04755040027nd2.html?kdurlshow=1",
+      "source": "新浪财经"
+    },
+    {
+      "brand": "lululemon",
+      "cat": "apparel",
+      "name": "lululemon遭评级下调",
+      "action": "舆情事件",
+      "window": "10-26~11-26",
+      "type": "舆情",
+      "status": "进行中",
+      "volumeIndex": 70,
+      "volume": "分析师下调至卖出，2026财年指引下滑5%-7%",
+      "sale": "-",
+      "sentiment": "争议",
+      "updatedDate": "10-27",
+      "updatedAt": "2026-10-27T19:09:34+08:00",
+      "topVoice": "品牌势能承压",
+      "topVoiceUrl": "https://news.openbell.live/news/lulu-lululemon-downgraded-to-sell-by-analyst-on-weakening-outlook-2026-10-26",
+      "topVoiceSource": "Seeking Alpha",
+      "url": "https://news.openbell.live/news/lulu-lululemon-downgraded-to-sell-by-analyst-on-weakening-outlook-2026-10-26",
+      "source": "Seeking Alpha"
+    },
+    {
+      "brand": "bawang",
+      "cat": "food",
+      "name": "霸王茶姬烟台买一送一",
+      "action": "区域促销",
+      "window": "10-26~10-31",
+      "type": "促销",
+      "status": "进行中",
+      "volumeIndex": 65,
+      "volume": "烟台10/26-31奶茶免单/特惠活动",
+      "sale": "门店",
+      "sentiment": "正面",
+      "updatedDate": "10-27",
+      "updatedAt": "2026-10-27T19:09:34+08:00",
+      "topVoice": "区域节点促销",
+      "topVoiceUrl": "https://news.qq.com/rain/a/20261026A0DGVR00",
+      "topVoiceSource": "腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20261026A0DGVR00",
+      "source": "腾讯新闻"
     }
   ],
   "wechatNews": {
